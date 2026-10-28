@@ -3,10602 +3,10287 @@
 package p7
 
 import (
-	base "github.com/goccy/googlesqlwasm2go/base"
+	base "github.com/doitintl/googlesqlwasm2go/base"
 	_ "unsafe"
 )
 
-//go:linkname Fn45 github.com/goccy/googlesqlwasm2go/p9.Fn45
-func Fn45(m *base.Module, l0 int32) int32
+//go:linkname Fn65 github.com/doitintl/googlesqlwasm2go/p9.Fn65
+func Fn65(m *base.Module, l0 int32) int32
 
-//go:linkname Fn46 github.com/goccy/googlesqlwasm2go/p9.Fn46
-func Fn46(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn66 github.com/doitintl/googlesqlwasm2go/p9.Fn66
+func Fn66(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn47 github.com/goccy/googlesqlwasm2go/p9.Fn47
-func Fn47(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn67 github.com/doitintl/googlesqlwasm2go/p9.Fn67
+func Fn67(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn48 github.com/goccy/googlesqlwasm2go/p9.Fn48
-func Fn48(m *base.Module, l0 int32) int64
+//go:linkname Fn68 github.com/doitintl/googlesqlwasm2go/p9.Fn68
+func Fn68(m *base.Module, l0 int32) int64
 
-//go:linkname Fn49 github.com/goccy/googlesqlwasm2go/p9.Fn49
-func Fn49(m *base.Module, l0 int32)
+//go:linkname Fn69 github.com/doitintl/googlesqlwasm2go/p9.Fn69
+func Fn69(m *base.Module, l0 int32)
 
-//go:linkname Fn50 github.com/goccy/googlesqlwasm2go/p9.Fn50
-func Fn50(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn70 github.com/doitintl/googlesqlwasm2go/p9.Fn70
+func Fn70(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn51 github.com/goccy/googlesqlwasm2go/p10.Fn51
-func Fn51(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn71 github.com/doitintl/googlesqlwasm2go/p1.Fn71
+func Fn71(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn52 github.com/goccy/googlesqlwasm2go/p10.Fn52
-func Fn52(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn72 github.com/doitintl/googlesqlwasm2go/p10.Fn72
+func Fn72(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn53 github.com/goccy/googlesqlwasm2go/p9.Fn53
-func Fn53(m *base.Module, l0 int32, l1 int32, l2 int64)
+//go:linkname Fn73 github.com/doitintl/googlesqlwasm2go/p9.Fn73
+func Fn73(m *base.Module, l0 int32, l1 int32, l2 int64)
 
-//go:linkname Fn54 github.com/goccy/googlesqlwasm2go/p9.Fn54
-func Fn54(m *base.Module, l0 int32) int64
+//go:linkname Fn74 github.com/doitintl/googlesqlwasm2go/p9.Fn74
+func Fn74(m *base.Module, l0 int32) int64
 
-//go:linkname Fn55 github.com/goccy/googlesqlwasm2go/p10.Fn55
-func Fn55(m *base.Module, l0 int32)
+//go:linkname Fn75 github.com/doitintl/googlesqlwasm2go/p10.Fn75
+func Fn75(m *base.Module, l0 int32)
 
-//go:linkname Fn56 github.com/goccy/googlesqlwasm2go/p10.Fn56
-func Fn56(m *base.Module, l0 int32) int32
+//go:linkname Fn76 github.com/doitintl/googlesqlwasm2go/p10.Fn76
+func Fn76(m *base.Module, l0 int32) int32
 
-//go:linkname Fn59 github.com/goccy/googlesqlwasm2go/p9.Fn59
-func Fn59(m *base.Module, l0 int32) int64
+//go:linkname Fn79 github.com/doitintl/googlesqlwasm2go/p10.Fn79
+func Fn79(m *base.Module, l0 int32) int64
 
-//go:linkname Fn60 github.com/goccy/googlesqlwasm2go/p10.Fn60
-func Fn60(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn80 github.com/doitintl/googlesqlwasm2go/p10.Fn80
+func Fn80(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn61 github.com/goccy/googlesqlwasm2go/p9.Fn61
-func Fn61(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn81 github.com/doitintl/googlesqlwasm2go/p9.Fn81
+func Fn81(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn62 github.com/goccy/googlesqlwasm2go/p9.Fn62
-func Fn62(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn82 github.com/doitintl/googlesqlwasm2go/p9.Fn82
+func Fn82(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn64 github.com/goccy/googlesqlwasm2go/p10.Fn64
-func Fn64(m *base.Module, l0 int32, l1 int32, l2 int64)
+//go:linkname Fn84 github.com/doitintl/googlesqlwasm2go/p10.Fn84
+func Fn84(m *base.Module, l0 int32, l1 int32, l2 int64)
 
-//go:linkname Fn65 github.com/goccy/googlesqlwasm2go/p9.Fn65
-func Fn65(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn85 github.com/doitintl/googlesqlwasm2go/p10.Fn85
+func Fn85(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn69 github.com/goccy/googlesqlwasm2go/p10.Fn69
-func Fn69(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn89 github.com/doitintl/googlesqlwasm2go/p10.Fn89
+func Fn89(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn76 github.com/goccy/googlesqlwasm2go/p9.Fn76
-func Fn76(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn96 github.com/doitintl/googlesqlwasm2go/p10.Fn96
+func Fn96(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn84 github.com/goccy/googlesqlwasm2go/p10.Fn84
-func Fn84(m *base.Module, l0 int32) int32
+//go:linkname Fn100 github.com/doitintl/googlesqlwasm2go/p10.Fn100
+func Fn100(m *base.Module, l0 int32)
 
-//go:linkname Fn90 github.com/goccy/googlesqlwasm2go/p10.Fn90
-func Fn90(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn105 github.com/doitintl/googlesqlwasm2go/p10.Fn105
+func Fn105(m *base.Module, l0 int32) int32
 
-//go:linkname Fn107 github.com/goccy/googlesqlwasm2go/p9.Fn107
-func Fn107(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn111 github.com/doitintl/googlesqlwasm2go/p10.Fn111
+func Fn111(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn113 github.com/goccy/googlesqlwasm2go/p10.Fn113
-func Fn113(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn128 github.com/doitintl/googlesqlwasm2go/p9.Fn128
+func Fn128(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn145 github.com/goccy/googlesqlwasm2go/p10.Fn145
-func Fn145(m *base.Module, l0 int32) int32
+//go:linkname Fn134 github.com/doitintl/googlesqlwasm2go/p10.Fn134
+func Fn134(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn189 github.com/goccy/googlesqlwasm2go/p9.Fn189
-func Fn189(m *base.Module, l0 int32) int32
+//go:linkname Fn166 github.com/doitintl/googlesqlwasm2go/p10.Fn166
+func Fn166(m *base.Module, l0 int32) int32
 
-//go:linkname Fn241 github.com/goccy/googlesqlwasm2go/p9.Fn241
-func Fn241(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn210 github.com/doitintl/googlesqlwasm2go/p9.Fn210
+func Fn210(m *base.Module, l0 int32) int32
 
-//go:linkname Fn244 github.com/goccy/googlesqlwasm2go/p9.Fn244
-func Fn244(m *base.Module, l0 int32)
+//go:linkname Fn262 github.com/doitintl/googlesqlwasm2go/p9.Fn262
+func Fn262(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn247 github.com/goccy/googlesqlwasm2go/p9.Fn247
-func Fn247(m *base.Module, l0 int32)
+//go:linkname Fn328 github.com/doitintl/googlesqlwasm2go/p9.Fn328
+func Fn328(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn307 github.com/goccy/googlesqlwasm2go/p9.Fn307
-func Fn307(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn329 github.com/doitintl/googlesqlwasm2go/p9.Fn329
+func Fn329(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn308 github.com/goccy/googlesqlwasm2go/p9.Fn308
-func Fn308(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn330 github.com/doitintl/googlesqlwasm2go/p10.Fn330
+func Fn330(m *base.Module, l0 int32)
 
-//go:linkname Fn309 github.com/goccy/googlesqlwasm2go/p10.Fn309
-func Fn309(m *base.Module, l0 int32)
+//go:linkname Fn332 github.com/doitintl/googlesqlwasm2go/p9.Fn332
+func Fn332(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn311 github.com/goccy/googlesqlwasm2go/p9.Fn311
-func Fn311(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn333 github.com/doitintl/googlesqlwasm2go/p10.Fn333
+func Fn333(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn312 github.com/goccy/googlesqlwasm2go/p10.Fn312
-func Fn312(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn334 github.com/doitintl/googlesqlwasm2go/p10.Fn334
+func Fn334(m *base.Module, l0 int32)
 
-//go:linkname Fn313 github.com/goccy/googlesqlwasm2go/p10.Fn313
-func Fn313(m *base.Module, l0 int32)
+//go:linkname Fn335 github.com/doitintl/googlesqlwasm2go/p10.Fn335
+func Fn335(m *base.Module)
 
-//go:linkname Fn314 github.com/goccy/googlesqlwasm2go/p10.Fn314
-func Fn314(m *base.Module)
+//go:linkname Fn507 github.com/doitintl/googlesqlwasm2go/p10.Fn507
+func Fn507(m *base.Module, l0 int32)
 
-//go:linkname Fn486 github.com/goccy/googlesqlwasm2go/p10.Fn486
-func Fn486(m *base.Module, l0 int32)
+//go:linkname Fn570 github.com/doitintl/googlesqlwasm2go/p10.Fn570
+func Fn570(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn549 github.com/goccy/googlesqlwasm2go/p10.Fn549
-func Fn549(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn706 github.com/doitintl/googlesqlwasm2go/p10.Fn706
+func Fn706(m *base.Module, l0 int32) int32
 
-//go:linkname Fn685 github.com/goccy/googlesqlwasm2go/p10.Fn685
-func Fn685(m *base.Module, l0 int32) int32
+//go:linkname Fn707 github.com/doitintl/googlesqlwasm2go/p10.Fn707
+func Fn707(m *base.Module, l0 int32) int32
 
-//go:linkname Fn686 github.com/goccy/googlesqlwasm2go/p10.Fn686
-func Fn686(m *base.Module, l0 int32) int32
+//go:linkname Fn709 github.com/doitintl/googlesqlwasm2go/p10.Fn709
+func Fn709(m *base.Module, l0 int32) int32
 
-//go:linkname Fn688 github.com/goccy/googlesqlwasm2go/p10.Fn688
-func Fn688(m *base.Module, l0 int32) int32
+//go:linkname Fn793 github.com/doitintl/googlesqlwasm2go/p10.Fn793
+func Fn793(m *base.Module, l0 int32) int32
 
-//go:linkname Fn772 github.com/goccy/googlesqlwasm2go/p9.Fn772
-func Fn772(m *base.Module, l0 int32) int32
+//go:linkname Fn855 github.com/doitintl/googlesqlwasm2go/p9.Fn855
+func Fn855(m *base.Module, l0 int32) int32
 
-//go:linkname Fn834 github.com/goccy/googlesqlwasm2go/p9.Fn834
-func Fn834(m *base.Module, l0 int32) int32
+//go:linkname Fn897 github.com/doitintl/googlesqlwasm2go/p8.Fn897
+func Fn897(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn876 github.com/goccy/googlesqlwasm2go/p8.Fn876
-func Fn876(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn906 github.com/doitintl/googlesqlwasm2go/p8.Fn906
+func Fn906(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn885 github.com/goccy/googlesqlwasm2go/p8.Fn885
-func Fn885(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn907 github.com/doitintl/googlesqlwasm2go/p8.Fn907
+func Fn907(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn886 github.com/goccy/googlesqlwasm2go/p8.Fn886
-func Fn886(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn910 github.com/doitintl/googlesqlwasm2go/p9.Fn910
+func Fn910(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn889 github.com/goccy/googlesqlwasm2go/p9.Fn889
-func Fn889(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn916 github.com/doitintl/googlesqlwasm2go/p10.Fn916
+func Fn916(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn895 github.com/goccy/googlesqlwasm2go/p9.Fn895
-func Fn895(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn926 github.com/doitintl/googlesqlwasm2go/p9.Fn926
+func Fn926(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn905 github.com/goccy/googlesqlwasm2go/p9.Fn905
-func Fn905(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn1087 github.com/doitintl/googlesqlwasm2go/p10.Fn1087
+func Fn1087(m *base.Module, l0 int32)
 
-//go:linkname Fn1066 github.com/goccy/googlesqlwasm2go/p10.Fn1066
-func Fn1066(m *base.Module, l0 int32)
+//go:linkname Fn1095 github.com/doitintl/googlesqlwasm2go/p9.Fn1095
+func Fn1095(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn1074 github.com/goccy/googlesqlwasm2go/p9.Fn1074
-func Fn1074(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn1106 github.com/doitintl/googlesqlwasm2go/p6.Fn1106
+func Fn1106(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn1085 github.com/goccy/googlesqlwasm2go/p6.Fn1085
-func Fn1085(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn1253 github.com/doitintl/googlesqlwasm2go/p9.Fn1253
+func Fn1253(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1252 github.com/goccy/googlesqlwasm2go/p9.Fn1252
-func Fn1252(m *base.Module, l0 int32) int32
+//go:linkname Fn1273 github.com/doitintl/googlesqlwasm2go/p9.Fn1273
+func Fn1273(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1262 github.com/goccy/googlesqlwasm2go/p9.Fn1262
-func Fn1262(m *base.Module, l0 int32) int32
+//go:linkname Fn1283 github.com/doitintl/googlesqlwasm2go/p9.Fn1283
+func Fn1283(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1270 github.com/goccy/googlesqlwasm2go/p9.Fn1270
-func Fn1270(m *base.Module, l0 int32) int32
+//go:linkname Fn1291 github.com/doitintl/googlesqlwasm2go/p9.Fn1291
+func Fn1291(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1272 github.com/goccy/googlesqlwasm2go/p9.Fn1272
-func Fn1272(m *base.Module, l0 int32) int32
+//go:linkname Fn1293 github.com/doitintl/googlesqlwasm2go/p9.Fn1293
+func Fn1293(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1415 github.com/goccy/googlesqlwasm2go/p9.Fn1415
-func Fn1415(m *base.Module, l0 int32) int32
+//go:linkname Fn1436 github.com/doitintl/googlesqlwasm2go/p9.Fn1436
+func Fn1436(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1417 github.com/goccy/googlesqlwasm2go/p9.Fn1417
-func Fn1417(m *base.Module, l0 int32) int32
+//go:linkname Fn1438 github.com/doitintl/googlesqlwasm2go/p9.Fn1438
+func Fn1438(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1489 github.com/goccy/googlesqlwasm2go/p9.Fn1489
-func Fn1489(m *base.Module, l0 int32) int32
+//go:linkname Fn1510 github.com/doitintl/googlesqlwasm2go/p9.Fn1510
+func Fn1510(m *base.Module, l0 int32) int32
 
-//go:linkname Fn1515 github.com/goccy/googlesqlwasm2go/p9.Fn1515
-func Fn1515(m *base.Module, l0 int32) int32
+//go:linkname Fn1536 github.com/doitintl/googlesqlwasm2go/p9.Fn1536
+func Fn1536(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2415 github.com/goccy/googlesqlwasm2go/p9.Fn2415
-func Fn2415(m *base.Module, l0 int32) int32
+//go:linkname Fn2436 github.com/doitintl/googlesqlwasm2go/p9.Fn2436
+func Fn2436(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2417 github.com/goccy/googlesqlwasm2go/p9.Fn2417
-func Fn2417(m *base.Module, l0 int32) int32
+//go:linkname Fn2438 github.com/doitintl/googlesqlwasm2go/p9.Fn2438
+func Fn2438(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2466 github.com/goccy/googlesqlwasm2go/p9.Fn2466
-func Fn2466(m *base.Module, l0 int32) int32
+//go:linkname Fn2487 github.com/doitintl/googlesqlwasm2go/p9.Fn2487
+func Fn2487(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2580 github.com/goccy/googlesqlwasm2go/p9.Fn2580
-func Fn2580(m *base.Module, l0 int32) int32
+//go:linkname Fn2601 github.com/doitintl/googlesqlwasm2go/p9.Fn2601
+func Fn2601(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2706 github.com/goccy/googlesqlwasm2go/p9.Fn2706
-func Fn2706(m *base.Module, l0 int32) int32
+//go:linkname Fn2727 github.com/doitintl/googlesqlwasm2go/p9.Fn2727
+func Fn2727(m *base.Module, l0 int32) int32
 
-//go:linkname Fn2742 github.com/goccy/googlesqlwasm2go/p9.Fn2742
-func Fn2742(m *base.Module, l0 int32) int32
+//go:linkname Fn2763 github.com/doitintl/googlesqlwasm2go/p9.Fn2763
+func Fn2763(m *base.Module, l0 int32) int32
 
-//go:linkname Fn3198 github.com/goccy/googlesqlwasm2go/p9.Fn3198
-func Fn3198(m *base.Module, l0 int32) int32
+//go:linkname Fn3219 github.com/doitintl/googlesqlwasm2go/p9.Fn3219
+func Fn3219(m *base.Module, l0 int32) int32
 
-//go:linkname Fn3303 github.com/goccy/googlesqlwasm2go/p9.Fn3303
-func Fn3303(m *base.Module, l0 int32) int32
+//go:linkname Fn3324 github.com/doitintl/googlesqlwasm2go/p9.Fn3324
+func Fn3324(m *base.Module, l0 int32) int32
 
-//go:linkname Fn3333 github.com/goccy/googlesqlwasm2go/p9.Fn3333
-func Fn3333(m *base.Module, l0 int32) int32
+//go:linkname Fn3354 github.com/doitintl/googlesqlwasm2go/p9.Fn3354
+func Fn3354(m *base.Module, l0 int32) int32
 
-//go:linkname Fn3335 github.com/goccy/googlesqlwasm2go/p9.Fn3335
-func Fn3335(m *base.Module, l0 int32) int32
+//go:linkname Fn3356 github.com/doitintl/googlesqlwasm2go/p9.Fn3356
+func Fn3356(m *base.Module, l0 int32) int32
 
-//go:linkname Fn3341 github.com/goccy/googlesqlwasm2go/p9.Fn3341
-func Fn3341(m *base.Module, l0 int32) int32
+//go:linkname Fn3362 github.com/doitintl/googlesqlwasm2go/p9.Fn3362
+func Fn3362(m *base.Module, l0 int32) int32
 
-//go:linkname Fn3710 github.com/goccy/googlesqlwasm2go/p9.Fn3710
-func Fn3710(m *base.Module, l0 int32) int32
+//go:linkname Fn3731 github.com/doitintl/googlesqlwasm2go/p9.Fn3731
+func Fn3731(m *base.Module, l0 int32) int32
 
-//go:linkname Fn3736 github.com/goccy/googlesqlwasm2go/p9.Fn3736
-func Fn3736(m *base.Module, l0 int32) int32
+//go:linkname Fn3741 github.com/doitintl/googlesqlwasm2go/p9.Fn3741
+func Fn3741(m *base.Module, l0 int32) int32
 
-//go:linkname Fn4057 github.com/goccy/googlesqlwasm2go/p9.Fn4057
-func Fn4057(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn3747 github.com/doitintl/googlesqlwasm2go/p9.Fn3747
+func Fn3747(m *base.Module, l0 int32) int32
 
-//go:linkname Fn4060 github.com/goccy/googlesqlwasm2go/p9.Fn4060
-func Fn4060(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn3757 github.com/doitintl/googlesqlwasm2go/p9.Fn3757
+func Fn3757(m *base.Module, l0 int32) int32
 
-//go:linkname Fn4061 github.com/goccy/googlesqlwasm2go/p9.Fn4061
-func Fn4061(m *base.Module, l0 int32) int32
+//go:linkname Fn4078 github.com/doitintl/googlesqlwasm2go/p9.Fn4078
+func Fn4078(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn4095 github.com/goccy/googlesqlwasm2go/p9.Fn4095
-func Fn4095(m *base.Module, l0 int32)
+//go:linkname Fn4081 github.com/doitintl/googlesqlwasm2go/p10.Fn4081
+func Fn4081(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn4096 github.com/goccy/googlesqlwasm2go/p9.Fn4096
-func Fn4096(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn4082 github.com/doitintl/googlesqlwasm2go/p9.Fn4082
+func Fn4082(m *base.Module, l0 int32) int32
 
-//go:linkname Fn4097 github.com/goccy/googlesqlwasm2go/p10.Fn4097
-func Fn4097(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn4116 github.com/doitintl/googlesqlwasm2go/p10.Fn4116
+func Fn4116(m *base.Module, l0 int32)
 
-//go:linkname Fn4098 github.com/goccy/googlesqlwasm2go/p9.Fn4098
-func Fn4098(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn4117 github.com/doitintl/googlesqlwasm2go/p9.Fn4117
+func Fn4117(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn4099 github.com/goccy/googlesqlwasm2go/p9.Fn4099
-func Fn4099(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn4118 github.com/doitintl/googlesqlwasm2go/p10.Fn4118
+func Fn4118(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn4100 github.com/goccy/googlesqlwasm2go/p10.Fn4100
-func Fn4100(m *base.Module, l0 int32)
+//go:linkname Fn4119 github.com/doitintl/googlesqlwasm2go/p9.Fn4119
+func Fn4119(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn4131 github.com/goccy/googlesqlwasm2go/p9.Fn4131
-func Fn4131(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn4120 github.com/doitintl/googlesqlwasm2go/p9.Fn4120
+func Fn4120(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn4133 github.com/goccy/googlesqlwasm2go/p9.Fn4133
-func Fn4133(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn4121 github.com/doitintl/googlesqlwasm2go/p10.Fn4121
+func Fn4121(m *base.Module, l0 int32)
 
-//go:linkname Fn4139 github.com/goccy/googlesqlwasm2go/p9.Fn4139
-func Fn4139(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn4152 github.com/doitintl/googlesqlwasm2go/p9.Fn4152
+func Fn4152(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn4159 github.com/goccy/googlesqlwasm2go/p9.Fn4159
-func Fn4159(m *base.Module, l0 int32)
+//go:linkname Fn4154 github.com/doitintl/googlesqlwasm2go/p9.Fn4154
+func Fn4154(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn4162 github.com/goccy/googlesqlwasm2go/p10.Fn4162
-func Fn4162(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn4155 github.com/doitintl/googlesqlwasm2go/p10.Fn4155
+func Fn4155(m *base.Module, l0 int32, l1 int64) int32
 
-//go:linkname Fn4171 github.com/goccy/googlesqlwasm2go/p10.Fn4171
-func Fn4171(m *base.Module, l0 int32)
+//go:linkname Fn4160 github.com/doitintl/googlesqlwasm2go/p10.Fn4160
+func Fn4160(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn4175 github.com/goccy/googlesqlwasm2go/p9.Fn4175
-func Fn4175(m *base.Module, l0 int32)
+//go:linkname Fn4166 github.com/doitintl/googlesqlwasm2go/p10.Fn4166
+func Fn4166(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn4186 github.com/goccy/googlesqlwasm2go/p10.Fn4186
-func Fn4186(m *base.Module, l0 int32) int32
+//go:linkname Fn4179 github.com/doitintl/googlesqlwasm2go/p9.Fn4179
+func Fn4179(m *base.Module, l0 int32)
 
-//go:linkname Fn4223 github.com/goccy/googlesqlwasm2go/p9.Fn4223
-func Fn4223(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn4180 github.com/doitintl/googlesqlwasm2go/p9.Fn4180
+func Fn4180(m *base.Module, l0 int32)
 
-//go:linkname Fn4224 github.com/goccy/googlesqlwasm2go/p9.Fn4224
-func Fn4224(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn4183 github.com/doitintl/googlesqlwasm2go/p10.Fn4183
+func Fn4183(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn4226 github.com/goccy/googlesqlwasm2go/p10.Fn4226
-func Fn4226(m *base.Module, l0 int32)
+//go:linkname Fn4192 github.com/doitintl/googlesqlwasm2go/p10.Fn4192
+func Fn4192(m *base.Module, l0 int32)
 
-//go:linkname Fn4227 github.com/goccy/googlesqlwasm2go/p10.Fn4227
-func Fn4227(m *base.Module, l0 int32) int32
+//go:linkname Fn4196 github.com/doitintl/googlesqlwasm2go/p9.Fn4196
+func Fn4196(m *base.Module, l0 int32)
 
-//go:linkname Fn4234 github.com/goccy/googlesqlwasm2go/p9.Fn4234
-func Fn4234(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn4207 github.com/doitintl/googlesqlwasm2go/p10.Fn4207
+func Fn4207(m *base.Module, l0 int32) int32
 
-//go:linkname Fn4246 github.com/goccy/googlesqlwasm2go/p9.Fn4246
-func Fn4246(m *base.Module, l0 int32) int32
+//go:linkname Fn4244 github.com/doitintl/googlesqlwasm2go/p10.Fn4244
+func Fn4244(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn4263 github.com/goccy/googlesqlwasm2go/p9.Fn4263
-func Fn4263(m *base.Module, l0 int32) int32
+//go:linkname Fn4245 github.com/doitintl/googlesqlwasm2go/p9.Fn4245
+func Fn4245(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn4332 github.com/goccy/googlesqlwasm2go/p10.Fn4332
-func Fn4332(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn4247 github.com/doitintl/googlesqlwasm2go/p10.Fn4247
+func Fn4247(m *base.Module, l0 int32)
 
-//go:linkname Fn4333 github.com/goccy/googlesqlwasm2go/p10.Fn4333
-func Fn4333(m *base.Module, l0 int32)
+//go:linkname Fn4248 github.com/doitintl/googlesqlwasm2go/p10.Fn4248
+func Fn4248(m *base.Module, l0 int32) int32
 
-//go:linkname Fn4336 github.com/goccy/googlesqlwasm2go/p10.Fn4336
-func Fn4336(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn4255 github.com/doitintl/googlesqlwasm2go/p10.Fn4255
+func Fn4255(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn4338 github.com/goccy/googlesqlwasm2go/p10.Fn4338
-func Fn4338(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn4267 github.com/doitintl/googlesqlwasm2go/p9.Fn4267
+func Fn4267(m *base.Module, l0 int32) int32
 
-//go:linkname Fn4340 github.com/goccy/googlesqlwasm2go/p10.Fn4340
-func Fn4340(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn4284 github.com/doitintl/googlesqlwasm2go/p10.Fn4284
+func Fn4284(m *base.Module, l0 int32) int32
 
-//go:linkname Fn4344 github.com/goccy/googlesqlwasm2go/p10.Fn4344
-func Fn4344(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn4353 github.com/doitintl/googlesqlwasm2go/p10.Fn4353
+func Fn4353(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn4346 github.com/goccy/googlesqlwasm2go/p10.Fn4346
-func Fn4346(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn4354 github.com/doitintl/googlesqlwasm2go/p10.Fn4354
+func Fn4354(m *base.Module, l0 int32)
 
-//go:linkname Fn4348 github.com/goccy/googlesqlwasm2go/p10.Fn4348
-func Fn4348(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn4357 github.com/doitintl/googlesqlwasm2go/p10.Fn4357
+func Fn4357(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn4351 github.com/goccy/googlesqlwasm2go/p10.Fn4351
-func Fn4351(m *base.Module, l0 int32) int32
+//go:linkname Fn4359 github.com/doitintl/googlesqlwasm2go/p10.Fn4359
+func Fn4359(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn4366 github.com/goccy/googlesqlwasm2go/p10.Fn4366
-func Fn4366(m *base.Module, l0 int32) int32
+//go:linkname Fn4361 github.com/doitintl/googlesqlwasm2go/p10.Fn4361
+func Fn4361(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn4376 github.com/goccy/googlesqlwasm2go/p9.Fn4376
-func Fn4376(m *base.Module, l0 int32) int32
+//go:linkname Fn4365 github.com/doitintl/googlesqlwasm2go/p10.Fn4365
+func Fn4365(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn4388 github.com/goccy/googlesqlwasm2go/p10.Fn4388
-func Fn4388(m *base.Module, l0 int32) int32
+//go:linkname Fn4367 github.com/doitintl/googlesqlwasm2go/p10.Fn4367
+func Fn4367(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn4417 github.com/goccy/googlesqlwasm2go/p10.Fn4417
-func Fn4417(m *base.Module, l0 int32)
+//go:linkname Fn4369 github.com/doitintl/googlesqlwasm2go/p10.Fn4369
+func Fn4369(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn4437 github.com/goccy/googlesqlwasm2go/p8.Fn4437
-func Fn4437(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn4409 github.com/doitintl/googlesqlwasm2go/p10.Fn4409
+func Fn4409(m *base.Module, l0 int32) int32
 
-//go:linkname Fn4438 github.com/goccy/googlesqlwasm2go/p5.Fn4438
-func Fn4438(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn4458 github.com/doitintl/googlesqlwasm2go/p9.Fn4458
+func Fn4458(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn4439 github.com/goccy/googlesqlwasm2go/p10.Fn4439
-func Fn4439(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn4459 github.com/doitintl/googlesqlwasm2go/p6.Fn4459
+func Fn4459(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn4459 github.com/goccy/googlesqlwasm2go/p9.Fn4459
-func Fn4459(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn4460 github.com/goccy/googlesqlwasm2go/p9.Fn4460
+//go:linkname Fn4460 github.com/doitintl/googlesqlwasm2go/p10.Fn4460
 func Fn4460(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn4461 github.com/goccy/googlesqlwasm2go/p9.Fn4461
-func Fn4461(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn4480 github.com/doitintl/googlesqlwasm2go/p10.Fn4480
+func Fn4480(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn4468 github.com/goccy/googlesqlwasm2go/p10.Fn4468
-func Fn4468(m *base.Module, l0 int32)
+//go:linkname Fn4481 github.com/doitintl/googlesqlwasm2go/p9.Fn4481
+func Fn4481(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn4472 github.com/goccy/googlesqlwasm2go/p10.Fn4472
-func Fn4472(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn4482 github.com/doitintl/googlesqlwasm2go/p9.Fn4482
+func Fn4482(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn4481 github.com/goccy/googlesqlwasm2go/p9.Fn4481
-func Fn4481(m *base.Module, l0 int32)
+//go:linkname Fn4489 github.com/doitintl/googlesqlwasm2go/p10.Fn4489
+func Fn4489(m *base.Module, l0 int32)
 
-//go:linkname Fn4489 github.com/goccy/googlesqlwasm2go/p10.Fn4489
-func Fn4489(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn4493 github.com/doitintl/googlesqlwasm2go/p10.Fn4493
+func Fn4493(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn4490 github.com/goccy/googlesqlwasm2go/p9.Fn4490
-func Fn4490(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
+//go:linkname Fn4502 github.com/doitintl/googlesqlwasm2go/p9.Fn4502
+func Fn4502(m *base.Module, l0 int32)
 
-//go:linkname Fn4495 github.com/goccy/googlesqlwasm2go/p9.Fn4495
-func Fn4495(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn4510 github.com/doitintl/googlesqlwasm2go/p10.Fn4510
+func Fn4510(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn4518 github.com/goccy/googlesqlwasm2go/p9.Fn4518
-func Fn4518(m *base.Module, l0 int32)
+//go:linkname Fn4511 github.com/doitintl/googlesqlwasm2go/p9.Fn4511
+func Fn4511(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
 
-//go:linkname Fn4519 github.com/goccy/googlesqlwasm2go/p9.Fn4519
-func Fn4519(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn4536 github.com/doitintl/googlesqlwasm2go/p9.Fn4536
+func Fn4536(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn4524 github.com/goccy/googlesqlwasm2go/p6.Fn4524
-func Fn4524(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn4559 github.com/doitintl/googlesqlwasm2go/p9.Fn4559
+func Fn4559(m *base.Module, l0 int32)
 
-//go:linkname Fn4552 github.com/goccy/googlesqlwasm2go/p10.Fn4552
-func Fn4552(m *base.Module, l0 int32) int32
+//go:linkname Fn4560 github.com/doitintl/googlesqlwasm2go/p10.Fn4560
+func Fn4560(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn4582 github.com/goccy/googlesqlwasm2go/p10.Fn4582
-func Fn4582(m *base.Module, l0 int32)
+//go:linkname Fn4565 github.com/doitintl/googlesqlwasm2go/p6.Fn4565
+func Fn4565(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn4589 github.com/goccy/googlesqlwasm2go/p9.Fn4589
-func Fn4589(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn4593 github.com/doitintl/googlesqlwasm2go/p10.Fn4593
+func Fn4593(m *base.Module, l0 int32) int32
 
-//go:linkname Fn4590 github.com/goccy/googlesqlwasm2go/p9.Fn4590
-func Fn4590(m *base.Module, l0 int32) int32
+//go:linkname Fn4639 github.com/doitintl/googlesqlwasm2go/p9.Fn4639
+func Fn4639(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn4598 github.com/goccy/googlesqlwasm2go/p9.Fn4598
-func Fn4598(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn4720 github.com/doitintl/googlesqlwasm2go/p10.Fn4720
+func Fn4720(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn4679 github.com/goccy/googlesqlwasm2go/p10.Fn4679
-func Fn4679(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn4987 github.com/doitintl/googlesqlwasm2go/p10.Fn4987
+func Fn4987(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn4695 github.com/goccy/googlesqlwasm2go/p10.Fn4695
-func Fn4695(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn4995 github.com/doitintl/googlesqlwasm2go/p10.Fn4995
+func Fn4995(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn4933 github.com/goccy/googlesqlwasm2go/p10.Fn4933
-func Fn4933(m *base.Module, l0 int32)
+//go:linkname Fn5026 github.com/doitintl/googlesqlwasm2go/p10.Fn5026
+func Fn5026(m *base.Module, l0 int32)
 
-//go:linkname Fn4937 github.com/goccy/googlesqlwasm2go/p10.Fn4937
-func Fn4937(m *base.Module, l0 int32)
+//go:linkname Fn5032 github.com/doitintl/googlesqlwasm2go/p10.Fn5032
+func Fn5032(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn4970 github.com/goccy/googlesqlwasm2go/p9.Fn4970
-func Fn4970(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn5058 github.com/doitintl/googlesqlwasm2go/p10.Fn5058
+func Fn5058(m *base.Module, l0 int32) int32
 
-//go:linkname Fn4985 github.com/goccy/googlesqlwasm2go/p10.Fn4985
-func Fn4985(m *base.Module, l0 int32)
+//go:linkname Fn5069 github.com/doitintl/googlesqlwasm2go/p9.Fn5069
+func Fn5069(m *base.Module, l0 int32) int32
 
-//go:linkname Fn4991 github.com/goccy/googlesqlwasm2go/p9.Fn4991
-func Fn4991(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn5160 github.com/doitintl/googlesqlwasm2go/p9.Fn5160
+func Fn5160(m *base.Module, l0 int32) int32
 
-//go:linkname Fn5006 github.com/goccy/googlesqlwasm2go/p10.Fn5006
-func Fn5006(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn5238 github.com/doitintl/googlesqlwasm2go/p10.Fn5238
+func Fn5238(m *base.Module, l0 int32) int32
 
-//go:linkname Fn5007 github.com/goccy/googlesqlwasm2go/p10.Fn5007
-func Fn5007(m *base.Module, l0 int32)
+//go:linkname Fn5239 github.com/doitintl/googlesqlwasm2go/p9.Fn5239
+func Fn5239(m *base.Module) int32
 
-//go:linkname Fn5017 github.com/goccy/googlesqlwasm2go/p10.Fn5017
-func Fn5017(m *base.Module, l0 int32) int32
+//go:linkname Fn5241 github.com/doitintl/googlesqlwasm2go/p9.Fn5241
+func Fn5241(m *base.Module, l0 int32) int32
 
-//go:linkname Fn5028 github.com/goccy/googlesqlwasm2go/p9.Fn5028
-func Fn5028(m *base.Module, l0 int32) int32
+//go:linkname Fn5252 github.com/doitintl/googlesqlwasm2go/p10.Fn5252
+func Fn5252(m *base.Module, l0 int32) int32
 
-//go:linkname Fn5068 github.com/goccy/googlesqlwasm2go/p9.Fn5068
-func Fn5068(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn5265 github.com/doitintl/googlesqlwasm2go/p8.Fn5265
+func Fn5265(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn5119 github.com/goccy/googlesqlwasm2go/p9.Fn5119
-func Fn5119(m *base.Module, l0 int32) int32
+//go:linkname Fn5269 github.com/doitintl/googlesqlwasm2go/p5.Fn5269
+func Fn5269(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn5197 github.com/goccy/googlesqlwasm2go/p10.Fn5197
-func Fn5197(m *base.Module, l0 int32) int32
+//go:linkname Fn5275 github.com/doitintl/googlesqlwasm2go/p10.Fn5275
+func Fn5275(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn5198 github.com/goccy/googlesqlwasm2go/p9.Fn5198
-func Fn5198(m *base.Module) int32
+//go:linkname Fn5278 github.com/doitintl/googlesqlwasm2go/p9.Fn5278
+func Fn5278(m *base.Module, l0 int32) int32
 
-//go:linkname Fn5200 github.com/goccy/googlesqlwasm2go/p9.Fn5200
-func Fn5200(m *base.Module, l0 int32) int32
+//go:linkname Fn5310 github.com/doitintl/googlesqlwasm2go/p10.Fn5310
+func Fn5310(m *base.Module, l0 int32) int32
 
-//go:linkname Fn5211 github.com/goccy/googlesqlwasm2go/p10.Fn5211
-func Fn5211(m *base.Module, l0 int32) int32
+//go:linkname Fn5312 github.com/doitintl/googlesqlwasm2go/p10.Fn5312
+func Fn5312(m *base.Module, l0 int32) int32
 
-//go:linkname Fn5224 github.com/goccy/googlesqlwasm2go/p8.Fn5224
-func Fn5224(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn5317 github.com/doitintl/googlesqlwasm2go/p5.Fn5317
+func Fn5317(m *base.Module, l0 int32) int32
 
-//go:linkname Fn5228 github.com/goccy/googlesqlwasm2go/p5.Fn5228
-func Fn5228(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn5320 github.com/doitintl/googlesqlwasm2go/p10.Fn5320
+func Fn5320(m *base.Module, l0 int32) int32
 
-//go:linkname Fn5234 github.com/goccy/googlesqlwasm2go/p10.Fn5234
-func Fn5234(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn5330 github.com/doitintl/googlesqlwasm2go/p10.Fn5330
+func Fn5330(m *base.Module, l0 int32) int32
 
-//go:linkname Fn5237 github.com/goccy/googlesqlwasm2go/p9.Fn5237
-func Fn5237(m *base.Module, l0 int32) int32
+//go:linkname Fn5337 github.com/doitintl/googlesqlwasm2go/p8.Fn5337
+func Fn5337(m *base.Module, l0 int32)
 
-//go:linkname Fn5269 github.com/goccy/googlesqlwasm2go/p10.Fn5269
-func Fn5269(m *base.Module, l0 int32) int32
+//go:linkname Fn5439 github.com/doitintl/googlesqlwasm2go/p6.Fn5439
+func Fn5439(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn5271 github.com/goccy/googlesqlwasm2go/p10.Fn5271
-func Fn5271(m *base.Module, l0 int32) int32
+//go:linkname Fn5444 github.com/doitintl/googlesqlwasm2go/p10.Fn5444
+func Fn5444(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn5276 github.com/goccy/googlesqlwasm2go/p5.Fn5276
-func Fn5276(m *base.Module, l0 int32) int32
+//go:linkname Fn5452 github.com/doitintl/googlesqlwasm2go/p9.Fn5452
+func Fn5452(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn5279 github.com/goccy/googlesqlwasm2go/p10.Fn5279
-func Fn5279(m *base.Module, l0 int32) int32
+//go:linkname Fn5453 github.com/doitintl/googlesqlwasm2go/p9.Fn5453
+func Fn5453(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn5289 github.com/goccy/googlesqlwasm2go/p10.Fn5289
-func Fn5289(m *base.Module, l0 int32) int32
+//go:linkname Fn5454 github.com/doitintl/googlesqlwasm2go/p10.Fn5454
+func Fn5454(m *base.Module, l0 int32)
 
-//go:linkname Fn5296 github.com/goccy/googlesqlwasm2go/p8.Fn5296
-func Fn5296(m *base.Module, l0 int32)
+//go:linkname Fn5461 github.com/doitintl/googlesqlwasm2go/p10.Fn5461
+func Fn5461(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn5403 github.com/goccy/googlesqlwasm2go/p10.Fn5403
-func Fn5403(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn5467 github.com/doitintl/googlesqlwasm2go/p10.Fn5467
+func Fn5467(m *base.Module, l0 int32)
 
-//go:linkname Fn5411 github.com/goccy/googlesqlwasm2go/p9.Fn5411
-func Fn5411(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn5607 github.com/doitintl/googlesqlwasm2go/p10.Fn5607
+func Fn5607(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn5412 github.com/goccy/googlesqlwasm2go/p9.Fn5412
-func Fn5412(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn5615 github.com/doitintl/googlesqlwasm2go/p6.Fn5615
+func Fn5615(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn5413 github.com/goccy/googlesqlwasm2go/p10.Fn5413
-func Fn5413(m *base.Module, l0 int32)
-
-//go:linkname Fn5426 github.com/goccy/googlesqlwasm2go/p10.Fn5426
-func Fn5426(m *base.Module, l0 int32)
-
-//go:linkname Fn5566 github.com/goccy/googlesqlwasm2go/p9.Fn5566
-func Fn5566(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn5577 github.com/goccy/googlesqlwasm2go/p9.Fn5577
-func Fn5577(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn5600 github.com/goccy/googlesqlwasm2go/p8.Fn5600
-func Fn5600(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn5616 github.com/goccy/googlesqlwasm2go/p9.Fn5616
+//go:linkname Fn5616 github.com/doitintl/googlesqlwasm2go/p10.Fn5616
 func Fn5616(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn5629 github.com/goccy/googlesqlwasm2go/p10.Fn5629
-func Fn5629(m *base.Module, l0 int32) int32
+//go:linkname Fn5617 github.com/doitintl/googlesqlwasm2go/p10.Fn5617
+func Fn5617(m *base.Module, l0 int32)
 
-//go:linkname Fn5631 github.com/goccy/googlesqlwasm2go/p10.Fn5631
-func Fn5631(m *base.Module, l0 int32) int32
+//go:linkname Fn5618 github.com/doitintl/googlesqlwasm2go/p9.Fn5618
+func Fn5618(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn5632 github.com/goccy/googlesqlwasm2go/p10.Fn5632
-func Fn5632(m *base.Module, l0 int32) int32
+//go:linkname Fn5641 github.com/doitintl/googlesqlwasm2go/p8.Fn5641
+func Fn5641(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn5633 github.com/goccy/googlesqlwasm2go/p10.Fn5633
-func Fn5633(m *base.Module, l0 int32) int32
+//go:linkname Fn5657 github.com/doitintl/googlesqlwasm2go/p9.Fn5657
+func Fn5657(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn6018 github.com/goccy/googlesqlwasm2go/p10.Fn6018
-func Fn6018(m *base.Module, l0 int32)
+//go:linkname Fn5670 github.com/doitintl/googlesqlwasm2go/p10.Fn5670
+func Fn5670(m *base.Module, l0 int32) int32
 
-//go:linkname Fn6020 github.com/goccy/googlesqlwasm2go/p9.Fn6020
-func Fn6020(m *base.Module, l0 int32) int32
+//go:linkname Fn5672 github.com/doitintl/googlesqlwasm2go/p10.Fn5672
+func Fn5672(m *base.Module, l0 int32) int32
 
-//go:linkname Fn6037 github.com/goccy/googlesqlwasm2go/p10.Fn6037
-func Fn6037(m *base.Module, l0 int32)
+//go:linkname Fn5673 github.com/doitintl/googlesqlwasm2go/p10.Fn5673
+func Fn5673(m *base.Module, l0 int32) int32
 
-//go:linkname Fn6047 github.com/goccy/googlesqlwasm2go/p10.Fn6047
-func Fn6047(m *base.Module, l0 int32)
+//go:linkname Fn5674 github.com/doitintl/googlesqlwasm2go/p10.Fn5674
+func Fn5674(m *base.Module, l0 int32) int32
 
-//go:linkname Fn6054 github.com/goccy/googlesqlwasm2go/p9.Fn6054
-func Fn6054(m *base.Module, l0 int32) int32
+//go:linkname Fn6059 github.com/doitintl/googlesqlwasm2go/p10.Fn6059
+func Fn6059(m *base.Module, l0 int32)
 
-//go:linkname Fn6071 github.com/goccy/googlesqlwasm2go/p10.Fn6071
-func Fn6071(m *base.Module, l0 int32)
+//go:linkname Fn6061 github.com/doitintl/googlesqlwasm2go/p9.Fn6061
+func Fn6061(m *base.Module, l0 int32) int32
 
-//go:linkname Fn6082 github.com/goccy/googlesqlwasm2go/p10.Fn6082
-func Fn6082(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6078 github.com/doitintl/googlesqlwasm2go/p10.Fn6078
+func Fn6078(m *base.Module, l0 int32)
 
-//go:linkname Fn6083 github.com/goccy/googlesqlwasm2go/p10.Fn6083
-func Fn6083(m *base.Module, l0 int32)
+//go:linkname Fn6088 github.com/doitintl/googlesqlwasm2go/p10.Fn6088
+func Fn6088(m *base.Module, l0 int32)
 
-//go:linkname Fn6084 github.com/goccy/googlesqlwasm2go/p9.Fn6084
-func Fn6084(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6092 github.com/doitintl/googlesqlwasm2go/p10.Fn6092
+func Fn6092(m *base.Module, l0 int32) int32
 
-//go:linkname Fn6085 github.com/goccy/googlesqlwasm2go/p9.Fn6085
-func Fn6085(m *base.Module, l0 int32)
+//go:linkname Fn6094 github.com/doitintl/googlesqlwasm2go/p9.Fn6094
+func Fn6094(m *base.Module, l0 int32) int32
 
-//go:linkname Fn6148 github.com/goccy/googlesqlwasm2go/p10.Fn6148
-func Fn6148(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6111 github.com/doitintl/googlesqlwasm2go/p10.Fn6111
+func Fn6111(m *base.Module, l0 int32)
 
-//go:linkname Fn6181 github.com/goccy/googlesqlwasm2go/p10.Fn6181
-func Fn6181(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6122 github.com/doitintl/googlesqlwasm2go/p10.Fn6122
+func Fn6122(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6182 github.com/goccy/googlesqlwasm2go/p10.Fn6182
-func Fn6182(m *base.Module, l0 int32)
+//go:linkname Fn6123 github.com/doitintl/googlesqlwasm2go/p10.Fn6123
+func Fn6123(m *base.Module, l0 int32)
 
-//go:linkname Fn6199 github.com/goccy/googlesqlwasm2go/p10.Fn6199
-func Fn6199(m *base.Module, l0 int32)
+//go:linkname Fn6124 github.com/doitintl/googlesqlwasm2go/p9.Fn6124
+func Fn6124(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6218 github.com/goccy/googlesqlwasm2go/p10.Fn6218
-func Fn6218(m *base.Module, l0 int32)
+//go:linkname Fn6125 github.com/doitintl/googlesqlwasm2go/p10.Fn6125
+func Fn6125(m *base.Module, l0 int32)
 
-//go:linkname Fn6222 github.com/goccy/googlesqlwasm2go/p10.Fn6222
+//go:linkname Fn6134 github.com/doitintl/googlesqlwasm2go/p10.Fn6134
+func Fn6134(m *base.Module, l0 int32) int32
+
+//go:linkname Fn6136 github.com/doitintl/googlesqlwasm2go/p10.Fn6136
+func Fn6136(m *base.Module, l0 int32)
+
+//go:linkname Fn6188 github.com/doitintl/googlesqlwasm2go/p10.Fn6188
+func Fn6188(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn6221 github.com/doitintl/googlesqlwasm2go/p10.Fn6221
+func Fn6221(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn6222 github.com/doitintl/googlesqlwasm2go/p10.Fn6222
 func Fn6222(m *base.Module, l0 int32)
 
-//go:linkname Fn6246 github.com/goccy/googlesqlwasm2go/p10.Fn6246
-func Fn6246(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6229 github.com/doitintl/googlesqlwasm2go/p8.Fn6229
+func Fn6229(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6248 github.com/goccy/googlesqlwasm2go/p10.Fn6248
-func Fn6248(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6230 github.com/doitintl/googlesqlwasm2go/p9.Fn6230
+func Fn6230(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6250 github.com/goccy/googlesqlwasm2go/p10.Fn6250
-func Fn6250(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6239 github.com/doitintl/googlesqlwasm2go/p10.Fn6239
+func Fn6239(m *base.Module, l0 int32)
 
-//go:linkname Fn6251 github.com/goccy/googlesqlwasm2go/p10.Fn6251
-func Fn6251(m *base.Module, l0 int32)
+//go:linkname Fn6258 github.com/doitintl/googlesqlwasm2go/p10.Fn6258
+func Fn6258(m *base.Module, l0 int32)
 
-//go:linkname Fn6255 github.com/goccy/googlesqlwasm2go/p10.Fn6255
-func Fn6255(m *base.Module, l0 int32)
+//go:linkname Fn6262 github.com/doitintl/googlesqlwasm2go/p10.Fn6262
+func Fn6262(m *base.Module, l0 int32)
 
-//go:linkname Fn6259 github.com/goccy/googlesqlwasm2go/p10.Fn6259
-func Fn6259(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6286 github.com/doitintl/googlesqlwasm2go/p10.Fn6286
+func Fn6286(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6260 github.com/goccy/googlesqlwasm2go/p10.Fn6260
-func Fn6260(m *base.Module, l0 int32)
+//go:linkname Fn6288 github.com/doitintl/googlesqlwasm2go/p10.Fn6288
+func Fn6288(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6261 github.com/goccy/googlesqlwasm2go/p9.Fn6261
-func Fn6261(m *base.Module, l0 int32)
+//go:linkname Fn6290 github.com/doitintl/googlesqlwasm2go/p10.Fn6290
+func Fn6290(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6344 github.com/goccy/googlesqlwasm2go/p9.Fn6344
-func Fn6344(m *base.Module, l0 int32) int32
+//go:linkname Fn6291 github.com/doitintl/googlesqlwasm2go/p10.Fn6291
+func Fn6291(m *base.Module, l0 int32)
 
-//go:linkname Fn6346 github.com/goccy/googlesqlwasm2go/p9.Fn6346
-func Fn6346(m *base.Module, l0 int32) int32
+//go:linkname Fn6295 github.com/doitintl/googlesqlwasm2go/p10.Fn6295
+func Fn6295(m *base.Module, l0 int32)
 
-//go:linkname Fn6363 github.com/goccy/googlesqlwasm2go/p10.Fn6363
-func Fn6363(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn6299 github.com/doitintl/googlesqlwasm2go/p10.Fn6299
+func Fn6299(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6366 github.com/goccy/googlesqlwasm2go/p9.Fn6366
-func Fn6366(m *base.Module, l0 int32)
+//go:linkname Fn6300 github.com/doitintl/googlesqlwasm2go/p10.Fn6300
+func Fn6300(m *base.Module, l0 int32)
 
-//go:linkname Fn6371 github.com/goccy/googlesqlwasm2go/p10.Fn6371
-func Fn6371(m *base.Module, l0 int32)
+//go:linkname Fn6301 github.com/doitintl/googlesqlwasm2go/p10.Fn6301
+func Fn6301(m *base.Module, l0 int32)
 
-//go:linkname Fn6375 github.com/goccy/googlesqlwasm2go/p10.Fn6375
-func Fn6375(m *base.Module, l0 int32)
+//go:linkname Fn6306 github.com/doitintl/googlesqlwasm2go/p8.Fn6306
+func Fn6306(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6400 github.com/goccy/googlesqlwasm2go/p10.Fn6400
-func Fn6400(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6307 github.com/doitintl/googlesqlwasm2go/p9.Fn6307
+func Fn6307(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6402 github.com/goccy/googlesqlwasm2go/p10.Fn6402
-func Fn6402(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6384 github.com/doitintl/googlesqlwasm2go/p10.Fn6384
+func Fn6384(m *base.Module, l0 int32) int32
 
-//go:linkname Fn6403 github.com/goccy/googlesqlwasm2go/p9.Fn6403
-func Fn6403(m *base.Module, l0 int32)
+//go:linkname Fn6386 github.com/doitintl/googlesqlwasm2go/p9.Fn6386
+func Fn6386(m *base.Module, l0 int32) int32
 
-//go:linkname Fn6405 github.com/goccy/googlesqlwasm2go/p10.Fn6405
-func Fn6405(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6403 github.com/doitintl/googlesqlwasm2go/p10.Fn6403
+func Fn6403(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn6407 github.com/goccy/googlesqlwasm2go/p10.Fn6407
-func Fn6407(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6406 github.com/doitintl/googlesqlwasm2go/p9.Fn6406
+func Fn6406(m *base.Module, l0 int32)
 
-//go:linkname Fn6408 github.com/goccy/googlesqlwasm2go/p10.Fn6408
-func Fn6408(m *base.Module, l0 int32)
+//go:linkname Fn6411 github.com/doitintl/googlesqlwasm2go/p10.Fn6411
+func Fn6411(m *base.Module, l0 int32)
 
-//go:linkname Fn6409 github.com/goccy/googlesqlwasm2go/p9.Fn6409
-func Fn6409(m *base.Module, l0 int32)
-
-//go:linkname Fn6411 github.com/goccy/googlesqlwasm2go/p10.Fn6411
-func Fn6411(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn6414 github.com/goccy/googlesqlwasm2go/p10.Fn6414
-func Fn6414(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn6415 github.com/goccy/googlesqlwasm2go/p10.Fn6415
+//go:linkname Fn6415 github.com/doitintl/googlesqlwasm2go/p10.Fn6415
 func Fn6415(m *base.Module, l0 int32)
 
-//go:linkname Fn6423 github.com/goccy/googlesqlwasm2go/p6.Fn6423
-func Fn6423(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6440 github.com/doitintl/googlesqlwasm2go/p10.Fn6440
+func Fn6440(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6436 github.com/goccy/googlesqlwasm2go/p10.Fn6436
-func Fn6436(m *base.Module, l0 int32) int32
+//go:linkname Fn6442 github.com/doitintl/googlesqlwasm2go/p10.Fn6442
+func Fn6442(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6486 github.com/goccy/googlesqlwasm2go/p10.Fn6486
-func Fn6486(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6443 github.com/doitintl/googlesqlwasm2go/p9.Fn6443
+func Fn6443(m *base.Module, l0 int32)
 
-//go:linkname Fn6512 github.com/goccy/googlesqlwasm2go/p10.Fn6512
-func Fn6512(m *base.Module, l0 int32)
+//go:linkname Fn6445 github.com/doitintl/googlesqlwasm2go/p10.Fn6445
+func Fn6445(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6522 github.com/goccy/googlesqlwasm2go/p9.Fn6522
-func Fn6522(m *base.Module, l0 int32) int32
+//go:linkname Fn6447 github.com/doitintl/googlesqlwasm2go/p10.Fn6447
+func Fn6447(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6524 github.com/goccy/googlesqlwasm2go/p9.Fn6524
-func Fn6524(m *base.Module, l0 int32) int32
+//go:linkname Fn6448 github.com/doitintl/googlesqlwasm2go/p10.Fn6448
+func Fn6448(m *base.Module, l0 int32)
 
-//go:linkname Fn6558 github.com/goccy/googlesqlwasm2go/p9.Fn6558
-func Fn6558(m *base.Module, l0 int32) int32
+//go:linkname Fn6449 github.com/doitintl/googlesqlwasm2go/p10.Fn6449
+func Fn6449(m *base.Module, l0 int32)
 
-//go:linkname Fn6592 github.com/goccy/googlesqlwasm2go/p10.Fn6592
-func Fn6592(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6451 github.com/doitintl/googlesqlwasm2go/p10.Fn6451
+func Fn6451(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6614 github.com/goccy/googlesqlwasm2go/p8.Fn6614
-func Fn6614(m *base.Module, l0 int32)
+//go:linkname Fn6454 github.com/doitintl/googlesqlwasm2go/p10.Fn6454
+func Fn6454(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6660 github.com/goccy/googlesqlwasm2go/p9.Fn6660
-func Fn6660(m *base.Module, l0 int32) int32
+//go:linkname Fn6455 github.com/doitintl/googlesqlwasm2go/p10.Fn6455
+func Fn6455(m *base.Module, l0 int32)
 
-//go:linkname Fn6682 github.com/goccy/googlesqlwasm2go/p9.Fn6682
-func Fn6682(m *base.Module, l0 int32) int32
+//go:linkname Fn6476 github.com/doitintl/googlesqlwasm2go/p10.Fn6476
+func Fn6476(m *base.Module, l0 int32) int32
 
-//go:linkname Fn6745 github.com/goccy/googlesqlwasm2go/p10.Fn6745
-func Fn6745(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6483 github.com/doitintl/googlesqlwasm2go/p10.Fn6483
+func Fn6483(m *base.Module, l0 int32) int32
 
-//go:linkname Fn6793 github.com/goccy/googlesqlwasm2go/p10.Fn6793
-func Fn6793(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6526 github.com/doitintl/googlesqlwasm2go/p10.Fn6526
+func Fn6526(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6795 github.com/goccy/googlesqlwasm2go/p10.Fn6795
-func Fn6795(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6552 github.com/doitintl/googlesqlwasm2go/p10.Fn6552
+func Fn6552(m *base.Module, l0 int32)
 
-//go:linkname Fn6821 github.com/goccy/googlesqlwasm2go/p10.Fn6821
-func Fn6821(m *base.Module, l0 int32)
+//go:linkname Fn6562 github.com/doitintl/googlesqlwasm2go/p9.Fn6562
+func Fn6562(m *base.Module, l0 int32) int32
 
-//go:linkname Fn6830 github.com/goccy/googlesqlwasm2go/p10.Fn6830
-func Fn6830(m *base.Module, l0 int32)
+//go:linkname Fn6564 github.com/doitintl/googlesqlwasm2go/p10.Fn6564
+func Fn6564(m *base.Module, l0 int32) int32
 
-//go:linkname Fn6831 github.com/goccy/googlesqlwasm2go/p9.Fn6831
-func Fn6831(m *base.Module, l0 int32)
+//go:linkname Fn6598 github.com/doitintl/googlesqlwasm2go/p9.Fn6598
+func Fn6598(m *base.Module, l0 int32) int32
 
-//go:linkname Fn6866 github.com/goccy/googlesqlwasm2go/p10.Fn6866
-func Fn6866(m *base.Module, l0 int32)
+//go:linkname Fn6632 github.com/doitintl/googlesqlwasm2go/p10.Fn6632
+func Fn6632(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn6913 github.com/goccy/googlesqlwasm2go/p9.Fn6913
-func Fn6913(m *base.Module, l0 int32) int32
+//go:linkname Fn6654 github.com/doitintl/googlesqlwasm2go/p8.Fn6654
+func Fn6654(m *base.Module, l0 int32)
 
-//go:linkname Fn6974 github.com/goccy/googlesqlwasm2go/p9.Fn6974
-func Fn6974(m *base.Module, l0 int32) int32
+//go:linkname Fn6690 github.com/doitintl/googlesqlwasm2go/p10.Fn6690
+func Fn6690(m *base.Module, l0 int32)
 
-//go:linkname Fn6976 github.com/goccy/googlesqlwasm2go/p9.Fn6976
-func Fn6976(m *base.Module, l0 int32) int32
+//go:linkname Fn6700 github.com/doitintl/googlesqlwasm2go/p10.Fn6700
+func Fn6700(m *base.Module, l0 int32) int32
 
-//go:linkname Fn7001 github.com/goccy/googlesqlwasm2go/p10.Fn7001
-func Fn7001(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn6712 github.com/doitintl/googlesqlwasm2go/p10.Fn6712
+func Fn6712(m *base.Module, l0 int32)
 
-//go:linkname Fn7042 github.com/goccy/googlesqlwasm2go/p10.Fn7042
-func Fn7042(m *base.Module, l0 int32)
+//go:linkname Fn6722 github.com/doitintl/googlesqlwasm2go/p10.Fn6722
+func Fn6722(m *base.Module, l0 int32) int32
 
-//go:linkname Fn7051 github.com/goccy/googlesqlwasm2go/p10.Fn7051
-func Fn7051(m *base.Module, l0 int32)
+//go:linkname Fn6785 github.com/doitintl/googlesqlwasm2go/p10.Fn6785
+func Fn6785(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn7052 github.com/goccy/googlesqlwasm2go/p9.Fn7052
-func Fn7052(m *base.Module, l0 int32)
+//go:linkname Fn6833 github.com/doitintl/googlesqlwasm2go/p10.Fn6833
+func Fn6833(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn7081 github.com/goccy/googlesqlwasm2go/p10.Fn7081
-func Fn7081(m *base.Module, l0 int32)
+//go:linkname Fn6835 github.com/doitintl/googlesqlwasm2go/p10.Fn6835
+func Fn6835(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn7090 github.com/goccy/googlesqlwasm2go/p10.Fn7090
-func Fn7090(m *base.Module, l0 int32)
+//go:linkname Fn6861 github.com/doitintl/googlesqlwasm2go/p10.Fn6861
+func Fn6861(m *base.Module, l0 int32)
 
-//go:linkname Fn7091 github.com/goccy/googlesqlwasm2go/p9.Fn7091
+//go:linkname Fn6870 github.com/doitintl/googlesqlwasm2go/p10.Fn6870
+func Fn6870(m *base.Module, l0 int32)
+
+//go:linkname Fn6871 github.com/doitintl/googlesqlwasm2go/p10.Fn6871
+func Fn6871(m *base.Module, l0 int32)
+
+//go:linkname Fn6906 github.com/doitintl/googlesqlwasm2go/p10.Fn6906
+func Fn6906(m *base.Module, l0 int32)
+
+//go:linkname Fn6953 github.com/doitintl/googlesqlwasm2go/p9.Fn6953
+func Fn6953(m *base.Module, l0 int32) int32
+
+//go:linkname Fn7014 github.com/doitintl/googlesqlwasm2go/p9.Fn7014
+func Fn7014(m *base.Module, l0 int32) int32
+
+//go:linkname Fn7016 github.com/doitintl/googlesqlwasm2go/p10.Fn7016
+func Fn7016(m *base.Module, l0 int32) int32
+
+//go:linkname Fn7041 github.com/doitintl/googlesqlwasm2go/p10.Fn7041
+func Fn7041(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn7043 github.com/doitintl/googlesqlwasm2go/p10.Fn7043
+func Fn7043(m *base.Module, l0 int32)
+
+//go:linkname Fn7046 github.com/doitintl/googlesqlwasm2go/p10.Fn7046
+func Fn7046(m *base.Module, l0 int32)
+
+//go:linkname Fn7061 github.com/doitintl/googlesqlwasm2go/p9.Fn7061
+func Fn7061(m *base.Module, l0 int32) int32
+
+//go:linkname Fn7082 github.com/doitintl/googlesqlwasm2go/p10.Fn7082
+func Fn7082(m *base.Module, l0 int32)
+
+//go:linkname Fn7091 github.com/doitintl/googlesqlwasm2go/p10.Fn7091
 func Fn7091(m *base.Module, l0 int32)
 
-//go:linkname Fn7123 github.com/goccy/googlesqlwasm2go/p10.Fn7123
-func Fn7123(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn7092 github.com/doitintl/googlesqlwasm2go/p10.Fn7092
+func Fn7092(m *base.Module, l0 int32)
 
-//go:linkname Fn7170 github.com/goccy/googlesqlwasm2go/p10.Fn7170
-func Fn7170(m *base.Module, l0 int32)
+//go:linkname Fn7121 github.com/doitintl/googlesqlwasm2go/p10.Fn7121
+func Fn7121(m *base.Module, l0 int32)
 
-//go:linkname Fn7178 github.com/goccy/googlesqlwasm2go/p10.Fn7178
-func Fn7178(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn7130 github.com/doitintl/googlesqlwasm2go/p10.Fn7130
+func Fn7130(m *base.Module, l0 int32)
 
-//go:linkname Fn7179 github.com/goccy/googlesqlwasm2go/p10.Fn7179
-func Fn7179(m *base.Module, l0 int32)
+//go:linkname Fn7131 github.com/doitintl/googlesqlwasm2go/p10.Fn7131
+func Fn7131(m *base.Module, l0 int32)
 
-//go:linkname Fn7180 github.com/goccy/googlesqlwasm2go/p9.Fn7180
-func Fn7180(m *base.Module, l0 int32)
+//go:linkname Fn7163 github.com/doitintl/googlesqlwasm2go/p10.Fn7163
+func Fn7163(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn7215 github.com/goccy/googlesqlwasm2go/p9.Fn7215
-func Fn7215(m *base.Module, l0 int32) int32
+//go:linkname Fn7210 github.com/doitintl/googlesqlwasm2go/p10.Fn7210
+func Fn7210(m *base.Module, l0 int32)
 
-//go:linkname Fn7242 github.com/goccy/googlesqlwasm2go/p10.Fn7242
-func Fn7242(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn7218 github.com/doitintl/googlesqlwasm2go/p10.Fn7218
+func Fn7218(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn7316 github.com/goccy/googlesqlwasm2go/p10.Fn7316
-func Fn7316(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn7219 github.com/doitintl/googlesqlwasm2go/p10.Fn7219
+func Fn7219(m *base.Module, l0 int32)
 
-//go:linkname Fn7411 github.com/goccy/googlesqlwasm2go/p9.Fn7411
-func Fn7411(m *base.Module, l0 int32) int32
+//go:linkname Fn7220 github.com/doitintl/googlesqlwasm2go/p10.Fn7220
+func Fn7220(m *base.Module, l0 int32)
 
-//go:linkname Fn7415 github.com/goccy/googlesqlwasm2go/p9.Fn7415
-func Fn7415(m *base.Module, l0 int32) int32
+//go:linkname Fn7222 github.com/doitintl/googlesqlwasm2go/p8.Fn7222
+func Fn7222(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn7489 github.com/goccy/googlesqlwasm2go/p10.Fn7489
-func Fn7489(m *base.Module, l0 int32)
+//go:linkname Fn7223 github.com/doitintl/googlesqlwasm2go/p9.Fn7223
+func Fn7223(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn7495 github.com/goccy/googlesqlwasm2go/p10.Fn7495
-func Fn7495(m *base.Module, l0 int32)
+//go:linkname Fn7229 github.com/doitintl/googlesqlwasm2go/p10.Fn7229
+func Fn7229(m *base.Module, l0 int32) int32
 
-//go:linkname Fn7550 github.com/goccy/googlesqlwasm2go/p10.Fn7550
-func Fn7550(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn7255 github.com/doitintl/googlesqlwasm2go/p9.Fn7255
+func Fn7255(m *base.Module, l0 int32) int32
 
-//go:linkname Fn7551 github.com/goccy/googlesqlwasm2go/p10.Fn7551
-func Fn7551(m *base.Module, l0 int32)
+//go:linkname Fn7282 github.com/doitintl/googlesqlwasm2go/p10.Fn7282
+func Fn7282(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn7552 github.com/goccy/googlesqlwasm2go/p9.Fn7552
-func Fn7552(m *base.Module, l0 int32)
+//go:linkname Fn7451 github.com/doitintl/googlesqlwasm2go/p10.Fn7451
+func Fn7451(m *base.Module, l0 int32) int32
 
-//go:linkname Fn7554 github.com/goccy/googlesqlwasm2go/p10.Fn7554
-func Fn7554(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn7455 github.com/doitintl/googlesqlwasm2go/p9.Fn7455
+func Fn7455(m *base.Module, l0 int32) int32
 
-//go:linkname Fn7556 github.com/goccy/googlesqlwasm2go/p10.Fn7556
-func Fn7556(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn7529 github.com/doitintl/googlesqlwasm2go/p10.Fn7529
+func Fn7529(m *base.Module, l0 int32)
 
-//go:linkname Fn7557 github.com/goccy/googlesqlwasm2go/p10.Fn7557
-func Fn7557(m *base.Module, l0 int32)
+//go:linkname Fn7535 github.com/doitintl/googlesqlwasm2go/p10.Fn7535
+func Fn7535(m *base.Module, l0 int32)
 
-//go:linkname Fn7558 github.com/goccy/googlesqlwasm2go/p9.Fn7558
-func Fn7558(m *base.Module, l0 int32)
+//go:linkname Fn7590 github.com/doitintl/googlesqlwasm2go/p10.Fn7590
+func Fn7590(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn7561 github.com/goccy/googlesqlwasm2go/p10.Fn7561
-func Fn7561(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn7591 github.com/doitintl/googlesqlwasm2go/p10.Fn7591
+func Fn7591(m *base.Module, l0 int32)
 
-//go:linkname Fn7562 github.com/goccy/googlesqlwasm2go/p10.Fn7562
-func Fn7562(m *base.Module, l0 int32)
+//go:linkname Fn7592 github.com/doitintl/googlesqlwasm2go/p10.Fn7592
+func Fn7592(m *base.Module, l0 int32)
 
-//go:linkname Fn7563 github.com/goccy/googlesqlwasm2go/p9.Fn7563
-func Fn7563(m *base.Module, l0 int32)
+//go:linkname Fn7594 github.com/doitintl/googlesqlwasm2go/p10.Fn7594
+func Fn7594(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn7565 github.com/goccy/googlesqlwasm2go/p10.Fn7565
-func Fn7565(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn7596 github.com/doitintl/googlesqlwasm2go/p10.Fn7596
+func Fn7596(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn7568 github.com/goccy/googlesqlwasm2go/p10.Fn7568
-func Fn7568(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn7597 github.com/doitintl/googlesqlwasm2go/p10.Fn7597
+func Fn7597(m *base.Module, l0 int32)
 
-//go:linkname Fn7570 github.com/goccy/googlesqlwasm2go/p10.Fn7570
-func Fn7570(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn7598 github.com/doitintl/googlesqlwasm2go/p10.Fn7598
+func Fn7598(m *base.Module, l0 int32)
 
-//go:linkname Fn7572 github.com/goccy/googlesqlwasm2go/p10.Fn7572
-func Fn7572(m *base.Module, l0 int32)
+//go:linkname Fn7601 github.com/doitintl/googlesqlwasm2go/p10.Fn7601
+func Fn7601(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn7578 github.com/goccy/googlesqlwasm2go/p10.Fn7578
-func Fn7578(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn7602 github.com/doitintl/googlesqlwasm2go/p10.Fn7602
+func Fn7602(m *base.Module, l0 int32)
 
-//go:linkname Fn7722 github.com/goccy/googlesqlwasm2go/p9.Fn7722
-func Fn7722(m *base.Module, l0 int32) int32
+//go:linkname Fn7603 github.com/doitintl/googlesqlwasm2go/p10.Fn7603
+func Fn7603(m *base.Module, l0 int32)
 
-//go:linkname Fn7744 github.com/goccy/googlesqlwasm2go/p10.Fn7744
-func Fn7744(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn7605 github.com/doitintl/googlesqlwasm2go/p10.Fn7605
+func Fn7605(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn7802 github.com/goccy/googlesqlwasm2go/p9.Fn7802
-func Fn7802(m *base.Module, l0 int32) int32
+//go:linkname Fn7608 github.com/doitintl/googlesqlwasm2go/p10.Fn7608
+func Fn7608(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn7883 github.com/goccy/googlesqlwasm2go/p10.Fn7883
-func Fn7883(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn7610 github.com/doitintl/googlesqlwasm2go/p10.Fn7610
+func Fn7610(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn7894 github.com/goccy/googlesqlwasm2go/p10.Fn7894
-func Fn7894(m *base.Module, l0 int32) int32
+//go:linkname Fn7612 github.com/doitintl/googlesqlwasm2go/p10.Fn7612
+func Fn7612(m *base.Module, l0 int32)
 
-//go:linkname Fn7933 github.com/goccy/googlesqlwasm2go/p8.Fn7933
-func Fn7933(m *base.Module, l0 int32)
+//go:linkname Fn7618 github.com/doitintl/googlesqlwasm2go/p10.Fn7618
+func Fn7618(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn8044 github.com/goccy/googlesqlwasm2go/p9.Fn8044
-func Fn8044(m *base.Module, l0 int32) int32
+//go:linkname Fn7626 github.com/doitintl/googlesqlwasm2go/p8.Fn7626
+func Fn7626(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn8141 github.com/goccy/googlesqlwasm2go/p9.Fn8141
-func Fn8141(m *base.Module, l0 int32) int32
+//go:linkname Fn7627 github.com/doitintl/googlesqlwasm2go/p9.Fn7627
+func Fn7627(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn8203 github.com/goccy/googlesqlwasm2go/p9.Fn8203
-func Fn8203(m *base.Module, l0 int32) int32
+//go:linkname Fn7653 github.com/doitintl/googlesqlwasm2go/p10.Fn7653
+func Fn7653(m *base.Module, l0 int32) int32
 
-//go:linkname Fn8241 github.com/goccy/googlesqlwasm2go/p10.Fn8241
-func Fn8241(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn7762 github.com/doitintl/googlesqlwasm2go/p9.Fn7762
+func Fn7762(m *base.Module, l0 int32) int32
 
-//go:linkname Fn8280 github.com/goccy/googlesqlwasm2go/p9.Fn8280
-func Fn8280(m *base.Module, l0 int32) int32
+//go:linkname Fn7784 github.com/doitintl/googlesqlwasm2go/p10.Fn7784
+func Fn7784(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn8282 github.com/goccy/googlesqlwasm2go/p9.Fn8282
-func Fn8282(m *base.Module, l0 int32) int32
+//go:linkname Fn7842 github.com/doitintl/googlesqlwasm2go/p9.Fn7842
+func Fn7842(m *base.Module, l0 int32) int32
 
-//go:linkname Fn8306 github.com/goccy/googlesqlwasm2go/p9.Fn8306
-func Fn8306(m *base.Module, l0 int32) int32
+//go:linkname Fn7923 github.com/doitintl/googlesqlwasm2go/p10.Fn7923
+func Fn7923(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn8308 github.com/goccy/googlesqlwasm2go/p9.Fn8308
-func Fn8308(m *base.Module, l0 int32) int32
+//go:linkname Fn7934 github.com/doitintl/googlesqlwasm2go/p10.Fn7934
+func Fn7934(m *base.Module, l0 int32) int32
 
-//go:linkname Fn8347 github.com/goccy/googlesqlwasm2go/p10.Fn8347
-func Fn8347(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn7973 github.com/doitintl/googlesqlwasm2go/p8.Fn7973
+func Fn7973(m *base.Module, l0 int32)
 
-//go:linkname Fn8351 github.com/goccy/googlesqlwasm2go/p10.Fn8351
-func Fn8351(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn8084 github.com/doitintl/googlesqlwasm2go/p9.Fn8084
+func Fn8084(m *base.Module, l0 int32) int32
 
-//go:linkname Fn8439 github.com/goccy/googlesqlwasm2go/p10.Fn8439
-func Fn8439(m *base.Module, l0 int32)
+//go:linkname Fn8140 github.com/doitintl/googlesqlwasm2go/p9.Fn8140
+func Fn8140(m *base.Module, l0 int32) int32
 
-//go:linkname Fn8444 github.com/goccy/googlesqlwasm2go/p10.Fn8444
-func Fn8444(m *base.Module, l0 int32)
+//go:linkname Fn8181 github.com/doitintl/googlesqlwasm2go/p9.Fn8181
+func Fn8181(m *base.Module, l0 int32) int32
 
-//go:linkname Fn8470 github.com/goccy/googlesqlwasm2go/p10.Fn8470
-func Fn8470(m *base.Module, l0 int32)
+//go:linkname Fn8221 github.com/doitintl/googlesqlwasm2go/p9.Fn8221
+func Fn8221(m *base.Module, l0 int32) int32
 
-//go:linkname Fn8476 github.com/goccy/googlesqlwasm2go/p10.Fn8476
-func Fn8476(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn8243 github.com/doitintl/googlesqlwasm2go/p9.Fn8243
+func Fn8243(m *base.Module, l0 int32) int32
 
-//go:linkname Fn8477 github.com/goccy/googlesqlwasm2go/p10.Fn8477
-func Fn8477(m *base.Module, l0 int32)
+//go:linkname Fn8281 github.com/doitintl/googlesqlwasm2go/p10.Fn8281
+func Fn8281(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn8621 github.com/goccy/googlesqlwasm2go/p10.Fn8621
-func Fn8621(m *base.Module, l0 int32)
+//go:linkname Fn8320 github.com/doitintl/googlesqlwasm2go/p10.Fn8320
+func Fn8320(m *base.Module, l0 int32) int32
 
-//go:linkname Fn8655 github.com/goccy/googlesqlwasm2go/p10.Fn8655
-func Fn8655(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn8322 github.com/doitintl/googlesqlwasm2go/p9.Fn8322
+func Fn8322(m *base.Module, l0 int32) int32
 
-//go:linkname Fn8656 github.com/goccy/googlesqlwasm2go/p10.Fn8656
-func Fn8656(m *base.Module, l0 int32)
+//go:linkname Fn8346 github.com/doitintl/googlesqlwasm2go/p9.Fn8346
+func Fn8346(m *base.Module, l0 int32) int32
 
-//go:linkname Fn8661 github.com/goccy/googlesqlwasm2go/p10.Fn8661
-func Fn8661(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn8348 github.com/doitintl/googlesqlwasm2go/p10.Fn8348
+func Fn8348(m *base.Module, l0 int32) int32
 
-//go:linkname Fn8802 github.com/goccy/googlesqlwasm2go/p10.Fn8802
-func Fn8802(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn8387 github.com/doitintl/googlesqlwasm2go/p10.Fn8387
+func Fn8387(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn8856 github.com/goccy/googlesqlwasm2go/p10.Fn8856
-func Fn8856(m *base.Module, l0 int32)
+//go:linkname Fn8391 github.com/doitintl/googlesqlwasm2go/p10.Fn8391
+func Fn8391(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn8859 github.com/goccy/googlesqlwasm2go/p10.Fn8859
-func Fn8859(m *base.Module, l0 int32)
+//go:linkname Fn8510 github.com/doitintl/googlesqlwasm2go/p10.Fn8510
+func Fn8510(m *base.Module, l0 int32)
 
-//go:linkname Fn8886 github.com/goccy/googlesqlwasm2go/p10.Fn8886
-func Fn8886(m *base.Module, l0 int32)
+//go:linkname Fn8516 github.com/doitintl/googlesqlwasm2go/p10.Fn8516
+func Fn8516(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn8887 github.com/goccy/googlesqlwasm2go/p9.Fn8887
-func Fn8887(m *base.Module, l0 int32)
+//go:linkname Fn8517 github.com/doitintl/googlesqlwasm2go/p10.Fn8517
+func Fn8517(m *base.Module, l0 int32)
 
-//go:linkname Fn8889 github.com/goccy/googlesqlwasm2go/p10.Fn8889
-func Fn8889(m *base.Module, l0 int32)
+//go:linkname Fn8695 github.com/doitintl/googlesqlwasm2go/p10.Fn8695
+func Fn8695(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn8893 github.com/goccy/googlesqlwasm2go/p10.Fn8893
-func Fn8893(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn8696 github.com/doitintl/googlesqlwasm2go/p10.Fn8696
+func Fn8696(m *base.Module, l0 int32)
 
-//go:linkname Fn8952 github.com/goccy/googlesqlwasm2go/p10.Fn8952
-func Fn8952(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn8701 github.com/doitintl/googlesqlwasm2go/p10.Fn8701
+func Fn8701(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn8954 github.com/goccy/googlesqlwasm2go/p10.Fn8954
-func Fn8954(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn8842 github.com/doitintl/googlesqlwasm2go/p10.Fn8842
+func Fn8842(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn8958 github.com/goccy/googlesqlwasm2go/p10.Fn8958
-func Fn8958(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn8896 github.com/doitintl/googlesqlwasm2go/p10.Fn8896
+func Fn8896(m *base.Module, l0 int32)
 
-//go:linkname Fn9076 github.com/goccy/googlesqlwasm2go/p10.Fn9076
-func Fn9076(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn8926 github.com/doitintl/googlesqlwasm2go/p10.Fn8926
+func Fn8926(m *base.Module, l0 int32)
 
-//go:linkname Fn9134 github.com/goccy/googlesqlwasm2go/p10.Fn9134
-func Fn9134(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn8927 github.com/doitintl/googlesqlwasm2go/p10.Fn8927
+func Fn8927(m *base.Module, l0 int32)
 
-//go:linkname Fn9189 github.com/goccy/googlesqlwasm2go/p10.Fn9189
-func Fn9189(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn8929 github.com/doitintl/googlesqlwasm2go/p10.Fn8929
+func Fn8929(m *base.Module, l0 int32)
 
-//go:linkname Fn9192 github.com/goccy/googlesqlwasm2go/p10.Fn9192
-func Fn9192(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn8933 github.com/doitintl/googlesqlwasm2go/p10.Fn8933
+func Fn8933(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn9344 github.com/goccy/googlesqlwasm2go/p10.Fn9344
-func Fn9344(m *base.Module, l0 int32)
+//go:linkname Fn8936 github.com/doitintl/googlesqlwasm2go/p8.Fn8936
+func Fn8936(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn9354 github.com/goccy/googlesqlwasm2go/p9.Fn9354
-func Fn9354(m *base.Module, l0 int32) int32
+//go:linkname Fn8937 github.com/doitintl/googlesqlwasm2go/p9.Fn8937
+func Fn8937(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn9366 github.com/goccy/googlesqlwasm2go/p10.Fn9366
-func Fn9366(m *base.Module, l0 int32)
+//go:linkname Fn8992 github.com/doitintl/googlesqlwasm2go/p10.Fn8992
+func Fn8992(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn9370 github.com/goccy/googlesqlwasm2go/p10.Fn9370
-func Fn9370(m *base.Module, l0 int32)
+//go:linkname Fn8994 github.com/doitintl/googlesqlwasm2go/p10.Fn8994
+func Fn8994(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn9371 github.com/goccy/googlesqlwasm2go/p9.Fn9371
-func Fn9371(m *base.Module, l0 int32)
+//go:linkname Fn8998 github.com/doitintl/googlesqlwasm2go/p10.Fn8998
+func Fn8998(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn9441 github.com/goccy/googlesqlwasm2go/p9.Fn9441
-func Fn9441(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn9116 github.com/doitintl/googlesqlwasm2go/p10.Fn9116
+func Fn9116(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn9442 github.com/goccy/googlesqlwasm2go/p9.Fn9442
-func Fn9442(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn9174 github.com/doitintl/googlesqlwasm2go/p10.Fn9174
+func Fn9174(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn9443 github.com/goccy/googlesqlwasm2go/p9.Fn9443
-func Fn9443(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn9229 github.com/doitintl/googlesqlwasm2go/p10.Fn9229
+func Fn9229(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn9444 github.com/goccy/googlesqlwasm2go/p9.Fn9444
-func Fn9444(m *base.Module, l0 int32) int32
+//go:linkname Fn9232 github.com/doitintl/googlesqlwasm2go/p10.Fn9232
+func Fn9232(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn9454 github.com/goccy/googlesqlwasm2go/p10.Fn9454
-func Fn9454(m *base.Module, l0 int32)
+//go:linkname Fn9384 github.com/doitintl/googlesqlwasm2go/p10.Fn9384
+func Fn9384(m *base.Module, l0 int32)
 
-//go:linkname Fn9867 github.com/goccy/googlesqlwasm2go/p10.Fn9867
-func Fn9867(m *base.Module, l0 int32)
+//go:linkname Fn9394 github.com/doitintl/googlesqlwasm2go/p10.Fn9394
+func Fn9394(m *base.Module, l0 int32) int32
 
-//go:linkname Fn9868 github.com/goccy/googlesqlwasm2go/p9.Fn9868
-func Fn9868(m *base.Module, l0 int32)
+//go:linkname Fn9406 github.com/doitintl/googlesqlwasm2go/p10.Fn9406
+func Fn9406(m *base.Module, l0 int32)
 
-//go:linkname Fn9900 github.com/goccy/googlesqlwasm2go/p9.Fn9900
-func Fn9900(m *base.Module, l0 int32) int32
+//go:linkname Fn9410 github.com/doitintl/googlesqlwasm2go/p10.Fn9410
+func Fn9410(m *base.Module, l0 int32)
 
-//go:linkname Fn10018 github.com/goccy/googlesqlwasm2go/p10.Fn10018
-func Fn10018(m *base.Module, l0 int32)
+//go:linkname Fn9411 github.com/doitintl/googlesqlwasm2go/p10.Fn9411
+func Fn9411(m *base.Module, l0 int32)
 
-//go:linkname Fn10347 github.com/goccy/googlesqlwasm2go/p10.Fn10347
-func Fn10347(m *base.Module, l0 int32)
+//go:linkname Fn9481 github.com/doitintl/googlesqlwasm2go/p9.Fn9481
+func Fn9481(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn10371 github.com/goccy/googlesqlwasm2go/p10.Fn10371
-func Fn10371(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn9482 github.com/doitintl/googlesqlwasm2go/p9.Fn9482
+func Fn9482(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn10372 github.com/goccy/googlesqlwasm2go/p10.Fn10372
-func Fn10372(m *base.Module, l0 int32)
+//go:linkname Fn9483 github.com/doitintl/googlesqlwasm2go/p9.Fn9483
+func Fn9483(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn10375 github.com/goccy/googlesqlwasm2go/p10.Fn10375
-func Fn10375(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn9484 github.com/doitintl/googlesqlwasm2go/p10.Fn9484
+func Fn9484(m *base.Module, l0 int32) int32
 
-//go:linkname Fn10382 github.com/goccy/googlesqlwasm2go/p10.Fn10382
-func Fn10382(m *base.Module, l0 int32) int32
+//go:linkname Fn9494 github.com/doitintl/googlesqlwasm2go/p10.Fn9494
+func Fn9494(m *base.Module, l0 int32)
 
-//go:linkname Fn10442 github.com/goccy/googlesqlwasm2go/p9.Fn10442
-func Fn10442(m *base.Module, l0 int32) int32
+//go:linkname Fn9735 github.com/doitintl/googlesqlwasm2go/p9.Fn9735
+func Fn9735(m *base.Module, l0 int32) int32
 
-//go:linkname Fn10883 github.com/goccy/googlesqlwasm2go/p10.Fn10883
-func Fn10883(m *base.Module, l0 int32)
+//go:linkname Fn9907 github.com/doitintl/googlesqlwasm2go/p10.Fn9907
+func Fn9907(m *base.Module, l0 int32)
 
-//go:linkname Fn10910 github.com/goccy/googlesqlwasm2go/p10.Fn10910
-func Fn10910(m *base.Module, l0 int32)
+//go:linkname Fn9908 github.com/doitintl/googlesqlwasm2go/p10.Fn9908
+func Fn9908(m *base.Module, l0 int32)
 
-//go:linkname Fn11104 github.com/goccy/googlesqlwasm2go/p10.Fn11104
-func Fn11104(m *base.Module, l0 int32)
+//go:linkname Fn9940 github.com/doitintl/googlesqlwasm2go/p10.Fn9940
+func Fn9940(m *base.Module, l0 int32) int32
 
-//go:linkname Fn11383 github.com/goccy/googlesqlwasm2go/p10.Fn11383
-func Fn11383(m *base.Module, l0 int32)
+//go:linkname Fn10058 github.com/doitintl/googlesqlwasm2go/p10.Fn10058
+func Fn10058(m *base.Module, l0 int32)
 
-//go:linkname Fn11395 github.com/goccy/googlesqlwasm2go/p10.Fn11395
-func Fn11395(m *base.Module, l0 int32)
+//go:linkname Fn10083 github.com/doitintl/googlesqlwasm2go/p10.Fn10083
+func Fn10083(m *base.Module, l0 int32) int32
 
-//go:linkname Fn11675 github.com/goccy/googlesqlwasm2go/p10.Fn11675
-func Fn11675(m *base.Module, l0 int32)
+//go:linkname Fn10411 github.com/doitintl/googlesqlwasm2go/p10.Fn10411
+func Fn10411(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn11701 github.com/goccy/googlesqlwasm2go/p10.Fn11701
-func Fn11701(m *base.Module, l0 int32)
+//go:linkname Fn10412 github.com/doitintl/googlesqlwasm2go/p10.Fn10412
+func Fn10412(m *base.Module, l0 int32)
 
-//go:linkname Fn11735 github.com/goccy/googlesqlwasm2go/p10.Fn11735
-func Fn11735(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn10415 github.com/doitintl/googlesqlwasm2go/p10.Fn10415
+func Fn10415(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn11743 github.com/goccy/googlesqlwasm2go/p10.Fn11743
-func Fn11743(m *base.Module, l0 int32)
+//go:linkname Fn10422 github.com/doitintl/googlesqlwasm2go/p10.Fn10422
+func Fn10422(m *base.Module, l0 int32) int32
 
-//go:linkname Fn11950 github.com/goccy/googlesqlwasm2go/p10.Fn11950
-func Fn11950(m *base.Module, l0 int32)
+//go:linkname Fn10482 github.com/doitintl/googlesqlwasm2go/p9.Fn10482
+func Fn10482(m *base.Module, l0 int32) int32
 
-//go:linkname Fn11958 github.com/goccy/googlesqlwasm2go/p10.Fn11958
-func Fn11958(m *base.Module, l0 int32)
+//go:linkname Fn10950 github.com/doitintl/googlesqlwasm2go/p10.Fn10950
+func Fn10950(m *base.Module, l0 int32)
 
-//go:linkname Fn12084 github.com/goccy/googlesqlwasm2go/p10.Fn12084
-func Fn12084(m *base.Module, l0 int32)
+//go:linkname Fn11143 github.com/doitintl/googlesqlwasm2go/p10.Fn11143
+func Fn11143(m *base.Module, l0 int32)
 
-//go:linkname Fn12117 github.com/goccy/googlesqlwasm2go/p10.Fn12117
-func Fn12117(m *base.Module, l0 int32)
+//go:linkname Fn11434 github.com/doitintl/googlesqlwasm2go/p10.Fn11434
+func Fn11434(m *base.Module, l0 int32)
 
-//go:linkname Fn12212 github.com/goccy/googlesqlwasm2go/p10.Fn12212
-func Fn12212(m *base.Module, l0 int32)
+//go:linkname Fn11714 github.com/doitintl/googlesqlwasm2go/p10.Fn11714
+func Fn11714(m *base.Module, l0 int32)
 
-//go:linkname Fn12223 github.com/goccy/googlesqlwasm2go/p10.Fn12223
-func Fn12223(m *base.Module, l0 int32)
+//go:linkname Fn11723 github.com/doitintl/googlesqlwasm2go/p10.Fn11723
+func Fn11723(m *base.Module, l0 int32) int32
 
-//go:linkname Fn12282 github.com/goccy/googlesqlwasm2go/p5.Fn12282
-func Fn12282(m *base.Module, l0 int32)
+//go:linkname Fn11774 github.com/doitintl/googlesqlwasm2go/p10.Fn11774
+func Fn11774(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn12297 github.com/goccy/googlesqlwasm2go/p5.Fn12297
-func Fn12297(m *base.Module, l0 int32)
+//go:linkname Fn11782 github.com/doitintl/googlesqlwasm2go/p10.Fn11782
+func Fn11782(m *base.Module, l0 int32)
 
-//go:linkname Fn12298 github.com/goccy/googlesqlwasm2go/p5.Fn12298
-func Fn12298(m *base.Module, l0 int32)
+//go:linkname Fn11989 github.com/doitintl/googlesqlwasm2go/p10.Fn11989
+func Fn11989(m *base.Module, l0 int32)
 
-//go:linkname Fn12577 github.com/goccy/googlesqlwasm2go/p9.Fn12577
-func Fn12577(m *base.Module, l0 int32) int32
+//go:linkname Fn11997 github.com/doitintl/googlesqlwasm2go/p10.Fn11997
+func Fn11997(m *base.Module, l0 int32)
 
-//go:linkname Fn12599 github.com/goccy/googlesqlwasm2go/p9.Fn12599
-func Fn12599(m *base.Module, l0 int32) int32
+//go:linkname Fn12156 github.com/doitintl/googlesqlwasm2go/p10.Fn12156
+func Fn12156(m *base.Module, l0 int32)
 
-//go:linkname Fn12610 github.com/goccy/googlesqlwasm2go/p10.Fn12610
-func Fn12610(m *base.Module, l0 int32)
+//go:linkname Fn12262 github.com/doitintl/googlesqlwasm2go/p10.Fn12262
+func Fn12262(m *base.Module, l0 int32)
 
-//go:linkname Fn12614 github.com/goccy/googlesqlwasm2go/p10.Fn12614
-func Fn12614(m *base.Module, l0 int32)
+//go:linkname Fn12321 github.com/doitintl/googlesqlwasm2go/p5.Fn12321
+func Fn12321(m *base.Module, l0 int32)
 
-//go:linkname Fn12615 github.com/goccy/googlesqlwasm2go/p9.Fn12615
-func Fn12615(m *base.Module, l0 int32)
+//go:linkname Fn12336 github.com/doitintl/googlesqlwasm2go/p5.Fn12336
+func Fn12336(m *base.Module, l0 int32)
 
-//go:linkname Fn12659 github.com/goccy/googlesqlwasm2go/p10.Fn12659
-func Fn12659(m *base.Module, l0 int32)
+//go:linkname Fn12337 github.com/doitintl/googlesqlwasm2go/p5.Fn12337
+func Fn12337(m *base.Module, l0 int32)
 
-//go:linkname Fn12663 github.com/goccy/googlesqlwasm2go/p10.Fn12663
-func Fn12663(m *base.Module, l0 int32)
+//go:linkname Fn12616 github.com/doitintl/googlesqlwasm2go/p10.Fn12616
+func Fn12616(m *base.Module, l0 int32) int32
 
-//go:linkname Fn12684 github.com/goccy/googlesqlwasm2go/p5.Fn12684
-func Fn12684(m *base.Module, l0 int32)
+//go:linkname Fn12638 github.com/doitintl/googlesqlwasm2go/p10.Fn12638
+func Fn12638(m *base.Module, l0 int32) int32
 
-//go:linkname Fn12694 github.com/goccy/googlesqlwasm2go/p9.Fn12694
-func Fn12694(m *base.Module, l0 int32) int32
+//go:linkname Fn12649 github.com/doitintl/googlesqlwasm2go/p10.Fn12649
+func Fn12649(m *base.Module, l0 int32)
 
-//go:linkname Fn12830 github.com/goccy/googlesqlwasm2go/p10.Fn12830
-func Fn12830(m *base.Module, l0 int32)
+//go:linkname Fn12653 github.com/doitintl/googlesqlwasm2go/p10.Fn12653
+func Fn12653(m *base.Module, l0 int32)
 
-//go:linkname Fn12834 github.com/goccy/googlesqlwasm2go/p10.Fn12834
-func Fn12834(m *base.Module, l0 int32)
+//go:linkname Fn12654 github.com/doitintl/googlesqlwasm2go/p10.Fn12654
+func Fn12654(m *base.Module, l0 int32)
 
-//go:linkname Fn12937 github.com/goccy/googlesqlwasm2go/p10.Fn12937
-func Fn12937(m *base.Module, l0 int32)
+//go:linkname Fn12702 github.com/doitintl/googlesqlwasm2go/p10.Fn12702
+func Fn12702(m *base.Module, l0 int32)
 
-//go:linkname Fn13036 github.com/goccy/googlesqlwasm2go/p10.Fn13036
-func Fn13036(m *base.Module, l0 int32)
+//go:linkname Fn12723 github.com/doitintl/googlesqlwasm2go/p5.Fn12723
+func Fn12723(m *base.Module, l0 int32)
 
-//go:linkname Fn13040 github.com/goccy/googlesqlwasm2go/p10.Fn13040
-func Fn13040(m *base.Module, l0 int32)
+//go:linkname Fn12733 github.com/doitintl/googlesqlwasm2go/p10.Fn12733
+func Fn12733(m *base.Module, l0 int32) int32
 
-//go:linkname Fn13198 github.com/goccy/googlesqlwasm2go/p10.Fn13198
-func Fn13198(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn12873 github.com/doitintl/googlesqlwasm2go/p10.Fn12873
+func Fn12873(m *base.Module, l0 int32)
 
-//go:linkname Fn13284 github.com/goccy/googlesqlwasm2go/p10.Fn13284
-func Fn13284(m *base.Module, l0 int32)
+//go:linkname Fn12976 github.com/doitintl/googlesqlwasm2go/p10.Fn12976
+func Fn12976(m *base.Module, l0 int32)
 
-//go:linkname Fn13335 github.com/goccy/googlesqlwasm2go/p10.Fn13335
-func Fn13335(m *base.Module, l0 int32)
+//go:linkname Fn13075 github.com/doitintl/googlesqlwasm2go/p10.Fn13075
+func Fn13075(m *base.Module, l0 int32)
 
-//go:linkname Fn13732 github.com/goccy/googlesqlwasm2go/p10.Fn13732
-func Fn13732(m *base.Module, l0 int32)
+//go:linkname Fn13079 github.com/doitintl/googlesqlwasm2go/p10.Fn13079
+func Fn13079(m *base.Module, l0 int32)
 
-//go:linkname Fn13855 github.com/goccy/googlesqlwasm2go/p10.Fn13855
-func Fn13855(m *base.Module, l0 int32)
+//go:linkname Fn13237 github.com/doitintl/googlesqlwasm2go/p10.Fn13237
+func Fn13237(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn13858 github.com/goccy/googlesqlwasm2go/p5.Fn13858
-func Fn13858(m *base.Module, l0 int32)
+//go:linkname Fn13323 github.com/doitintl/googlesqlwasm2go/p10.Fn13323
+func Fn13323(m *base.Module, l0 int32)
 
-//go:linkname Fn13862 github.com/goccy/googlesqlwasm2go/p5.Fn13862
-func Fn13862(m *base.Module, l0 int32)
+//go:linkname Fn13374 github.com/doitintl/googlesqlwasm2go/p10.Fn13374
+func Fn13374(m *base.Module, l0 int32)
 
-//go:linkname Fn13865 github.com/goccy/googlesqlwasm2go/p5.Fn13865
-func Fn13865(m *base.Module, l0 int32)
+//go:linkname Fn13413 github.com/doitintl/googlesqlwasm2go/p10.Fn13413
+func Fn13413(m *base.Module, l0 int32) int32
 
-//go:linkname Fn14254 github.com/goccy/googlesqlwasm2go/p9.Fn14254
-func Fn14254(m *base.Module) int32
+//go:linkname Fn13771 github.com/doitintl/googlesqlwasm2go/p10.Fn13771
+func Fn13771(m *base.Module, l0 int32)
 
-//go:linkname Fn14278 github.com/goccy/googlesqlwasm2go/p10.Fn14278
-func Fn14278(m *base.Module, l0 int32)
+//go:linkname Fn13894 github.com/doitintl/googlesqlwasm2go/p10.Fn13894
+func Fn13894(m *base.Module, l0 int32)
 
-//go:linkname Fn14292 github.com/goccy/googlesqlwasm2go/p9.Fn14292
-func Fn14292(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn13897 github.com/doitintl/googlesqlwasm2go/p5.Fn13897
+func Fn13897(m *base.Module, l0 int32)
 
-//go:linkname Fn14293 github.com/goccy/googlesqlwasm2go/p9.Fn14293
-func Fn14293(m *base.Module, l0 int32)
+//go:linkname Fn13901 github.com/doitintl/googlesqlwasm2go/p5.Fn13901
+func Fn13901(m *base.Module, l0 int32)
 
-//go:linkname Fn14475 github.com/goccy/googlesqlwasm2go/p10.Fn14475
-func Fn14475(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn13904 github.com/doitintl/googlesqlwasm2go/p5.Fn13904
+func Fn13904(m *base.Module, l0 int32)
 
-//go:linkname Fn14518 github.com/goccy/googlesqlwasm2go/p9.Fn14518
-func Fn14518(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn14293 github.com/doitintl/googlesqlwasm2go/p9.Fn14293
+func Fn14293(m *base.Module) int32
 
-//go:linkname Fn14519 github.com/goccy/googlesqlwasm2go/p9.Fn14519
-func Fn14519(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn14317 github.com/doitintl/googlesqlwasm2go/p10.Fn14317
+func Fn14317(m *base.Module, l0 int32)
 
-//go:linkname Fn14565 github.com/goccy/googlesqlwasm2go/p10.Fn14565
-func Fn14565(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn14331 github.com/doitintl/googlesqlwasm2go/p10.Fn14331
+func Fn14331(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn14609 github.com/goccy/googlesqlwasm2go/p9.Fn14609
-func Fn14609(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn14332 github.com/doitintl/googlesqlwasm2go/p10.Fn14332
+func Fn14332(m *base.Module, l0 int32)
 
-//go:linkname Fn14611 github.com/goccy/googlesqlwasm2go/p9.Fn14611
-func Fn14611(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn14514 github.com/doitintl/googlesqlwasm2go/p10.Fn14514
+func Fn14514(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn14614 github.com/goccy/googlesqlwasm2go/p10.Fn14614
-func Fn14614(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn14557 github.com/doitintl/googlesqlwasm2go/p10.Fn14557
+func Fn14557(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn14702 github.com/goccy/googlesqlwasm2go/p9.Fn14702
-func Fn14702(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn14558 github.com/doitintl/googlesqlwasm2go/p10.Fn14558
+func Fn14558(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn14707 github.com/goccy/googlesqlwasm2go/p10.Fn14707
-func Fn14707(m *base.Module, l0 int32, l1 float64)
+//go:linkname Fn14604 github.com/doitintl/googlesqlwasm2go/p10.Fn14604
+func Fn14604(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn14742 github.com/goccy/googlesqlwasm2go/p10.Fn14742
-func Fn14742(m *base.Module, l0 int32) int32
+//go:linkname Fn14648 github.com/doitintl/googlesqlwasm2go/p9.Fn14648
+func Fn14648(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn14797 github.com/goccy/googlesqlwasm2go/p10.Fn14797
-func Fn14797(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn14650 github.com/doitintl/googlesqlwasm2go/p9.Fn14650
+func Fn14650(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn14801 github.com/goccy/googlesqlwasm2go/p9.Fn14801
-func Fn14801(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn14653 github.com/doitintl/googlesqlwasm2go/p10.Fn14653
+func Fn14653(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn14802 github.com/goccy/googlesqlwasm2go/p10.Fn14802
-func Fn14802(m *base.Module, l0 int32)
+//go:linkname Fn14741 github.com/doitintl/googlesqlwasm2go/p10.Fn14741
+func Fn14741(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn14823 github.com/goccy/googlesqlwasm2go/p10.Fn14823
-func Fn14823(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn14781 github.com/doitintl/googlesqlwasm2go/p10.Fn14781
+func Fn14781(m *base.Module, l0 int32) int32
 
-//go:linkname Fn14857 github.com/goccy/googlesqlwasm2go/p9.Fn14857
-func Fn14857(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn14836 github.com/doitintl/googlesqlwasm2go/p10.Fn14836
+func Fn14836(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn14929 github.com/goccy/googlesqlwasm2go/p6.Fn14929
-func Fn14929(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn14840 github.com/doitintl/googlesqlwasm2go/p9.Fn14840
+func Fn14840(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn14936 github.com/goccy/googlesqlwasm2go/p10.Fn14936
-func Fn14936(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn14841 github.com/doitintl/googlesqlwasm2go/p10.Fn14841
+func Fn14841(m *base.Module, l0 int32)
 
-//go:linkname Fn15023 github.com/goccy/googlesqlwasm2go/p10.Fn15023
-func Fn15023(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn14862 github.com/doitintl/googlesqlwasm2go/p10.Fn14862
+func Fn14862(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn15087 github.com/goccy/googlesqlwasm2go/p6.Fn15087
-func Fn15087(m *base.Module, l0 int32) int32
+//go:linkname Fn14896 github.com/doitintl/googlesqlwasm2go/p9.Fn14896
+func Fn14896(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15155 github.com/goccy/googlesqlwasm2go/p9.Fn15155
-func Fn15155(m *base.Module, l0 int32)
+//go:linkname Fn14975 github.com/doitintl/googlesqlwasm2go/p10.Fn14975
+func Fn14975(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15164 github.com/goccy/googlesqlwasm2go/p10.Fn15164
-func Fn15164(m *base.Module, l0 int32)
+//go:linkname Fn15062 github.com/doitintl/googlesqlwasm2go/p10.Fn15062
+func Fn15062(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn15181 github.com/goccy/googlesqlwasm2go/p10.Fn15181
-func Fn15181(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn15126 github.com/doitintl/googlesqlwasm2go/p6.Fn15126
+func Fn15126(m *base.Module, l0 int32) int32
 
-//go:linkname Fn15183 github.com/goccy/googlesqlwasm2go/p8.Fn15183
-func Fn15183(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn15165 github.com/doitintl/googlesqlwasm2go/p10.Fn15165
+func Fn15165(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn15318 github.com/goccy/googlesqlwasm2go/p9.Fn15318
-func Fn15318(m *base.Module, l0 int32) int32
+//go:linkname Fn15194 github.com/doitintl/googlesqlwasm2go/p9.Fn15194
+func Fn15194(m *base.Module, l0 int32)
 
-//go:linkname Fn15373 github.com/goccy/googlesqlwasm2go/p10.Fn15373
-func Fn15373(m *base.Module, l0 int32)
+//go:linkname Fn15203 github.com/doitintl/googlesqlwasm2go/p10.Fn15203
+func Fn15203(m *base.Module, l0 int32)
 
-//go:linkname Fn15374 github.com/goccy/googlesqlwasm2go/p10.Fn15374
-func Fn15374(m *base.Module, l0 int32) int32
+//go:linkname Fn15220 github.com/doitintl/googlesqlwasm2go/p10.Fn15220
+func Fn15220(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn15403 github.com/goccy/googlesqlwasm2go/p10.Fn15403
-func Fn15403(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn15222 github.com/doitintl/googlesqlwasm2go/p8.Fn15222
+func Fn15222(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn15427 github.com/goccy/googlesqlwasm2go/p9.Fn15427
-func Fn15427(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn15357 github.com/doitintl/googlesqlwasm2go/p9.Fn15357
+func Fn15357(m *base.Module, l0 int32) int32
 
-//go:linkname Fn15454 github.com/goccy/googlesqlwasm2go/p10.Fn15454
-func Fn15454(m *base.Module, l0 int32) int32
+//go:linkname Fn15412 github.com/doitintl/googlesqlwasm2go/p10.Fn15412
+func Fn15412(m *base.Module, l0 int32)
 
-//go:linkname Fn15469 github.com/goccy/googlesqlwasm2go/p10.Fn15469
-func Fn15469(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn15413 github.com/doitintl/googlesqlwasm2go/p10.Fn15413
+func Fn15413(m *base.Module, l0 int32) int32
 
-//go:linkname Fn15471 github.com/goccy/googlesqlwasm2go/p10.Fn15471
-func Fn15471(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn15442 github.com/doitintl/googlesqlwasm2go/p10.Fn15442
+func Fn15442(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn15476 github.com/goccy/googlesqlwasm2go/p10.Fn15476
-func Fn15476(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn15466 github.com/doitintl/googlesqlwasm2go/p10.Fn15466
+func Fn15466(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15480 github.com/goccy/googlesqlwasm2go/p10.Fn15480
-func Fn15480(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn15493 github.com/doitintl/googlesqlwasm2go/p10.Fn15493
+func Fn15493(m *base.Module, l0 int32) int32
 
-//go:linkname Fn15514 github.com/goccy/googlesqlwasm2go/p10.Fn15514
-func Fn15514(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn15508 github.com/doitintl/googlesqlwasm2go/p10.Fn15508
+func Fn15508(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15533 github.com/goccy/googlesqlwasm2go/p10.Fn15533
-func Fn15533(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn15510 github.com/doitintl/googlesqlwasm2go/p10.Fn15510
+func Fn15510(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15535 github.com/goccy/googlesqlwasm2go/p10.Fn15535
-func Fn15535(m *base.Module, l0 int32) int32
+//go:linkname Fn15515 github.com/doitintl/googlesqlwasm2go/p10.Fn15515
+func Fn15515(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15544 github.com/goccy/googlesqlwasm2go/p10.Fn15544
-func Fn15544(m *base.Module, l0 int32) int32
+//go:linkname Fn15519 github.com/doitintl/googlesqlwasm2go/p10.Fn15519
+func Fn15519(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15548 github.com/goccy/googlesqlwasm2go/p10.Fn15548
-func Fn15548(m *base.Module, l0 int32) int32
+//go:linkname Fn15538 github.com/doitintl/googlesqlwasm2go/p10.Fn15538
+func Fn15538(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15550 github.com/goccy/googlesqlwasm2go/p10.Fn15550
-func Fn15550(m *base.Module, l0 int32) int32
+//go:linkname Fn15553 github.com/doitintl/googlesqlwasm2go/p10.Fn15553
+func Fn15553(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn15552 github.com/goccy/googlesqlwasm2go/p10.Fn15552
-func Fn15552(m *base.Module, l0 int32) int64
+//go:linkname Fn15572 github.com/doitintl/googlesqlwasm2go/p10.Fn15572
+func Fn15572(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn15564 github.com/goccy/googlesqlwasm2go/p9.Fn15564
-func Fn15564(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn15574 github.com/doitintl/googlesqlwasm2go/p10.Fn15574
+func Fn15574(m *base.Module, l0 int32) int32
 
-//go:linkname Fn15565 github.com/goccy/googlesqlwasm2go/p10.Fn15565
-func Fn15565(m *base.Module)
+//go:linkname Fn15583 github.com/doitintl/googlesqlwasm2go/p10.Fn15583
+func Fn15583(m *base.Module, l0 int32) int32
 
-//go:linkname Fn15590 github.com/goccy/googlesqlwasm2go/p9.Fn15590
-func Fn15590(m *base.Module, l0 int32) int32
+//go:linkname Fn15589 github.com/doitintl/googlesqlwasm2go/p10.Fn15589
+func Fn15589(m *base.Module, l0 int32) int32
 
-//go:linkname Fn15623 github.com/goccy/googlesqlwasm2go/p9.Fn15623
-func Fn15623(m *base.Module, l0 int32)
+//go:linkname Fn15591 github.com/doitintl/googlesqlwasm2go/p10.Fn15591
+func Fn15591(m *base.Module, l0 int32) int64
 
-//go:linkname Fn15666 github.com/goccy/googlesqlwasm2go/p9.Fn15666
-func Fn15666(m *base.Module, l0 int32) int32
+//go:linkname Fn15597 github.com/doitintl/googlesqlwasm2go/p10.Fn15597
+func Fn15597(m *base.Module, l0 int32) int32
 
-//go:linkname Fn15681 github.com/goccy/googlesqlwasm2go/p9.Fn15681
-func Fn15681(m *base.Module, l0 int32) int32
+//go:linkname Fn15603 github.com/doitintl/googlesqlwasm2go/p10.Fn15603
+func Fn15603(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15727 github.com/goccy/googlesqlwasm2go/p10.Fn15727
-func Fn15727(m *base.Module, l0 int32, l1 float64)
+//go:linkname Fn15604 github.com/doitintl/googlesqlwasm2go/p10.Fn15604
+func Fn15604(m *base.Module)
 
-//go:linkname Fn15731 github.com/goccy/googlesqlwasm2go/p10.Fn15731
-func Fn15731(m *base.Module, l0 int32, l1 float32)
+//go:linkname Fn15619 github.com/doitintl/googlesqlwasm2go/p8.Fn15619
+func Fn15619(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15767 github.com/goccy/googlesqlwasm2go/p10.Fn15767
-func Fn15767(m *base.Module, l0 int32) int32
+//go:linkname Fn15629 github.com/doitintl/googlesqlwasm2go/p9.Fn15629
+func Fn15629(m *base.Module, l0 int32) int32
 
-//go:linkname Fn15825 github.com/goccy/googlesqlwasm2go/p9.Fn15825
-func Fn15825(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn15662 github.com/doitintl/googlesqlwasm2go/p10.Fn15662
+func Fn15662(m *base.Module, l0 int32)
 
-//go:linkname Fn15851 github.com/goccy/googlesqlwasm2go/p9.Fn15851
-func Fn15851(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn15705 github.com/doitintl/googlesqlwasm2go/p9.Fn15705
+func Fn15705(m *base.Module, l0 int32) int32
 
-//go:linkname Fn15852 github.com/goccy/googlesqlwasm2go/p6.Fn15852
-func Fn15852(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn15720 github.com/doitintl/googlesqlwasm2go/p9.Fn15720
+func Fn15720(m *base.Module, l0 int32) int32
 
-//go:linkname Fn15853 github.com/goccy/googlesqlwasm2go/p10.Fn15853
-func Fn15853(m *base.Module, l0 int32)
+//go:linkname Fn15806 github.com/doitintl/googlesqlwasm2go/p10.Fn15806
+func Fn15806(m *base.Module, l0 int32) int32
 
-//go:linkname Fn15874 github.com/goccy/googlesqlwasm2go/p10.Fn15874
-func Fn15874(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn15864 github.com/doitintl/googlesqlwasm2go/p10.Fn15864
+func Fn15864(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15888 github.com/goccy/googlesqlwasm2go/p10.Fn15888
-func Fn15888(m *base.Module)
+//go:linkname Fn15891 github.com/doitintl/googlesqlwasm2go/p6.Fn15891
+func Fn15891(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn15892 github.com/goccy/googlesqlwasm2go/p10.Fn15892
-func Fn15892(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn15892 github.com/doitintl/googlesqlwasm2go/p10.Fn15892
+func Fn15892(m *base.Module, l0 int32)
 
-//go:linkname Fn15897 github.com/goccy/googlesqlwasm2go/p9.Fn15897
-func Fn15897(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn15936 github.com/doitintl/googlesqlwasm2go/p10.Fn15936
+func Fn15936(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15898 github.com/goccy/googlesqlwasm2go/p10.Fn15898
-func Fn15898(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn15937 github.com/doitintl/googlesqlwasm2go/p10.Fn15937
+func Fn15937(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn15903 github.com/goccy/googlesqlwasm2go/p10.Fn15903
-func Fn15903(m *base.Module, l0 int32) int32
+//go:linkname Fn15953 github.com/doitintl/googlesqlwasm2go/p10.Fn15953
+func Fn15953(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15914 github.com/goccy/googlesqlwasm2go/p9.Fn15914
-func Fn15914(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn15955 github.com/doitintl/googlesqlwasm2go/p9.Fn15955
+func Fn15955(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15916 github.com/goccy/googlesqlwasm2go/p9.Fn15916
-func Fn15916(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn15962 github.com/doitintl/googlesqlwasm2go/p10.Fn15962
+func Fn15962(m *base.Module, l0 int32)
 
-//go:linkname Fn15923 github.com/goccy/googlesqlwasm2go/p9.Fn15923
-func Fn15923(m *base.Module, l0 int32)
+//go:linkname Fn15979 github.com/doitintl/googlesqlwasm2go/p10.Fn15979
+func Fn15979(m *base.Module, l0 int32)
 
-//go:linkname Fn15940 github.com/goccy/googlesqlwasm2go/p10.Fn15940
-func Fn15940(m *base.Module, l0 int32)
+//go:linkname Fn15986 github.com/doitintl/googlesqlwasm2go/p9.Fn15986
+func Fn15986(m *base.Module, l0 int32) int32
 
-//go:linkname Fn15947 github.com/goccy/googlesqlwasm2go/p10.Fn15947
-func Fn15947(m *base.Module, l0 int32) int32
+//go:linkname Fn15989 github.com/doitintl/googlesqlwasm2go/p6.Fn15989
+func Fn15989(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15950 github.com/goccy/googlesqlwasm2go/p5.Fn15950
-func Fn15950(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn15999 github.com/doitintl/googlesqlwasm2go/p10.Fn15999
+func Fn15999(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn15960 github.com/goccy/googlesqlwasm2go/p10.Fn15960
-func Fn15960(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn16001 github.com/doitintl/googlesqlwasm2go/p10.Fn16001
+func Fn16001(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15962 github.com/goccy/googlesqlwasm2go/p9.Fn15962
-func Fn15962(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn16002 github.com/doitintl/googlesqlwasm2go/p10.Fn16002
+func Fn16002(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn15963 github.com/goccy/googlesqlwasm2go/p10.Fn15963
-func Fn15963(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn16012 github.com/doitintl/googlesqlwasm2go/p10.Fn16012
+func Fn16012(m *base.Module, l0 int32)
 
-//go:linkname Fn15973 github.com/goccy/googlesqlwasm2go/p10.Fn15973
-func Fn15973(m *base.Module, l0 int32)
+//go:linkname Fn16017 github.com/doitintl/googlesqlwasm2go/p10.Fn16017
+func Fn16017(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn15978 github.com/goccy/googlesqlwasm2go/p10.Fn15978
-func Fn15978(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn16018 github.com/doitintl/googlesqlwasm2go/p9.Fn16018
+func Fn16018(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15993 github.com/goccy/googlesqlwasm2go/p9.Fn15993
-func Fn15993(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn16032 github.com/doitintl/googlesqlwasm2go/p9.Fn16032
+func Fn16032(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn15999 github.com/goccy/googlesqlwasm2go/p10.Fn15999
-func Fn15999(m *base.Module, l0 int32) int32
+//go:linkname Fn16035 github.com/doitintl/googlesqlwasm2go/p10.Fn16035
+func Fn16035(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn16001 github.com/goccy/googlesqlwasm2go/p10.Fn16001
-func Fn16001(m *base.Module, l0 int32) int32
+//go:linkname Fn16171 github.com/doitintl/googlesqlwasm2go/p10.Fn16171
+func Fn16171(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn16018 github.com/goccy/googlesqlwasm2go/p10.Fn16018
-func Fn16018(m *base.Module, l0 int32) int32
+//go:linkname Fn16172 github.com/doitintl/googlesqlwasm2go/p10.Fn16172
+func Fn16172(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn16132 github.com/goccy/googlesqlwasm2go/p10.Fn16132
-func Fn16132(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn16173 github.com/doitintl/googlesqlwasm2go/p9.Fn16173
+func Fn16173(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn16133 github.com/goccy/googlesqlwasm2go/p10.Fn16133
-func Fn16133(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn16175 github.com/doitintl/googlesqlwasm2go/p9.Fn16175
+func Fn16175(m *base.Module, l0 int32)
 
-//go:linkname Fn16134 github.com/goccy/googlesqlwasm2go/p9.Fn16134
-func Fn16134(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn16203 github.com/doitintl/googlesqlwasm2go/p10.Fn16203
+func Fn16203(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn16136 github.com/goccy/googlesqlwasm2go/p9.Fn16136
-func Fn16136(m *base.Module, l0 int32)
+//go:linkname Fn16212 github.com/doitintl/googlesqlwasm2go/p10.Fn16212
+func Fn16212(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn16162 github.com/goccy/googlesqlwasm2go/p10.Fn16162
-func Fn16162(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn16225 github.com/doitintl/googlesqlwasm2go/p10.Fn16225
+func Fn16225(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn16164 github.com/goccy/googlesqlwasm2go/p9.Fn16164
-func Fn16164(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn16247 github.com/doitintl/googlesqlwasm2go/p10.Fn16247
+func Fn16247(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn16173 github.com/goccy/googlesqlwasm2go/p10.Fn16173
-func Fn16173(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn16250 github.com/doitintl/googlesqlwasm2go/p10.Fn16250
+func Fn16250(m *base.Module, l0 int32)
 
-//go:linkname Fn16208 github.com/goccy/googlesqlwasm2go/p9.Fn16208
-func Fn16208(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn16252 github.com/doitintl/googlesqlwasm2go/p9.Fn16252
+func Fn16252(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn16211 github.com/goccy/googlesqlwasm2go/p9.Fn16211
-func Fn16211(m *base.Module, l0 int32)
+//go:linkname Fn16253 github.com/doitintl/googlesqlwasm2go/p10.Fn16253
+func Fn16253(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn16213 github.com/goccy/googlesqlwasm2go/p9.Fn16213
-func Fn16213(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn16254 github.com/doitintl/googlesqlwasm2go/p9.Fn16254
+func Fn16254(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn16214 github.com/goccy/googlesqlwasm2go/p10.Fn16214
-func Fn16214(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn16272 github.com/doitintl/googlesqlwasm2go/p6.Fn16272
+func Fn16272(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn16215 github.com/goccy/googlesqlwasm2go/p9.Fn16215
-func Fn16215(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn16273 github.com/doitintl/googlesqlwasm2go/p10.Fn16273
+func Fn16273(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn16233 github.com/goccy/googlesqlwasm2go/p6.Fn16233
-func Fn16233(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn16277 github.com/doitintl/googlesqlwasm2go/p10.Fn16277
+func Fn16277(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn16234 github.com/goccy/googlesqlwasm2go/p10.Fn16234
-func Fn16234(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn16238 github.com/goccy/googlesqlwasm2go/p10.Fn16238
-func Fn16238(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn16239 github.com/goccy/googlesqlwasm2go/p10.Fn16239
-func Fn16239(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn16264 github.com/goccy/googlesqlwasm2go/p10.Fn16264
-func Fn16264(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn16270 github.com/goccy/googlesqlwasm2go/p10.Fn16270
-func Fn16270(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn16271 github.com/goccy/googlesqlwasm2go/p9.Fn16271
-func Fn16271(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn16275 github.com/goccy/googlesqlwasm2go/p9.Fn16275
-func Fn16275(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn16277 github.com/goccy/googlesqlwasm2go/p9.Fn16277
-func Fn16277(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn16278 github.com/goccy/googlesqlwasm2go/p9.Fn16278
+//go:linkname Fn16278 github.com/doitintl/googlesqlwasm2go/p10.Fn16278
 func Fn16278(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn16279 github.com/goccy/googlesqlwasm2go/p10.Fn16279
-func Fn16279(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn16303 github.com/doitintl/googlesqlwasm2go/p10.Fn16303
+func Fn16303(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn16286 github.com/goccy/googlesqlwasm2go/p10.Fn16286
-func Fn16286(m *base.Module, l0 int32)
-
-//go:linkname Fn16290 github.com/goccy/googlesqlwasm2go/p9.Fn16290
-func Fn16290(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn16305 github.com/goccy/googlesqlwasm2go/p10.Fn16305
-func Fn16305(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn16309 github.com/goccy/googlesqlwasm2go/p10.Fn16309
+//go:linkname Fn16309 github.com/doitintl/googlesqlwasm2go/p10.Fn16309
 func Fn16309(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn16314 github.com/goccy/googlesqlwasm2go/p9.Fn16314
-func Fn16314(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn16310 github.com/doitintl/googlesqlwasm2go/p9.Fn16310
+func Fn16310(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn16333 github.com/goccy/googlesqlwasm2go/p10.Fn16333
-func Fn16333(m *base.Module, l0 int32)
+//go:linkname Fn16316 github.com/doitintl/googlesqlwasm2go/p9.Fn16316
+func Fn16316(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn16336 github.com/goccy/googlesqlwasm2go/p10.Fn16336
-func Fn16336(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn16317 github.com/doitintl/googlesqlwasm2go/p9.Fn16317
+func Fn16317(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn16337 github.com/goccy/googlesqlwasm2go/p9.Fn16337
-func Fn16337(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn16325 github.com/doitintl/googlesqlwasm2go/p10.Fn16325
+func Fn16325(m *base.Module, l0 int32)
 
-//go:linkname Fn16338 github.com/goccy/googlesqlwasm2go/p8.Fn16338
-func Fn16338(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn16344 github.com/doitintl/googlesqlwasm2go/p10.Fn16344
+func Fn16344(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn16339 github.com/goccy/googlesqlwasm2go/p9.Fn16339
-func Fn16339(m *base.Module, l0 int32)
+//go:linkname Fn16348 github.com/doitintl/googlesqlwasm2go/p10.Fn16348
+func Fn16348(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn16340 github.com/goccy/googlesqlwasm2go/p9.Fn16340
-func Fn16340(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn16375 github.com/doitintl/googlesqlwasm2go/p10.Fn16375
+func Fn16375(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn16341 github.com/goccy/googlesqlwasm2go/p10.Fn16341
-func Fn16341(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn16376 github.com/doitintl/googlesqlwasm2go/p9.Fn16376
+func Fn16376(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn16342 github.com/goccy/googlesqlwasm2go/p9.Fn16342
-func Fn16342(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn16377 github.com/doitintl/googlesqlwasm2go/p8.Fn16377
+func Fn16377(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn16343 github.com/goccy/googlesqlwasm2go/p8.Fn16343
-func Fn16343(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn16378 github.com/doitintl/googlesqlwasm2go/p9.Fn16378
+func Fn16378(m *base.Module, l0 int32)
 
-//go:linkname Fn16344 github.com/goccy/googlesqlwasm2go/p9.Fn16344
-func Fn16344(m *base.Module, l0 int32)
+//go:linkname Fn16379 github.com/doitintl/googlesqlwasm2go/p9.Fn16379
+func Fn16379(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn16346 github.com/goccy/googlesqlwasm2go/p9.Fn16346
-func Fn16346(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn16380 github.com/doitintl/googlesqlwasm2go/p10.Fn16380
+func Fn16380(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn16347 github.com/goccy/googlesqlwasm2go/p9.Fn16347
-func Fn16347(m *base.Module, l0 int32)
+//go:linkname Fn16381 github.com/doitintl/googlesqlwasm2go/p9.Fn16381
+func Fn16381(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn16349 github.com/goccy/googlesqlwasm2go/p8.Fn16349
-func Fn16349(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn16382 github.com/doitintl/googlesqlwasm2go/p8.Fn16382
+func Fn16382(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn16350 github.com/goccy/googlesqlwasm2go/p9.Fn16350
-func Fn16350(m *base.Module, l0 int32)
+//go:linkname Fn16383 github.com/doitintl/googlesqlwasm2go/p9.Fn16383
+func Fn16383(m *base.Module, l0 int32)
 
-//go:linkname Fn16359 github.com/goccy/googlesqlwasm2go/p9.Fn16359
-func Fn16359(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn16385 github.com/doitintl/googlesqlwasm2go/p9.Fn16385
+func Fn16385(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn16360 github.com/goccy/googlesqlwasm2go/p9.Fn16360
-func Fn16360(m *base.Module, l0 int32)
+//go:linkname Fn16386 github.com/doitintl/googlesqlwasm2go/p10.Fn16386
+func Fn16386(m *base.Module, l0 int32)
 
-//go:linkname Fn16364 github.com/goccy/googlesqlwasm2go/p10.Fn16364
-func Fn16364(m *base.Module, l0 int32) int32
+//go:linkname Fn16388 github.com/doitintl/googlesqlwasm2go/p8.Fn16388
+func Fn16388(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn16366 github.com/goccy/googlesqlwasm2go/p10.Fn16366
-func Fn16366(m *base.Module, l0 int32) int32
+//go:linkname Fn16389 github.com/doitintl/googlesqlwasm2go/p9.Fn16389
+func Fn16389(m *base.Module, l0 int32)
 
-//go:linkname Fn16369 github.com/goccy/googlesqlwasm2go/p8.Fn16369
-func Fn16369(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn16398 github.com/doitintl/googlesqlwasm2go/p9.Fn16398
+func Fn16398(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn16370 github.com/goccy/googlesqlwasm2go/p9.Fn16370
-func Fn16370(m *base.Module, l0 int32)
+//go:linkname Fn16399 github.com/doitintl/googlesqlwasm2go/p9.Fn16399
+func Fn16399(m *base.Module, l0 int32)
 
-//go:linkname Fn16378 github.com/goccy/googlesqlwasm2go/p9.Fn16378
-func Fn16378(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn16408 github.com/doitintl/googlesqlwasm2go/p8.Fn16408
+func Fn16408(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn16379 github.com/goccy/googlesqlwasm2go/p9.Fn16379
-func Fn16379(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn16409 github.com/doitintl/googlesqlwasm2go/p9.Fn16409
+func Fn16409(m *base.Module, l0 int32)
 
-//go:linkname Fn16428 github.com/goccy/googlesqlwasm2go/p9.Fn16428
-func Fn16428(m *base.Module, l0 int32) int32
+//go:linkname Fn16417 github.com/doitintl/googlesqlwasm2go/p9.Fn16417
+func Fn16417(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn16438 github.com/goccy/googlesqlwasm2go/p10.Fn16438
-func Fn16438(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn16418 github.com/doitintl/googlesqlwasm2go/p9.Fn16418
+func Fn16418(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn16965 github.com/goccy/googlesqlwasm2go/p9.Fn16965
-func Fn16965(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn16477 github.com/doitintl/googlesqlwasm2go/p10.Fn16477
+func Fn16477(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn16966 github.com/goccy/googlesqlwasm2go/p9.Fn16966
-func Fn16966(m *base.Module, l0 int32) int32
+//go:linkname Fn17004 github.com/doitintl/googlesqlwasm2go/p9.Fn17004
+func Fn17004(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn16979 github.com/goccy/googlesqlwasm2go/p10.Fn16979
-func Fn16979(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn17005 github.com/doitintl/googlesqlwasm2go/p10.Fn17005
+func Fn17005(m *base.Module, l0 int32) int32
 
-//go:linkname Fn16984 github.com/goccy/googlesqlwasm2go/p9.Fn16984
-func Fn16984(m *base.Module, l0 int32)
+//go:linkname Fn17018 github.com/doitintl/googlesqlwasm2go/p10.Fn17018
+func Fn17018(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn16987 github.com/goccy/googlesqlwasm2go/p9.Fn16987
-func Fn16987(m *base.Module, l0 int32)
+//go:linkname Fn17023 github.com/doitintl/googlesqlwasm2go/p9.Fn17023
+func Fn17023(m *base.Module, l0 int32)
 
-//go:linkname Fn16988 github.com/goccy/googlesqlwasm2go/p10.Fn16988
-func Fn16988(m *base.Module, l0 int32)
+//go:linkname Fn17026 github.com/doitintl/googlesqlwasm2go/p9.Fn17026
+func Fn17026(m *base.Module, l0 int32)
 
-//go:linkname Fn16990 github.com/goccy/googlesqlwasm2go/p9.Fn16990
-func Fn16990(m *base.Module, l0 int32)
+//go:linkname Fn17027 github.com/doitintl/googlesqlwasm2go/p10.Fn17027
+func Fn17027(m *base.Module, l0 int32)
 
-//go:linkname Fn16992 github.com/goccy/googlesqlwasm2go/p9.Fn16992
-func Fn16992(m *base.Module, l0 int32)
+//go:linkname Fn17029 github.com/doitintl/googlesqlwasm2go/p9.Fn17029
+func Fn17029(m *base.Module, l0 int32)
 
-//go:linkname Fn16993 github.com/goccy/googlesqlwasm2go/p10.Fn16993
-func Fn16993(m *base.Module, l0 int32)
+//go:linkname Fn17031 github.com/doitintl/googlesqlwasm2go/p9.Fn17031
+func Fn17031(m *base.Module, l0 int32)
 
-//go:linkname Fn17000 github.com/goccy/googlesqlwasm2go/p9.Fn17000
-func Fn17000(m *base.Module, l0 int32)
+//go:linkname Fn17032 github.com/doitintl/googlesqlwasm2go/p10.Fn17032
+func Fn17032(m *base.Module, l0 int32)
 
-//go:linkname Fn17001 github.com/goccy/googlesqlwasm2go/p9.Fn17001
-func Fn17001(m *base.Module, l0 int32)
+//go:linkname Fn17039 github.com/doitintl/googlesqlwasm2go/p9.Fn17039
+func Fn17039(m *base.Module, l0 int32)
 
-//go:linkname Fn17004 github.com/goccy/googlesqlwasm2go/p9.Fn17004
-func Fn17004(m *base.Module, l0 int32)
+//go:linkname Fn17040 github.com/doitintl/googlesqlwasm2go/p9.Fn17040
+func Fn17040(m *base.Module, l0 int32)
 
-//go:linkname Fn17009 github.com/goccy/googlesqlwasm2go/p9.Fn17009
-func Fn17009(m *base.Module, l0 int32)
+//go:linkname Fn17042 github.com/doitintl/googlesqlwasm2go/p9.Fn17042
+func Fn17042(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17010 github.com/goccy/googlesqlwasm2go/p8.Fn17010
-func Fn17010(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17043 github.com/doitintl/googlesqlwasm2go/p10.Fn17043
+func Fn17043(m *base.Module, l0 int32)
 
-//go:linkname Fn17011 github.com/goccy/googlesqlwasm2go/p9.Fn17011
-func Fn17011(m *base.Module, l0 int32)
+//go:linkname Fn17048 github.com/doitintl/googlesqlwasm2go/p10.Fn17048
+func Fn17048(m *base.Module, l0 int32)
 
-//go:linkname Fn17031 github.com/goccy/googlesqlwasm2go/p9.Fn17031
-func Fn17031(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17049 github.com/doitintl/googlesqlwasm2go/p8.Fn17049
+func Fn17049(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17032 github.com/goccy/googlesqlwasm2go/p10.Fn17032
-func Fn17032(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17050 github.com/doitintl/googlesqlwasm2go/p9.Fn17050
+func Fn17050(m *base.Module, l0 int32)
 
-//go:linkname Fn17033 github.com/goccy/googlesqlwasm2go/p9.Fn17033
-func Fn17033(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn17034 github.com/goccy/googlesqlwasm2go/p9.Fn17034
-func Fn17034(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn17035 github.com/goccy/googlesqlwasm2go/p9.Fn17035
-func Fn17035(m *base.Module, l0 int32)
-
-//go:linkname Fn17036 github.com/goccy/googlesqlwasm2go/p9.Fn17036
-func Fn17036(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn17041 github.com/goccy/googlesqlwasm2go/p10.Fn17041
-func Fn17041(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn17043 github.com/goccy/googlesqlwasm2go/p6.Fn17043
-func Fn17043(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn17052 github.com/goccy/googlesqlwasm2go/p9.Fn17052
+//go:linkname Fn17052 github.com/doitintl/googlesqlwasm2go/p10.Fn17052
 func Fn17052(m *base.Module, l0 int32)
 
-//go:linkname Fn17055 github.com/goccy/googlesqlwasm2go/p9.Fn17055
-func Fn17055(m *base.Module, l0 int32)
+//go:linkname Fn17080 github.com/doitintl/googlesqlwasm2go/p10.Fn17080
+func Fn17080(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn17058 github.com/goccy/googlesqlwasm2go/p9.Fn17058
-func Fn17058(m *base.Module, l0 int32)
+//go:linkname Fn17082 github.com/doitintl/googlesqlwasm2go/p6.Fn17082
+func Fn17082(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn17060 github.com/goccy/googlesqlwasm2go/p9.Fn17060
-func Fn17060(m *base.Module, l0 int32)
+//go:linkname Fn17091 github.com/doitintl/googlesqlwasm2go/p9.Fn17091
+func Fn17091(m *base.Module, l0 int32)
 
-//go:linkname Fn17065 github.com/goccy/googlesqlwasm2go/p10.Fn17065
-func Fn17065(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17094 github.com/doitintl/googlesqlwasm2go/p9.Fn17094
+func Fn17094(m *base.Module, l0 int32)
 
-//go:linkname Fn17066 github.com/goccy/googlesqlwasm2go/p9.Fn17066
-func Fn17066(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn17097 github.com/doitintl/googlesqlwasm2go/p9.Fn17097
+func Fn17097(m *base.Module, l0 int32)
 
-//go:linkname Fn17067 github.com/goccy/googlesqlwasm2go/p10.Fn17067
-func Fn17067(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17099 github.com/doitintl/googlesqlwasm2go/p9.Fn17099
+func Fn17099(m *base.Module, l0 int32)
 
-//go:linkname Fn17068 github.com/goccy/googlesqlwasm2go/p10.Fn17068
-func Fn17068(m *base.Module, l0 int32)
+//go:linkname Fn17104 github.com/doitintl/googlesqlwasm2go/p10.Fn17104
+func Fn17104(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn17073 github.com/goccy/googlesqlwasm2go/p9.Fn17073
-func Fn17073(m *base.Module, l0 int32)
+//go:linkname Fn17105 github.com/doitintl/googlesqlwasm2go/p9.Fn17105
+func Fn17105(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn17074 github.com/goccy/googlesqlwasm2go/p9.Fn17074
-func Fn17074(m *base.Module, l0 int32)
+//go:linkname Fn17106 github.com/doitintl/googlesqlwasm2go/p10.Fn17106
+func Fn17106(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17076 github.com/goccy/googlesqlwasm2go/p9.Fn17076
-func Fn17076(m *base.Module, l0 int32)
+//go:linkname Fn17107 github.com/doitintl/googlesqlwasm2go/p10.Fn17107
+func Fn17107(m *base.Module, l0 int32)
 
-//go:linkname Fn17084 github.com/goccy/googlesqlwasm2go/p9.Fn17084
-func Fn17084(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17112 github.com/doitintl/googlesqlwasm2go/p9.Fn17112
+func Fn17112(m *base.Module, l0 int32)
 
-//go:linkname Fn17092 github.com/goccy/googlesqlwasm2go/p9.Fn17092
-func Fn17092(m *base.Module, l0 int32)
-
-//go:linkname Fn17095 github.com/goccy/googlesqlwasm2go/p9.Fn17095
-func Fn17095(m *base.Module, l0 int32)
-
-//go:linkname Fn17102 github.com/goccy/googlesqlwasm2go/p9.Fn17102
-func Fn17102(m *base.Module, l0 int32)
-
-//go:linkname Fn17104 github.com/goccy/googlesqlwasm2go/p9.Fn17104
-func Fn17104(m *base.Module, l0 int32)
-
-//go:linkname Fn17108 github.com/goccy/googlesqlwasm2go/p9.Fn17108
-func Fn17108(m *base.Module, l0 int32)
-
-//go:linkname Fn17111 github.com/goccy/googlesqlwasm2go/p9.Fn17111
-func Fn17111(m *base.Module, l0 int32)
-
-//go:linkname Fn17113 github.com/goccy/googlesqlwasm2go/p9.Fn17113
+//go:linkname Fn17113 github.com/doitintl/googlesqlwasm2go/p9.Fn17113
 func Fn17113(m *base.Module, l0 int32)
 
-//go:linkname Fn17117 github.com/goccy/googlesqlwasm2go/p9.Fn17117
-func Fn17117(m *base.Module, l0 int32)
+//go:linkname Fn17115 github.com/doitintl/googlesqlwasm2go/p9.Fn17115
+func Fn17115(m *base.Module, l0 int32)
 
-//go:linkname Fn17120 github.com/goccy/googlesqlwasm2go/p9.Fn17120
-func Fn17120(m *base.Module, l0 int32)
+//go:linkname Fn17123 github.com/doitintl/googlesqlwasm2go/p9.Fn17123
+func Fn17123(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17127 github.com/goccy/googlesqlwasm2go/p9.Fn17127
-func Fn17127(m *base.Module, l0 int32)
+//go:linkname Fn17131 github.com/doitintl/googlesqlwasm2go/p10.Fn17131
+func Fn17131(m *base.Module, l0 int32)
 
-//go:linkname Fn17136 github.com/goccy/googlesqlwasm2go/p9.Fn17136
-func Fn17136(m *base.Module, l0 int32)
+//go:linkname Fn17134 github.com/doitintl/googlesqlwasm2go/p9.Fn17134
+func Fn17134(m *base.Module, l0 int32)
 
-//go:linkname Fn17140 github.com/goccy/googlesqlwasm2go/p9.Fn17140
-func Fn17140(m *base.Module, l0 int32)
+//go:linkname Fn17141 github.com/doitintl/googlesqlwasm2go/p9.Fn17141
+func Fn17141(m *base.Module, l0 int32)
 
-//go:linkname Fn17143 github.com/goccy/googlesqlwasm2go/p9.Fn17143
+//go:linkname Fn17143 github.com/doitintl/googlesqlwasm2go/p9.Fn17143
 func Fn17143(m *base.Module, l0 int32)
 
-//go:linkname Fn17145 github.com/goccy/googlesqlwasm2go/p9.Fn17145
-func Fn17145(m *base.Module, l0 int32)
-
-//go:linkname Fn17147 github.com/goccy/googlesqlwasm2go/p9.Fn17147
+//go:linkname Fn17147 github.com/doitintl/googlesqlwasm2go/p9.Fn17147
 func Fn17147(m *base.Module, l0 int32)
 
-//go:linkname Fn17150 github.com/goccy/googlesqlwasm2go/p9.Fn17150
+//go:linkname Fn17150 github.com/doitintl/googlesqlwasm2go/p9.Fn17150
 func Fn17150(m *base.Module, l0 int32)
 
-//go:linkname Fn17154 github.com/goccy/googlesqlwasm2go/p9.Fn17154
-func Fn17154(m *base.Module, l0 int32)
+//go:linkname Fn17152 github.com/doitintl/googlesqlwasm2go/p9.Fn17152
+func Fn17152(m *base.Module, l0 int32)
 
-//go:linkname Fn17157 github.com/goccy/googlesqlwasm2go/p9.Fn17157
-func Fn17157(m *base.Module, l0 int32)
+//go:linkname Fn17156 github.com/doitintl/googlesqlwasm2go/p9.Fn17156
+func Fn17156(m *base.Module, l0 int32)
 
-//go:linkname Fn17159 github.com/goccy/googlesqlwasm2go/p9.Fn17159
+//go:linkname Fn17159 github.com/doitintl/googlesqlwasm2go/p9.Fn17159
 func Fn17159(m *base.Module, l0 int32)
 
-//go:linkname Fn17162 github.com/goccy/googlesqlwasm2go/p9.Fn17162
-func Fn17162(m *base.Module, l0 int32)
+//go:linkname Fn17166 github.com/doitintl/googlesqlwasm2go/p9.Fn17166
+func Fn17166(m *base.Module, l0 int32)
 
-//go:linkname Fn17165 github.com/goccy/googlesqlwasm2go/p9.Fn17165
-func Fn17165(m *base.Module, l0 int32)
-
-//go:linkname Fn17168 github.com/goccy/googlesqlwasm2go/p9.Fn17168
-func Fn17168(m *base.Module, l0 int32)
-
-//go:linkname Fn17171 github.com/goccy/googlesqlwasm2go/p9.Fn17171
-func Fn17171(m *base.Module, l0 int32)
-
-//go:linkname Fn17173 github.com/goccy/googlesqlwasm2go/p9.Fn17173
-func Fn17173(m *base.Module, l0 int32)
-
-//go:linkname Fn17175 github.com/goccy/googlesqlwasm2go/p9.Fn17175
+//go:linkname Fn17175 github.com/doitintl/googlesqlwasm2go/p9.Fn17175
 func Fn17175(m *base.Module, l0 int32)
 
-//go:linkname Fn17178 github.com/goccy/googlesqlwasm2go/p9.Fn17178
-func Fn17178(m *base.Module, l0 int32)
+//go:linkname Fn17182 github.com/doitintl/googlesqlwasm2go/p9.Fn17182
+func Fn17182(m *base.Module, l0 int32)
 
-//go:linkname Fn17179 github.com/goccy/googlesqlwasm2go/p9.Fn17179
-func Fn17179(m *base.Module, l0 int32)
+//go:linkname Fn17184 github.com/doitintl/googlesqlwasm2go/p9.Fn17184
+func Fn17184(m *base.Module, l0 int32)
 
-//go:linkname Fn17181 github.com/goccy/googlesqlwasm2go/p9.Fn17181
-func Fn17181(m *base.Module, l0 int32)
+//go:linkname Fn17186 github.com/doitintl/googlesqlwasm2go/p9.Fn17186
+func Fn17186(m *base.Module, l0 int32)
 
-//go:linkname Fn17183 github.com/goccy/googlesqlwasm2go/p9.Fn17183
-func Fn17183(m *base.Module, l0 int32)
+//go:linkname Fn17189 github.com/doitintl/googlesqlwasm2go/p9.Fn17189
+func Fn17189(m *base.Module, l0 int32)
 
-//go:linkname Fn17191 github.com/goccy/googlesqlwasm2go/p8.Fn17191
-func Fn17191(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn17193 github.com/doitintl/googlesqlwasm2go/p9.Fn17193
+func Fn17193(m *base.Module, l0 int32)
 
-//go:linkname Fn17195 github.com/goccy/googlesqlwasm2go/p10.Fn17195
-func Fn17195(m *base.Module, l0 int32)
+//go:linkname Fn17196 github.com/doitintl/googlesqlwasm2go/p9.Fn17196
+func Fn17196(m *base.Module, l0 int32)
 
-//go:linkname Fn17229 github.com/goccy/googlesqlwasm2go/p9.Fn17229
-func Fn17229(m *base.Module, l0 int32) int32
+//go:linkname Fn17198 github.com/doitintl/googlesqlwasm2go/p9.Fn17198
+func Fn17198(m *base.Module, l0 int32)
 
-//go:linkname Fn17234 github.com/goccy/googlesqlwasm2go/p10.Fn17234
-func Fn17234(m *base.Module, l0 int32) int32
+//go:linkname Fn17201 github.com/doitintl/googlesqlwasm2go/p9.Fn17201
+func Fn17201(m *base.Module, l0 int32)
 
-//go:linkname Fn17239 github.com/goccy/googlesqlwasm2go/p10.Fn17239
-func Fn17239(m *base.Module, l0 int32) int32
+//go:linkname Fn17204 github.com/doitintl/googlesqlwasm2go/p9.Fn17204
+func Fn17204(m *base.Module, l0 int32)
 
-//go:linkname Fn17241 github.com/goccy/googlesqlwasm2go/p10.Fn17241
-func Fn17241(m *base.Module, l0 int32)
+//go:linkname Fn17207 github.com/doitintl/googlesqlwasm2go/p9.Fn17207
+func Fn17207(m *base.Module, l0 int32)
 
-//go:linkname Fn17256 github.com/goccy/googlesqlwasm2go/p10.Fn17256
-func Fn17256(m *base.Module, l0 int32) int32
+//go:linkname Fn17210 github.com/doitintl/googlesqlwasm2go/p9.Fn17210
+func Fn17210(m *base.Module, l0 int32)
 
-//go:linkname Fn17263 github.com/goccy/googlesqlwasm2go/p9.Fn17263
-func Fn17263(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn17212 github.com/doitintl/googlesqlwasm2go/p9.Fn17212
+func Fn17212(m *base.Module, l0 int32)
 
-//go:linkname Fn17265 github.com/goccy/googlesqlwasm2go/p10.Fn17265
-func Fn17265(m *base.Module, l0 int32)
+//go:linkname Fn17214 github.com/doitintl/googlesqlwasm2go/p9.Fn17214
+func Fn17214(m *base.Module, l0 int32)
 
-//go:linkname Fn17270 github.com/goccy/googlesqlwasm2go/p9.Fn17270
-func Fn17270(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17217 github.com/doitintl/googlesqlwasm2go/p9.Fn17217
+func Fn17217(m *base.Module, l0 int32)
 
-//go:linkname Fn17292 github.com/goccy/googlesqlwasm2go/p8.Fn17292
-func Fn17292(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17218 github.com/doitintl/googlesqlwasm2go/p9.Fn17218
+func Fn17218(m *base.Module, l0 int32)
 
-//go:linkname Fn17293 github.com/goccy/googlesqlwasm2go/p10.Fn17293
-func Fn17293(m *base.Module, l0 int32)
+//go:linkname Fn17220 github.com/doitintl/googlesqlwasm2go/p9.Fn17220
+func Fn17220(m *base.Module, l0 int32)
 
-//go:linkname Fn17296 github.com/goccy/googlesqlwasm2go/p8.Fn17296
-func Fn17296(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17222 github.com/doitintl/googlesqlwasm2go/p9.Fn17222
+func Fn17222(m *base.Module, l0 int32)
 
-//go:linkname Fn17297 github.com/goccy/googlesqlwasm2go/p9.Fn17297
-func Fn17297(m *base.Module, l0 int32)
+//go:linkname Fn17230 github.com/doitintl/googlesqlwasm2go/p8.Fn17230
+func Fn17230(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn17299 github.com/goccy/googlesqlwasm2go/p10.Fn17299
-func Fn17299(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn17234 github.com/doitintl/googlesqlwasm2go/p10.Fn17234
+func Fn17234(m *base.Module, l0 int32)
 
-//go:linkname Fn17305 github.com/goccy/googlesqlwasm2go/p9.Fn17305
-func Fn17305(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17278 github.com/doitintl/googlesqlwasm2go/p10.Fn17278
+func Fn17278(m *base.Module, l0 int32) int32
 
-//go:linkname Fn17306 github.com/goccy/googlesqlwasm2go/p9.Fn17306
-func Fn17306(m *base.Module, l0 int32)
+//go:linkname Fn17283 github.com/doitintl/googlesqlwasm2go/p10.Fn17283
+func Fn17283(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17308 github.com/goccy/googlesqlwasm2go/p9.Fn17308
-func Fn17308(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn17302 github.com/doitintl/googlesqlwasm2go/p9.Fn17302
+func Fn17302(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn17309 github.com/goccy/googlesqlwasm2go/p10.Fn17309
+//go:linkname Fn17303 github.com/doitintl/googlesqlwasm2go/p8.Fn17303
+func Fn17303(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn17304 github.com/doitintl/googlesqlwasm2go/p10.Fn17304
+func Fn17304(m *base.Module, l0 int32)
+
+//go:linkname Fn17309 github.com/doitintl/googlesqlwasm2go/p10.Fn17309
 func Fn17309(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17315 github.com/goccy/googlesqlwasm2go/p10.Fn17315
-func Fn17315(m *base.Module, l0 int32)
+//go:linkname Fn17331 github.com/doitintl/googlesqlwasm2go/p8.Fn17331
+func Fn17331(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17328 github.com/goccy/googlesqlwasm2go/p9.Fn17328
-func Fn17328(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn17332 github.com/doitintl/googlesqlwasm2go/p10.Fn17332
+func Fn17332(m *base.Module, l0 int32)
 
-//go:linkname Fn17332 github.com/goccy/googlesqlwasm2go/p10.Fn17332
-func Fn17332(m *base.Module, l0 int32) int32
+//go:linkname Fn17335 github.com/doitintl/googlesqlwasm2go/p8.Fn17335
+func Fn17335(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17334 github.com/goccy/googlesqlwasm2go/p10.Fn17334
-func Fn17334(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn17336 github.com/doitintl/googlesqlwasm2go/p9.Fn17336
+func Fn17336(m *base.Module, l0 int32)
 
-//go:linkname Fn17335 github.com/goccy/googlesqlwasm2go/p5.Fn17335
-func Fn17335(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+//go:linkname Fn17338 github.com/doitintl/googlesqlwasm2go/p10.Fn17338
+func Fn17338(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn17355 github.com/goccy/googlesqlwasm2go/p6.Fn17355
-func Fn17355(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17344 github.com/doitintl/googlesqlwasm2go/p9.Fn17344
+func Fn17344(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17356 github.com/goccy/googlesqlwasm2go/p9.Fn17356
-func Fn17356(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn17345 github.com/doitintl/googlesqlwasm2go/p9.Fn17345
+func Fn17345(m *base.Module, l0 int32)
 
-//go:linkname Fn17363 github.com/goccy/googlesqlwasm2go/p9.Fn17363
-func Fn17363(m *base.Module, l0 int32)
+//go:linkname Fn17347 github.com/doitintl/googlesqlwasm2go/p9.Fn17347
+func Fn17347(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn17366 github.com/goccy/googlesqlwasm2go/p9.Fn17366
-func Fn17366(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17348 github.com/doitintl/googlesqlwasm2go/p10.Fn17348
+func Fn17348(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17371 github.com/goccy/googlesqlwasm2go/p9.Fn17371
-func Fn17371(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17354 github.com/doitintl/googlesqlwasm2go/p10.Fn17354
+func Fn17354(m *base.Module, l0 int32)
 
-//go:linkname Fn17409 github.com/goccy/googlesqlwasm2go/p10.Fn17409
-func Fn17409(m *base.Module, l0 int32)
+//go:linkname Fn17377 github.com/doitintl/googlesqlwasm2go/p10.Fn17377
+func Fn17377(m *base.Module, l0 int32) int32
 
-//go:linkname Fn17419 github.com/goccy/googlesqlwasm2go/p8.Fn17419
-func Fn17419(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17379 github.com/doitintl/googlesqlwasm2go/p10.Fn17379
+func Fn17379(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn17424 github.com/goccy/googlesqlwasm2go/p8.Fn17424
-func Fn17424(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn17380 github.com/doitintl/googlesqlwasm2go/p5.Fn17380
+func Fn17380(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
 
-//go:linkname Fn17425 github.com/goccy/googlesqlwasm2go/p8.Fn17425
-func Fn17425(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17387 github.com/doitintl/googlesqlwasm2go/p9.Fn17387
+func Fn17387(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn17426 github.com/goccy/googlesqlwasm2go/p10.Fn17426
-func Fn17426(m *base.Module, l0 int32)
+//go:linkname Fn17400 github.com/doitintl/googlesqlwasm2go/p6.Fn17400
+func Fn17400(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17428 github.com/goccy/googlesqlwasm2go/p10.Fn17428
-func Fn17428(m *base.Module, l0 int32) int32
+//go:linkname Fn17401 github.com/doitintl/googlesqlwasm2go/p9.Fn17401
+func Fn17401(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn17429 github.com/goccy/googlesqlwasm2go/p9.Fn17429
-func Fn17429(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17404 github.com/doitintl/googlesqlwasm2go/p10.Fn17404
+func Fn17404(m *base.Module, l0 int32) int32
 
-//go:linkname Fn17438 github.com/goccy/googlesqlwasm2go/p10.Fn17438
-func Fn17438(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17408 github.com/doitintl/googlesqlwasm2go/p10.Fn17408
+func Fn17408(m *base.Module, l0 int32)
 
-//go:linkname Fn17442 github.com/goccy/googlesqlwasm2go/p10.Fn17442
-func Fn17442(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17411 github.com/doitintl/googlesqlwasm2go/p9.Fn17411
+func Fn17411(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn17464 github.com/goccy/googlesqlwasm2go/p9.Fn17464
-func Fn17464(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17416 github.com/doitintl/googlesqlwasm2go/p9.Fn17416
+func Fn17416(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn17469 github.com/goccy/googlesqlwasm2go/p10.Fn17469
-func Fn17469(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17440 github.com/doitintl/googlesqlwasm2go/p10.Fn17440
+func Fn17440(m *base.Module, l0 int32)
 
-//go:linkname Fn17474 github.com/goccy/googlesqlwasm2go/p10.Fn17474
-func Fn17474(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn17453 github.com/doitintl/googlesqlwasm2go/p8.Fn17453
+func Fn17453(m *base.Module, l0 int32)
 
-//go:linkname Fn17481 github.com/goccy/googlesqlwasm2go/p10.Fn17481
-func Fn17481(m *base.Module, l0 int32) int32
+//go:linkname Fn17454 github.com/doitintl/googlesqlwasm2go/p10.Fn17454
+func Fn17454(m *base.Module, l0 int32)
 
-//go:linkname Fn17488 github.com/goccy/googlesqlwasm2go/p9.Fn17488
-func Fn17488(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17464 github.com/doitintl/googlesqlwasm2go/p8.Fn17464
+func Fn17464(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17499 github.com/goccy/googlesqlwasm2go/p10.Fn17499
-func Fn17499(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17469 github.com/doitintl/googlesqlwasm2go/p8.Fn17469
+func Fn17469(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn17512 github.com/goccy/googlesqlwasm2go/p9.Fn17512
-func Fn17512(m *base.Module, l0 int32)
+//go:linkname Fn17470 github.com/doitintl/googlesqlwasm2go/p8.Fn17470
+func Fn17470(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17514 github.com/goccy/googlesqlwasm2go/p9.Fn17514
-func Fn17514(m *base.Module, l0 int32) int32
+//go:linkname Fn17471 github.com/doitintl/googlesqlwasm2go/p10.Fn17471
+func Fn17471(m *base.Module, l0 int32)
 
-//go:linkname Fn17515 github.com/goccy/googlesqlwasm2go/p8.Fn17515
-func Fn17515(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn17473 github.com/doitintl/googlesqlwasm2go/p10.Fn17473
+func Fn17473(m *base.Module, l0 int32) int32
 
-//go:linkname Fn17527 github.com/goccy/googlesqlwasm2go/p9.Fn17527
-func Fn17527(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32)
+//go:linkname Fn17474 github.com/doitintl/googlesqlwasm2go/p9.Fn17474
+func Fn17474(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn17546 github.com/goccy/googlesqlwasm2go/p10.Fn17546
-func Fn17546(m *base.Module, l0 int32, l1 int64, l2 int32) int32
+//go:linkname Fn17483 github.com/doitintl/googlesqlwasm2go/p10.Fn17483
+func Fn17483(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17547 github.com/goccy/googlesqlwasm2go/p10.Fn17547
-func Fn17547(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17487 github.com/doitintl/googlesqlwasm2go/p10.Fn17487
+func Fn17487(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17548 github.com/goccy/googlesqlwasm2go/p9.Fn17548
-func Fn17548(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17497 github.com/doitintl/googlesqlwasm2go/p9.Fn17497
+func Fn17497(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn17550 github.com/goccy/googlesqlwasm2go/p9.Fn17550
-func Fn17550(m *base.Module, l0 int32) int32
+//go:linkname Fn17498 github.com/doitintl/googlesqlwasm2go/p9.Fn17498
+func Fn17498(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn17552 github.com/goccy/googlesqlwasm2go/p9.Fn17552
-func Fn17552(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17509 github.com/doitintl/googlesqlwasm2go/p9.Fn17509
+func Fn17509(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn17556 github.com/goccy/googlesqlwasm2go/p8.Fn17556
-func Fn17556(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17514 github.com/doitintl/googlesqlwasm2go/p10.Fn17514
+func Fn17514(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17560 github.com/goccy/googlesqlwasm2go/p9.Fn17560
-func Fn17560(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17519 github.com/doitintl/googlesqlwasm2go/p10.Fn17519
+func Fn17519(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn17568 github.com/goccy/googlesqlwasm2go/p9.Fn17568
-func Fn17568(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17526 github.com/doitintl/googlesqlwasm2go/p10.Fn17526
+func Fn17526(m *base.Module, l0 int32) int32
 
-//go:linkname Fn17570 github.com/goccy/googlesqlwasm2go/p9.Fn17570
-func Fn17570(m *base.Module, l0 int32) int32
+//go:linkname Fn17533 github.com/doitintl/googlesqlwasm2go/p10.Fn17533
+func Fn17533(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17575 github.com/goccy/googlesqlwasm2go/p10.Fn17575
-func Fn17575(m *base.Module, l0 int32) int32
+//go:linkname Fn17537 github.com/doitintl/googlesqlwasm2go/p10.Fn17537
+func Fn17537(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn17599 github.com/goccy/googlesqlwasm2go/p10.Fn17599
-func Fn17599(m *base.Module, l0 int32)
+//go:linkname Fn17544 github.com/doitintl/googlesqlwasm2go/p10.Fn17544
+func Fn17544(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17602 github.com/goccy/googlesqlwasm2go/p9.Fn17602
-func Fn17602(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17557 github.com/doitintl/googlesqlwasm2go/p10.Fn17557
+func Fn17557(m *base.Module, l0 int32)
 
-//go:linkname Fn17603 github.com/goccy/googlesqlwasm2go/p10.Fn17603
-func Fn17603(m *base.Module, l0 int32) int32
+//go:linkname Fn17559 github.com/doitintl/googlesqlwasm2go/p9.Fn17559
+func Fn17559(m *base.Module, l0 int32) int32
 
-//go:linkname Fn17613 github.com/goccy/googlesqlwasm2go/p9.Fn17613
-func Fn17613(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17560 github.com/doitintl/googlesqlwasm2go/p8.Fn17560
+func Fn17560(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn17614 github.com/goccy/googlesqlwasm2go/p9.Fn17614
-func Fn17614(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17563 github.com/doitintl/googlesqlwasm2go/p6.Fn17563
+func Fn17563(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn17618 github.com/goccy/googlesqlwasm2go/p6.Fn17618
-func Fn17618(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn17573 github.com/doitintl/googlesqlwasm2go/p9.Fn17573
+func Fn17573(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32)
 
-//go:linkname Fn17620 github.com/goccy/googlesqlwasm2go/p10.Fn17620
-func Fn17620(m *base.Module, l0 int32) int32
+//go:linkname Fn17592 github.com/doitintl/googlesqlwasm2go/p10.Fn17592
+func Fn17592(m *base.Module, l0 int32, l1 int64, l2 int32) int32
 
-//go:linkname Fn17644 github.com/goccy/googlesqlwasm2go/p9.Fn17644
-func Fn17644(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17593 github.com/doitintl/googlesqlwasm2go/p10.Fn17593
+func Fn17593(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn17660 github.com/goccy/googlesqlwasm2go/p9.Fn17660
-func Fn17660(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn17594 github.com/doitintl/googlesqlwasm2go/p10.Fn17594
+func Fn17594(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn17668 github.com/goccy/googlesqlwasm2go/p10.Fn17668
-func Fn17668(m *base.Module, l0 int32) int32
+//go:linkname Fn17598 github.com/doitintl/googlesqlwasm2go/p10.Fn17598
+func Fn17598(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17670 github.com/goccy/googlesqlwasm2go/p9.Fn17670
-func Fn17670(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17602 github.com/doitintl/googlesqlwasm2go/p8.Fn17602
+func Fn17602(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn17683 github.com/goccy/googlesqlwasm2go/p9.Fn17683
-func Fn17683(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn17606 github.com/doitintl/googlesqlwasm2go/p9.Fn17606
+func Fn17606(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17720 github.com/goccy/googlesqlwasm2go/p10.Fn17720
-func Fn17720(m *base.Module, l0 int32)
+//go:linkname Fn17614 github.com/doitintl/googlesqlwasm2go/p9.Fn17614
+func Fn17614(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17734 github.com/goccy/googlesqlwasm2go/p6.Fn17734
-func Fn17734(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn17616 github.com/doitintl/googlesqlwasm2go/p9.Fn17616
+func Fn17616(m *base.Module, l0 int32) int32
 
-//go:linkname Fn17753 github.com/goccy/googlesqlwasm2go/p10.Fn17753
-func Fn17753(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17621 github.com/doitintl/googlesqlwasm2go/p10.Fn17621
+func Fn17621(m *base.Module, l0 int32) int32
 
-//go:linkname Fn17756 github.com/goccy/googlesqlwasm2go/p9.Fn17756
-func Fn17756(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17645 github.com/doitintl/googlesqlwasm2go/p10.Fn17645
+func Fn17645(m *base.Module, l0 int32)
 
-//go:linkname Fn17779 github.com/goccy/googlesqlwasm2go/p10.Fn17779
-func Fn17779(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17648 github.com/doitintl/googlesqlwasm2go/p9.Fn17648
+func Fn17648(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17780 github.com/goccy/googlesqlwasm2go/p9.Fn17780
-func Fn17780(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn17659 github.com/doitintl/googlesqlwasm2go/p9.Fn17659
+func Fn17659(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn17786 github.com/goccy/googlesqlwasm2go/p10.Fn17786
-func Fn17786(m *base.Module, l0 int32)
+//go:linkname Fn17660 github.com/doitintl/googlesqlwasm2go/p9.Fn17660
+func Fn17660(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn17796 github.com/goccy/googlesqlwasm2go/p9.Fn17796
-func Fn17796(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17664 github.com/doitintl/googlesqlwasm2go/p6.Fn17664
+func Fn17664(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn17800 github.com/goccy/googlesqlwasm2go/p10.Fn17800
-func Fn17800(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn17666 github.com/doitintl/googlesqlwasm2go/p10.Fn17666
+func Fn17666(m *base.Module, l0 int32) int32
 
-//go:linkname Fn17810 github.com/goccy/googlesqlwasm2go/p10.Fn17810
-func Fn17810(m *base.Module, l0 int32)
+//go:linkname Fn17690 github.com/doitintl/googlesqlwasm2go/p9.Fn17690
+func Fn17690(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17839 github.com/goccy/googlesqlwasm2go/p9.Fn17839
-func Fn17839(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn17691 github.com/doitintl/googlesqlwasm2go/p10.Fn17691
+func Fn17691(m *base.Module, l0 int32) int32
 
-//go:linkname Fn17867 github.com/goccy/googlesqlwasm2go/p9.Fn17867
-func Fn17867(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17693 github.com/doitintl/googlesqlwasm2go/p9.Fn17693
+func Fn17693(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17870 github.com/goccy/googlesqlwasm2go/p9.Fn17870
-func Fn17870(m *base.Module, l0 int32)
+//go:linkname Fn17702 github.com/doitintl/googlesqlwasm2go/p9.Fn17702
+func Fn17702(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn17888 github.com/goccy/googlesqlwasm2go/p10.Fn17888
-func Fn17888(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17706 github.com/doitintl/googlesqlwasm2go/p10.Fn17706
+func Fn17706(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn17889 github.com/goccy/googlesqlwasm2go/p9.Fn17889
-func Fn17889(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn17707 github.com/doitintl/googlesqlwasm2go/p9.Fn17707
+func Fn17707(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn17902 github.com/goccy/googlesqlwasm2go/p10.Fn17902
-func Fn17902(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn17714 github.com/doitintl/googlesqlwasm2go/p10.Fn17714
+func Fn17714(m *base.Module, l0 int32) int32
 
-//go:linkname Fn17905 github.com/goccy/googlesqlwasm2go/p9.Fn17905
-func Fn17905(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17716 github.com/doitintl/googlesqlwasm2go/p9.Fn17716
+func Fn17716(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17906 github.com/goccy/googlesqlwasm2go/p9.Fn17906
-func Fn17906(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17729 github.com/doitintl/googlesqlwasm2go/p9.Fn17729
+func Fn17729(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn17907 github.com/goccy/googlesqlwasm2go/p9.Fn17907
-func Fn17907(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17766 github.com/doitintl/googlesqlwasm2go/p10.Fn17766
+func Fn17766(m *base.Module, l0 int32)
 
-//go:linkname Fn17923 github.com/goccy/googlesqlwasm2go/p10.Fn17923
-func Fn17923(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17780 github.com/doitintl/googlesqlwasm2go/p6.Fn17780
+func Fn17780(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn17930 github.com/goccy/googlesqlwasm2go/p9.Fn17930
-func Fn17930(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn17799 github.com/doitintl/googlesqlwasm2go/p10.Fn17799
+func Fn17799(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn17938 github.com/goccy/googlesqlwasm2go/p10.Fn17938
-func Fn17938(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17802 github.com/doitintl/googlesqlwasm2go/p9.Fn17802
+func Fn17802(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn17939 github.com/goccy/googlesqlwasm2go/p10.Fn17939
-func Fn17939(m *base.Module, l0 int32)
+//go:linkname Fn17825 github.com/doitintl/googlesqlwasm2go/p10.Fn17825
+func Fn17825(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn17949 github.com/goccy/googlesqlwasm2go/p9.Fn17949
-func Fn17949(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17826 github.com/doitintl/googlesqlwasm2go/p9.Fn17826
+func Fn17826(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn17950 github.com/goccy/googlesqlwasm2go/p9.Fn17950
-func Fn17950(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn17832 github.com/doitintl/googlesqlwasm2go/p10.Fn17832
+func Fn17832(m *base.Module, l0 int32)
 
-//go:linkname Fn17980 github.com/goccy/googlesqlwasm2go/p10.Fn17980
-func Fn17980(m *base.Module, l0 int32)
+//go:linkname Fn17839 github.com/doitintl/googlesqlwasm2go/p10.Fn17839
+func Fn17839(m *base.Module, l0 int32, l1 int64) int32
 
-//go:linkname Fn17983 github.com/goccy/googlesqlwasm2go/p9.Fn17983
-func Fn17983(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17842 github.com/doitintl/googlesqlwasm2go/p9.Fn17842
+func Fn17842(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18021 github.com/goccy/googlesqlwasm2go/p9.Fn18021
-func Fn18021(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn17846 github.com/doitintl/googlesqlwasm2go/p10.Fn17846
+func Fn17846(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn18046 github.com/goccy/googlesqlwasm2go/p9.Fn18046
-func Fn18046(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17856 github.com/doitintl/googlesqlwasm2go/p10.Fn17856
+func Fn17856(m *base.Module, l0 int32)
 
-//go:linkname Fn18052 github.com/goccy/googlesqlwasm2go/p5.Fn18052
-func Fn18052(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn17885 github.com/doitintl/googlesqlwasm2go/p9.Fn17885
+func Fn17885(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn18054 github.com/goccy/googlesqlwasm2go/p9.Fn18054
-func Fn18054(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17892 github.com/doitintl/googlesqlwasm2go/p10.Fn17892
+func Fn17892(m *base.Module, l0 int32) int32
 
-//go:linkname Fn18065 github.com/goccy/googlesqlwasm2go/p9.Fn18065
-func Fn18065(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17893 github.com/doitintl/googlesqlwasm2go/p9.Fn17893
+func Fn17893(m *base.Module, l0 int32)
 
-//go:linkname Fn18089 github.com/goccy/googlesqlwasm2go/p9.Fn18089
-func Fn18089(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn17913 github.com/doitintl/googlesqlwasm2go/p9.Fn17913
+func Fn17913(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18090 github.com/goccy/googlesqlwasm2go/p9.Fn18090
-func Fn18090(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn17916 github.com/doitintl/googlesqlwasm2go/p10.Fn17916
+func Fn17916(m *base.Module, l0 int32)
 
-//go:linkname Fn18095 github.com/goccy/googlesqlwasm2go/p10.Fn18095
-func Fn18095(m *base.Module, l0 int32) int32
+//go:linkname Fn17927 github.com/doitintl/googlesqlwasm2go/p9.Fn17927
+func Fn17927(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn18104 github.com/goccy/googlesqlwasm2go/p9.Fn18104
-func Fn18104(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn17934 github.com/doitintl/googlesqlwasm2go/p10.Fn17934
+func Fn17934(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18111 github.com/goccy/googlesqlwasm2go/p10.Fn18111
+//go:linkname Fn17935 github.com/doitintl/googlesqlwasm2go/p9.Fn17935
+func Fn17935(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn17940 github.com/doitintl/googlesqlwasm2go/p9.Fn17940
+func Fn17940(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+
+//go:linkname Fn17941 github.com/doitintl/googlesqlwasm2go/p10.Fn17941
+func Fn17941(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn17948 github.com/doitintl/googlesqlwasm2go/p10.Fn17948
+func Fn17948(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn17951 github.com/doitintl/googlesqlwasm2go/p9.Fn17951
+func Fn17951(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn17952 github.com/doitintl/googlesqlwasm2go/p9.Fn17952
+func Fn17952(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn17953 github.com/doitintl/googlesqlwasm2go/p9.Fn17953
+func Fn17953(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn17956 github.com/doitintl/googlesqlwasm2go/p8.Fn17956
+func Fn17956(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32) int32
+
+//go:linkname Fn17957 github.com/doitintl/googlesqlwasm2go/p9.Fn17957
+func Fn17957(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32, l8 int32) int32
+
+//go:linkname Fn17969 github.com/doitintl/googlesqlwasm2go/p10.Fn17969
+func Fn17969(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn17976 github.com/doitintl/googlesqlwasm2go/p9.Fn17976
+func Fn17976(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+
+//go:linkname Fn17984 github.com/doitintl/googlesqlwasm2go/p10.Fn17984
+func Fn17984(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn17985 github.com/doitintl/googlesqlwasm2go/p10.Fn17985
+func Fn17985(m *base.Module, l0 int32)
+
+//go:linkname Fn17995 github.com/doitintl/googlesqlwasm2go/p9.Fn17995
+func Fn17995(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn17996 github.com/doitintl/googlesqlwasm2go/p9.Fn17996
+func Fn17996(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn18015 github.com/doitintl/googlesqlwasm2go/p10.Fn18015
+func Fn18015(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn18019 github.com/doitintl/googlesqlwasm2go/p10.Fn18019
+func Fn18019(m *base.Module, l0 int32)
+
+//go:linkname Fn18020 github.com/doitintl/googlesqlwasm2go/p9.Fn18020
+func Fn18020(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn18026 github.com/doitintl/googlesqlwasm2go/p10.Fn18026
+func Fn18026(m *base.Module, l0 int32)
+
+//go:linkname Fn18029 github.com/doitintl/googlesqlwasm2go/p9.Fn18029
+func Fn18029(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn18067 github.com/doitintl/googlesqlwasm2go/p9.Fn18067
+func Fn18067(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn18079 github.com/doitintl/googlesqlwasm2go/p9.Fn18079
+func Fn18079(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32, l8 int32) int32
+
+//go:linkname Fn18092 github.com/doitintl/googlesqlwasm2go/p9.Fn18092
+func Fn18092(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn18098 github.com/doitintl/googlesqlwasm2go/p5.Fn18098
+func Fn18098(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+
+//go:linkname Fn18100 github.com/doitintl/googlesqlwasm2go/p9.Fn18100
+func Fn18100(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn18111 github.com/doitintl/googlesqlwasm2go/p9.Fn18111
 func Fn18111(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18114 github.com/goccy/googlesqlwasm2go/p10.Fn18114
-func Fn18114(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn18131 github.com/doitintl/googlesqlwasm2go/p9.Fn18131
+func Fn18131(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn18115 github.com/goccy/googlesqlwasm2go/p9.Fn18115
-func Fn18115(m *base.Module, l0 int32)
+//go:linkname Fn18136 github.com/doitintl/googlesqlwasm2go/p10.Fn18136
+func Fn18136(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn18127 github.com/goccy/googlesqlwasm2go/p6.Fn18127
-func Fn18127(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn18142 github.com/doitintl/googlesqlwasm2go/p9.Fn18142
+func Fn18142(m *base.Module, l0 int32) int32
 
-//go:linkname Fn18137 github.com/goccy/googlesqlwasm2go/p10.Fn18137
-func Fn18137(m *base.Module, l0 int32) int32
+//go:linkname Fn18150 github.com/doitintl/googlesqlwasm2go/p10.Fn18150
+func Fn18150(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18155 github.com/goccy/googlesqlwasm2go/p10.Fn18155
-func Fn18155(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn18157 github.com/doitintl/googlesqlwasm2go/p10.Fn18157
+func Fn18157(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18169 github.com/goccy/googlesqlwasm2go/p9.Fn18169
-func Fn18169(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn18160 github.com/doitintl/googlesqlwasm2go/p10.Fn18160
+func Fn18160(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn18178 github.com/goccy/googlesqlwasm2go/p9.Fn18178
-func Fn18178(m *base.Module, l0 int32)
+//go:linkname Fn18161 github.com/doitintl/googlesqlwasm2go/p10.Fn18161
+func Fn18161(m *base.Module, l0 int32)
 
-//go:linkname Fn18201 github.com/goccy/googlesqlwasm2go/p9.Fn18201
-func Fn18201(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32)
+//go:linkname Fn18173 github.com/doitintl/googlesqlwasm2go/p6.Fn18173
+func Fn18173(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn18203 github.com/goccy/googlesqlwasm2go/p9.Fn18203
-func Fn18203(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32)
+//go:linkname Fn18183 github.com/doitintl/googlesqlwasm2go/p10.Fn18183
+func Fn18183(m *base.Module, l0 int32) int32
 
-//go:linkname Fn18225 github.com/goccy/googlesqlwasm2go/p10.Fn18225
-func Fn18225(m *base.Module, l0 int32) int32
+//go:linkname Fn18196 github.com/doitintl/googlesqlwasm2go/p9.Fn18196
+func Fn18196(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn18234 github.com/goccy/googlesqlwasm2go/p10.Fn18234
-func Fn18234(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn18201 github.com/doitintl/googlesqlwasm2go/p10.Fn18201
+func Fn18201(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn18284 github.com/goccy/googlesqlwasm2go/p9.Fn18284
-func Fn18284(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
+//go:linkname Fn18215 github.com/doitintl/googlesqlwasm2go/p10.Fn18215
+func Fn18215(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18363 github.com/goccy/googlesqlwasm2go/p6.Fn18363
-func Fn18363(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32)
+//go:linkname Fn18224 github.com/doitintl/googlesqlwasm2go/p9.Fn18224
+func Fn18224(m *base.Module, l0 int32)
 
-//go:linkname Fn18372 github.com/goccy/googlesqlwasm2go/p5.Fn18372
-func Fn18372(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32)
+//go:linkname Fn18247 github.com/doitintl/googlesqlwasm2go/p9.Fn18247
+func Fn18247(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32)
 
-//go:linkname Fn18384 github.com/goccy/googlesqlwasm2go/p10.Fn18384
-func Fn18384(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn18249 github.com/doitintl/googlesqlwasm2go/p9.Fn18249
+func Fn18249(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32)
 
-//go:linkname Fn18471 github.com/goccy/googlesqlwasm2go/p6.Fn18471
-func Fn18471(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn18271 github.com/doitintl/googlesqlwasm2go/p10.Fn18271
+func Fn18271(m *base.Module, l0 int32) int32
 
-//go:linkname Fn18491 github.com/goccy/googlesqlwasm2go/p9.Fn18491
-func Fn18491(m *base.Module, l0 int32)
+//go:linkname Fn18280 github.com/doitintl/googlesqlwasm2go/p10.Fn18280
+func Fn18280(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn18492 github.com/goccy/googlesqlwasm2go/p9.Fn18492
-func Fn18492(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn18330 github.com/doitintl/googlesqlwasm2go/p9.Fn18330
+func Fn18330(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
 
-//go:linkname Fn18493 github.com/goccy/googlesqlwasm2go/p9.Fn18493
-func Fn18493(m *base.Module, l0 int32) int32
+//go:linkname Fn18388 github.com/doitintl/googlesqlwasm2go/p9.Fn18388
+func Fn18388(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18496 github.com/goccy/googlesqlwasm2go/p9.Fn18496
-func Fn18496(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn18409 github.com/doitintl/googlesqlwasm2go/p6.Fn18409
+func Fn18409(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32)
 
-//go:linkname Fn18509 github.com/goccy/googlesqlwasm2go/p10.Fn18509
-func Fn18509(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn18418 github.com/doitintl/googlesqlwasm2go/p5.Fn18418
+func Fn18418(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32)
 
-//go:linkname Fn18511 github.com/goccy/googlesqlwasm2go/p9.Fn18511
-func Fn18511(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn18467 github.com/doitintl/googlesqlwasm2go/p8.Fn18467
+func Fn18467(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18551 github.com/goccy/googlesqlwasm2go/p10.Fn18551
-func Fn18551(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn18517 github.com/doitintl/googlesqlwasm2go/p6.Fn18517
+func Fn18517(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn18604 github.com/goccy/googlesqlwasm2go/p9.Fn18604
-func Fn18604(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn18537 github.com/doitintl/googlesqlwasm2go/p10.Fn18537
+func Fn18537(m *base.Module, l0 int32)
 
-//go:linkname Fn18606 github.com/goccy/googlesqlwasm2go/p8.Fn18606
-func Fn18606(m *base.Module, l0 int32, l1 int64, l2 int64, l3 int64, l4 int64, l5 int64, l6 int64, l7 int64)
+//go:linkname Fn18539 github.com/doitintl/googlesqlwasm2go/p10.Fn18539
+func Fn18539(m *base.Module, l0 int32) int32
 
-//go:linkname Fn18608 github.com/goccy/googlesqlwasm2go/p9.Fn18608
-func Fn18608(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32)
+//go:linkname Fn18542 github.com/doitintl/googlesqlwasm2go/p9.Fn18542
+func Fn18542(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn18610 github.com/goccy/googlesqlwasm2go/p10.Fn18610
-func Fn18610(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32)
+//go:linkname Fn18555 github.com/doitintl/googlesqlwasm2go/p10.Fn18555
+func Fn18555(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18611 github.com/goccy/googlesqlwasm2go/p9.Fn18611
-func Fn18611(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32)
+//go:linkname Fn18557 github.com/doitintl/googlesqlwasm2go/p9.Fn18557
+func Fn18557(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18619 github.com/goccy/googlesqlwasm2go/p9.Fn18619
-func Fn18619(m *base.Module, l0 int32, l1 int64, l2 int64, l3 int64, l4 int64, l5 int32, l6 int32, l7 int32)
+//go:linkname Fn18597 github.com/doitintl/googlesqlwasm2go/p10.Fn18597
+func Fn18597(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn18620 github.com/goccy/googlesqlwasm2go/p9.Fn18620
-func Fn18620(m *base.Module, l0 int32, l1 int64, l2 int64, l3 int64, l4 int64, l5 int64, l6 int32, l7 int32)
+//go:linkname Fn18650 github.com/doitintl/googlesqlwasm2go/p10.Fn18650
+func Fn18650(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18621 github.com/goccy/googlesqlwasm2go/p9.Fn18621
-func Fn18621(m *base.Module, l0 int32, l1 int64, l2 int64, l3 int64, l4 int64, l5 int64, l6 int64, l7 int32)
+//go:linkname Fn18652 github.com/doitintl/googlesqlwasm2go/p9.Fn18652
+func Fn18652(m *base.Module, l0 int32, l1 int64, l2 int64, l3 int64, l4 int64, l5 int64, l6 int64, l7 int64)
 
-//go:linkname Fn18636 github.com/goccy/googlesqlwasm2go/p8.Fn18636
-func Fn18636(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn18654 github.com/doitintl/googlesqlwasm2go/p9.Fn18654
+func Fn18654(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32)
 
-//go:linkname Fn18637 github.com/goccy/googlesqlwasm2go/p9.Fn18637
-func Fn18637(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn18656 github.com/doitintl/googlesqlwasm2go/p10.Fn18656
+func Fn18656(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32)
 
-//go:linkname Fn18644 github.com/goccy/googlesqlwasm2go/p10.Fn18644
-func Fn18644(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn18657 github.com/doitintl/googlesqlwasm2go/p9.Fn18657
+func Fn18657(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32)
 
-//go:linkname Fn18646 github.com/goccy/googlesqlwasm2go/p10.Fn18646
-func Fn18646(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn18665 github.com/doitintl/googlesqlwasm2go/p9.Fn18665
+func Fn18665(m *base.Module, l0 int32, l1 int64, l2 int64, l3 int64, l4 int64, l5 int32, l6 int32, l7 int32)
 
-//go:linkname Fn18651 github.com/goccy/googlesqlwasm2go/p9.Fn18651
-func Fn18651(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn18666 github.com/doitintl/googlesqlwasm2go/p10.Fn18666
+func Fn18666(m *base.Module, l0 int32, l1 int64, l2 int64, l3 int64, l4 int64, l5 int64, l6 int32, l7 int32)
 
-//go:linkname Fn18652 github.com/goccy/googlesqlwasm2go/p4.Fn18652
-func Fn18652(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn18667 github.com/doitintl/googlesqlwasm2go/p9.Fn18667
+func Fn18667(m *base.Module, l0 int32, l1 int64, l2 int64, l3 int64, l4 int64, l5 int64, l6 int64, l7 int32)
 
-//go:linkname Fn18680 github.com/goccy/googlesqlwasm2go/p10.Fn18680
-func Fn18680(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn18692 github.com/doitintl/googlesqlwasm2go/p10.Fn18692
+func Fn18692(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn18738 github.com/goccy/googlesqlwasm2go/p6.Fn18738
-func Fn18738(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn18697 github.com/doitintl/googlesqlwasm2go/p9.Fn18697
+func Fn18697(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn18752 github.com/goccy/googlesqlwasm2go/p10.Fn18752
-func Fn18752(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn18698 github.com/doitintl/googlesqlwasm2go/p4.Fn18698
+func Fn18698(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn18753 github.com/goccy/googlesqlwasm2go/p10.Fn18753
-func Fn18753(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn18726 github.com/doitintl/googlesqlwasm2go/p10.Fn18726
+func Fn18726(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18754 github.com/goccy/googlesqlwasm2go/p9.Fn18754
-func Fn18754(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn18784 github.com/doitintl/googlesqlwasm2go/p6.Fn18784
+func Fn18784(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn18758 github.com/goccy/googlesqlwasm2go/p9.Fn18758
-func Fn18758(m *base.Module, l0 int32, l1 int64) int32
+//go:linkname Fn18798 github.com/doitintl/googlesqlwasm2go/p10.Fn18798
+func Fn18798(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18760 github.com/goccy/googlesqlwasm2go/p10.Fn18760
-func Fn18760(m *base.Module, l0 int32)
+//go:linkname Fn18799 github.com/doitintl/googlesqlwasm2go/p10.Fn18799
+func Fn18799(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn18763 github.com/goccy/googlesqlwasm2go/p10.Fn18763
-func Fn18763(m *base.Module, l0 int32)
+//go:linkname Fn18800 github.com/doitintl/googlesqlwasm2go/p9.Fn18800
+func Fn18800(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18764 github.com/goccy/googlesqlwasm2go/p9.Fn18764
-func Fn18764(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn18806 github.com/doitintl/googlesqlwasm2go/p10.Fn18806
+func Fn18806(m *base.Module, l0 int32)
 
-//go:linkname Fn18779 github.com/goccy/googlesqlwasm2go/p10.Fn18779
-func Fn18779(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn18810 github.com/doitintl/googlesqlwasm2go/p10.Fn18810
+func Fn18810(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn18802 github.com/goccy/googlesqlwasm2go/p9.Fn18802
-func Fn18802(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+//go:linkname Fn18825 github.com/doitintl/googlesqlwasm2go/p10.Fn18825
+func Fn18825(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18803 github.com/goccy/googlesqlwasm2go/p10.Fn18803
-func Fn18803(m *base.Module, l0 int32)
+//go:linkname Fn18848 github.com/doitintl/googlesqlwasm2go/p9.Fn18848
+func Fn18848(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
 
-//go:linkname Fn18820 github.com/goccy/googlesqlwasm2go/p10.Fn18820
-func Fn18820(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn18866 github.com/doitintl/googlesqlwasm2go/p10.Fn18866
+func Fn18866(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18830 github.com/goccy/googlesqlwasm2go/p9.Fn18830
-func Fn18830(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
+//go:linkname Fn18889 github.com/doitintl/googlesqlwasm2go/p10.Fn18889
+func Fn18889(m *base.Module, l0 int32)
 
-//go:linkname Fn18837 github.com/goccy/googlesqlwasm2go/p10.Fn18837
-func Fn18837(m *base.Module, l0 int32) int32
-
-//go:linkname Fn18843 github.com/goccy/googlesqlwasm2go/p10.Fn18843
-func Fn18843(m *base.Module, l0 int32)
-
-//go:linkname Fn18847 github.com/goccy/googlesqlwasm2go/p9.Fn18847
-func Fn18847(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn18849 github.com/goccy/googlesqlwasm2go/p10.Fn18849
-func Fn18849(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
-
-//go:linkname Fn18853 github.com/goccy/googlesqlwasm2go/p9.Fn18853
-func Fn18853(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
-
-//go:linkname Fn18879 github.com/goccy/googlesqlwasm2go/p8.Fn18879
-func Fn18879(m *base.Module, l0 int32)
-
-//go:linkname Fn18885 github.com/goccy/googlesqlwasm2go/p9.Fn18885
-func Fn18885(m *base.Module, l0 int32)
-
-//go:linkname Fn18886 github.com/goccy/googlesqlwasm2go/p9.Fn18886
-func Fn18886(m *base.Module, l0 int32) int32
-
-//go:linkname Fn18889 github.com/goccy/googlesqlwasm2go/p6.Fn18889
-func Fn18889(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn18893 github.com/goccy/googlesqlwasm2go/p10.Fn18893
+//go:linkname Fn18893 github.com/doitintl/googlesqlwasm2go/p9.Fn18893
 func Fn18893(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn18894 github.com/goccy/googlesqlwasm2go/p10.Fn18894
-func Fn18894(m *base.Module, l0 int32) int32
+//go:linkname Fn18895 github.com/doitintl/googlesqlwasm2go/p10.Fn18895
+func Fn18895(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn18898 github.com/goccy/googlesqlwasm2go/p10.Fn18898
-func Fn18898(m *base.Module, l0 int32)
+//go:linkname Fn18899 github.com/doitintl/googlesqlwasm2go/p9.Fn18899
+func Fn18899(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn18904 github.com/goccy/googlesqlwasm2go/p10.Fn18904
-func Fn18904(m *base.Module, l0 int32)
+//go:linkname Fn18900 github.com/doitintl/googlesqlwasm2go/p10.Fn18900
+func Fn18900(m *base.Module, l0 int32) int32
 
-//go:linkname Fn18918 github.com/goccy/googlesqlwasm2go/p8.Fn18918
-func Fn18918(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn18925 github.com/doitintl/googlesqlwasm2go/p8.Fn18925
+func Fn18925(m *base.Module, l0 int32)
 
-//go:linkname Fn18920 github.com/goccy/googlesqlwasm2go/p9.Fn18920
-func Fn18920(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn18931 github.com/doitintl/googlesqlwasm2go/p10.Fn18931
+func Fn18931(m *base.Module, l0 int32)
 
-//go:linkname Fn18924 github.com/goccy/googlesqlwasm2go/p9.Fn18924
-func Fn18924(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn18932 github.com/doitintl/googlesqlwasm2go/p9.Fn18932
+func Fn18932(m *base.Module, l0 int32) int32
 
-//go:linkname Fn18927 github.com/goccy/googlesqlwasm2go/p9.Fn18927
-func Fn18927(m *base.Module, l0 int32) int32
+//go:linkname Fn18935 github.com/doitintl/googlesqlwasm2go/p6.Fn18935
+func Fn18935(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn18930 github.com/goccy/googlesqlwasm2go/p9.Fn18930
-func Fn18930(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn18939 github.com/doitintl/googlesqlwasm2go/p10.Fn18939
+func Fn18939(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn18932 github.com/goccy/googlesqlwasm2go/p10.Fn18932
-func Fn18932(m *base.Module, l0 int32)
+//go:linkname Fn18940 github.com/doitintl/googlesqlwasm2go/p10.Fn18940
+func Fn18940(m *base.Module, l0 int32) int32
 
-//go:linkname Fn18934 github.com/goccy/googlesqlwasm2go/p9.Fn18934
-func Fn18934(m *base.Module, l0 int32)
+//go:linkname Fn18944 github.com/doitintl/googlesqlwasm2go/p10.Fn18944
+func Fn18944(m *base.Module, l0 int32)
 
-//go:linkname Fn18935 github.com/goccy/googlesqlwasm2go/p9.Fn18935
-func Fn18935(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn18952 github.com/doitintl/googlesqlwasm2go/p9.Fn18952
+func Fn18952(m *base.Module, l0 int32) int32
 
-//go:linkname Fn18936 github.com/goccy/googlesqlwasm2go/p10.Fn18936
-func Fn18936(m *base.Module, l0 int32)
+//go:linkname Fn18964 github.com/doitintl/googlesqlwasm2go/p8.Fn18964
+func Fn18964(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn18939 github.com/goccy/googlesqlwasm2go/p10.Fn18939
-func Fn18939(m *base.Module, l0 int32) int32
+//go:linkname Fn18966 github.com/doitintl/googlesqlwasm2go/p9.Fn18966
+func Fn18966(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18940 github.com/goccy/googlesqlwasm2go/p9.Fn18940
-func Fn18940(m *base.Module, l0 int32)
+//go:linkname Fn18970 github.com/doitintl/googlesqlwasm2go/p9.Fn18970
+func Fn18970(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn18945 github.com/goccy/googlesqlwasm2go/p10.Fn18945
-func Fn18945(m *base.Module, l0 int32) int32
+//go:linkname Fn18973 github.com/doitintl/googlesqlwasm2go/p9.Fn18973
+func Fn18973(m *base.Module, l0 int32) int32
 
-//go:linkname Fn18947 github.com/goccy/googlesqlwasm2go/p6.Fn18947
-func Fn18947(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn18976 github.com/doitintl/googlesqlwasm2go/p10.Fn18976
+func Fn18976(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn18948 github.com/goccy/googlesqlwasm2go/p9.Fn18948
-func Fn18948(m *base.Module, l0 int32)
+//go:linkname Fn18978 github.com/doitintl/googlesqlwasm2go/p10.Fn18978
+func Fn18978(m *base.Module, l0 int32)
 
-//go:linkname Fn18955 github.com/goccy/googlesqlwasm2go/p10.Fn18955
-func Fn18955(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn18980 github.com/doitintl/googlesqlwasm2go/p9.Fn18980
+func Fn18980(m *base.Module, l0 int32)
 
-//go:linkname Fn18959 github.com/goccy/googlesqlwasm2go/p6.Fn18959
-func Fn18959(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn18981 github.com/doitintl/googlesqlwasm2go/p10.Fn18981
+func Fn18981(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn18960 github.com/goccy/googlesqlwasm2go/p9.Fn18960
-func Fn18960(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn18982 github.com/doitintl/googlesqlwasm2go/p10.Fn18982
+func Fn18982(m *base.Module, l0 int32)
 
-//go:linkname Fn18968 github.com/goccy/googlesqlwasm2go/p10.Fn18968
-func Fn18968(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn18985 github.com/doitintl/googlesqlwasm2go/p10.Fn18985
+func Fn18985(m *base.Module, l0 int32) int32
 
-//go:linkname Fn18977 github.com/goccy/googlesqlwasm2go/p9.Fn18977
-func Fn18977(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn18986 github.com/doitintl/googlesqlwasm2go/p9.Fn18986
+func Fn18986(m *base.Module, l0 int32)
 
-//go:linkname Fn18979 github.com/goccy/googlesqlwasm2go/p9.Fn18979
-func Fn18979(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn18991 github.com/doitintl/googlesqlwasm2go/p10.Fn18991
+func Fn18991(m *base.Module, l0 int32) int32
 
-//go:linkname Fn18980 github.com/goccy/googlesqlwasm2go/p9.Fn18980
-func Fn18980(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn18993 github.com/doitintl/googlesqlwasm2go/p6.Fn18993
+func Fn18993(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn19013 github.com/goccy/googlesqlwasm2go/p9.Fn19013
-func Fn19013(m *base.Module, l0 int32) int32
+//go:linkname Fn18994 github.com/doitintl/googlesqlwasm2go/p9.Fn18994
+func Fn18994(m *base.Module, l0 int32)
 
-//go:linkname Fn19017 github.com/goccy/googlesqlwasm2go/p6.Fn19017
-func Fn19017(m *base.Module, l0 int32)
+//go:linkname Fn19001 github.com/doitintl/googlesqlwasm2go/p10.Fn19001
+func Fn19001(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19022 github.com/goccy/googlesqlwasm2go/p9.Fn19022
-func Fn19022(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn19003 github.com/doitintl/googlesqlwasm2go/p10.Fn19003
+func Fn19003(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19028 github.com/goccy/googlesqlwasm2go/p9.Fn19028
-func Fn19028(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19004 github.com/doitintl/googlesqlwasm2go/p8.Fn19004
+func Fn19004(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19039 github.com/goccy/googlesqlwasm2go/p10.Fn19039
-func Fn19039(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn19006 github.com/doitintl/googlesqlwasm2go/p10.Fn19006
+func Fn19006(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19040 github.com/goccy/googlesqlwasm2go/p10.Fn19040
-func Fn19040(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn19014 github.com/doitintl/googlesqlwasm2go/p10.Fn19014
+func Fn19014(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19042 github.com/goccy/googlesqlwasm2go/p10.Fn19042
-func Fn19042(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19023 github.com/doitintl/googlesqlwasm2go/p9.Fn19023
+func Fn19023(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn19057 github.com/goccy/googlesqlwasm2go/p9.Fn19057
-func Fn19057(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19025 github.com/doitintl/googlesqlwasm2go/p9.Fn19025
+func Fn19025(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn19058 github.com/goccy/googlesqlwasm2go/p4.Fn19058
-func Fn19058(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32)
+//go:linkname Fn19026 github.com/doitintl/googlesqlwasm2go/p9.Fn19026
+func Fn19026(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn19069 github.com/goccy/googlesqlwasm2go/p8.Fn19069
-func Fn19069(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19059 github.com/doitintl/googlesqlwasm2go/p9.Fn19059
+func Fn19059(m *base.Module, l0 int32) int32
 
-//go:linkname Fn19095 github.com/goccy/googlesqlwasm2go/p5.Fn19095
-func Fn19095(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19063 github.com/doitintl/googlesqlwasm2go/p6.Fn19063
+func Fn19063(m *base.Module, l0 int32)
 
-//go:linkname Fn19099 github.com/goccy/googlesqlwasm2go/p10.Fn19099
-func Fn19099(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19068 github.com/doitintl/googlesqlwasm2go/p9.Fn19068
+func Fn19068(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn19100 github.com/goccy/googlesqlwasm2go/p9.Fn19100
-func Fn19100(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19074 github.com/doitintl/googlesqlwasm2go/p9.Fn19074
+func Fn19074(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19113 github.com/goccy/googlesqlwasm2go/p9.Fn19113
-func Fn19113(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn19085 github.com/doitintl/googlesqlwasm2go/p10.Fn19085
+func Fn19085(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn19124 github.com/goccy/googlesqlwasm2go/p9.Fn19124
-func Fn19124(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19086 github.com/doitintl/googlesqlwasm2go/p10.Fn19086
+func Fn19086(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn19127 github.com/goccy/googlesqlwasm2go/p10.Fn19127
-func Fn19127(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19088 github.com/doitintl/googlesqlwasm2go/p10.Fn19088
+func Fn19088(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn19137 github.com/goccy/googlesqlwasm2go/p10.Fn19137
-func Fn19137(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19141 github.com/doitintl/googlesqlwasm2go/p5.Fn19141
+func Fn19141(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn19138 github.com/goccy/googlesqlwasm2go/p9.Fn19138
-func Fn19138(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19145 github.com/doitintl/googlesqlwasm2go/p10.Fn19145
+func Fn19145(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19179 github.com/goccy/googlesqlwasm2go/p5.Fn19179
-func Fn19179(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn19146 github.com/doitintl/googlesqlwasm2go/p9.Fn19146
+func Fn19146(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19181 github.com/goccy/googlesqlwasm2go/p4.Fn19181
-func Fn19181(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19159 github.com/doitintl/googlesqlwasm2go/p10.Fn19159
+func Fn19159(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn19187 github.com/goccy/googlesqlwasm2go/p9.Fn19187
-func Fn19187(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19170 github.com/doitintl/googlesqlwasm2go/p10.Fn19170
+func Fn19170(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19226 github.com/goccy/googlesqlwasm2go/p8.Fn19226
-func Fn19226(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19173 github.com/doitintl/googlesqlwasm2go/p10.Fn19173
+func Fn19173(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn19234 github.com/goccy/googlesqlwasm2go/p10.Fn19234
-func Fn19234(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19183 github.com/doitintl/googlesqlwasm2go/p10.Fn19183
+func Fn19183(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19235 github.com/goccy/googlesqlwasm2go/p9.Fn19235
-func Fn19235(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19184 github.com/doitintl/googlesqlwasm2go/p9.Fn19184
+func Fn19184(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19296 github.com/goccy/googlesqlwasm2go/p9.Fn19296
-func Fn19296(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19227 github.com/doitintl/googlesqlwasm2go/p4.Fn19227
+func Fn19227(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19301 github.com/goccy/googlesqlwasm2go/p9.Fn19301
-func Fn19301(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19272 github.com/doitintl/googlesqlwasm2go/p8.Fn19272
+func Fn19272(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19360 github.com/goccy/googlesqlwasm2go/p10.Fn19360
-func Fn19360(m *base.Module, l0 int32)
+//go:linkname Fn19281 github.com/doitintl/googlesqlwasm2go/p9.Fn19281
+func Fn19281(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19361 github.com/goccy/googlesqlwasm2go/p9.Fn19361
-func Fn19361(m *base.Module, l0 int32) int32
+//go:linkname Fn19342 github.com/doitintl/googlesqlwasm2go/p10.Fn19342
+func Fn19342(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19363 github.com/goccy/googlesqlwasm2go/p9.Fn19363
-func Fn19363(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19347 github.com/doitintl/googlesqlwasm2go/p10.Fn19347
+func Fn19347(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19378 github.com/goccy/googlesqlwasm2go/p9.Fn19378
-func Fn19378(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19406 github.com/doitintl/googlesqlwasm2go/p10.Fn19406
+func Fn19406(m *base.Module, l0 int32)
 
-//go:linkname Fn19380 github.com/goccy/googlesqlwasm2go/p8.Fn19380
-func Fn19380(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19407 github.com/doitintl/googlesqlwasm2go/p9.Fn19407
+func Fn19407(m *base.Module, l0 int32) int32
 
-//go:linkname Fn19384 github.com/goccy/googlesqlwasm2go/p10.Fn19384
-func Fn19384(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn19409 github.com/doitintl/googlesqlwasm2go/p10.Fn19409
+func Fn19409(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn19387 github.com/goccy/googlesqlwasm2go/p10.Fn19387
-func Fn19387(m *base.Module, l0 int32) int32
+//go:linkname Fn19416 github.com/doitintl/googlesqlwasm2go/p9.Fn19416
+func Fn19416(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn19391 github.com/goccy/googlesqlwasm2go/p6.Fn19391
-func Fn19391(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn19424 github.com/doitintl/googlesqlwasm2go/p9.Fn19424
+func Fn19424(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19402 github.com/goccy/googlesqlwasm2go/p6.Fn19402
-func Fn19402(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
+//go:linkname Fn19426 github.com/doitintl/googlesqlwasm2go/p8.Fn19426
+func Fn19426(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19414 github.com/goccy/googlesqlwasm2go/p9.Fn19414
-func Fn19414(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19430 github.com/doitintl/googlesqlwasm2go/p10.Fn19430
+func Fn19430(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn19420 github.com/goccy/googlesqlwasm2go/p1.Fn19420
-func Fn19420(m *base.Module, l0 int32) int32
+//go:linkname Fn19433 github.com/doitintl/googlesqlwasm2go/p10.Fn19433
+func Fn19433(m *base.Module, l0 int32) int32
 
-//go:linkname Fn19451 github.com/goccy/googlesqlwasm2go/p9.Fn19451
-func Fn19451(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19437 github.com/doitintl/googlesqlwasm2go/p6.Fn19437
+func Fn19437(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn19456 github.com/goccy/googlesqlwasm2go/p10.Fn19456
-func Fn19456(m *base.Module, l0 int32)
+//go:linkname Fn19460 github.com/doitintl/googlesqlwasm2go/p10.Fn19460
+func Fn19460(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn19466 github.com/goccy/googlesqlwasm2go/p10.Fn19466
+//go:linkname Fn19466 github.com/doitintl/googlesqlwasm2go/p1.Fn19466
 func Fn19466(m *base.Module, l0 int32) int32
 
-//go:linkname Fn19468 github.com/goccy/googlesqlwasm2go/p9.Fn19468
-func Fn19468(m *base.Module, l0 int32) int32
+//go:linkname Fn19482 github.com/doitintl/googlesqlwasm2go/p10.Fn19482
+func Fn19482(m *base.Module, l0 int32)
 
-//go:linkname Fn19469 github.com/goccy/googlesqlwasm2go/p9.Fn19469
-func Fn19469(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19497 github.com/doitintl/googlesqlwasm2go/p10.Fn19497
+func Fn19497(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn19481 github.com/goccy/googlesqlwasm2go/p10.Fn19481
-func Fn19481(m *base.Module, l0 int32)
+//go:linkname Fn19512 github.com/doitintl/googlesqlwasm2go/p10.Fn19512
+func Fn19512(m *base.Module, l0 int32) int32
 
-//go:linkname Fn19486 github.com/goccy/googlesqlwasm2go/p9.Fn19486
-func Fn19486(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19514 github.com/doitintl/googlesqlwasm2go/p9.Fn19514
+func Fn19514(m *base.Module, l0 int32) int32
 
-//go:linkname Fn19487 github.com/goccy/googlesqlwasm2go/p9.Fn19487
-func Fn19487(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19528 github.com/doitintl/googlesqlwasm2go/p10.Fn19528
+func Fn19528(m *base.Module, l0 int32)
 
-//go:linkname Fn19488 github.com/goccy/googlesqlwasm2go/p3.Fn19488
-func Fn19488(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn19533 github.com/doitintl/googlesqlwasm2go/p10.Fn19533
+func Fn19533(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19502 github.com/goccy/googlesqlwasm2go/p9.Fn19502
-func Fn19502(m *base.Module, l0 int32)
+//go:linkname Fn19549 github.com/doitintl/googlesqlwasm2go/p9.Fn19549
+func Fn19549(m *base.Module, l0 int32)
 
-//go:linkname Fn19503 github.com/goccy/googlesqlwasm2go/p10.Fn19503
-func Fn19503(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19550 github.com/doitintl/googlesqlwasm2go/p10.Fn19550
+func Fn19550(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19504 github.com/goccy/googlesqlwasm2go/p10.Fn19504
-func Fn19504(m *base.Module, l0 int32)
+//go:linkname Fn19551 github.com/doitintl/googlesqlwasm2go/p10.Fn19551
+func Fn19551(m *base.Module, l0 int32)
 
-//go:linkname Fn19506 github.com/goccy/googlesqlwasm2go/p5.Fn19506
-func Fn19506(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn19564 github.com/doitintl/googlesqlwasm2go/p9.Fn19564
+func Fn19564(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn19517 github.com/goccy/googlesqlwasm2go/p9.Fn19517
-func Fn19517(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19578 github.com/doitintl/googlesqlwasm2go/p10.Fn19578
+func Fn19578(m *base.Module, l0 int32)
 
-//go:linkname Fn19518 github.com/goccy/googlesqlwasm2go/p6.Fn19518
-func Fn19518(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn19582 github.com/doitintl/googlesqlwasm2go/p6.Fn19582
+func Fn19582(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn19531 github.com/goccy/googlesqlwasm2go/p10.Fn19531
-func Fn19531(m *base.Module, l0 int32)
-
-//go:linkname Fn19534 github.com/goccy/googlesqlwasm2go/p9.Fn19534
-func Fn19534(m *base.Module, l0 int32) int32
-
-//go:linkname Fn19535 github.com/goccy/googlesqlwasm2go/p6.Fn19535
-func Fn19535(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn19537 github.com/goccy/googlesqlwasm2go/p4.Fn19537
-func Fn19537(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn19538 github.com/goccy/googlesqlwasm2go/p5.Fn19538
-func Fn19538(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn19541 github.com/goccy/googlesqlwasm2go/p8.Fn19541
-func Fn19541(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn19554 github.com/goccy/googlesqlwasm2go/p9.Fn19554
-func Fn19554(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
-
-//go:linkname Fn19559 github.com/goccy/googlesqlwasm2go/p5.Fn19559
-func Fn19559(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn19560 github.com/goccy/googlesqlwasm2go/p8.Fn19560
-func Fn19560(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn19562 github.com/goccy/googlesqlwasm2go/p9.Fn19562
-func Fn19562(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
-
-//go:linkname Fn19571 github.com/goccy/googlesqlwasm2go/p4.Fn19571
-func Fn19571(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn19572 github.com/goccy/googlesqlwasm2go/p4.Fn19572
-func Fn19572(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn19574 github.com/goccy/googlesqlwasm2go/p5.Fn19574
-func Fn19574(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn19575 github.com/goccy/googlesqlwasm2go/p5.Fn19575
-func Fn19575(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn19584 github.com/goccy/googlesqlwasm2go/p4.Fn19584
+//go:linkname Fn19584 github.com/doitintl/googlesqlwasm2go/p4.Fn19584
 func Fn19584(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn19596 github.com/goccy/googlesqlwasm2go/p6.Fn19596
-func Fn19596(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19585 github.com/doitintl/googlesqlwasm2go/p5.Fn19585
+func Fn19585(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn19597 github.com/goccy/googlesqlwasm2go/p5.Fn19597
-func Fn19597(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19588 github.com/doitintl/googlesqlwasm2go/p8.Fn19588
+func Fn19588(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19599 github.com/goccy/googlesqlwasm2go/p6.Fn19599
-func Fn19599(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19606 github.com/doitintl/googlesqlwasm2go/p5.Fn19606
+func Fn19606(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn19633 github.com/goccy/googlesqlwasm2go/p9.Fn19633
-func Fn19633(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19618 github.com/doitintl/googlesqlwasm2go/p4.Fn19618
+func Fn19618(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn19635 github.com/goccy/googlesqlwasm2go/p5.Fn19635
-func Fn19635(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn19619 github.com/doitintl/googlesqlwasm2go/p5.Fn19619
+func Fn19619(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn19638 github.com/goccy/googlesqlwasm2go/p10.Fn19638
-func Fn19638(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19620 github.com/doitintl/googlesqlwasm2go/p5.Fn19620
+func Fn19620(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn19639 github.com/goccy/googlesqlwasm2go/p9.Fn19639
-func Fn19639(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn19621 github.com/doitintl/googlesqlwasm2go/p5.Fn19621
+func Fn19621(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn19641 github.com/goccy/googlesqlwasm2go/p5.Fn19641
-func Fn19641(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19622 github.com/doitintl/googlesqlwasm2go/p5.Fn19622
+func Fn19622(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn19643 github.com/goccy/googlesqlwasm2go/p9.Fn19643
-func Fn19643(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19631 github.com/doitintl/googlesqlwasm2go/p4.Fn19631
+func Fn19631(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn19644 github.com/goccy/googlesqlwasm2go/p9.Fn19644
-func Fn19644(m *base.Module, l0 int32) int32
+//go:linkname Fn19643 github.com/doitintl/googlesqlwasm2go/p6.Fn19643
+func Fn19643(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19649 github.com/goccy/googlesqlwasm2go/p5.Fn19649
-func Fn19649(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn19644 github.com/doitintl/googlesqlwasm2go/p5.Fn19644
+func Fn19644(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19686 github.com/goccy/googlesqlwasm2go/p6.Fn19686
-func Fn19686(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn19646 github.com/doitintl/googlesqlwasm2go/p6.Fn19646
+func Fn19646(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19691 github.com/goccy/googlesqlwasm2go/p10.Fn19691
+//go:linkname Fn19680 github.com/doitintl/googlesqlwasm2go/p9.Fn19680
+func Fn19680(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn19682 github.com/doitintl/googlesqlwasm2go/p5.Fn19682
+func Fn19682(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn19685 github.com/doitintl/googlesqlwasm2go/p10.Fn19685
+func Fn19685(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn19686 github.com/doitintl/googlesqlwasm2go/p9.Fn19686
+func Fn19686(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+
+//go:linkname Fn19688 github.com/doitintl/googlesqlwasm2go/p5.Fn19688
+func Fn19688(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn19690 github.com/doitintl/googlesqlwasm2go/p9.Fn19690
+func Fn19690(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn19691 github.com/doitintl/googlesqlwasm2go/p10.Fn19691
 func Fn19691(m *base.Module, l0 int32) int32
 
-//go:linkname Fn19696 github.com/goccy/googlesqlwasm2go/p5.Fn19696
-func Fn19696(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
+//go:linkname Fn19696 github.com/doitintl/googlesqlwasm2go/p5.Fn19696
+func Fn19696(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn19699 github.com/goccy/googlesqlwasm2go/p9.Fn19699
-func Fn19699(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn19733 github.com/doitintl/googlesqlwasm2go/p6.Fn19733
+func Fn19733(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn19711 github.com/goccy/googlesqlwasm2go/p10.Fn19711
-func Fn19711(m *base.Module, l0 int32)
+//go:linkname Fn19738 github.com/doitintl/googlesqlwasm2go/p10.Fn19738
+func Fn19738(m *base.Module, l0 int32) int32
 
-//go:linkname Fn19716 github.com/goccy/googlesqlwasm2go/p5.Fn19716
-func Fn19716(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn19743 github.com/doitintl/googlesqlwasm2go/p5.Fn19743
+func Fn19743(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
 
-//go:linkname Fn19755 github.com/goccy/googlesqlwasm2go/p5.Fn19755
-func Fn19755(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19746 github.com/doitintl/googlesqlwasm2go/p9.Fn19746
+func Fn19746(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn19756 github.com/goccy/googlesqlwasm2go/p9.Fn19756
-func Fn19756(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19758 github.com/doitintl/googlesqlwasm2go/p10.Fn19758
+func Fn19758(m *base.Module, l0 int32)
 
-//go:linkname Fn19768 github.com/goccy/googlesqlwasm2go/p10.Fn19768
-func Fn19768(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19763 github.com/doitintl/googlesqlwasm2go/p5.Fn19763
+func Fn19763(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn19770 github.com/goccy/googlesqlwasm2go/p10.Fn19770
-func Fn19770(m *base.Module, l0 int32) int32
+//go:linkname Fn19802 github.com/doitintl/googlesqlwasm2go/p5.Fn19802
+func Fn19802(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn19777 github.com/goccy/googlesqlwasm2go/p9.Fn19777
-func Fn19777(m *base.Module, l0 int32)
+//go:linkname Fn19803 github.com/doitintl/googlesqlwasm2go/p9.Fn19803
+func Fn19803(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn19780 github.com/goccy/googlesqlwasm2go/p9.Fn19780
-func Fn19780(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19815 github.com/doitintl/googlesqlwasm2go/p10.Fn19815
+func Fn19815(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19782 github.com/goccy/googlesqlwasm2go/p10.Fn19782
-func Fn19782(m *base.Module, l0 int32) int32
+//go:linkname Fn19824 github.com/doitintl/googlesqlwasm2go/p10.Fn19824
+func Fn19824(m *base.Module, l0 int32)
 
-//go:linkname Fn19789 github.com/goccy/googlesqlwasm2go/p9.Fn19789
-func Fn19789(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19827 github.com/doitintl/googlesqlwasm2go/p9.Fn19827
+func Fn19827(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19793 github.com/goccy/googlesqlwasm2go/p10.Fn19793
-func Fn19793(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn19836 github.com/doitintl/googlesqlwasm2go/p10.Fn19836
+func Fn19836(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19795 github.com/goccy/googlesqlwasm2go/p10.Fn19795
-func Fn19795(m *base.Module, l0 int32)
+//go:linkname Fn19840 github.com/doitintl/googlesqlwasm2go/p10.Fn19840
+func Fn19840(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn19798 github.com/goccy/googlesqlwasm2go/p10.Fn19798
-func Fn19798(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19842 github.com/doitintl/googlesqlwasm2go/p10.Fn19842
+func Fn19842(m *base.Module, l0 int32)
 
-//go:linkname Fn19807 github.com/goccy/googlesqlwasm2go/p9.Fn19807
-func Fn19807(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19845 github.com/doitintl/googlesqlwasm2go/p10.Fn19845
+func Fn19845(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19808 github.com/goccy/googlesqlwasm2go/p5.Fn19808
-func Fn19808(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19854 github.com/doitintl/googlesqlwasm2go/p9.Fn19854
+func Fn19854(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn19819 github.com/goccy/googlesqlwasm2go/p10.Fn19819
-func Fn19819(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19855 github.com/doitintl/googlesqlwasm2go/p5.Fn19855
+func Fn19855(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn19838 github.com/goccy/googlesqlwasm2go/p9.Fn19838
-func Fn19838(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19866 github.com/doitintl/googlesqlwasm2go/p10.Fn19866
+func Fn19866(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19846 github.com/goccy/googlesqlwasm2go/p9.Fn19846
-func Fn19846(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn19850 github.com/goccy/googlesqlwasm2go/p9.Fn19850
-func Fn19850(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn19855 github.com/goccy/googlesqlwasm2go/p9.Fn19855
-func Fn19855(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn19858 github.com/goccy/googlesqlwasm2go/p9.Fn19858
-func Fn19858(m *base.Module, l0 int32, l1 int32, l2 int32) int32
-
-//go:linkname Fn19859 github.com/goccy/googlesqlwasm2go/p9.Fn19859
-func Fn19859(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn19864 github.com/goccy/googlesqlwasm2go/p10.Fn19864
-func Fn19864(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn19865 github.com/goccy/googlesqlwasm2go/p9.Fn19865
-func Fn19865(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn19873 github.com/goccy/googlesqlwasm2go/p9.Fn19873
-func Fn19873(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn19885 github.com/goccy/googlesqlwasm2go/p9.Fn19885
+//go:linkname Fn19885 github.com/doitintl/googlesqlwasm2go/p9.Fn19885
 func Fn19885(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19894 github.com/goccy/googlesqlwasm2go/p9.Fn19894
-func Fn19894(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19893 github.com/doitintl/googlesqlwasm2go/p10.Fn19893
+func Fn19893(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19896 github.com/goccy/googlesqlwasm2go/p10.Fn19896
-func Fn19896(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn19902 github.com/doitintl/googlesqlwasm2go/p9.Fn19902
+func Fn19902(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19898 github.com/goccy/googlesqlwasm2go/p9.Fn19898
-func Fn19898(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19905 github.com/doitintl/googlesqlwasm2go/p9.Fn19905
+func Fn19905(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn19911 github.com/goccy/googlesqlwasm2go/p9.Fn19911
-func Fn19911(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19912 github.com/doitintl/googlesqlwasm2go/p9.Fn19912
+func Fn19912(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19916 github.com/goccy/googlesqlwasm2go/p9.Fn19916
-func Fn19916(m *base.Module, l0 int32)
+//go:linkname Fn19920 github.com/doitintl/googlesqlwasm2go/p9.Fn19920
+func Fn19920(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19923 github.com/goccy/googlesqlwasm2go/p9.Fn19923
-func Fn19923(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19932 github.com/doitintl/googlesqlwasm2go/p10.Fn19932
+func Fn19932(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19926 github.com/goccy/googlesqlwasm2go/p9.Fn19926
-func Fn19926(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19941 github.com/doitintl/googlesqlwasm2go/p9.Fn19941
+func Fn19941(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19927 github.com/goccy/googlesqlwasm2go/p9.Fn19927
-func Fn19927(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn19943 github.com/doitintl/googlesqlwasm2go/p10.Fn19943
+func Fn19943(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn19928 github.com/goccy/googlesqlwasm2go/p10.Fn19928
-func Fn19928(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn19939 github.com/goccy/googlesqlwasm2go/p9.Fn19939
-func Fn19939(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn19941 github.com/goccy/googlesqlwasm2go/p9.Fn19941
-func Fn19941(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn19942 github.com/goccy/googlesqlwasm2go/p10.Fn19942
-func Fn19942(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn19943 github.com/goccy/googlesqlwasm2go/p10.Fn19943
-func Fn19943(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn19944 github.com/goccy/googlesqlwasm2go/p10.Fn19944
-func Fn19944(m *base.Module, l0 int32, l1 int32) int32
-
-//go:linkname Fn19945 github.com/goccy/googlesqlwasm2go/p10.Fn19945
+//go:linkname Fn19945 github.com/doitintl/googlesqlwasm2go/p9.Fn19945
 func Fn19945(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn19955 github.com/goccy/googlesqlwasm2go/p9.Fn19955
-func Fn19955(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19958 github.com/doitintl/googlesqlwasm2go/p9.Fn19958
+func Fn19958(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn19972 github.com/goccy/googlesqlwasm2go/p9.Fn19972
-func Fn19972(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn19963 github.com/doitintl/googlesqlwasm2go/p10.Fn19963
+func Fn19963(m *base.Module, l0 int32)
 
-//go:linkname Fn19983 github.com/goccy/googlesqlwasm2go/p10.Fn19983
-func Fn19983(m *base.Module, l0 int32) int32
+//go:linkname Fn19970 github.com/doitintl/googlesqlwasm2go/p9.Fn19970
+func Fn19970(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn20002 github.com/goccy/googlesqlwasm2go/p10.Fn20002
-func Fn20002(m *base.Module, l0 int32)
+//go:linkname Fn19973 github.com/doitintl/googlesqlwasm2go/p9.Fn19973
+func Fn19973(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn20043 github.com/goccy/googlesqlwasm2go/p10.Fn20043
-func Fn20043(m *base.Module, l0 int32) int32
+//go:linkname Fn19974 github.com/doitintl/googlesqlwasm2go/p9.Fn19974
+func Fn19974(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn20270 github.com/goccy/googlesqlwasm2go/p3.Fn20270
-func Fn20270(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn19975 github.com/doitintl/googlesqlwasm2go/p10.Fn19975
+func Fn19975(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn20395 github.com/goccy/googlesqlwasm2go/p10.Fn20395
-func Fn20395(m *base.Module, l0 int32)
+//go:linkname Fn19986 github.com/doitintl/googlesqlwasm2go/p9.Fn19986
+func Fn19986(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn20400 github.com/goccy/googlesqlwasm2go/p10.Fn20400
-func Fn20400(m *base.Module, l0 int32)
+//go:linkname Fn20002 github.com/doitintl/googlesqlwasm2go/p10.Fn20002
+func Fn20002(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn20416 github.com/goccy/googlesqlwasm2go/p9.Fn20416
-func Fn20416(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn20007 github.com/doitintl/googlesqlwasm2go/p9.Fn20007
+func Fn20007(m *base.Module, l0 int32)
 
-//go:linkname Fn20463 github.com/goccy/googlesqlwasm2go/p10.Fn20463
-func Fn20463(m *base.Module, l0 int32)
+//go:linkname Fn20019 github.com/doitintl/googlesqlwasm2go/p9.Fn20019
+func Fn20019(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn20476 github.com/goccy/googlesqlwasm2go/p10.Fn20476
-func Fn20476(m *base.Module, l0 int32)
+//go:linkname Fn20030 github.com/doitintl/googlesqlwasm2go/p10.Fn20030
+func Fn20030(m *base.Module, l0 int32) int32
 
-//go:linkname Fn20481 github.com/goccy/googlesqlwasm2go/p10.Fn20481
-func Fn20481(m *base.Module, l0 int32)
+//go:linkname Fn20049 github.com/doitintl/googlesqlwasm2go/p10.Fn20049
+func Fn20049(m *base.Module, l0 int32)
 
-//go:linkname Fn20484 github.com/goccy/googlesqlwasm2go/p9.Fn20484
-func Fn20484(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn20090 github.com/doitintl/googlesqlwasm2go/p10.Fn20090
+func Fn20090(m *base.Module, l0 int32) int32
 
-//go:linkname Fn20485 github.com/goccy/googlesqlwasm2go/p10.Fn20485
-func Fn20485(m *base.Module, l0 int32)
+//go:linkname Fn20095 github.com/doitintl/googlesqlwasm2go/p10.Fn20095
+func Fn20095(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn20489 github.com/goccy/googlesqlwasm2go/p5.Fn20489
-func Fn20489(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn20317 github.com/doitintl/googlesqlwasm2go/p3.Fn20317
+func Fn20317(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn20492 github.com/goccy/googlesqlwasm2go/p9.Fn20492
-func Fn20492(m *base.Module, l0 int32, l1 int64, l2 int64)
+//go:linkname Fn20322 github.com/doitintl/googlesqlwasm2go/p10.Fn20322
+func Fn20322(m *base.Module, l0 int32)
 
-//go:linkname Fn20501 github.com/goccy/googlesqlwasm2go/p9.Fn20501
-func Fn20501(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn20369 github.com/doitintl/googlesqlwasm2go/p10.Fn20369
+func Fn20369(m *base.Module, l0 int32)
 
-//go:linkname Fn20570 github.com/goccy/googlesqlwasm2go/p9.Fn20570
-func Fn20570(m *base.Module, l0 int32)
+//go:linkname Fn20424 github.com/doitintl/googlesqlwasm2go/p10.Fn20424
+func Fn20424(m *base.Module, l0 int32) int32
 
-//go:linkname Fn20580 github.com/goccy/googlesqlwasm2go/p9.Fn20580
-func Fn20580(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn20425 github.com/doitintl/googlesqlwasm2go/p10.Fn20425
+func Fn20425(m *base.Module, l0 int32) int32
 
-//go:linkname Fn20620 github.com/goccy/googlesqlwasm2go/p10.Fn20620
-func Fn20620(m *base.Module, l0 int32)
+//go:linkname Fn20447 github.com/doitintl/googlesqlwasm2go/p10.Fn20447
+func Fn20447(m *base.Module, l0 int32)
 
-//go:linkname Fn20621 github.com/goccy/googlesqlwasm2go/p9.Fn20621
-func Fn20621(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn20463 github.com/doitintl/googlesqlwasm2go/p9.Fn20463
+func Fn20463(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn20633 github.com/goccy/googlesqlwasm2go/p9.Fn20633
-func Fn20633(m *base.Module, l0 int32) int32
+//go:linkname Fn20472 github.com/doitintl/googlesqlwasm2go/p10.Fn20472
+func Fn20472(m *base.Module, l0 int32)
 
-//go:linkname Fn20671 github.com/goccy/googlesqlwasm2go/p10.Fn20671
-func Fn20671(m *base.Module, l0 int32)
+//go:linkname Fn20510 github.com/doitintl/googlesqlwasm2go/p10.Fn20510
+func Fn20510(m *base.Module, l0 int32)
 
-//go:linkname Fn20683 github.com/goccy/googlesqlwasm2go/p10.Fn20683
-func Fn20683(m *base.Module, l0 int32) int32
+//go:linkname Fn20523 github.com/doitintl/googlesqlwasm2go/p10.Fn20523
+func Fn20523(m *base.Module, l0 int32)
 
-//go:linkname Fn20696 github.com/goccy/googlesqlwasm2go/p4.Fn20696
-func Fn20696(m *base.Module, l0 int32)
+//go:linkname Fn20528 github.com/doitintl/googlesqlwasm2go/p10.Fn20528
+func Fn20528(m *base.Module, l0 int32)
 
-//go:linkname Fn20707 github.com/goccy/googlesqlwasm2go/p10.Fn20707
-func Fn20707(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn20531 github.com/doitintl/googlesqlwasm2go/p9.Fn20531
+func Fn20531(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn20733 github.com/goccy/googlesqlwasm2go/p10.Fn20733
-func Fn20733(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn20532 github.com/doitintl/googlesqlwasm2go/p10.Fn20532
+func Fn20532(m *base.Module, l0 int32)
 
-//go:linkname Fn20748 github.com/goccy/googlesqlwasm2go/p10.Fn20748
-func Fn20748(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn20536 github.com/doitintl/googlesqlwasm2go/p6.Fn20536
+func Fn20536(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn20755 github.com/goccy/googlesqlwasm2go/p9.Fn20755
-func Fn20755(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn20539 github.com/doitintl/googlesqlwasm2go/p10.Fn20539
+func Fn20539(m *base.Module, l0 int32, l1 int64, l2 int64)
 
-//go:linkname Fn20756 github.com/goccy/googlesqlwasm2go/p10.Fn20756
-func Fn20756(m *base.Module, l0 int32)
+//go:linkname Fn20548 github.com/doitintl/googlesqlwasm2go/p9.Fn20548
+func Fn20548(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn20764 github.com/goccy/googlesqlwasm2go/p9.Fn20764
-func Fn20764(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn20603 github.com/doitintl/googlesqlwasm2go/p10.Fn20603
+func Fn20603(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn20774 github.com/goccy/googlesqlwasm2go/p9.Fn20774
-func Fn20774(m *base.Module) int32
+//go:linkname Fn20604 github.com/doitintl/googlesqlwasm2go/p9.Fn20604
+func Fn20604(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn20777 github.com/goccy/googlesqlwasm2go/p9.Fn20777
-func Fn20777(m *base.Module) int32
+//go:linkname Fn20615 github.com/doitintl/googlesqlwasm2go/p10.Fn20615
+func Fn20615(m *base.Module, l0 int32) int32
 
-//go:linkname Fn20860 github.com/goccy/googlesqlwasm2go/p9.Fn20860
-func Fn20860(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn20617 github.com/doitintl/googlesqlwasm2go/p9.Fn20617
+func Fn20617(m *base.Module, l0 int32)
 
-//go:linkname Fn20861 github.com/goccy/googlesqlwasm2go/p9.Fn20861
-func Fn20861(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn20627 github.com/doitintl/googlesqlwasm2go/p9.Fn20627
+func Fn20627(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn20862 github.com/goccy/googlesqlwasm2go/p9.Fn20862
-func Fn20862(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn20667 github.com/doitintl/googlesqlwasm2go/p10.Fn20667
+func Fn20667(m *base.Module, l0 int32)
 
-//go:linkname Fn20863 github.com/goccy/googlesqlwasm2go/p9.Fn20863
-func Fn20863(m *base.Module, l0 int32, l1 int64, l2 int32)
+//go:linkname Fn20668 github.com/doitintl/googlesqlwasm2go/p10.Fn20668
+func Fn20668(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn20898 github.com/goccy/googlesqlwasm2go/p10.Fn20898
-func Fn20898(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn20680 github.com/doitintl/googlesqlwasm2go/p10.Fn20680
+func Fn20680(m *base.Module, l0 int32) int32
 
-//go:linkname Fn20903 github.com/goccy/googlesqlwasm2go/p9.Fn20903
-func Fn20903(m *base.Module) int32
+//go:linkname Fn20718 github.com/doitintl/googlesqlwasm2go/p10.Fn20718
+func Fn20718(m *base.Module, l0 int32)
 
-//go:linkname Fn20904 github.com/goccy/googlesqlwasm2go/p6.Fn20904
-func Fn20904(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn20743 github.com/doitintl/googlesqlwasm2go/p4.Fn20743
+func Fn20743(m *base.Module, l0 int32)
 
-//go:linkname Fn20905 github.com/goccy/googlesqlwasm2go/p5.Fn20905
-func Fn20905(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn20747 github.com/doitintl/googlesqlwasm2go/p10.Fn20747
+func Fn20747(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn20906 github.com/goccy/googlesqlwasm2go/p8.Fn20906
-func Fn20906(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn20749 github.com/doitintl/googlesqlwasm2go/p10.Fn20749
+func Fn20749(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn20907 github.com/goccy/googlesqlwasm2go/p9.Fn20907
-func Fn20907(m *base.Module, l0 int32)
+//go:linkname Fn20753 github.com/doitintl/googlesqlwasm2go/p10.Fn20753
+func Fn20753(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn20911 github.com/goccy/googlesqlwasm2go/p6.Fn20911
-func Fn20911(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn20754 github.com/doitintl/googlesqlwasm2go/p10.Fn20754
+func Fn20754(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn20915 github.com/goccy/googlesqlwasm2go/p10.Fn20915
-func Fn20915(m *base.Module, l0 int32) int32
+//go:linkname Fn20795 github.com/doitintl/googlesqlwasm2go/p10.Fn20795
+func Fn20795(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn20926 github.com/goccy/googlesqlwasm2go/p10.Fn20926
-func Fn20926(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn20801 github.com/doitintl/googlesqlwasm2go/p6.Fn20801
+func Fn20801(m *base.Module, l0 int32) int64
 
-//go:linkname Fn20929 github.com/goccy/googlesqlwasm2go/p6.Fn20929
-func Fn20929(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn20802 github.com/doitintl/googlesqlwasm2go/p9.Fn20802
+func Fn20802(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn20930 github.com/goccy/googlesqlwasm2go/p8.Fn20930
-func Fn20930(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn20803 github.com/doitintl/googlesqlwasm2go/p10.Fn20803
+func Fn20803(m *base.Module, l0 int32)
 
-//go:linkname Fn20931 github.com/goccy/googlesqlwasm2go/p8.Fn20931
-func Fn20931(m *base.Module, l0 int32) int32
+//go:linkname Fn20821 github.com/doitintl/googlesqlwasm2go/p9.Fn20821
+func Fn20821(m *base.Module) int32
 
-//go:linkname Fn20938 github.com/goccy/googlesqlwasm2go/p10.Fn20938
-func Fn20938(m *base.Module, l0 int64, l1 int32, l2 int32)
+//go:linkname Fn20824 github.com/doitintl/googlesqlwasm2go/p9.Fn20824
+func Fn20824(m *base.Module) int32
 
-//go:linkname Fn20940 github.com/goccy/googlesqlwasm2go/p5.Fn20940
-func Fn20940(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn20907 github.com/doitintl/googlesqlwasm2go/p9.Fn20907
+func Fn20907(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn20945 github.com/goccy/googlesqlwasm2go/p10.Fn20945
-func Fn20945(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn20908 github.com/doitintl/googlesqlwasm2go/p9.Fn20908
+func Fn20908(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn20946 github.com/goccy/googlesqlwasm2go/p9.Fn20946
-func Fn20946(m *base.Module, l0 int32)
+//go:linkname Fn20909 github.com/doitintl/googlesqlwasm2go/p9.Fn20909
+func Fn20909(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn20948 github.com/goccy/googlesqlwasm2go/p9.Fn20948
-func Fn20948(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn20910 github.com/doitintl/googlesqlwasm2go/p9.Fn20910
+func Fn20910(m *base.Module, l0 int32, l1 int64, l2 int32)
 
-//go:linkname Fn20950 github.com/goccy/googlesqlwasm2go/p10.Fn20950
-func Fn20950(m *base.Module, l0 int32)
+//go:linkname Fn20945 github.com/doitintl/googlesqlwasm2go/p10.Fn20945
+func Fn20945(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn20957 github.com/goccy/googlesqlwasm2go/p10.Fn20957
-func Fn20957(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn20950 github.com/doitintl/googlesqlwasm2go/p9.Fn20950
+func Fn20950(m *base.Module) int32
 
-//go:linkname Fn20958 github.com/goccy/googlesqlwasm2go/p9.Fn20958
-func Fn20958(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn20951 github.com/doitintl/googlesqlwasm2go/p6.Fn20951
+func Fn20951(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn20959 github.com/goccy/googlesqlwasm2go/p10.Fn20959
-func Fn20959(m *base.Module, l0 int32)
+//go:linkname Fn20952 github.com/doitintl/googlesqlwasm2go/p5.Fn20952
+func Fn20952(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn20965 github.com/goccy/googlesqlwasm2go/p9.Fn20965
-func Fn20965(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn20953 github.com/doitintl/googlesqlwasm2go/p9.Fn20953
+func Fn20953(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn20998 github.com/goccy/googlesqlwasm2go/p9.Fn20998
-func Fn20998(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn20954 github.com/doitintl/googlesqlwasm2go/p10.Fn20954
+func Fn20954(m *base.Module, l0 int32)
 
-//go:linkname Fn21017 github.com/goccy/googlesqlwasm2go/p9.Fn21017
-func Fn21017(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn20958 github.com/doitintl/googlesqlwasm2go/p6.Fn20958
+func Fn20958(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn21026 github.com/goccy/googlesqlwasm2go/p10.Fn21026
-func Fn21026(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn20962 github.com/doitintl/googlesqlwasm2go/p10.Fn20962
+func Fn20962(m *base.Module, l0 int32) int32
 
-//go:linkname Fn21027 github.com/goccy/googlesqlwasm2go/p9.Fn21027
-func Fn21027(m *base.Module, l0 int32)
+//go:linkname Fn20975 github.com/doitintl/googlesqlwasm2go/p10.Fn20975
+func Fn20975(m *base.Module, l0 int32)
 
-//go:linkname Fn21065 github.com/goccy/googlesqlwasm2go/p9.Fn21065
-func Fn21065(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn20979 github.com/doitintl/googlesqlwasm2go/p10.Fn20979
+func Fn20979(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn21161 github.com/goccy/googlesqlwasm2go/p10.Fn21161
-func Fn21161(m *base.Module, l0 int32)
+//go:linkname Fn20980 github.com/doitintl/googlesqlwasm2go/p9.Fn20980
+func Fn20980(m *base.Module, l0 int32)
 
-//go:linkname Fn21199 github.com/goccy/googlesqlwasm2go/p9.Fn21199
-func Fn21199(m *base.Module, l0 int32)
+//go:linkname Fn20991 github.com/doitintl/googlesqlwasm2go/p10.Fn20991
+func Fn20991(m *base.Module, l0 int32)
 
-//go:linkname Fn21218 github.com/goccy/googlesqlwasm2go/p10.Fn21218
-func Fn21218(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn20998 github.com/doitintl/googlesqlwasm2go/p10.Fn20998
+func Fn20998(m *base.Module, l0 int32) int32
 
-//go:linkname Fn21220 github.com/goccy/googlesqlwasm2go/p9.Fn21220
-func Fn21220(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21006 github.com/doitintl/googlesqlwasm2go/p10.Fn21006
+func Fn21006(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn21221 github.com/goccy/googlesqlwasm2go/p9.Fn21221
-func Fn21221(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21009 github.com/doitintl/googlesqlwasm2go/p10.Fn21009
+func Fn21009(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn21280 github.com/goccy/googlesqlwasm2go/p6.Fn21280
-func Fn21280(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn21014 github.com/doitintl/googlesqlwasm2go/p10.Fn21014
+func Fn21014(m *base.Module, l0 int32) int32
 
-//go:linkname Fn21292 github.com/goccy/googlesqlwasm2go/p10.Fn21292
-func Fn21292(m *base.Module, l0 int32)
+//go:linkname Fn21053 github.com/doitintl/googlesqlwasm2go/p9.Fn21053
+func Fn21053(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn21300 github.com/goccy/googlesqlwasm2go/p10.Fn21300
-func Fn21300(m *base.Module, l0 int32)
+//go:linkname Fn21059 github.com/doitintl/googlesqlwasm2go/p9.Fn21059
+func Fn21059(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn21322 github.com/goccy/googlesqlwasm2go/p8.Fn21322
-func Fn21322(m *base.Module, l0 int32)
+//go:linkname Fn21069 github.com/doitintl/googlesqlwasm2go/p6.Fn21069
+func Fn21069(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn21328 github.com/goccy/googlesqlwasm2go/p6.Fn21328
-func Fn21328(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21074 github.com/doitintl/googlesqlwasm2go/p10.Fn21074
+func Fn21074(m *base.Module, l0 int32)
 
-//go:linkname Fn21344 github.com/goccy/googlesqlwasm2go/p9.Fn21344
-func Fn21344(m *base.Module, l0 int32)
+//go:linkname Fn21080 github.com/doitintl/googlesqlwasm2go/p6.Fn21080
+func Fn21080(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn21350 github.com/goccy/googlesqlwasm2go/p9.Fn21350
-func Fn21350(m *base.Module, l0 int32) int32
+//go:linkname Fn21081 github.com/doitintl/googlesqlwasm2go/p10.Fn21081
+func Fn21081(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn21354 github.com/goccy/googlesqlwasm2go/p10.Fn21354
-func Fn21354(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn21109 github.com/doitintl/googlesqlwasm2go/p10.Fn21109
+func Fn21109(m *base.Module, l0 int32)
 
-//go:linkname Fn21355 github.com/goccy/googlesqlwasm2go/p8.Fn21355
-func Fn21355(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21111 github.com/doitintl/googlesqlwasm2go/p4.Fn21111
+func Fn21111(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn21356 github.com/goccy/googlesqlwasm2go/p10.Fn21356
-func Fn21356(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn21113 github.com/doitintl/googlesqlwasm2go/p8.Fn21113
+func Fn21113(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn21359 github.com/goccy/googlesqlwasm2go/p10.Fn21359
-func Fn21359(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn21131 github.com/doitintl/googlesqlwasm2go/p10.Fn21131
+func Fn21131(m *base.Module, l0 int32)
 
-//go:linkname Fn21363 github.com/goccy/googlesqlwasm2go/p9.Fn21363
-func Fn21363(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn21175 github.com/doitintl/googlesqlwasm2go/p10.Fn21175
+func Fn21175(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn21365 github.com/goccy/googlesqlwasm2go/p9.Fn21365
-func Fn21365(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn21187 github.com/doitintl/googlesqlwasm2go/p10.Fn21187
+func Fn21187(m *base.Module, l0 int64, l1 int32, l2 int32)
 
-//go:linkname Fn21380 github.com/goccy/googlesqlwasm2go/p10.Fn21380
-func Fn21380(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21189 github.com/doitintl/googlesqlwasm2go/p6.Fn21189
+func Fn21189(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn21395 github.com/goccy/googlesqlwasm2go/p9.Fn21395
-func Fn21395(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn21194 github.com/doitintl/googlesqlwasm2go/p10.Fn21194
+func Fn21194(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn21441 github.com/goccy/googlesqlwasm2go/p5.Fn21441
-func Fn21441(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21195 github.com/doitintl/googlesqlwasm2go/p9.Fn21195
+func Fn21195(m *base.Module, l0 int32)
 
-//go:linkname Fn21456 github.com/goccy/googlesqlwasm2go/p10.Fn21456
-func Fn21456(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21197 github.com/doitintl/googlesqlwasm2go/p9.Fn21197
+func Fn21197(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn21457 github.com/goccy/googlesqlwasm2go/p10.Fn21457
-func Fn21457(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21200 github.com/doitintl/googlesqlwasm2go/p10.Fn21200
+func Fn21200(m *base.Module, l0 int32)
 
-//go:linkname Fn21465 github.com/goccy/googlesqlwasm2go/p10.Fn21465
-func Fn21465(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn21202 github.com/doitintl/googlesqlwasm2go/p10.Fn21202
+func Fn21202(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn21471 github.com/goccy/googlesqlwasm2go/p8.Fn21471
-func Fn21471(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn21207 github.com/doitintl/googlesqlwasm2go/p10.Fn21207
+func Fn21207(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn21493 github.com/goccy/googlesqlwasm2go/p9.Fn21493
-func Fn21493(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn21208 github.com/doitintl/googlesqlwasm2go/p9.Fn21208
+func Fn21208(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn21494 github.com/goccy/googlesqlwasm2go/p8.Fn21494
-func Fn21494(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21209 github.com/doitintl/googlesqlwasm2go/p10.Fn21209
+func Fn21209(m *base.Module, l0 int32)
 
-//go:linkname Fn21495 github.com/goccy/googlesqlwasm2go/p9.Fn21495
-func Fn21495(m *base.Module, l0 int32)
+//go:linkname Fn21215 github.com/doitintl/googlesqlwasm2go/p10.Fn21215
+func Fn21215(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn21496 github.com/goccy/googlesqlwasm2go/p9.Fn21496
-func Fn21496(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn21226 github.com/doitintl/googlesqlwasm2go/p10.Fn21226
+func Fn21226(m *base.Module)
 
-//go:linkname Fn21500 github.com/goccy/googlesqlwasm2go/p8.Fn21500
-func Fn21500(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21248 github.com/doitintl/googlesqlwasm2go/p10.Fn21248
+func Fn21248(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn21501 github.com/goccy/googlesqlwasm2go/p9.Fn21501
-func Fn21501(m *base.Module, l0 int32)
+//go:linkname Fn21260 github.com/doitintl/googlesqlwasm2go/p10.Fn21260
+func Fn21260(m *base.Module, l0 int32) int32
 
-//go:linkname Fn21502 github.com/goccy/googlesqlwasm2go/p9.Fn21502
-func Fn21502(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn21267 github.com/doitintl/googlesqlwasm2go/p9.Fn21267
+func Fn21267(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn21508 github.com/goccy/googlesqlwasm2go/p10.Fn21508
-func Fn21508(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn21306 github.com/doitintl/googlesqlwasm2go/p10.Fn21306
+func Fn21306(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn21549 github.com/goccy/googlesqlwasm2go/p10.Fn21549
-func Fn21549(m *base.Module, l0 int32) int32
+//go:linkname Fn21399 github.com/doitintl/googlesqlwasm2go/p10.Fn21399
+func Fn21399(m *base.Module, l0 int32)
 
-//go:linkname Fn21566 github.com/goccy/googlesqlwasm2go/p9.Fn21566
-func Fn21566(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn21437 github.com/doitintl/googlesqlwasm2go/p9.Fn21437
+func Fn21437(m *base.Module, l0 int32)
 
-//go:linkname Fn21571 github.com/goccy/googlesqlwasm2go/p9.Fn21571
-func Fn21571(m *base.Module, l0 int32, l1 int64) int32
+//go:linkname Fn21456 github.com/doitintl/googlesqlwasm2go/p10.Fn21456
+func Fn21456(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn21572 github.com/goccy/googlesqlwasm2go/p10.Fn21572
-func Fn21572(m *base.Module, l0 int32, l1 int64) int32
+//go:linkname Fn21458 github.com/doitintl/googlesqlwasm2go/p9.Fn21458
+func Fn21458(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn21574 github.com/goccy/googlesqlwasm2go/p10.Fn21574
-func Fn21574(m *base.Module, l0 int32, l1 int64) int32
+//go:linkname Fn21459 github.com/doitintl/googlesqlwasm2go/p9.Fn21459
+func Fn21459(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn21579 github.com/goccy/googlesqlwasm2go/p10.Fn21579
-func Fn21579(m *base.Module, l0 int32, l1 int64) int32
+//go:linkname Fn21530 github.com/doitintl/googlesqlwasm2go/p10.Fn21530
+func Fn21530(m *base.Module, l0 int32)
 
-//go:linkname Fn21584 github.com/goccy/googlesqlwasm2go/p9.Fn21584
-func Fn21584(m *base.Module, l0 int32, l1 int64) int32
+//go:linkname Fn21538 github.com/doitintl/googlesqlwasm2go/p10.Fn21538
+func Fn21538(m *base.Module, l0 int32)
 
-//go:linkname Fn21585 github.com/goccy/googlesqlwasm2go/p10.Fn21585
-func Fn21585(m *base.Module, l0 int32, l1 int64) int32
+//go:linkname Fn21560 github.com/doitintl/googlesqlwasm2go/p8.Fn21560
+func Fn21560(m *base.Module, l0 int32)
 
-//go:linkname Fn21599 github.com/goccy/googlesqlwasm2go/p9.Fn21599
-func Fn21599(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21566 github.com/doitintl/googlesqlwasm2go/p6.Fn21566
+func Fn21566(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn21603 github.com/goccy/googlesqlwasm2go/p9.Fn21603
-func Fn21603(m *base.Module, l0 int32) int32
+//go:linkname Fn21582 github.com/doitintl/googlesqlwasm2go/p9.Fn21582
+func Fn21582(m *base.Module, l0 int32)
 
-//go:linkname Fn21605 github.com/goccy/googlesqlwasm2go/p9.Fn21605
-func Fn21605(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21588 github.com/doitintl/googlesqlwasm2go/p9.Fn21588
+func Fn21588(m *base.Module, l0 int32) int32
 
-//go:linkname Fn21608 github.com/goccy/googlesqlwasm2go/p10.Fn21608
-func Fn21608(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn21592 github.com/doitintl/googlesqlwasm2go/p10.Fn21592
+func Fn21592(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn21670 github.com/goccy/googlesqlwasm2go/p10.Fn21670
-func Fn21670(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn21593 github.com/doitintl/googlesqlwasm2go/p8.Fn21593
+func Fn21593(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn21684 github.com/goccy/googlesqlwasm2go/p9.Fn21684
-func Fn21684(m *base.Module, l0 int32, l1 int64) int32
+//go:linkname Fn21594 github.com/doitintl/googlesqlwasm2go/p10.Fn21594
+func Fn21594(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn21703 github.com/goccy/googlesqlwasm2go/p10.Fn21703
-func Fn21703(m *base.Module, l0 int32) int32
+//go:linkname Fn21597 github.com/doitintl/googlesqlwasm2go/p10.Fn21597
+func Fn21597(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn21707 github.com/goccy/googlesqlwasm2go/p10.Fn21707
-func Fn21707(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn21601 github.com/doitintl/googlesqlwasm2go/p10.Fn21601
+func Fn21601(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn21708 github.com/goccy/googlesqlwasm2go/p10.Fn21708
-func Fn21708(m *base.Module, l0 int32) int32
+//go:linkname Fn21603 github.com/doitintl/googlesqlwasm2go/p9.Fn21603
+func Fn21603(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn21734 github.com/goccy/googlesqlwasm2go/p10.Fn21734
-func Fn21734(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21618 github.com/doitintl/googlesqlwasm2go/p10.Fn21618
+func Fn21618(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn21758 github.com/goccy/googlesqlwasm2go/p9.Fn21758
-func Fn21758(m *base.Module, l0 int32, l1 int64)
+//go:linkname Fn21633 github.com/doitintl/googlesqlwasm2go/p9.Fn21633
+func Fn21633(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn21759 github.com/goccy/googlesqlwasm2go/p9.Fn21759
-func Fn21759(m *base.Module, l0 int32, l1 int64)
+//go:linkname Fn21679 github.com/doitintl/googlesqlwasm2go/p5.Fn21679
+func Fn21679(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn21781 github.com/goccy/googlesqlwasm2go/p9.Fn21781
-func Fn21781(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn21694 github.com/doitintl/googlesqlwasm2go/p10.Fn21694
+func Fn21694(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn21793 github.com/goccy/googlesqlwasm2go/p6.Fn21793
-func Fn21793(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32) int32
+//go:linkname Fn21695 github.com/doitintl/googlesqlwasm2go/p10.Fn21695
+func Fn21695(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn21798 github.com/goccy/googlesqlwasm2go/p9.Fn21798
-func Fn21798(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21703 github.com/doitintl/googlesqlwasm2go/p10.Fn21703
+func Fn21703(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn21799 github.com/goccy/googlesqlwasm2go/p9.Fn21799
-func Fn21799(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn21709 github.com/doitintl/googlesqlwasm2go/p8.Fn21709
+func Fn21709(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn21806 github.com/goccy/googlesqlwasm2go/p9.Fn21806
-func Fn21806(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn21731 github.com/doitintl/googlesqlwasm2go/p9.Fn21731
+func Fn21731(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn21822 github.com/goccy/googlesqlwasm2go/p9.Fn21822
-func Fn21822(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21732 github.com/doitintl/googlesqlwasm2go/p8.Fn21732
+func Fn21732(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn21832 github.com/goccy/googlesqlwasm2go/p9.Fn21832
-func Fn21832(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21733 github.com/doitintl/googlesqlwasm2go/p9.Fn21733
+func Fn21733(m *base.Module, l0 int32)
 
-//go:linkname Fn21842 github.com/goccy/googlesqlwasm2go/p9.Fn21842
-func Fn21842(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21734 github.com/doitintl/googlesqlwasm2go/p9.Fn21734
+func Fn21734(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn21851 github.com/goccy/googlesqlwasm2go/p9.Fn21851
-func Fn21851(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21738 github.com/doitintl/googlesqlwasm2go/p8.Fn21738
+func Fn21738(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn21852 github.com/goccy/googlesqlwasm2go/p9.Fn21852
-func Fn21852(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn21739 github.com/doitintl/googlesqlwasm2go/p9.Fn21739
+func Fn21739(m *base.Module, l0 int32)
 
-//go:linkname Fn21866 github.com/goccy/googlesqlwasm2go/p9.Fn21866
-func Fn21866(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21740 github.com/doitintl/googlesqlwasm2go/p10.Fn21740
+func Fn21740(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn21897 github.com/goccy/googlesqlwasm2go/p9.Fn21897
-func Fn21897(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21746 github.com/doitintl/googlesqlwasm2go/p10.Fn21746
+func Fn21746(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn21903 github.com/goccy/googlesqlwasm2go/p10.Fn21903
-func Fn21903(m *base.Module, l0 int32) int32
+//go:linkname Fn21787 github.com/doitintl/googlesqlwasm2go/p10.Fn21787
+func Fn21787(m *base.Module, l0 int32) int32
 
-//go:linkname Fn21944 github.com/goccy/googlesqlwasm2go/p10.Fn21944
-func Fn21944(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn21804 github.com/doitintl/googlesqlwasm2go/p9.Fn21804
+func Fn21804(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn21947 github.com/goccy/googlesqlwasm2go/p10.Fn21947
-func Fn21947(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn21809 github.com/doitintl/googlesqlwasm2go/p10.Fn21809
+func Fn21809(m *base.Module, l0 int32, l1 int64) int32
 
-//go:linkname Fn21948 github.com/goccy/googlesqlwasm2go/p4.Fn21948
-func Fn21948(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21810 github.com/doitintl/googlesqlwasm2go/p10.Fn21810
+func Fn21810(m *base.Module, l0 int32, l1 int64) int32
 
-//go:linkname Fn21954 github.com/goccy/googlesqlwasm2go/p9.Fn21954
-func Fn21954(m *base.Module, l0 int32)
+//go:linkname Fn21812 github.com/doitintl/googlesqlwasm2go/p10.Fn21812
+func Fn21812(m *base.Module, l0 int32, l1 int64) int32
 
-//go:linkname Fn21958 github.com/goccy/googlesqlwasm2go/p9.Fn21958
-func Fn21958(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn21822 github.com/doitintl/googlesqlwasm2go/p10.Fn21822
+func Fn21822(m *base.Module, l0 int32, l1 int64) int32
 
-//go:linkname Fn21970 github.com/goccy/googlesqlwasm2go/p10.Fn21970
-func Fn21970(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21823 github.com/doitintl/googlesqlwasm2go/p10.Fn21823
+func Fn21823(m *base.Module, l0 int32, l1 int64) int32
 
-//go:linkname Fn22005 github.com/goccy/googlesqlwasm2go/p10.Fn22005
-func Fn22005(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21829 github.com/doitintl/googlesqlwasm2go/p10.Fn21829
+func Fn21829(m *base.Module, l0 int32) int32
 
-//go:linkname Fn22008 github.com/goccy/googlesqlwasm2go/p10.Fn22008
-func Fn22008(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21831 github.com/doitintl/googlesqlwasm2go/p10.Fn21831
+func Fn21831(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn22010 github.com/goccy/googlesqlwasm2go/p10.Fn22010
-func Fn22010(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21837 github.com/doitintl/googlesqlwasm2go/p10.Fn21837
+func Fn21837(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn22014 github.com/goccy/googlesqlwasm2go/p10.Fn22014
-func Fn22014(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21841 github.com/doitintl/googlesqlwasm2go/p10.Fn21841
+func Fn21841(m *base.Module, l0 int32) int32
 
-//go:linkname Fn22035 github.com/goccy/googlesqlwasm2go/p10.Fn22035
-func Fn22035(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21843 github.com/doitintl/googlesqlwasm2go/p10.Fn21843
+func Fn21843(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn22050 github.com/goccy/googlesqlwasm2go/p10.Fn22050
-func Fn22050(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21846 github.com/doitintl/googlesqlwasm2go/p10.Fn21846
+func Fn21846(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn22072 github.com/goccy/googlesqlwasm2go/p10.Fn22072
-func Fn22072(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21873 github.com/doitintl/googlesqlwasm2go/p10.Fn21873
+func Fn21873(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn22082 github.com/goccy/googlesqlwasm2go/p10.Fn22082
-func Fn22082(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21875 github.com/doitintl/googlesqlwasm2go/p10.Fn21875
+func Fn21875(m *base.Module, l0 int32) int32
 
-//go:linkname Fn22084 github.com/goccy/googlesqlwasm2go/p10.Fn22084
-func Fn22084(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21908 github.com/doitintl/googlesqlwasm2go/p10.Fn21908
+func Fn21908(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn22101 github.com/goccy/googlesqlwasm2go/p10.Fn22101
-func Fn22101(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21922 github.com/doitintl/googlesqlwasm2go/p10.Fn21922
+func Fn21922(m *base.Module, l0 int32, l1 int64) int32
 
-//go:linkname Fn22104 github.com/goccy/googlesqlwasm2go/p10.Fn22104
-func Fn22104(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21941 github.com/doitintl/googlesqlwasm2go/p10.Fn21941
+func Fn21941(m *base.Module, l0 int32) int32
 
-//go:linkname Fn22183 github.com/goccy/googlesqlwasm2go/p10.Fn22183
-func Fn22183(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21945 github.com/doitintl/googlesqlwasm2go/p10.Fn21945
+func Fn21945(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn22221 github.com/goccy/googlesqlwasm2go/p10.Fn22221
-func Fn22221(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21946 github.com/doitintl/googlesqlwasm2go/p10.Fn21946
+func Fn21946(m *base.Module, l0 int32) int32
 
-//go:linkname Fn22238 github.com/goccy/googlesqlwasm2go/p10.Fn22238
-func Fn22238(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21972 github.com/doitintl/googlesqlwasm2go/p10.Fn21972
+func Fn21972(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn22239 github.com/goccy/googlesqlwasm2go/p10.Fn22239
-func Fn22239(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21977 github.com/doitintl/googlesqlwasm2go/p10.Fn21977
+func Fn21977(m *base.Module, l0 int32, l1 int64)
 
-//go:linkname Fn22240 github.com/goccy/googlesqlwasm2go/p10.Fn22240
-func Fn22240(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21978 github.com/doitintl/googlesqlwasm2go/p9.Fn21978
+func Fn21978(m *base.Module, l0 int32, l1 int64)
 
-//go:linkname Fn22243 github.com/goccy/googlesqlwasm2go/p10.Fn22243
-func Fn22243(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21996 github.com/doitintl/googlesqlwasm2go/p10.Fn21996
+func Fn21996(m *base.Module, l0 int32, l1 int64)
 
-//go:linkname Fn22312 github.com/goccy/googlesqlwasm2go/p10.Fn22312
-func Fn22312(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn21997 github.com/doitintl/googlesqlwasm2go/p9.Fn21997
+func Fn21997(m *base.Module, l0 int32, l1 int64)
 
-//go:linkname Fn22321 github.com/goccy/googlesqlwasm2go/p10.Fn22321
-func Fn22321(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22019 github.com/doitintl/googlesqlwasm2go/p10.Fn22019
+func Fn22019(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn22332 github.com/goccy/googlesqlwasm2go/p10.Fn22332
-func Fn22332(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22031 github.com/doitintl/googlesqlwasm2go/p6.Fn22031
+func Fn22031(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32) int32
 
-//go:linkname Fn22414 github.com/goccy/googlesqlwasm2go/p10.Fn22414
-func Fn22414(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22036 github.com/doitintl/googlesqlwasm2go/p9.Fn22036
+func Fn22036(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn22418 github.com/goccy/googlesqlwasm2go/p10.Fn22418
-func Fn22418(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22037 github.com/doitintl/googlesqlwasm2go/p10.Fn22037
+func Fn22037(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn22421 github.com/goccy/googlesqlwasm2go/p10.Fn22421
-func Fn22421(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22044 github.com/doitintl/googlesqlwasm2go/p9.Fn22044
+func Fn22044(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn22422 github.com/goccy/googlesqlwasm2go/p10.Fn22422
-func Fn22422(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22060 github.com/doitintl/googlesqlwasm2go/p9.Fn22060
+func Fn22060(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn22452 github.com/goccy/googlesqlwasm2go/p10.Fn22452
+//go:linkname Fn22070 github.com/doitintl/googlesqlwasm2go/p9.Fn22070
+func Fn22070(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn22080 github.com/doitintl/googlesqlwasm2go/p9.Fn22080
+func Fn22080(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn22089 github.com/doitintl/googlesqlwasm2go/p9.Fn22089
+func Fn22089(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn22090 github.com/doitintl/googlesqlwasm2go/p9.Fn22090
+func Fn22090(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn22104 github.com/doitintl/googlesqlwasm2go/p9.Fn22104
+func Fn22104(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn22135 github.com/doitintl/googlesqlwasm2go/p9.Fn22135
+func Fn22135(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn22141 github.com/doitintl/googlesqlwasm2go/p10.Fn22141
+func Fn22141(m *base.Module, l0 int32) int32
+
+//go:linkname Fn22204 github.com/doitintl/googlesqlwasm2go/p10.Fn22204
+func Fn22204(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn22292 github.com/doitintl/googlesqlwasm2go/p10.Fn22292
+func Fn22292(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn22295 github.com/doitintl/googlesqlwasm2go/p10.Fn22295
+func Fn22295(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn22296 github.com/doitintl/googlesqlwasm2go/p4.Fn22296
+func Fn22296(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn22302 github.com/doitintl/googlesqlwasm2go/p9.Fn22302
+func Fn22302(m *base.Module, l0 int32)
+
+//go:linkname Fn22306 github.com/doitintl/googlesqlwasm2go/p9.Fn22306
+func Fn22306(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn22318 github.com/doitintl/googlesqlwasm2go/p10.Fn22318
+func Fn22318(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn22353 github.com/doitintl/googlesqlwasm2go/p10.Fn22353
+func Fn22353(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn22356 github.com/doitintl/googlesqlwasm2go/p10.Fn22356
+func Fn22356(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn22358 github.com/doitintl/googlesqlwasm2go/p10.Fn22358
+func Fn22358(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn22383 github.com/doitintl/googlesqlwasm2go/p10.Fn22383
+func Fn22383(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn22390 github.com/doitintl/googlesqlwasm2go/p10.Fn22390
+func Fn22390(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn22398 github.com/doitintl/googlesqlwasm2go/p10.Fn22398
+func Fn22398(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn22420 github.com/doitintl/googlesqlwasm2go/p10.Fn22420
+func Fn22420(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn22452 github.com/doitintl/googlesqlwasm2go/p10.Fn22452
 func Fn22452(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22959 github.com/goccy/googlesqlwasm2go/p10.Fn22959
-func Fn22959(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22460 github.com/doitintl/googlesqlwasm2go/p10.Fn22460
+func Fn22460(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22960 github.com/goccy/googlesqlwasm2go/p10.Fn22960
-func Fn22960(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22525 github.com/doitintl/googlesqlwasm2go/p10.Fn22525
+func Fn22525(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22961 github.com/goccy/googlesqlwasm2go/p10.Fn22961
-func Fn22961(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22531 github.com/doitintl/googlesqlwasm2go/p10.Fn22531
+func Fn22531(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22962 github.com/goccy/googlesqlwasm2go/p10.Fn22962
-func Fn22962(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22569 github.com/doitintl/googlesqlwasm2go/p10.Fn22569
+func Fn22569(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22963 github.com/goccy/googlesqlwasm2go/p10.Fn22963
-func Fn22963(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22586 github.com/doitintl/googlesqlwasm2go/p10.Fn22586
+func Fn22586(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22964 github.com/goccy/googlesqlwasm2go/p10.Fn22964
-func Fn22964(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22587 github.com/doitintl/googlesqlwasm2go/p10.Fn22587
+func Fn22587(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22965 github.com/goccy/googlesqlwasm2go/p10.Fn22965
-func Fn22965(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22588 github.com/doitintl/googlesqlwasm2go/p10.Fn22588
+func Fn22588(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22966 github.com/goccy/googlesqlwasm2go/p10.Fn22966
-func Fn22966(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22591 github.com/doitintl/googlesqlwasm2go/p10.Fn22591
+func Fn22591(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22967 github.com/goccy/googlesqlwasm2go/p10.Fn22967
-func Fn22967(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22649 github.com/doitintl/googlesqlwasm2go/p10.Fn22649
+func Fn22649(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22968 github.com/goccy/googlesqlwasm2go/p10.Fn22968
-func Fn22968(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22651 github.com/doitintl/googlesqlwasm2go/p10.Fn22651
+func Fn22651(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22969 github.com/goccy/googlesqlwasm2go/p10.Fn22969
-func Fn22969(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22660 github.com/doitintl/googlesqlwasm2go/p10.Fn22660
+func Fn22660(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22971 github.com/goccy/googlesqlwasm2go/p10.Fn22971
-func Fn22971(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22682 github.com/doitintl/googlesqlwasm2go/p10.Fn22682
+func Fn22682(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22973 github.com/goccy/googlesqlwasm2go/p10.Fn22973
-func Fn22973(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22728 github.com/doitintl/googlesqlwasm2go/p10.Fn22728
+func Fn22728(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22974 github.com/goccy/googlesqlwasm2go/p10.Fn22974
-func Fn22974(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn22762 github.com/doitintl/googlesqlwasm2go/p10.Fn22762
+func Fn22762(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22975 github.com/goccy/googlesqlwasm2go/p10.Fn22975
-func Fn22975(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23307 github.com/doitintl/googlesqlwasm2go/p10.Fn23307
+func Fn23307(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22976 github.com/goccy/googlesqlwasm2go/p10.Fn22976
-func Fn22976(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23308 github.com/doitintl/googlesqlwasm2go/p10.Fn23308
+func Fn23308(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22977 github.com/goccy/googlesqlwasm2go/p10.Fn22977
-func Fn22977(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23309 github.com/doitintl/googlesqlwasm2go/p10.Fn23309
+func Fn23309(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22978 github.com/goccy/googlesqlwasm2go/p10.Fn22978
-func Fn22978(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23310 github.com/doitintl/googlesqlwasm2go/p10.Fn23310
+func Fn23310(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22979 github.com/goccy/googlesqlwasm2go/p10.Fn22979
-func Fn22979(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23311 github.com/doitintl/googlesqlwasm2go/p10.Fn23311
+func Fn23311(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22980 github.com/goccy/googlesqlwasm2go/p10.Fn22980
-func Fn22980(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23312 github.com/doitintl/googlesqlwasm2go/p10.Fn23312
+func Fn23312(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22981 github.com/goccy/googlesqlwasm2go/p10.Fn22981
-func Fn22981(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23313 github.com/doitintl/googlesqlwasm2go/p10.Fn23313
+func Fn23313(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22982 github.com/goccy/googlesqlwasm2go/p10.Fn22982
-func Fn22982(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23314 github.com/doitintl/googlesqlwasm2go/p10.Fn23314
+func Fn23314(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22983 github.com/goccy/googlesqlwasm2go/p10.Fn22983
-func Fn22983(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23315 github.com/doitintl/googlesqlwasm2go/p10.Fn23315
+func Fn23315(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22984 github.com/goccy/googlesqlwasm2go/p10.Fn22984
-func Fn22984(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23316 github.com/doitintl/googlesqlwasm2go/p10.Fn23316
+func Fn23316(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22985 github.com/goccy/googlesqlwasm2go/p10.Fn22985
-func Fn22985(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23317 github.com/doitintl/googlesqlwasm2go/p10.Fn23317
+func Fn23317(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22986 github.com/goccy/googlesqlwasm2go/p10.Fn22986
-func Fn22986(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23319 github.com/doitintl/googlesqlwasm2go/p10.Fn23319
+func Fn23319(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22987 github.com/goccy/googlesqlwasm2go/p10.Fn22987
-func Fn22987(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23321 github.com/doitintl/googlesqlwasm2go/p10.Fn23321
+func Fn23321(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22988 github.com/goccy/googlesqlwasm2go/p10.Fn22988
-func Fn22988(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23322 github.com/doitintl/googlesqlwasm2go/p10.Fn23322
+func Fn23322(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22989 github.com/goccy/googlesqlwasm2go/p10.Fn22989
-func Fn22989(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23323 github.com/doitintl/googlesqlwasm2go/p10.Fn23323
+func Fn23323(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22990 github.com/goccy/googlesqlwasm2go/p10.Fn22990
-func Fn22990(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23324 github.com/doitintl/googlesqlwasm2go/p10.Fn23324
+func Fn23324(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22991 github.com/goccy/googlesqlwasm2go/p10.Fn22991
-func Fn22991(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23325 github.com/doitintl/googlesqlwasm2go/p10.Fn23325
+func Fn23325(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22993 github.com/goccy/googlesqlwasm2go/p10.Fn22993
-func Fn22993(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23326 github.com/doitintl/googlesqlwasm2go/p10.Fn23326
+func Fn23326(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22994 github.com/goccy/googlesqlwasm2go/p10.Fn22994
-func Fn22994(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23327 github.com/doitintl/googlesqlwasm2go/p10.Fn23327
+func Fn23327(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22995 github.com/goccy/googlesqlwasm2go/p10.Fn22995
-func Fn22995(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23328 github.com/doitintl/googlesqlwasm2go/p10.Fn23328
+func Fn23328(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22996 github.com/goccy/googlesqlwasm2go/p10.Fn22996
-func Fn22996(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23329 github.com/doitintl/googlesqlwasm2go/p10.Fn23329
+func Fn23329(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22997 github.com/goccy/googlesqlwasm2go/p10.Fn22997
-func Fn22997(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23330 github.com/doitintl/googlesqlwasm2go/p10.Fn23330
+func Fn23330(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22998 github.com/goccy/googlesqlwasm2go/p10.Fn22998
-func Fn22998(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23331 github.com/doitintl/googlesqlwasm2go/p10.Fn23331
+func Fn23331(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn22999 github.com/goccy/googlesqlwasm2go/p10.Fn22999
-func Fn22999(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23332 github.com/doitintl/googlesqlwasm2go/p10.Fn23332
+func Fn23332(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23000 github.com/goccy/googlesqlwasm2go/p10.Fn23000
-func Fn23000(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23333 github.com/doitintl/googlesqlwasm2go/p10.Fn23333
+func Fn23333(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23001 github.com/goccy/googlesqlwasm2go/p10.Fn23001
-func Fn23001(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23334 github.com/doitintl/googlesqlwasm2go/p10.Fn23334
+func Fn23334(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23002 github.com/goccy/googlesqlwasm2go/p10.Fn23002
-func Fn23002(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23335 github.com/doitintl/googlesqlwasm2go/p10.Fn23335
+func Fn23335(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23003 github.com/goccy/googlesqlwasm2go/p10.Fn23003
-func Fn23003(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23336 github.com/doitintl/googlesqlwasm2go/p10.Fn23336
+func Fn23336(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23004 github.com/goccy/googlesqlwasm2go/p10.Fn23004
-func Fn23004(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23337 github.com/doitintl/googlesqlwasm2go/p10.Fn23337
+func Fn23337(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23006 github.com/goccy/googlesqlwasm2go/p10.Fn23006
-func Fn23006(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23338 github.com/doitintl/googlesqlwasm2go/p10.Fn23338
+func Fn23338(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23007 github.com/goccy/googlesqlwasm2go/p10.Fn23007
-func Fn23007(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23339 github.com/doitintl/googlesqlwasm2go/p10.Fn23339
+func Fn23339(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23008 github.com/goccy/googlesqlwasm2go/p10.Fn23008
-func Fn23008(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23341 github.com/doitintl/googlesqlwasm2go/p10.Fn23341
+func Fn23341(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23009 github.com/goccy/googlesqlwasm2go/p10.Fn23009
-func Fn23009(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23342 github.com/doitintl/googlesqlwasm2go/p10.Fn23342
+func Fn23342(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23010 github.com/goccy/googlesqlwasm2go/p10.Fn23010
-func Fn23010(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23343 github.com/doitintl/googlesqlwasm2go/p10.Fn23343
+func Fn23343(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23012 github.com/goccy/googlesqlwasm2go/p10.Fn23012
-func Fn23012(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23344 github.com/doitintl/googlesqlwasm2go/p10.Fn23344
+func Fn23344(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23013 github.com/goccy/googlesqlwasm2go/p10.Fn23013
-func Fn23013(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23345 github.com/doitintl/googlesqlwasm2go/p10.Fn23345
+func Fn23345(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23014 github.com/goccy/googlesqlwasm2go/p10.Fn23014
-func Fn23014(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23346 github.com/doitintl/googlesqlwasm2go/p10.Fn23346
+func Fn23346(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23015 github.com/goccy/googlesqlwasm2go/p10.Fn23015
-func Fn23015(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23347 github.com/doitintl/googlesqlwasm2go/p10.Fn23347
+func Fn23347(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23016 github.com/goccy/googlesqlwasm2go/p10.Fn23016
-func Fn23016(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23348 github.com/doitintl/googlesqlwasm2go/p10.Fn23348
+func Fn23348(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23017 github.com/goccy/googlesqlwasm2go/p10.Fn23017
-func Fn23017(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23349 github.com/doitintl/googlesqlwasm2go/p10.Fn23349
+func Fn23349(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23018 github.com/goccy/googlesqlwasm2go/p10.Fn23018
-func Fn23018(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23350 github.com/doitintl/googlesqlwasm2go/p10.Fn23350
+func Fn23350(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23019 github.com/goccy/googlesqlwasm2go/p10.Fn23019
-func Fn23019(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23351 github.com/doitintl/googlesqlwasm2go/p10.Fn23351
+func Fn23351(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23020 github.com/goccy/googlesqlwasm2go/p10.Fn23020
-func Fn23020(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23352 github.com/doitintl/googlesqlwasm2go/p10.Fn23352
+func Fn23352(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23021 github.com/goccy/googlesqlwasm2go/p10.Fn23021
-func Fn23021(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23354 github.com/doitintl/googlesqlwasm2go/p10.Fn23354
+func Fn23354(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23024 github.com/goccy/googlesqlwasm2go/p10.Fn23024
-func Fn23024(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23355 github.com/doitintl/googlesqlwasm2go/p10.Fn23355
+func Fn23355(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23025 github.com/goccy/googlesqlwasm2go/p10.Fn23025
-func Fn23025(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23356 github.com/doitintl/googlesqlwasm2go/p10.Fn23356
+func Fn23356(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23026 github.com/goccy/googlesqlwasm2go/p10.Fn23026
-func Fn23026(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23357 github.com/doitintl/googlesqlwasm2go/p10.Fn23357
+func Fn23357(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23027 github.com/goccy/googlesqlwasm2go/p10.Fn23027
-func Fn23027(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23358 github.com/doitintl/googlesqlwasm2go/p10.Fn23358
+func Fn23358(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23028 github.com/goccy/googlesqlwasm2go/p10.Fn23028
-func Fn23028(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23360 github.com/doitintl/googlesqlwasm2go/p10.Fn23360
+func Fn23360(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23029 github.com/goccy/googlesqlwasm2go/p10.Fn23029
-func Fn23029(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23361 github.com/doitintl/googlesqlwasm2go/p10.Fn23361
+func Fn23361(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23030 github.com/goccy/googlesqlwasm2go/p10.Fn23030
-func Fn23030(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23362 github.com/doitintl/googlesqlwasm2go/p10.Fn23362
+func Fn23362(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23032 github.com/goccy/googlesqlwasm2go/p10.Fn23032
-func Fn23032(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23363 github.com/doitintl/googlesqlwasm2go/p10.Fn23363
+func Fn23363(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23033 github.com/goccy/googlesqlwasm2go/p10.Fn23033
-func Fn23033(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23364 github.com/doitintl/googlesqlwasm2go/p10.Fn23364
+func Fn23364(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23034 github.com/goccy/googlesqlwasm2go/p10.Fn23034
-func Fn23034(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23365 github.com/doitintl/googlesqlwasm2go/p10.Fn23365
+func Fn23365(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23035 github.com/goccy/googlesqlwasm2go/p10.Fn23035
-func Fn23035(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23366 github.com/doitintl/googlesqlwasm2go/p10.Fn23366
+func Fn23366(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23036 github.com/goccy/googlesqlwasm2go/p10.Fn23036
-func Fn23036(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23367 github.com/doitintl/googlesqlwasm2go/p10.Fn23367
+func Fn23367(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23037 github.com/goccy/googlesqlwasm2go/p10.Fn23037
-func Fn23037(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23368 github.com/doitintl/googlesqlwasm2go/p10.Fn23368
+func Fn23368(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23038 github.com/goccy/googlesqlwasm2go/p10.Fn23038
-func Fn23038(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23369 github.com/doitintl/googlesqlwasm2go/p10.Fn23369
+func Fn23369(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23039 github.com/goccy/googlesqlwasm2go/p10.Fn23039
-func Fn23039(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23372 github.com/doitintl/googlesqlwasm2go/p10.Fn23372
+func Fn23372(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23040 github.com/goccy/googlesqlwasm2go/p10.Fn23040
-func Fn23040(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23373 github.com/doitintl/googlesqlwasm2go/p10.Fn23373
+func Fn23373(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23042 github.com/goccy/googlesqlwasm2go/p10.Fn23042
-func Fn23042(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23374 github.com/doitintl/googlesqlwasm2go/p10.Fn23374
+func Fn23374(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23043 github.com/goccy/googlesqlwasm2go/p10.Fn23043
-func Fn23043(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23375 github.com/doitintl/googlesqlwasm2go/p10.Fn23375
+func Fn23375(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23044 github.com/goccy/googlesqlwasm2go/p10.Fn23044
-func Fn23044(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23376 github.com/doitintl/googlesqlwasm2go/p10.Fn23376
+func Fn23376(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23045 github.com/goccy/googlesqlwasm2go/p10.Fn23045
-func Fn23045(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23377 github.com/doitintl/googlesqlwasm2go/p10.Fn23377
+func Fn23377(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23046 github.com/goccy/googlesqlwasm2go/p10.Fn23046
-func Fn23046(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23378 github.com/doitintl/googlesqlwasm2go/p10.Fn23378
+func Fn23378(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23047 github.com/goccy/googlesqlwasm2go/p10.Fn23047
-func Fn23047(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23380 github.com/doitintl/googlesqlwasm2go/p10.Fn23380
+func Fn23380(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23048 github.com/goccy/googlesqlwasm2go/p10.Fn23048
-func Fn23048(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23381 github.com/doitintl/googlesqlwasm2go/p10.Fn23381
+func Fn23381(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23050 github.com/goccy/googlesqlwasm2go/p10.Fn23050
-func Fn23050(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23382 github.com/doitintl/googlesqlwasm2go/p10.Fn23382
+func Fn23382(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23051 github.com/goccy/googlesqlwasm2go/p10.Fn23051
-func Fn23051(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23383 github.com/doitintl/googlesqlwasm2go/p10.Fn23383
+func Fn23383(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23052 github.com/goccy/googlesqlwasm2go/p10.Fn23052
-func Fn23052(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23384 github.com/doitintl/googlesqlwasm2go/p10.Fn23384
+func Fn23384(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23054 github.com/goccy/googlesqlwasm2go/p10.Fn23054
-func Fn23054(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23385 github.com/doitintl/googlesqlwasm2go/p10.Fn23385
+func Fn23385(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23055 github.com/goccy/googlesqlwasm2go/p10.Fn23055
-func Fn23055(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23386 github.com/doitintl/googlesqlwasm2go/p10.Fn23386
+func Fn23386(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23057 github.com/goccy/googlesqlwasm2go/p10.Fn23057
-func Fn23057(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23387 github.com/doitintl/googlesqlwasm2go/p10.Fn23387
+func Fn23387(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23058 github.com/goccy/googlesqlwasm2go/p10.Fn23058
-func Fn23058(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23388 github.com/doitintl/googlesqlwasm2go/p10.Fn23388
+func Fn23388(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23059 github.com/goccy/googlesqlwasm2go/p10.Fn23059
-func Fn23059(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23390 github.com/doitintl/googlesqlwasm2go/p10.Fn23390
+func Fn23390(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23060 github.com/goccy/googlesqlwasm2go/p10.Fn23060
-func Fn23060(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23391 github.com/doitintl/googlesqlwasm2go/p10.Fn23391
+func Fn23391(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23062 github.com/goccy/googlesqlwasm2go/p10.Fn23062
-func Fn23062(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23392 github.com/doitintl/googlesqlwasm2go/p10.Fn23392
+func Fn23392(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23063 github.com/goccy/googlesqlwasm2go/p10.Fn23063
-func Fn23063(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23393 github.com/doitintl/googlesqlwasm2go/p10.Fn23393
+func Fn23393(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23064 github.com/goccy/googlesqlwasm2go/p10.Fn23064
-func Fn23064(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23394 github.com/doitintl/googlesqlwasm2go/p10.Fn23394
+func Fn23394(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23065 github.com/goccy/googlesqlwasm2go/p10.Fn23065
-func Fn23065(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23395 github.com/doitintl/googlesqlwasm2go/p10.Fn23395
+func Fn23395(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23066 github.com/goccy/googlesqlwasm2go/p10.Fn23066
-func Fn23066(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23396 github.com/doitintl/googlesqlwasm2go/p10.Fn23396
+func Fn23396(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23067 github.com/goccy/googlesqlwasm2go/p10.Fn23067
-func Fn23067(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23398 github.com/doitintl/googlesqlwasm2go/p10.Fn23398
+func Fn23398(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23068 github.com/goccy/googlesqlwasm2go/p10.Fn23068
-func Fn23068(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23399 github.com/doitintl/googlesqlwasm2go/p10.Fn23399
+func Fn23399(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23069 github.com/goccy/googlesqlwasm2go/p10.Fn23069
-func Fn23069(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23400 github.com/doitintl/googlesqlwasm2go/p10.Fn23400
+func Fn23400(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23070 github.com/goccy/googlesqlwasm2go/p10.Fn23070
-func Fn23070(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23402 github.com/doitintl/googlesqlwasm2go/p10.Fn23402
+func Fn23402(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23071 github.com/goccy/googlesqlwasm2go/p10.Fn23071
-func Fn23071(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23403 github.com/doitintl/googlesqlwasm2go/p10.Fn23403
+func Fn23403(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23072 github.com/goccy/googlesqlwasm2go/p10.Fn23072
-func Fn23072(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23405 github.com/doitintl/googlesqlwasm2go/p10.Fn23405
+func Fn23405(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23073 github.com/goccy/googlesqlwasm2go/p10.Fn23073
-func Fn23073(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23406 github.com/doitintl/googlesqlwasm2go/p10.Fn23406
+func Fn23406(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23074 github.com/goccy/googlesqlwasm2go/p10.Fn23074
-func Fn23074(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23407 github.com/doitintl/googlesqlwasm2go/p10.Fn23407
+func Fn23407(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23075 github.com/goccy/googlesqlwasm2go/p10.Fn23075
-func Fn23075(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23408 github.com/doitintl/googlesqlwasm2go/p10.Fn23408
+func Fn23408(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23076 github.com/goccy/googlesqlwasm2go/p10.Fn23076
-func Fn23076(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23410 github.com/doitintl/googlesqlwasm2go/p10.Fn23410
+func Fn23410(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23077 github.com/goccy/googlesqlwasm2go/p10.Fn23077
-func Fn23077(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23411 github.com/doitintl/googlesqlwasm2go/p10.Fn23411
+func Fn23411(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23078 github.com/goccy/googlesqlwasm2go/p10.Fn23078
-func Fn23078(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23412 github.com/doitintl/googlesqlwasm2go/p10.Fn23412
+func Fn23412(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23079 github.com/goccy/googlesqlwasm2go/p10.Fn23079
-func Fn23079(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23413 github.com/doitintl/googlesqlwasm2go/p10.Fn23413
+func Fn23413(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23080 github.com/goccy/googlesqlwasm2go/p10.Fn23080
-func Fn23080(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23414 github.com/doitintl/googlesqlwasm2go/p10.Fn23414
+func Fn23414(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23081 github.com/goccy/googlesqlwasm2go/p10.Fn23081
-func Fn23081(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23415 github.com/doitintl/googlesqlwasm2go/p10.Fn23415
+func Fn23415(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23082 github.com/goccy/googlesqlwasm2go/p10.Fn23082
-func Fn23082(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23416 github.com/doitintl/googlesqlwasm2go/p10.Fn23416
+func Fn23416(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23083 github.com/goccy/googlesqlwasm2go/p10.Fn23083
-func Fn23083(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23417 github.com/doitintl/googlesqlwasm2go/p10.Fn23417
+func Fn23417(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23084 github.com/goccy/googlesqlwasm2go/p10.Fn23084
-func Fn23084(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23418 github.com/doitintl/googlesqlwasm2go/p10.Fn23418
+func Fn23418(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23085 github.com/goccy/googlesqlwasm2go/p10.Fn23085
-func Fn23085(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23419 github.com/doitintl/googlesqlwasm2go/p10.Fn23419
+func Fn23419(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23086 github.com/goccy/googlesqlwasm2go/p10.Fn23086
-func Fn23086(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23420 github.com/doitintl/googlesqlwasm2go/p10.Fn23420
+func Fn23420(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23087 github.com/goccy/googlesqlwasm2go/p10.Fn23087
-func Fn23087(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23421 github.com/doitintl/googlesqlwasm2go/p10.Fn23421
+func Fn23421(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23088 github.com/goccy/googlesqlwasm2go/p10.Fn23088
-func Fn23088(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23422 github.com/doitintl/googlesqlwasm2go/p10.Fn23422
+func Fn23422(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23089 github.com/goccy/googlesqlwasm2go/p10.Fn23089
-func Fn23089(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23423 github.com/doitintl/googlesqlwasm2go/p10.Fn23423
+func Fn23423(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23090 github.com/goccy/googlesqlwasm2go/p10.Fn23090
-func Fn23090(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23424 github.com/doitintl/googlesqlwasm2go/p10.Fn23424
+func Fn23424(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23091 github.com/goccy/googlesqlwasm2go/p10.Fn23091
-func Fn23091(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23425 github.com/doitintl/googlesqlwasm2go/p10.Fn23425
+func Fn23425(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23092 github.com/goccy/googlesqlwasm2go/p10.Fn23092
-func Fn23092(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23426 github.com/doitintl/googlesqlwasm2go/p10.Fn23426
+func Fn23426(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23093 github.com/goccy/googlesqlwasm2go/p10.Fn23093
-func Fn23093(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23427 github.com/doitintl/googlesqlwasm2go/p10.Fn23427
+func Fn23427(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23094 github.com/goccy/googlesqlwasm2go/p10.Fn23094
-func Fn23094(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23428 github.com/doitintl/googlesqlwasm2go/p10.Fn23428
+func Fn23428(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23095 github.com/goccy/googlesqlwasm2go/p10.Fn23095
-func Fn23095(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23429 github.com/doitintl/googlesqlwasm2go/p10.Fn23429
+func Fn23429(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23096 github.com/goccy/googlesqlwasm2go/p10.Fn23096
-func Fn23096(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23430 github.com/doitintl/googlesqlwasm2go/p10.Fn23430
+func Fn23430(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23097 github.com/goccy/googlesqlwasm2go/p10.Fn23097
-func Fn23097(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23431 github.com/doitintl/googlesqlwasm2go/p10.Fn23431
+func Fn23431(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23098 github.com/goccy/googlesqlwasm2go/p10.Fn23098
-func Fn23098(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23432 github.com/doitintl/googlesqlwasm2go/p10.Fn23432
+func Fn23432(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23099 github.com/goccy/googlesqlwasm2go/p10.Fn23099
-func Fn23099(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23433 github.com/doitintl/googlesqlwasm2go/p10.Fn23433
+func Fn23433(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23100 github.com/goccy/googlesqlwasm2go/p10.Fn23100
-func Fn23100(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23434 github.com/doitintl/googlesqlwasm2go/p10.Fn23434
+func Fn23434(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23101 github.com/goccy/googlesqlwasm2go/p10.Fn23101
-func Fn23101(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23435 github.com/doitintl/googlesqlwasm2go/p10.Fn23435
+func Fn23435(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23102 github.com/goccy/googlesqlwasm2go/p10.Fn23102
-func Fn23102(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23436 github.com/doitintl/googlesqlwasm2go/p10.Fn23436
+func Fn23436(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23103 github.com/goccy/googlesqlwasm2go/p10.Fn23103
-func Fn23103(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23437 github.com/doitintl/googlesqlwasm2go/p10.Fn23437
+func Fn23437(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23104 github.com/goccy/googlesqlwasm2go/p10.Fn23104
-func Fn23104(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23438 github.com/doitintl/googlesqlwasm2go/p10.Fn23438
+func Fn23438(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23105 github.com/goccy/googlesqlwasm2go/p10.Fn23105
-func Fn23105(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23439 github.com/doitintl/googlesqlwasm2go/p10.Fn23439
+func Fn23439(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23106 github.com/goccy/googlesqlwasm2go/p10.Fn23106
-func Fn23106(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23440 github.com/doitintl/googlesqlwasm2go/p10.Fn23440
+func Fn23440(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23107 github.com/goccy/googlesqlwasm2go/p10.Fn23107
-func Fn23107(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23441 github.com/doitintl/googlesqlwasm2go/p10.Fn23441
+func Fn23441(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23108 github.com/goccy/googlesqlwasm2go/p10.Fn23108
-func Fn23108(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23442 github.com/doitintl/googlesqlwasm2go/p10.Fn23442
+func Fn23442(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23110 github.com/goccy/googlesqlwasm2go/p10.Fn23110
-func Fn23110(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23443 github.com/doitintl/googlesqlwasm2go/p10.Fn23443
+func Fn23443(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23111 github.com/goccy/googlesqlwasm2go/p10.Fn23111
-func Fn23111(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23444 github.com/doitintl/googlesqlwasm2go/p10.Fn23444
+func Fn23444(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23113 github.com/goccy/googlesqlwasm2go/p10.Fn23113
-func Fn23113(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23445 github.com/doitintl/googlesqlwasm2go/p10.Fn23445
+func Fn23445(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23114 github.com/goccy/googlesqlwasm2go/p10.Fn23114
-func Fn23114(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23446 github.com/doitintl/googlesqlwasm2go/p10.Fn23446
+func Fn23446(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23115 github.com/goccy/googlesqlwasm2go/p10.Fn23115
-func Fn23115(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23447 github.com/doitintl/googlesqlwasm2go/p10.Fn23447
+func Fn23447(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23116 github.com/goccy/googlesqlwasm2go/p10.Fn23116
-func Fn23116(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23448 github.com/doitintl/googlesqlwasm2go/p10.Fn23448
+func Fn23448(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23117 github.com/goccy/googlesqlwasm2go/p10.Fn23117
-func Fn23117(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23449 github.com/doitintl/googlesqlwasm2go/p10.Fn23449
+func Fn23449(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23118 github.com/goccy/googlesqlwasm2go/p10.Fn23118
-func Fn23118(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23450 github.com/doitintl/googlesqlwasm2go/p10.Fn23450
+func Fn23450(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23119 github.com/goccy/googlesqlwasm2go/p10.Fn23119
-func Fn23119(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23451 github.com/doitintl/googlesqlwasm2go/p10.Fn23451
+func Fn23451(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23120 github.com/goccy/googlesqlwasm2go/p10.Fn23120
-func Fn23120(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23452 github.com/doitintl/googlesqlwasm2go/p10.Fn23452
+func Fn23452(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23121 github.com/goccy/googlesqlwasm2go/p10.Fn23121
-func Fn23121(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23453 github.com/doitintl/googlesqlwasm2go/p10.Fn23453
+func Fn23453(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23124 github.com/goccy/googlesqlwasm2go/p10.Fn23124
-func Fn23124(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23454 github.com/doitintl/googlesqlwasm2go/p10.Fn23454
+func Fn23454(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23125 github.com/goccy/googlesqlwasm2go/p10.Fn23125
-func Fn23125(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23455 github.com/doitintl/googlesqlwasm2go/p10.Fn23455
+func Fn23455(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23126 github.com/goccy/googlesqlwasm2go/p10.Fn23126
-func Fn23126(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23456 github.com/doitintl/googlesqlwasm2go/p10.Fn23456
+func Fn23456(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23127 github.com/goccy/googlesqlwasm2go/p10.Fn23127
-func Fn23127(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23458 github.com/doitintl/googlesqlwasm2go/p10.Fn23458
+func Fn23458(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23128 github.com/goccy/googlesqlwasm2go/p10.Fn23128
-func Fn23128(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23459 github.com/doitintl/googlesqlwasm2go/p10.Fn23459
+func Fn23459(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23129 github.com/goccy/googlesqlwasm2go/p10.Fn23129
-func Fn23129(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23130 github.com/goccy/googlesqlwasm2go/p10.Fn23130
-func Fn23130(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23131 github.com/goccy/googlesqlwasm2go/p10.Fn23131
-func Fn23131(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23132 github.com/goccy/googlesqlwasm2go/p10.Fn23132
-func Fn23132(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23133 github.com/goccy/googlesqlwasm2go/p10.Fn23133
-func Fn23133(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23134 github.com/goccy/googlesqlwasm2go/p10.Fn23134
-func Fn23134(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23135 github.com/goccy/googlesqlwasm2go/p10.Fn23135
-func Fn23135(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23136 github.com/goccy/googlesqlwasm2go/p10.Fn23136
-func Fn23136(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23137 github.com/goccy/googlesqlwasm2go/p10.Fn23137
-func Fn23137(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23138 github.com/goccy/googlesqlwasm2go/p10.Fn23138
-func Fn23138(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23139 github.com/goccy/googlesqlwasm2go/p10.Fn23139
-func Fn23139(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23140 github.com/goccy/googlesqlwasm2go/p10.Fn23140
-func Fn23140(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23141 github.com/goccy/googlesqlwasm2go/p10.Fn23141
-func Fn23141(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23142 github.com/goccy/googlesqlwasm2go/p10.Fn23142
-func Fn23142(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23143 github.com/goccy/googlesqlwasm2go/p10.Fn23143
-func Fn23143(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23144 github.com/goccy/googlesqlwasm2go/p10.Fn23144
-func Fn23144(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23145 github.com/goccy/googlesqlwasm2go/p10.Fn23145
-func Fn23145(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23146 github.com/goccy/googlesqlwasm2go/p10.Fn23146
-func Fn23146(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23147 github.com/goccy/googlesqlwasm2go/p10.Fn23147
-func Fn23147(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23148 github.com/goccy/googlesqlwasm2go/p10.Fn23148
-func Fn23148(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23149 github.com/goccy/googlesqlwasm2go/p10.Fn23149
-func Fn23149(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23150 github.com/goccy/googlesqlwasm2go/p10.Fn23150
-func Fn23150(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23151 github.com/goccy/googlesqlwasm2go/p10.Fn23151
-func Fn23151(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23152 github.com/goccy/googlesqlwasm2go/p10.Fn23152
-func Fn23152(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23153 github.com/goccy/googlesqlwasm2go/p10.Fn23153
-func Fn23153(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23154 github.com/goccy/googlesqlwasm2go/p10.Fn23154
-func Fn23154(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23155 github.com/goccy/googlesqlwasm2go/p10.Fn23155
-func Fn23155(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23156 github.com/goccy/googlesqlwasm2go/p10.Fn23156
-func Fn23156(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23157 github.com/goccy/googlesqlwasm2go/p10.Fn23157
-func Fn23157(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23158 github.com/goccy/googlesqlwasm2go/p10.Fn23158
-func Fn23158(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23159 github.com/goccy/googlesqlwasm2go/p10.Fn23159
-func Fn23159(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23160 github.com/goccy/googlesqlwasm2go/p10.Fn23160
-func Fn23160(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23161 github.com/goccy/googlesqlwasm2go/p10.Fn23161
-func Fn23161(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23162 github.com/goccy/googlesqlwasm2go/p10.Fn23162
-func Fn23162(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23163 github.com/goccy/googlesqlwasm2go/p10.Fn23163
-func Fn23163(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23164 github.com/goccy/googlesqlwasm2go/p10.Fn23164
-func Fn23164(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23165 github.com/goccy/googlesqlwasm2go/p10.Fn23165
-func Fn23165(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23166 github.com/goccy/googlesqlwasm2go/p10.Fn23166
-func Fn23166(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23167 github.com/goccy/googlesqlwasm2go/p10.Fn23167
-func Fn23167(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23168 github.com/goccy/googlesqlwasm2go/p10.Fn23168
-func Fn23168(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23169 github.com/goccy/googlesqlwasm2go/p10.Fn23169
-func Fn23169(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23170 github.com/goccy/googlesqlwasm2go/p10.Fn23170
-func Fn23170(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23171 github.com/goccy/googlesqlwasm2go/p10.Fn23171
-func Fn23171(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23172 github.com/goccy/googlesqlwasm2go/p10.Fn23172
-func Fn23172(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23173 github.com/goccy/googlesqlwasm2go/p10.Fn23173
-func Fn23173(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23174 github.com/goccy/googlesqlwasm2go/p10.Fn23174
-func Fn23174(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23175 github.com/goccy/googlesqlwasm2go/p10.Fn23175
-func Fn23175(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23176 github.com/goccy/googlesqlwasm2go/p10.Fn23176
-func Fn23176(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23177 github.com/goccy/googlesqlwasm2go/p10.Fn23177
-func Fn23177(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23178 github.com/goccy/googlesqlwasm2go/p10.Fn23178
-func Fn23178(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23179 github.com/goccy/googlesqlwasm2go/p10.Fn23179
-func Fn23179(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23180 github.com/goccy/googlesqlwasm2go/p10.Fn23180
-func Fn23180(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23181 github.com/goccy/googlesqlwasm2go/p10.Fn23181
-func Fn23181(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23182 github.com/goccy/googlesqlwasm2go/p10.Fn23182
-func Fn23182(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23183 github.com/goccy/googlesqlwasm2go/p10.Fn23183
-func Fn23183(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23184 github.com/goccy/googlesqlwasm2go/p10.Fn23184
-func Fn23184(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23185 github.com/goccy/googlesqlwasm2go/p10.Fn23185
-func Fn23185(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23186 github.com/goccy/googlesqlwasm2go/p10.Fn23186
-func Fn23186(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23187 github.com/goccy/googlesqlwasm2go/p10.Fn23187
-func Fn23187(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23188 github.com/goccy/googlesqlwasm2go/p10.Fn23188
-func Fn23188(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23189 github.com/goccy/googlesqlwasm2go/p10.Fn23189
-func Fn23189(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23190 github.com/goccy/googlesqlwasm2go/p10.Fn23190
-func Fn23190(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23191 github.com/goccy/googlesqlwasm2go/p10.Fn23191
-func Fn23191(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23193 github.com/goccy/googlesqlwasm2go/p10.Fn23193
-func Fn23193(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23194 github.com/goccy/googlesqlwasm2go/p10.Fn23194
-func Fn23194(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23195 github.com/goccy/googlesqlwasm2go/p10.Fn23195
-func Fn23195(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23196 github.com/goccy/googlesqlwasm2go/p10.Fn23196
-func Fn23196(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23197 github.com/goccy/googlesqlwasm2go/p10.Fn23197
-func Fn23197(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23198 github.com/goccy/googlesqlwasm2go/p10.Fn23198
-func Fn23198(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23199 github.com/goccy/googlesqlwasm2go/p10.Fn23199
-func Fn23199(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23200 github.com/goccy/googlesqlwasm2go/p10.Fn23200
-func Fn23200(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23201 github.com/goccy/googlesqlwasm2go/p10.Fn23201
-func Fn23201(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23202 github.com/goccy/googlesqlwasm2go/p10.Fn23202
-func Fn23202(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23203 github.com/goccy/googlesqlwasm2go/p10.Fn23203
-func Fn23203(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23204 github.com/goccy/googlesqlwasm2go/p10.Fn23204
-func Fn23204(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23205 github.com/goccy/googlesqlwasm2go/p10.Fn23205
-func Fn23205(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23206 github.com/goccy/googlesqlwasm2go/p10.Fn23206
-func Fn23206(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23207 github.com/goccy/googlesqlwasm2go/p10.Fn23207
-func Fn23207(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23208 github.com/goccy/googlesqlwasm2go/p10.Fn23208
-func Fn23208(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23209 github.com/goccy/googlesqlwasm2go/p10.Fn23209
-func Fn23209(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23210 github.com/goccy/googlesqlwasm2go/p10.Fn23210
-func Fn23210(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23212 github.com/goccy/googlesqlwasm2go/p10.Fn23212
-func Fn23212(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23213 github.com/goccy/googlesqlwasm2go/p10.Fn23213
-func Fn23213(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23214 github.com/goccy/googlesqlwasm2go/p10.Fn23214
-func Fn23214(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23215 github.com/goccy/googlesqlwasm2go/p10.Fn23215
-func Fn23215(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23216 github.com/goccy/googlesqlwasm2go/p10.Fn23216
-func Fn23216(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23217 github.com/goccy/googlesqlwasm2go/p10.Fn23217
-func Fn23217(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23218 github.com/goccy/googlesqlwasm2go/p10.Fn23218
-func Fn23218(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23221 github.com/goccy/googlesqlwasm2go/p10.Fn23221
-func Fn23221(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23222 github.com/goccy/googlesqlwasm2go/p10.Fn23222
-func Fn23222(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23223 github.com/goccy/googlesqlwasm2go/p10.Fn23223
-func Fn23223(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23225 github.com/goccy/googlesqlwasm2go/p10.Fn23225
-func Fn23225(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23226 github.com/goccy/googlesqlwasm2go/p10.Fn23226
-func Fn23226(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23227 github.com/goccy/googlesqlwasm2go/p10.Fn23227
-func Fn23227(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23228 github.com/goccy/googlesqlwasm2go/p10.Fn23228
-func Fn23228(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23229 github.com/goccy/googlesqlwasm2go/p10.Fn23229
-func Fn23229(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23230 github.com/goccy/googlesqlwasm2go/p10.Fn23230
-func Fn23230(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23231 github.com/goccy/googlesqlwasm2go/p10.Fn23231
-func Fn23231(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23232 github.com/goccy/googlesqlwasm2go/p10.Fn23232
-func Fn23232(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23233 github.com/goccy/googlesqlwasm2go/p10.Fn23233
-func Fn23233(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23234 github.com/goccy/googlesqlwasm2go/p10.Fn23234
-func Fn23234(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23235 github.com/goccy/googlesqlwasm2go/p10.Fn23235
-func Fn23235(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23236 github.com/goccy/googlesqlwasm2go/p10.Fn23236
-func Fn23236(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23237 github.com/goccy/googlesqlwasm2go/p10.Fn23237
-func Fn23237(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23238 github.com/goccy/googlesqlwasm2go/p10.Fn23238
-func Fn23238(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23239 github.com/goccy/googlesqlwasm2go/p10.Fn23239
-func Fn23239(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23240 github.com/goccy/googlesqlwasm2go/p10.Fn23240
-func Fn23240(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23241 github.com/goccy/googlesqlwasm2go/p10.Fn23241
-func Fn23241(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23242 github.com/goccy/googlesqlwasm2go/p10.Fn23242
-func Fn23242(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23243 github.com/goccy/googlesqlwasm2go/p10.Fn23243
-func Fn23243(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23244 github.com/goccy/googlesqlwasm2go/p10.Fn23244
-func Fn23244(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23245 github.com/goccy/googlesqlwasm2go/p10.Fn23245
-func Fn23245(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23246 github.com/goccy/googlesqlwasm2go/p10.Fn23246
-func Fn23246(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23247 github.com/goccy/googlesqlwasm2go/p10.Fn23247
-func Fn23247(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23248 github.com/goccy/googlesqlwasm2go/p10.Fn23248
-func Fn23248(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23249 github.com/goccy/googlesqlwasm2go/p10.Fn23249
-func Fn23249(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23250 github.com/goccy/googlesqlwasm2go/p10.Fn23250
-func Fn23250(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23251 github.com/goccy/googlesqlwasm2go/p10.Fn23251
-func Fn23251(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23252 github.com/goccy/googlesqlwasm2go/p10.Fn23252
-func Fn23252(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23253 github.com/goccy/googlesqlwasm2go/p10.Fn23253
-func Fn23253(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23254 github.com/goccy/googlesqlwasm2go/p10.Fn23254
-func Fn23254(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23255 github.com/goccy/googlesqlwasm2go/p10.Fn23255
-func Fn23255(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23256 github.com/goccy/googlesqlwasm2go/p10.Fn23256
-func Fn23256(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23257 github.com/goccy/googlesqlwasm2go/p10.Fn23257
-func Fn23257(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23258 github.com/goccy/googlesqlwasm2go/p10.Fn23258
-func Fn23258(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23259 github.com/goccy/googlesqlwasm2go/p10.Fn23259
-func Fn23259(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23260 github.com/goccy/googlesqlwasm2go/p10.Fn23260
-func Fn23260(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn23455 github.com/goccy/googlesqlwasm2go/p6.Fn23455
-func Fn23455(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn23459 github.com/goccy/googlesqlwasm2go/p10.Fn23459
-func Fn23459(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn23461 github.com/goccy/googlesqlwasm2go/p9.Fn23461
+//go:linkname Fn23461 github.com/doitintl/googlesqlwasm2go/p10.Fn23461
 func Fn23461(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23472 github.com/goccy/googlesqlwasm2go/p10.Fn23472
-func Fn23472(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23462 github.com/doitintl/googlesqlwasm2go/p10.Fn23462
+func Fn23462(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23475 github.com/goccy/googlesqlwasm2go/p10.Fn23475
-func Fn23475(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23463 github.com/doitintl/googlesqlwasm2go/p10.Fn23463
+func Fn23463(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23496 github.com/goccy/googlesqlwasm2go/p10.Fn23496
-func Fn23496(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23464 github.com/doitintl/googlesqlwasm2go/p10.Fn23464
+func Fn23464(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23499 github.com/goccy/googlesqlwasm2go/p10.Fn23499
-func Fn23499(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23465 github.com/doitintl/googlesqlwasm2go/p10.Fn23465
+func Fn23465(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23500 github.com/goccy/googlesqlwasm2go/p10.Fn23500
-func Fn23500(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23466 github.com/doitintl/googlesqlwasm2go/p10.Fn23466
+func Fn23466(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23506 github.com/goccy/googlesqlwasm2go/p9.Fn23506
+//go:linkname Fn23467 github.com/doitintl/googlesqlwasm2go/p10.Fn23467
+func Fn23467(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23468 github.com/doitintl/googlesqlwasm2go/p10.Fn23468
+func Fn23468(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23469 github.com/doitintl/googlesqlwasm2go/p10.Fn23469
+func Fn23469(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23472 github.com/doitintl/googlesqlwasm2go/p10.Fn23472
+func Fn23472(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23473 github.com/doitintl/googlesqlwasm2go/p10.Fn23473
+func Fn23473(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23474 github.com/doitintl/googlesqlwasm2go/p10.Fn23474
+func Fn23474(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23475 github.com/doitintl/googlesqlwasm2go/p10.Fn23475
+func Fn23475(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23476 github.com/doitintl/googlesqlwasm2go/p10.Fn23476
+func Fn23476(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23477 github.com/doitintl/googlesqlwasm2go/p10.Fn23477
+func Fn23477(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23478 github.com/doitintl/googlesqlwasm2go/p10.Fn23478
+func Fn23478(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23479 github.com/doitintl/googlesqlwasm2go/p10.Fn23479
+func Fn23479(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23480 github.com/doitintl/googlesqlwasm2go/p10.Fn23480
+func Fn23480(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23481 github.com/doitintl/googlesqlwasm2go/p10.Fn23481
+func Fn23481(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23482 github.com/doitintl/googlesqlwasm2go/p10.Fn23482
+func Fn23482(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23483 github.com/doitintl/googlesqlwasm2go/p10.Fn23483
+func Fn23483(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23484 github.com/doitintl/googlesqlwasm2go/p10.Fn23484
+func Fn23484(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23485 github.com/doitintl/googlesqlwasm2go/p10.Fn23485
+func Fn23485(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23486 github.com/doitintl/googlesqlwasm2go/p10.Fn23486
+func Fn23486(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23487 github.com/doitintl/googlesqlwasm2go/p10.Fn23487
+func Fn23487(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23488 github.com/doitintl/googlesqlwasm2go/p10.Fn23488
+func Fn23488(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23489 github.com/doitintl/googlesqlwasm2go/p10.Fn23489
+func Fn23489(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23490 github.com/doitintl/googlesqlwasm2go/p10.Fn23490
+func Fn23490(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23491 github.com/doitintl/googlesqlwasm2go/p10.Fn23491
+func Fn23491(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23492 github.com/doitintl/googlesqlwasm2go/p10.Fn23492
+func Fn23492(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23493 github.com/doitintl/googlesqlwasm2go/p10.Fn23493
+func Fn23493(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23494 github.com/doitintl/googlesqlwasm2go/p10.Fn23494
+func Fn23494(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23495 github.com/doitintl/googlesqlwasm2go/p10.Fn23495
+func Fn23495(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23496 github.com/doitintl/googlesqlwasm2go/p10.Fn23496
+func Fn23496(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23497 github.com/doitintl/googlesqlwasm2go/p10.Fn23497
+func Fn23497(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23498 github.com/doitintl/googlesqlwasm2go/p10.Fn23498
+func Fn23498(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23499 github.com/doitintl/googlesqlwasm2go/p10.Fn23499
+func Fn23499(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23500 github.com/doitintl/googlesqlwasm2go/p10.Fn23500
+func Fn23500(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23501 github.com/doitintl/googlesqlwasm2go/p10.Fn23501
+func Fn23501(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23502 github.com/doitintl/googlesqlwasm2go/p10.Fn23502
+func Fn23502(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23503 github.com/doitintl/googlesqlwasm2go/p10.Fn23503
+func Fn23503(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23504 github.com/doitintl/googlesqlwasm2go/p10.Fn23504
+func Fn23504(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23505 github.com/doitintl/googlesqlwasm2go/p10.Fn23505
+func Fn23505(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23506 github.com/doitintl/googlesqlwasm2go/p10.Fn23506
 func Fn23506(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23508 github.com/goccy/googlesqlwasm2go/p9.Fn23508
-func Fn23508(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23507 github.com/doitintl/googlesqlwasm2go/p10.Fn23507
+func Fn23507(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23514 github.com/goccy/googlesqlwasm2go/p9.Fn23514
-func Fn23514(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23508 github.com/doitintl/googlesqlwasm2go/p10.Fn23508
+func Fn23508(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23520 github.com/goccy/googlesqlwasm2go/p10.Fn23520
-func Fn23520(m *base.Module, l0 int32) int32
+//go:linkname Fn23509 github.com/doitintl/googlesqlwasm2go/p10.Fn23509
+func Fn23509(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23522 github.com/goccy/googlesqlwasm2go/p6.Fn23522
-func Fn23522(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23510 github.com/doitintl/googlesqlwasm2go/p10.Fn23510
+func Fn23510(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23528 github.com/goccy/googlesqlwasm2go/p10.Fn23528
-func Fn23528(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23511 github.com/doitintl/googlesqlwasm2go/p10.Fn23511
+func Fn23511(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23536 github.com/goccy/googlesqlwasm2go/p10.Fn23536
-func Fn23536(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23512 github.com/doitintl/googlesqlwasm2go/p10.Fn23512
+func Fn23512(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23537 github.com/goccy/googlesqlwasm2go/p10.Fn23537
-func Fn23537(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23513 github.com/doitintl/googlesqlwasm2go/p10.Fn23513
+func Fn23513(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23542 github.com/goccy/googlesqlwasm2go/p10.Fn23542
-func Fn23542(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23514 github.com/doitintl/googlesqlwasm2go/p10.Fn23514
+func Fn23514(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23543 github.com/goccy/googlesqlwasm2go/p10.Fn23543
-func Fn23543(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23515 github.com/doitintl/googlesqlwasm2go/p10.Fn23515
+func Fn23515(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23565 github.com/goccy/googlesqlwasm2go/p10.Fn23565
-func Fn23565(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23516 github.com/doitintl/googlesqlwasm2go/p10.Fn23516
+func Fn23516(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23607 github.com/goccy/googlesqlwasm2go/p10.Fn23607
-func Fn23607(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23517 github.com/doitintl/googlesqlwasm2go/p10.Fn23517
+func Fn23517(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23626 github.com/goccy/googlesqlwasm2go/p9.Fn23626
-func Fn23626(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23518 github.com/doitintl/googlesqlwasm2go/p10.Fn23518
+func Fn23518(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23630 github.com/goccy/googlesqlwasm2go/p9.Fn23630
-func Fn23630(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23519 github.com/doitintl/googlesqlwasm2go/p10.Fn23519
+func Fn23519(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23680 github.com/goccy/googlesqlwasm2go/p9.Fn23680
-func Fn23680(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23520 github.com/doitintl/googlesqlwasm2go/p10.Fn23520
+func Fn23520(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn23798 github.com/goccy/googlesqlwasm2go/p9.Fn23798
-func Fn23798(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23521 github.com/doitintl/googlesqlwasm2go/p10.Fn23521
+func Fn23521(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24023 github.com/goccy/googlesqlwasm2go/p10.Fn24023
-func Fn24023(m *base.Module, l0 int32) int32
+//go:linkname Fn23522 github.com/doitintl/googlesqlwasm2go/p10.Fn23522
+func Fn23522(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24024 github.com/goccy/googlesqlwasm2go/p10.Fn24024
-func Fn24024(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn23523 github.com/doitintl/googlesqlwasm2go/p10.Fn23523
+func Fn23523(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24025 github.com/goccy/googlesqlwasm2go/p9.Fn24025
-func Fn24025(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23524 github.com/doitintl/googlesqlwasm2go/p10.Fn23524
+func Fn23524(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24026 github.com/goccy/googlesqlwasm2go/p10.Fn24026
-func Fn24026(m *base.Module, l0 int32)
+//go:linkname Fn23525 github.com/doitintl/googlesqlwasm2go/p10.Fn23525
+func Fn23525(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24050 github.com/goccy/googlesqlwasm2go/p9.Fn24050
-func Fn24050(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+//go:linkname Fn23526 github.com/doitintl/googlesqlwasm2go/p10.Fn23526
+func Fn23526(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24087 github.com/goccy/googlesqlwasm2go/p5.Fn24087
-func Fn24087(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23527 github.com/doitintl/googlesqlwasm2go/p10.Fn23527
+func Fn23527(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24098 github.com/goccy/googlesqlwasm2go/p10.Fn24098
-func Fn24098(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23528 github.com/doitintl/googlesqlwasm2go/p10.Fn23528
+func Fn23528(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24113 github.com/goccy/googlesqlwasm2go/p10.Fn24113
-func Fn24113(m *base.Module, l0 int32)
+//go:linkname Fn23529 github.com/doitintl/googlesqlwasm2go/p10.Fn23529
+func Fn23529(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24155 github.com/goccy/googlesqlwasm2go/p9.Fn24155
-func Fn24155(m *base.Module, l0 int32)
+//go:linkname Fn23530 github.com/doitintl/googlesqlwasm2go/p10.Fn23530
+func Fn23530(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24165 github.com/goccy/googlesqlwasm2go/p9.Fn24165
-func Fn24165(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23531 github.com/doitintl/googlesqlwasm2go/p10.Fn23531
+func Fn23531(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24175 github.com/goccy/googlesqlwasm2go/p9.Fn24175
-func Fn24175(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23532 github.com/doitintl/googlesqlwasm2go/p10.Fn23532
+func Fn23532(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24178 github.com/goccy/googlesqlwasm2go/p9.Fn24178
-func Fn24178(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23533 github.com/doitintl/googlesqlwasm2go/p10.Fn23533
+func Fn23533(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24180 github.com/goccy/googlesqlwasm2go/p5.Fn24180
-func Fn24180(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23534 github.com/doitintl/googlesqlwasm2go/p10.Fn23534
+func Fn23534(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24182 github.com/goccy/googlesqlwasm2go/p9.Fn24182
-func Fn24182(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23535 github.com/doitintl/googlesqlwasm2go/p10.Fn23535
+func Fn23535(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24184 github.com/goccy/googlesqlwasm2go/p10.Fn24184
-func Fn24184(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23536 github.com/doitintl/googlesqlwasm2go/p10.Fn23536
+func Fn23536(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24185 github.com/goccy/googlesqlwasm2go/p10.Fn24185
-func Fn24185(m *base.Module, l0 int32) int32
+//go:linkname Fn23537 github.com/doitintl/googlesqlwasm2go/p10.Fn23537
+func Fn23537(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24186 github.com/goccy/googlesqlwasm2go/p10.Fn24186
-func Fn24186(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23538 github.com/doitintl/googlesqlwasm2go/p10.Fn23538
+func Fn23538(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24207 github.com/goccy/googlesqlwasm2go/p6.Fn24207
-func Fn24207(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23539 github.com/doitintl/googlesqlwasm2go/p10.Fn23539
+func Fn23539(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24214 github.com/goccy/googlesqlwasm2go/p10.Fn24214
-func Fn24214(m *base.Module, l0 int32)
+//go:linkname Fn23541 github.com/doitintl/googlesqlwasm2go/p10.Fn23541
+func Fn23541(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24291 github.com/goccy/googlesqlwasm2go/p9.Fn24291
-func Fn24291(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn23542 github.com/doitintl/googlesqlwasm2go/p10.Fn23542
+func Fn23542(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24292 github.com/goccy/googlesqlwasm2go/p10.Fn24292
-func Fn24292(m *base.Module, l0 int32)
+//go:linkname Fn23543 github.com/doitintl/googlesqlwasm2go/p10.Fn23543
+func Fn23543(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24299 github.com/goccy/googlesqlwasm2go/p9.Fn24299
-func Fn24299(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn23544 github.com/doitintl/googlesqlwasm2go/p10.Fn23544
+func Fn23544(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24664 github.com/goccy/googlesqlwasm2go/p5.Fn24664
-func Fn24664(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23545 github.com/doitintl/googlesqlwasm2go/p10.Fn23545
+func Fn23545(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24668 github.com/goccy/googlesqlwasm2go/p10.Fn24668
-func Fn24668(m *base.Module, l0 int32) int32
+//go:linkname Fn23546 github.com/doitintl/googlesqlwasm2go/p10.Fn23546
+func Fn23546(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24675 github.com/goccy/googlesqlwasm2go/p10.Fn24675
-func Fn24675(m *base.Module, l0 int32)
+//go:linkname Fn23547 github.com/doitintl/googlesqlwasm2go/p10.Fn23547
+func Fn23547(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24701 github.com/goccy/googlesqlwasm2go/p9.Fn24701
-func Fn24701(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23548 github.com/doitintl/googlesqlwasm2go/p10.Fn23548
+func Fn23548(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24703 github.com/goccy/googlesqlwasm2go/p9.Fn24703
-func Fn24703(m *base.Module, l0 int64, l1 int64, l2 int32) int32
+//go:linkname Fn23549 github.com/doitintl/googlesqlwasm2go/p10.Fn23549
+func Fn23549(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24706 github.com/goccy/googlesqlwasm2go/p10.Fn24706
-func Fn24706(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23550 github.com/doitintl/googlesqlwasm2go/p10.Fn23550
+func Fn23550(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24750 github.com/goccy/googlesqlwasm2go/p6.Fn24750
-func Fn24750(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn23551 github.com/doitintl/googlesqlwasm2go/p10.Fn23551
+func Fn23551(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24760 github.com/goccy/googlesqlwasm2go/p8.Fn24760
-func Fn24760(m *base.Module, l0 int32)
+//go:linkname Fn23552 github.com/doitintl/googlesqlwasm2go/p10.Fn23552
+func Fn23552(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24762 github.com/goccy/googlesqlwasm2go/p9.Fn24762
-func Fn24762(m *base.Module, l0 int64, l1 int64, l2 int32)
+//go:linkname Fn23553 github.com/doitintl/googlesqlwasm2go/p10.Fn23553
+func Fn23553(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24764 github.com/goccy/googlesqlwasm2go/p9.Fn24764
-func Fn24764(m *base.Module, l0 int64, l1 int32, l2 int32) int32
+//go:linkname Fn23554 github.com/doitintl/googlesqlwasm2go/p10.Fn23554
+func Fn23554(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24812 github.com/goccy/googlesqlwasm2go/p6.Fn24812
-func Fn24812(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23555 github.com/doitintl/googlesqlwasm2go/p10.Fn23555
+func Fn23555(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24862 github.com/goccy/googlesqlwasm2go/p1.Fn24862
-func Fn24862(m *base.Module, l0 int32) int32
+//go:linkname Fn23556 github.com/doitintl/googlesqlwasm2go/p10.Fn23556
+func Fn23556(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24929 github.com/goccy/googlesqlwasm2go/p1.Fn24929
-func Fn24929(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn23557 github.com/doitintl/googlesqlwasm2go/p10.Fn23557
+func Fn23557(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24931 github.com/goccy/googlesqlwasm2go/p1.Fn24931
-func Fn24931(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn23558 github.com/doitintl/googlesqlwasm2go/p10.Fn23558
+func Fn23558(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24935 github.com/goccy/googlesqlwasm2go/p1.Fn24935
-func Fn24935(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23560 github.com/doitintl/googlesqlwasm2go/p10.Fn23560
+func Fn23560(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn24942 github.com/goccy/googlesqlwasm2go/p9.Fn24942
-func Fn24942(m *base.Module, l0 int32) int32
+//go:linkname Fn23561 github.com/doitintl/googlesqlwasm2go/p10.Fn23561
+func Fn23561(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25020 github.com/goccy/googlesqlwasm2go/p9.Fn25020
-func Fn25020(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23562 github.com/doitintl/googlesqlwasm2go/p10.Fn23562
+func Fn23562(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25156 github.com/goccy/googlesqlwasm2go/p10.Fn25156
-func Fn25156(m *base.Module, l0 int32) int32
+//go:linkname Fn23563 github.com/doitintl/googlesqlwasm2go/p10.Fn23563
+func Fn23563(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25165 github.com/goccy/googlesqlwasm2go/p1.Fn25165
-func Fn25165(m *base.Module, l0 int32) int32
+//go:linkname Fn23564 github.com/doitintl/googlesqlwasm2go/p10.Fn23564
+func Fn23564(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25168 github.com/goccy/googlesqlwasm2go/p8.Fn25168
-func Fn25168(m *base.Module, l0 int32)
+//go:linkname Fn23565 github.com/doitintl/googlesqlwasm2go/p10.Fn23565
+func Fn23565(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25174 github.com/goccy/googlesqlwasm2go/p10.Fn25174
-func Fn25174(m *base.Module, l0 int32)
+//go:linkname Fn23566 github.com/doitintl/googlesqlwasm2go/p10.Fn23566
+func Fn23566(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25175 github.com/goccy/googlesqlwasm2go/p9.Fn25175
-func Fn25175(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23569 github.com/doitintl/googlesqlwasm2go/p10.Fn23569
+func Fn23569(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25176 github.com/goccy/googlesqlwasm2go/p9.Fn25176
-func Fn25176(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn23570 github.com/doitintl/googlesqlwasm2go/p10.Fn23570
+func Fn23570(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25181 github.com/goccy/googlesqlwasm2go/p10.Fn25181
-func Fn25181(m *base.Module, l0 int32) int32
+//go:linkname Fn23571 github.com/doitintl/googlesqlwasm2go/p10.Fn23571
+func Fn23571(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25182 github.com/goccy/googlesqlwasm2go/p9.Fn25182
-func Fn25182(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn23573 github.com/doitintl/googlesqlwasm2go/p10.Fn23573
+func Fn23573(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25190 github.com/goccy/googlesqlwasm2go/p9.Fn25190
-func Fn25190(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn23574 github.com/doitintl/googlesqlwasm2go/p10.Fn23574
+func Fn23574(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25199 github.com/goccy/googlesqlwasm2go/p9.Fn25199
-func Fn25199(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn23575 github.com/doitintl/googlesqlwasm2go/p10.Fn23575
+func Fn23575(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25253 github.com/goccy/googlesqlwasm2go/p6.Fn25253
-func Fn25253(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23576 github.com/doitintl/googlesqlwasm2go/p10.Fn23576
+func Fn23576(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25277 github.com/goccy/googlesqlwasm2go/p10.Fn25277
-func Fn25277(m *base.Module, l0 int32)
+//go:linkname Fn23577 github.com/doitintl/googlesqlwasm2go/p10.Fn23577
+func Fn23577(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25306 github.com/goccy/googlesqlwasm2go/p6.Fn25306
-func Fn25306(m *base.Module, l0 int32)
+//go:linkname Fn23578 github.com/doitintl/googlesqlwasm2go/p10.Fn23578
+func Fn23578(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25322 github.com/goccy/googlesqlwasm2go/p9.Fn25322
-func Fn25322(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23579 github.com/doitintl/googlesqlwasm2go/p10.Fn23579
+func Fn23579(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25366 github.com/goccy/googlesqlwasm2go/p9.Fn25366
-func Fn25366(m *base.Module, l0 int32) int32
+//go:linkname Fn23580 github.com/doitintl/googlesqlwasm2go/p10.Fn23580
+func Fn23580(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25369 github.com/goccy/googlesqlwasm2go/p10.Fn25369
-func Fn25369(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23581 github.com/doitintl/googlesqlwasm2go/p10.Fn23581
+func Fn23581(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25370 github.com/goccy/googlesqlwasm2go/p10.Fn25370
-func Fn25370(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn23582 github.com/doitintl/googlesqlwasm2go/p10.Fn23582
+func Fn23582(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25376 github.com/goccy/googlesqlwasm2go/p10.Fn25376
-func Fn25376(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23583 github.com/doitintl/googlesqlwasm2go/p10.Fn23583
+func Fn23583(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25377 github.com/goccy/googlesqlwasm2go/p9.Fn25377
-func Fn25377(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23584 github.com/doitintl/googlesqlwasm2go/p10.Fn23584
+func Fn23584(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25380 github.com/goccy/googlesqlwasm2go/p10.Fn25380
-func Fn25380(m *base.Module, l0 int32) int32
+//go:linkname Fn23585 github.com/doitintl/googlesqlwasm2go/p10.Fn23585
+func Fn23585(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25381 github.com/goccy/googlesqlwasm2go/p10.Fn25381
-func Fn25381(m *base.Module, l0 int32) int32
+//go:linkname Fn23586 github.com/doitintl/googlesqlwasm2go/p10.Fn23586
+func Fn23586(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25478 github.com/goccy/googlesqlwasm2go/p9.Fn25478
-func Fn25478(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23587 github.com/doitintl/googlesqlwasm2go/p10.Fn23587
+func Fn23587(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25484 github.com/goccy/googlesqlwasm2go/p9.Fn25484
-func Fn25484(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn23588 github.com/doitintl/googlesqlwasm2go/p10.Fn23588
+func Fn23588(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25486 github.com/goccy/googlesqlwasm2go/p10.Fn25486
-func Fn25486(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23589 github.com/doitintl/googlesqlwasm2go/p10.Fn23589
+func Fn23589(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25516 github.com/goccy/googlesqlwasm2go/p9.Fn25516
-func Fn25516(m *base.Module, l0 int32) int32
+//go:linkname Fn23590 github.com/doitintl/googlesqlwasm2go/p10.Fn23590
+func Fn23590(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25591 github.com/goccy/googlesqlwasm2go/p4.Fn25591
-func Fn25591(m *base.Module, l0 int32)
+//go:linkname Fn23591 github.com/doitintl/googlesqlwasm2go/p10.Fn23591
+func Fn23591(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25594 github.com/goccy/googlesqlwasm2go/p9.Fn25594
-func Fn25594(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn23592 github.com/doitintl/googlesqlwasm2go/p10.Fn23592
+func Fn23592(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25595 github.com/goccy/googlesqlwasm2go/p9.Fn25595
-func Fn25595(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23593 github.com/doitintl/googlesqlwasm2go/p10.Fn23593
+func Fn23593(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25618 github.com/goccy/googlesqlwasm2go/p10.Fn25618
-func Fn25618(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23594 github.com/doitintl/googlesqlwasm2go/p10.Fn23594
+func Fn23594(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25637 github.com/goccy/googlesqlwasm2go/p10.Fn25637
-func Fn25637(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23595 github.com/doitintl/googlesqlwasm2go/p10.Fn23595
+func Fn23595(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25639 github.com/goccy/googlesqlwasm2go/p9.Fn25639
-func Fn25639(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23596 github.com/doitintl/googlesqlwasm2go/p10.Fn23596
+func Fn23596(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25640 github.com/goccy/googlesqlwasm2go/p10.Fn25640
-func Fn25640(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn23597 github.com/doitintl/googlesqlwasm2go/p10.Fn23597
+func Fn23597(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25644 github.com/goccy/googlesqlwasm2go/p10.Fn25644
-func Fn25644(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23598 github.com/doitintl/googlesqlwasm2go/p10.Fn23598
+func Fn23598(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25684 github.com/goccy/googlesqlwasm2go/p9.Fn25684
-func Fn25684(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn23599 github.com/doitintl/googlesqlwasm2go/p10.Fn23599
+func Fn23599(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25704 github.com/goccy/googlesqlwasm2go/p9.Fn25704
-func Fn25704(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn23600 github.com/doitintl/googlesqlwasm2go/p10.Fn23600
+func Fn23600(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25727 github.com/goccy/googlesqlwasm2go/p6.Fn25727
-func Fn25727(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn23601 github.com/doitintl/googlesqlwasm2go/p10.Fn23601
+func Fn23601(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25729 github.com/goccy/googlesqlwasm2go/p10.Fn25729
-func Fn25729(m *base.Module, l0 int32)
+//go:linkname Fn23602 github.com/doitintl/googlesqlwasm2go/p10.Fn23602
+func Fn23602(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25735 github.com/goccy/googlesqlwasm2go/p4.Fn25735
-func Fn25735(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn23603 github.com/doitintl/googlesqlwasm2go/p10.Fn23603
+func Fn23603(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25741 github.com/goccy/googlesqlwasm2go/p10.Fn25741
-func Fn25741(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn23604 github.com/doitintl/googlesqlwasm2go/p10.Fn23604
+func Fn23604(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25742 github.com/goccy/googlesqlwasm2go/p9.Fn25742
-func Fn25742(m *base.Module, l0 int32) int32
+//go:linkname Fn23605 github.com/doitintl/googlesqlwasm2go/p10.Fn23605
+func Fn23605(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25743 github.com/goccy/googlesqlwasm2go/p9.Fn25743
-func Fn25743(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn23606 github.com/doitintl/googlesqlwasm2go/p10.Fn23606
+func Fn23606(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25750 github.com/goccy/googlesqlwasm2go/p9.Fn25750
-func Fn25750(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn23607 github.com/doitintl/googlesqlwasm2go/p10.Fn23607
+func Fn23607(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25751 github.com/goccy/googlesqlwasm2go/p10.Fn25751
-func Fn25751(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23608 github.com/doitintl/googlesqlwasm2go/p10.Fn23608
+func Fn23608(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25752 github.com/goccy/googlesqlwasm2go/p9.Fn25752
-func Fn25752(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23803 github.com/doitintl/googlesqlwasm2go/p6.Fn23803
+func Fn23803(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn25753 github.com/goccy/googlesqlwasm2go/p9.Fn25753
-func Fn25753(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23807 github.com/doitintl/googlesqlwasm2go/p10.Fn23807
+func Fn23807(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn25754 github.com/goccy/googlesqlwasm2go/p9.Fn25754
-func Fn25754(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23809 github.com/doitintl/googlesqlwasm2go/p9.Fn23809
+func Fn23809(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25755 github.com/goccy/googlesqlwasm2go/p9.Fn25755
-func Fn25755(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23811 github.com/doitintl/googlesqlwasm2go/p10.Fn23811
+func Fn23811(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn25762 github.com/goccy/googlesqlwasm2go/p9.Fn25762
-func Fn25762(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn23820 github.com/doitintl/googlesqlwasm2go/p10.Fn23820
+func Fn23820(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn25773 github.com/goccy/googlesqlwasm2go/p10.Fn25773
-func Fn25773(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn23823 github.com/doitintl/googlesqlwasm2go/p10.Fn23823
+func Fn23823(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn25780 github.com/goccy/googlesqlwasm2go/p10.Fn25780
-func Fn25780(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn23844 github.com/doitintl/googlesqlwasm2go/p10.Fn23844
+func Fn23844(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn25811 github.com/goccy/googlesqlwasm2go/p9.Fn25811
-func Fn25811(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23854 github.com/doitintl/googlesqlwasm2go/p9.Fn23854
+func Fn23854(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn25911 github.com/goccy/googlesqlwasm2go/p9.Fn25911
-func Fn25911(m *base.Module, l0 int32)
+//go:linkname Fn23856 github.com/doitintl/googlesqlwasm2go/p9.Fn23856
+func Fn23856(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn25913 github.com/goccy/googlesqlwasm2go/p9.Fn25913
-func Fn25913(m *base.Module, l0 int32) int32
+//go:linkname Fn23862 github.com/doitintl/googlesqlwasm2go/p9.Fn23862
+func Fn23862(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn25928 github.com/goccy/googlesqlwasm2go/p9.Fn25928
-func Fn25928(m *base.Module, l0 int32)
+//go:linkname Fn23868 github.com/doitintl/googlesqlwasm2go/p10.Fn23868
+func Fn23868(m *base.Module, l0 int32) int32
 
-//go:linkname Fn25953 github.com/goccy/googlesqlwasm2go/p9.Fn25953
-func Fn25953(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23870 github.com/doitintl/googlesqlwasm2go/p6.Fn23870
+func Fn23870(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn25958 github.com/goccy/googlesqlwasm2go/p9.Fn25958
-func Fn25958(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn23876 github.com/doitintl/googlesqlwasm2go/p10.Fn23876
+func Fn23876(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn25987 github.com/goccy/googlesqlwasm2go/p10.Fn25987
+//go:linkname Fn23884 github.com/doitintl/googlesqlwasm2go/p10.Fn23884
+func Fn23884(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn23885 github.com/doitintl/googlesqlwasm2go/p10.Fn23885
+func Fn23885(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn23890 github.com/doitintl/googlesqlwasm2go/p10.Fn23890
+func Fn23890(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn23891 github.com/doitintl/googlesqlwasm2go/p10.Fn23891
+func Fn23891(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn23911 github.com/doitintl/googlesqlwasm2go/p10.Fn23911
+func Fn23911(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn23913 github.com/doitintl/googlesqlwasm2go/p10.Fn23913
+func Fn23913(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn23974 github.com/doitintl/googlesqlwasm2go/p9.Fn23974
+func Fn23974(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn23978 github.com/doitintl/googlesqlwasm2go/p9.Fn23978
+func Fn23978(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn24028 github.com/doitintl/googlesqlwasm2go/p9.Fn24028
+func Fn24028(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn24371 github.com/doitintl/googlesqlwasm2go/p10.Fn24371
+func Fn24371(m *base.Module, l0 int32) int32
+
+//go:linkname Fn24372 github.com/doitintl/googlesqlwasm2go/p10.Fn24372
+func Fn24372(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn24373 github.com/doitintl/googlesqlwasm2go/p10.Fn24373
+func Fn24373(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn24374 github.com/doitintl/googlesqlwasm2go/p10.Fn24374
+func Fn24374(m *base.Module, l0 int32)
+
+//go:linkname Fn24420 github.com/doitintl/googlesqlwasm2go/p10.Fn24420
+func Fn24420(m *base.Module, l0 int32)
+
+//go:linkname Fn24429 github.com/doitintl/googlesqlwasm2go/p9.Fn24429
+func Fn24429(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+
+//go:linkname Fn24444 github.com/doitintl/googlesqlwasm2go/p5.Fn24444
+func Fn24444(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
+
+//go:linkname Fn24445 github.com/doitintl/googlesqlwasm2go/p10.Fn24445
+func Fn24445(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+
+//go:linkname Fn24452 github.com/doitintl/googlesqlwasm2go/p9.Fn24452
+func Fn24452(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn24465 github.com/doitintl/googlesqlwasm2go/p9.Fn24465
+func Fn24465(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn24467 github.com/doitintl/googlesqlwasm2go/p5.Fn24467
+func Fn24467(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn24469 github.com/doitintl/googlesqlwasm2go/p9.Fn24469
+func Fn24469(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn24471 github.com/doitintl/googlesqlwasm2go/p10.Fn24471
+func Fn24471(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn24472 github.com/doitintl/googlesqlwasm2go/p10.Fn24472
+func Fn24472(m *base.Module, l0 int32) int32
+
+//go:linkname Fn24473 github.com/doitintl/googlesqlwasm2go/p10.Fn24473
+func Fn24473(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn24494 github.com/doitintl/googlesqlwasm2go/p6.Fn24494
+func Fn24494(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn24501 github.com/doitintl/googlesqlwasm2go/p10.Fn24501
+func Fn24501(m *base.Module, l0 int32)
+
+//go:linkname Fn24578 github.com/doitintl/googlesqlwasm2go/p9.Fn24578
+func Fn24578(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn24579 github.com/doitintl/googlesqlwasm2go/p10.Fn24579
+func Fn24579(m *base.Module, l0 int32)
+
+//go:linkname Fn24951 github.com/doitintl/googlesqlwasm2go/p5.Fn24951
+func Fn24951(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn24955 github.com/doitintl/googlesqlwasm2go/p10.Fn24955
+func Fn24955(m *base.Module, l0 int32) int32
+
+//go:linkname Fn24962 github.com/doitintl/googlesqlwasm2go/p10.Fn24962
+func Fn24962(m *base.Module, l0 int32)
+
+//go:linkname Fn24988 github.com/doitintl/googlesqlwasm2go/p9.Fn24988
+func Fn24988(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn24990 github.com/doitintl/googlesqlwasm2go/p9.Fn24990
+func Fn24990(m *base.Module, l0 int64, l1 int64, l2 int32) int32
+
+//go:linkname Fn24993 github.com/doitintl/googlesqlwasm2go/p10.Fn24993
+func Fn24993(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn25037 github.com/doitintl/googlesqlwasm2go/p6.Fn25037
+func Fn25037(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn25047 github.com/doitintl/googlesqlwasm2go/p8.Fn25047
+func Fn25047(m *base.Module, l0 int32)
+
+//go:linkname Fn25049 github.com/doitintl/googlesqlwasm2go/p10.Fn25049
+func Fn25049(m *base.Module, l0 int64, l1 int64, l2 int32)
+
+//go:linkname Fn25051 github.com/doitintl/googlesqlwasm2go/p9.Fn25051
+func Fn25051(m *base.Module, l0 int64, l1 int32, l2 int32) int32
+
+//go:linkname Fn25080 github.com/doitintl/googlesqlwasm2go/p9.Fn25080
+func Fn25080(m *base.Module, l0 int32)
+
+//go:linkname Fn25088 github.com/doitintl/googlesqlwasm2go/p1.Fn25088
+func Fn25088(m *base.Module, l0 int32) int32
+
+//go:linkname Fn25089 github.com/doitintl/googlesqlwasm2go/p9.Fn25089
+func Fn25089(m *base.Module, l0 int32)
+
+//go:linkname Fn25098 github.com/doitintl/googlesqlwasm2go/p6.Fn25098
+func Fn25098(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn25148 github.com/doitintl/googlesqlwasm2go/p1.Fn25148
+func Fn25148(m *base.Module, l0 int32) int32
+
+//go:linkname Fn25151 github.com/doitintl/googlesqlwasm2go/p5.Fn25151
+func Fn25151(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn25215 github.com/doitintl/googlesqlwasm2go/p1.Fn25215
+func Fn25215(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+
+//go:linkname Fn25217 github.com/doitintl/googlesqlwasm2go/p1.Fn25217
+func Fn25217(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+
+//go:linkname Fn25221 github.com/doitintl/googlesqlwasm2go/p1.Fn25221
+func Fn25221(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn25228 github.com/doitintl/googlesqlwasm2go/p9.Fn25228
+func Fn25228(m *base.Module, l0 int32) int32
+
+//go:linkname Fn25237 github.com/doitintl/googlesqlwasm2go/p9.Fn25237
+func Fn25237(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+
+//go:linkname Fn25238 github.com/doitintl/googlesqlwasm2go/p1.Fn25238
+func Fn25238(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn25246 github.com/doitintl/googlesqlwasm2go/p9.Fn25246
+func Fn25246(m *base.Module, l0 int32)
+
+//go:linkname Fn25306 github.com/doitintl/googlesqlwasm2go/p9.Fn25306
+func Fn25306(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn25442 github.com/doitintl/googlesqlwasm2go/p10.Fn25442
+func Fn25442(m *base.Module, l0 int32) int32
+
+//go:linkname Fn25451 github.com/doitintl/googlesqlwasm2go/p1.Fn25451
+func Fn25451(m *base.Module, l0 int32) int32
+
+//go:linkname Fn25460 github.com/doitintl/googlesqlwasm2go/p10.Fn25460
+func Fn25460(m *base.Module, l0 int32)
+
+//go:linkname Fn25461 github.com/doitintl/googlesqlwasm2go/p9.Fn25461
+func Fn25461(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn25462 github.com/doitintl/googlesqlwasm2go/p10.Fn25462
+func Fn25462(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn25496 github.com/doitintl/googlesqlwasm2go/p8.Fn25496
+func Fn25496(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn25537 github.com/doitintl/googlesqlwasm2go/p6.Fn25537
+func Fn25537(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn25605 github.com/doitintl/googlesqlwasm2go/p9.Fn25605
+func Fn25605(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn25649 github.com/doitintl/googlesqlwasm2go/p9.Fn25649
+func Fn25649(m *base.Module, l0 int32) int32
+
+//go:linkname Fn25652 github.com/doitintl/googlesqlwasm2go/p10.Fn25652
+func Fn25652(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn25653 github.com/doitintl/googlesqlwasm2go/p10.Fn25653
+func Fn25653(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn25659 github.com/doitintl/googlesqlwasm2go/p10.Fn25659
+func Fn25659(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn25660 github.com/doitintl/googlesqlwasm2go/p9.Fn25660
+func Fn25660(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn25663 github.com/doitintl/googlesqlwasm2go/p10.Fn25663
+func Fn25663(m *base.Module, l0 int32) int32
+
+//go:linkname Fn25664 github.com/doitintl/googlesqlwasm2go/p10.Fn25664
+func Fn25664(m *base.Module, l0 int32) int32
+
+//go:linkname Fn25767 github.com/doitintl/googlesqlwasm2go/p9.Fn25767
+func Fn25767(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn25769 github.com/doitintl/googlesqlwasm2go/p10.Fn25769
+func Fn25769(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn25799 github.com/doitintl/googlesqlwasm2go/p10.Fn25799
+func Fn25799(m *base.Module, l0 int32) int32
+
+//go:linkname Fn25873 github.com/doitintl/googlesqlwasm2go/p9.Fn25873
+func Fn25873(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn25874 github.com/doitintl/googlesqlwasm2go/p4.Fn25874
+func Fn25874(m *base.Module, l0 int32)
+
+//go:linkname Fn25877 github.com/doitintl/googlesqlwasm2go/p9.Fn25877
+func Fn25877(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+
+//go:linkname Fn25878 github.com/doitintl/googlesqlwasm2go/p9.Fn25878
+func Fn25878(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn25901 github.com/doitintl/googlesqlwasm2go/p10.Fn25901
+func Fn25901(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn25920 github.com/doitintl/googlesqlwasm2go/p10.Fn25920
+func Fn25920(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn25922 github.com/doitintl/googlesqlwasm2go/p9.Fn25922
+func Fn25922(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn25923 github.com/doitintl/googlesqlwasm2go/p10.Fn25923
+func Fn25923(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn25927 github.com/doitintl/googlesqlwasm2go/p10.Fn25927
+func Fn25927(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn25957 github.com/doitintl/googlesqlwasm2go/p8.Fn25957
+func Fn25957(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn25967 github.com/doitintl/googlesqlwasm2go/p9.Fn25967
+func Fn25967(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn25987 github.com/doitintl/googlesqlwasm2go/p10.Fn25987
 func Fn25987(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn25994 github.com/goccy/googlesqlwasm2go/p10.Fn25994
-func Fn25994(m *base.Module, l0 int32)
+//go:linkname Fn26010 github.com/doitintl/googlesqlwasm2go/p6.Fn26010
+func Fn26010(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn25995 github.com/goccy/googlesqlwasm2go/p9.Fn25995
-func Fn25995(m *base.Module, l0 int32) int32
+//go:linkname Fn26012 github.com/doitintl/googlesqlwasm2go/p10.Fn26012
+func Fn26012(m *base.Module, l0 int32)
 
-//go:linkname Fn25996 github.com/goccy/googlesqlwasm2go/p9.Fn25996
-func Fn25996(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26018 github.com/doitintl/googlesqlwasm2go/p4.Fn26018
+func Fn26018(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn25997 github.com/goccy/googlesqlwasm2go/p9.Fn25997
-func Fn25997(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26019 github.com/doitintl/googlesqlwasm2go/p9.Fn26019
+func Fn26019(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn26008 github.com/goccy/googlesqlwasm2go/p5.Fn26008
-func Fn26008(m *base.Module, l0 int32) int32
+//go:linkname Fn26024 github.com/doitintl/googlesqlwasm2go/p10.Fn26024
+func Fn26024(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn26009 github.com/goccy/googlesqlwasm2go/p9.Fn26009
-func Fn26009(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn26025 github.com/doitintl/googlesqlwasm2go/p9.Fn26025
+func Fn26025(m *base.Module, l0 int32) int32
 
-//go:linkname Fn26086 github.com/goccy/googlesqlwasm2go/p9.Fn26086
-func Fn26086(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26026 github.com/doitintl/googlesqlwasm2go/p10.Fn26026
+func Fn26026(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn26087 github.com/goccy/googlesqlwasm2go/p9.Fn26087
-func Fn26087(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn26033 github.com/doitintl/googlesqlwasm2go/p9.Fn26033
+func Fn26033(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn26114 github.com/goccy/googlesqlwasm2go/p9.Fn26114
-func Fn26114(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26034 github.com/doitintl/googlesqlwasm2go/p10.Fn26034
+func Fn26034(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26123 github.com/goccy/googlesqlwasm2go/p9.Fn26123
-func Fn26123(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26035 github.com/doitintl/googlesqlwasm2go/p9.Fn26035
+func Fn26035(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26171 github.com/goccy/googlesqlwasm2go/p9.Fn26171
-func Fn26171(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26036 github.com/doitintl/googlesqlwasm2go/p9.Fn26036
+func Fn26036(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26225 github.com/goccy/googlesqlwasm2go/p6.Fn26225
-func Fn26225(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26037 github.com/doitintl/googlesqlwasm2go/p9.Fn26037
+func Fn26037(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26241 github.com/goccy/googlesqlwasm2go/p6.Fn26241
-func Fn26241(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn26038 github.com/doitintl/googlesqlwasm2go/p9.Fn26038
+func Fn26038(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26260 github.com/goccy/googlesqlwasm2go/p8.Fn26260
-func Fn26260(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn26045 github.com/doitintl/googlesqlwasm2go/p9.Fn26045
+func Fn26045(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn26273 github.com/goccy/googlesqlwasm2go/p9.Fn26273
-func Fn26273(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn26056 github.com/doitintl/googlesqlwasm2go/p10.Fn26056
+func Fn26056(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn26274 github.com/goccy/googlesqlwasm2go/p9.Fn26274
-func Fn26274(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn26063 github.com/doitintl/googlesqlwasm2go/p10.Fn26063
+func Fn26063(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn26275 github.com/goccy/googlesqlwasm2go/p9.Fn26275
-func Fn26275(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn26094 github.com/doitintl/googlesqlwasm2go/p9.Fn26094
+func Fn26094(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26276 github.com/goccy/googlesqlwasm2go/p10.Fn26276
-func Fn26276(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn26164 github.com/doitintl/googlesqlwasm2go/p6.Fn26164
+func Fn26164(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn26278 github.com/goccy/googlesqlwasm2go/p9.Fn26278
-func Fn26278(m *base.Module, l0 int32) int32
+//go:linkname Fn26193 github.com/doitintl/googlesqlwasm2go/p9.Fn26193
+func Fn26193(m *base.Module, l0 int32)
 
-//go:linkname Fn26279 github.com/goccy/googlesqlwasm2go/p10.Fn26279
-func Fn26279(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn26195 github.com/doitintl/googlesqlwasm2go/p9.Fn26195
+func Fn26195(m *base.Module, l0 int32) int32
 
-//go:linkname Fn26295 github.com/goccy/googlesqlwasm2go/p6.Fn26295
-func Fn26295(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn26210 github.com/doitintl/googlesqlwasm2go/p9.Fn26210
+func Fn26210(m *base.Module, l0 int32)
 
-//go:linkname Fn26299 github.com/goccy/googlesqlwasm2go/p10.Fn26299
-func Fn26299(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn26240 github.com/doitintl/googlesqlwasm2go/p10.Fn26240
+func Fn26240(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26320 github.com/goccy/googlesqlwasm2go/p5.Fn26320
-func Fn26320(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn26276 github.com/doitintl/googlesqlwasm2go/p10.Fn26276
+func Fn26276(m *base.Module, l0 int32)
 
-//go:linkname Fn26330 github.com/goccy/googlesqlwasm2go/p6.Fn26330
-func Fn26330(m *base.Module, l0 int32) int32
+//go:linkname Fn26278 github.com/doitintl/googlesqlwasm2go/p10.Fn26278
+func Fn26278(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26337 github.com/goccy/googlesqlwasm2go/p8.Fn26337
-func Fn26337(m *base.Module, l0 int32)
+//go:linkname Fn26290 github.com/doitintl/googlesqlwasm2go/p5.Fn26290
+func Fn26290(m *base.Module, l0 int32) int32
 
-//go:linkname Fn26369 github.com/goccy/googlesqlwasm2go/p10.Fn26369
-func Fn26369(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn26291 github.com/doitintl/googlesqlwasm2go/p9.Fn26291
+func Fn26291(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn26441 github.com/goccy/googlesqlwasm2go/p10.Fn26441
-func Fn26441(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn26368 github.com/doitintl/googlesqlwasm2go/p9.Fn26368
+func Fn26368(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26569 github.com/goccy/googlesqlwasm2go/p10.Fn26569
-func Fn26569(m *base.Module, l0 int32) int32
+//go:linkname Fn26369 github.com/doitintl/googlesqlwasm2go/p10.Fn26369
+func Fn26369(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn26591 github.com/goccy/googlesqlwasm2go/p8.Fn26591
-func Fn26591(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn26396 github.com/doitintl/googlesqlwasm2go/p9.Fn26396
+func Fn26396(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26592 github.com/goccy/googlesqlwasm2go/p10.Fn26592
-func Fn26592(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn26405 github.com/doitintl/googlesqlwasm2go/p9.Fn26405
+func Fn26405(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26594 github.com/goccy/googlesqlwasm2go/p9.Fn26594
-func Fn26594(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+//go:linkname Fn26453 github.com/doitintl/googlesqlwasm2go/p9.Fn26453
+func Fn26453(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26598 github.com/goccy/googlesqlwasm2go/p9.Fn26598
-func Fn26598(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26509 github.com/doitintl/googlesqlwasm2go/p10.Fn26509
+func Fn26509(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn26600 github.com/goccy/googlesqlwasm2go/p10.Fn26600
-func Fn26600(m *base.Module, l0 int32) int32
+//go:linkname Fn26523 github.com/doitintl/googlesqlwasm2go/p6.Fn26523
+func Fn26523(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn26602 github.com/goccy/googlesqlwasm2go/p9.Fn26602
-func Fn26602(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26555 github.com/doitintl/googlesqlwasm2go/p9.Fn26555
+func Fn26555(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn26604 github.com/goccy/googlesqlwasm2go/p10.Fn26604
-func Fn26604(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn26556 github.com/doitintl/googlesqlwasm2go/p9.Fn26556
+func Fn26556(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn26609 github.com/goccy/googlesqlwasm2go/p10.Fn26609
-func Fn26609(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn26557 github.com/doitintl/googlesqlwasm2go/p9.Fn26557
+func Fn26557(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn26611 github.com/goccy/googlesqlwasm2go/p10.Fn26611
-func Fn26611(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn26558 github.com/doitintl/googlesqlwasm2go/p10.Fn26558
+func Fn26558(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn26623 github.com/goccy/googlesqlwasm2go/p5.Fn26623
-func Fn26623(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn26561 github.com/doitintl/googlesqlwasm2go/p10.Fn26561
+func Fn26561(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn26640 github.com/goccy/googlesqlwasm2go/p10.Fn26640
-func Fn26640(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26564 github.com/doitintl/googlesqlwasm2go/p9.Fn26564
+func Fn26564(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn26641 github.com/goccy/googlesqlwasm2go/p6.Fn26641
-func Fn26641(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn26576 github.com/doitintl/googlesqlwasm2go/p6.Fn26576
+func Fn26576(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn26657 github.com/goccy/googlesqlwasm2go/p9.Fn26657
-func Fn26657(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+//go:linkname Fn26580 github.com/doitintl/googlesqlwasm2go/p10.Fn26580
+func Fn26580(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn26659 github.com/goccy/googlesqlwasm2go/p9.Fn26659
-func Fn26659(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn26601 github.com/doitintl/googlesqlwasm2go/p5.Fn26601
+func Fn26601(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn26671 github.com/goccy/googlesqlwasm2go/p9.Fn26671
-func Fn26671(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn26611 github.com/doitintl/googlesqlwasm2go/p6.Fn26611
+func Fn26611(m *base.Module, l0 int32) int32
 
-//go:linkname Fn26675 github.com/goccy/googlesqlwasm2go/p9.Fn26675
-func Fn26675(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn26618 github.com/doitintl/googlesqlwasm2go/p8.Fn26618
+func Fn26618(m *base.Module, l0 int32)
 
-//go:linkname Fn26683 github.com/goccy/googlesqlwasm2go/p5.Fn26683
-func Fn26683(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26644 github.com/doitintl/googlesqlwasm2go/p10.Fn26644
+func Fn26644(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int64, l4 int32, l5 int64) int32
 
-//go:linkname Fn26685 github.com/goccy/googlesqlwasm2go/p9.Fn26685
-func Fn26685(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn26645 github.com/doitintl/googlesqlwasm2go/p6.Fn26645
+func Fn26645(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int64, l4 int32, l5 int64) int32
 
-//go:linkname Fn26686 github.com/goccy/googlesqlwasm2go/p9.Fn26686
-func Fn26686(m *base.Module, l0 int32) int32
+//go:linkname Fn26650 github.com/doitintl/googlesqlwasm2go/p10.Fn26650
+func Fn26650(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn26688 github.com/goccy/googlesqlwasm2go/p9.Fn26688
-func Fn26688(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn26722 github.com/doitintl/googlesqlwasm2go/p10.Fn26722
+func Fn26722(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn26689 github.com/goccy/googlesqlwasm2go/p10.Fn26689
-func Fn26689(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26749 github.com/doitintl/googlesqlwasm2go/p9.Fn26749
+func Fn26749(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26701 github.com/goccy/googlesqlwasm2go/p6.Fn26701
-func Fn26701(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26751 github.com/doitintl/googlesqlwasm2go/p9.Fn26751
+func Fn26751(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn26763 github.com/goccy/googlesqlwasm2go/p10.Fn26763
-func Fn26763(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn26850 github.com/doitintl/googlesqlwasm2go/p10.Fn26850
+func Fn26850(m *base.Module, l0 int32) int32
 
-//go:linkname Fn26766 github.com/goccy/googlesqlwasm2go/p9.Fn26766
-func Fn26766(m *base.Module, l0 int32)
+//go:linkname Fn26851 github.com/doitintl/googlesqlwasm2go/p10.Fn26851
+func Fn26851(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn26794 github.com/goccy/googlesqlwasm2go/p8.Fn26794
-func Fn26794(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn26872 github.com/doitintl/googlesqlwasm2go/p8.Fn26872
+func Fn26872(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn26799 github.com/goccy/googlesqlwasm2go/p6.Fn26799
-func Fn26799(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn26874 github.com/doitintl/googlesqlwasm2go/p8.Fn26874
+func Fn26874(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn26800 github.com/goccy/googlesqlwasm2go/p9.Fn26800
-func Fn26800(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn26879 github.com/doitintl/googlesqlwasm2go/p9.Fn26879
+func Fn26879(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26801 github.com/goccy/googlesqlwasm2go/p9.Fn26801
-func Fn26801(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn26881 github.com/doitintl/googlesqlwasm2go/p10.Fn26881
+func Fn26881(m *base.Module, l0 int32) int32
 
-//go:linkname Fn26804 github.com/goccy/googlesqlwasm2go/p9.Fn26804
-func Fn26804(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26883 github.com/doitintl/googlesqlwasm2go/p10.Fn26883
+func Fn26883(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26805 github.com/goccy/googlesqlwasm2go/p9.Fn26805
-func Fn26805(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn26885 github.com/doitintl/googlesqlwasm2go/p10.Fn26885
+func Fn26885(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn26860 github.com/goccy/googlesqlwasm2go/p9.Fn26860
-func Fn26860(m *base.Module, l0 int32)
+//go:linkname Fn26904 github.com/doitintl/googlesqlwasm2go/p5.Fn26904
+func Fn26904(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn26865 github.com/goccy/googlesqlwasm2go/p9.Fn26865
-func Fn26865(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26921 github.com/doitintl/googlesqlwasm2go/p10.Fn26921
+func Fn26921(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26867 github.com/goccy/googlesqlwasm2go/p9.Fn26867
-func Fn26867(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn26922 github.com/doitintl/googlesqlwasm2go/p6.Fn26922
+func Fn26922(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn26872 github.com/goccy/googlesqlwasm2go/p5.Fn26872
-func Fn26872(m *base.Module, l0 int32)
+//go:linkname Fn26927 github.com/doitintl/googlesqlwasm2go/p10.Fn26927
+func Fn26927(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn26873 github.com/goccy/googlesqlwasm2go/p9.Fn26873
-func Fn26873(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26928 github.com/doitintl/googlesqlwasm2go/p10.Fn26928
+func Fn26928(m *base.Module, l0 int32) int32
 
-//go:linkname Fn26882 github.com/goccy/googlesqlwasm2go/p6.Fn26882
-func Fn26882(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn26938 github.com/doitintl/googlesqlwasm2go/p10.Fn26938
+func Fn26938(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
 
-//go:linkname Fn26888 github.com/goccy/googlesqlwasm2go/p10.Fn26888
-func Fn26888(m *base.Module, l0 int32) int32
+//go:linkname Fn26940 github.com/doitintl/googlesqlwasm2go/p9.Fn26940
+func Fn26940(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn26889 github.com/goccy/googlesqlwasm2go/p5.Fn26889
-func Fn26889(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn26953 github.com/doitintl/googlesqlwasm2go/p9.Fn26953
+func Fn26953(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn26903 github.com/goccy/googlesqlwasm2go/p9.Fn26903
-func Fn26903(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn26957 github.com/doitintl/googlesqlwasm2go/p9.Fn26957
+func Fn26957(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn26924 github.com/goccy/googlesqlwasm2go/p8.Fn26924
-func Fn26924(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn26965 github.com/doitintl/googlesqlwasm2go/p6.Fn26965
+func Fn26965(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26937 github.com/goccy/googlesqlwasm2go/p9.Fn26937
-func Fn26937(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26967 github.com/doitintl/googlesqlwasm2go/p9.Fn26967
+func Fn26967(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn26960 github.com/goccy/googlesqlwasm2go/p10.Fn26960
-func Fn26960(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn26968 github.com/doitintl/googlesqlwasm2go/p9.Fn26968
+func Fn26968(m *base.Module, l0 int32) int32
 
-//go:linkname Fn26974 github.com/goccy/googlesqlwasm2go/p10.Fn26974
-func Fn26974(m *base.Module, l0 int32)
+//go:linkname Fn26970 github.com/doitintl/googlesqlwasm2go/p9.Fn26970
+func Fn26970(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn26978 github.com/goccy/googlesqlwasm2go/p10.Fn26978
-func Fn26978(m *base.Module, l0 int32)
+//go:linkname Fn26971 github.com/doitintl/googlesqlwasm2go/p10.Fn26971
+func Fn26971(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn26979 github.com/goccy/googlesqlwasm2go/p10.Fn26979
-func Fn26979(m *base.Module, l0 int32)
+//go:linkname Fn26983 github.com/doitintl/googlesqlwasm2go/p6.Fn26983
+func Fn26983(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27004 github.com/goccy/googlesqlwasm2go/p10.Fn27004
-func Fn27004(m *base.Module, l0 int32)
+//go:linkname Fn27044 github.com/doitintl/googlesqlwasm2go/p9.Fn27044
+func Fn27044(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn27006 github.com/goccy/googlesqlwasm2go/p10.Fn27006
-func Fn27006(m *base.Module, l0 int32)
+//go:linkname Fn27045 github.com/doitintl/googlesqlwasm2go/p10.Fn27045
+func Fn27045(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27011 github.com/goccy/googlesqlwasm2go/p10.Fn27011
-func Fn27011(m *base.Module, l0 int32)
+//go:linkname Fn27048 github.com/doitintl/googlesqlwasm2go/p9.Fn27048
+func Fn27048(m *base.Module, l0 int32)
 
-//go:linkname Fn27014 github.com/goccy/googlesqlwasm2go/p10.Fn27014
-func Fn27014(m *base.Module, l0 int32)
+//go:linkname Fn27059 github.com/doitintl/googlesqlwasm2go/p9.Fn27059
+func Fn27059(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn27029 github.com/goccy/googlesqlwasm2go/p10.Fn27029
-func Fn27029(m *base.Module, l0 int32)
+//go:linkname Fn27075 github.com/doitintl/googlesqlwasm2go/p8.Fn27075
+func Fn27075(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn27081 github.com/goccy/googlesqlwasm2go/p9.Fn27081
+//go:linkname Fn27081 github.com/doitintl/googlesqlwasm2go/p9.Fn27081
 func Fn27081(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27082 github.com/goccy/googlesqlwasm2go/p10.Fn27082
-func Fn27082(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn27082 github.com/doitintl/googlesqlwasm2go/p9.Fn27082
+func Fn27082(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn27088 github.com/goccy/googlesqlwasm2go/p10.Fn27088
-func Fn27088(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn27085 github.com/doitintl/googlesqlwasm2go/p9.Fn27085
+func Fn27085(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27089 github.com/goccy/googlesqlwasm2go/p10.Fn27089
-func Fn27089(m *base.Module, l0 int32) int32
+//go:linkname Fn27086 github.com/doitintl/googlesqlwasm2go/p9.Fn27086
+func Fn27086(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn27090 github.com/goccy/googlesqlwasm2go/p10.Fn27090
-func Fn27090(m *base.Module, l0 int32) int32
+//go:linkname Fn27140 github.com/doitintl/googlesqlwasm2go/p10.Fn27140
+func Fn27140(m *base.Module, l0 int32)
 
-//go:linkname Fn27097 github.com/goccy/googlesqlwasm2go/p10.Fn27097
-func Fn27097(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn27144 github.com/doitintl/googlesqlwasm2go/p3.Fn27144
+func Fn27144(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32) int32
 
-//go:linkname Fn27108 github.com/goccy/googlesqlwasm2go/p10.Fn27108
-func Fn27108(m *base.Module, l0 int32)
+//go:linkname Fn27146 github.com/doitintl/googlesqlwasm2go/p10.Fn27146
+func Fn27146(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27112 github.com/goccy/googlesqlwasm2go/p9.Fn27112
-func Fn27112(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn27148 github.com/doitintl/googlesqlwasm2go/p10.Fn27148
+func Fn27148(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn27130 github.com/goccy/googlesqlwasm2go/p9.Fn27130
-func Fn27130(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn27151 github.com/doitintl/googlesqlwasm2go/p6.Fn27151
+func Fn27151(m *base.Module, l0 int32) int32
 
-//go:linkname Fn27140 github.com/goccy/googlesqlwasm2go/p10.Fn27140
-func Fn27140(m *base.Module, l0 int32) int32
+//go:linkname Fn27153 github.com/doitintl/googlesqlwasm2go/p5.Fn27153
+func Fn27153(m *base.Module, l0 int32)
 
-//go:linkname Fn27145 github.com/goccy/googlesqlwasm2go/p9.Fn27145
-func Fn27145(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn27154 github.com/doitintl/googlesqlwasm2go/p9.Fn27154
+func Fn27154(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27148 github.com/goccy/googlesqlwasm2go/p10.Fn27148
-func Fn27148(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27169 github.com/doitintl/googlesqlwasm2go/p10.Fn27169
+func Fn27169(m *base.Module, l0 int32) int32
 
-//go:linkname Fn27150 github.com/goccy/googlesqlwasm2go/p6.Fn27150
-func Fn27150(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn27170 github.com/doitintl/googlesqlwasm2go/p6.Fn27170
+func Fn27170(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn27168 github.com/goccy/googlesqlwasm2go/p10.Fn27168
-func Fn27168(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27204 github.com/doitintl/googlesqlwasm2go/p8.Fn27204
+func Fn27204(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn27169 github.com/goccy/googlesqlwasm2go/p10.Fn27169
-func Fn27169(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27217 github.com/doitintl/googlesqlwasm2go/p9.Fn27217
+func Fn27217(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27170 github.com/goccy/googlesqlwasm2go/p9.Fn27170
-func Fn27170(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27240 github.com/doitintl/googlesqlwasm2go/p10.Fn27240
+func Fn27240(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27171 github.com/goccy/googlesqlwasm2go/p10.Fn27171
-func Fn27171(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27254 github.com/doitintl/googlesqlwasm2go/p10.Fn27254
+func Fn27254(m *base.Module, l0 int32)
 
-//go:linkname Fn27172 github.com/goccy/googlesqlwasm2go/p6.Fn27172
-func Fn27172(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn27258 github.com/doitintl/googlesqlwasm2go/p10.Fn27258
+func Fn27258(m *base.Module, l0 int32)
 
-//go:linkname Fn27173 github.com/goccy/googlesqlwasm2go/p10.Fn27173
-func Fn27173(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27266 github.com/doitintl/googlesqlwasm2go/p10.Fn27266
+func Fn27266(m *base.Module, l0 int32)
 
-//go:linkname Fn27174 github.com/goccy/googlesqlwasm2go/p10.Fn27174
-func Fn27174(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27284 github.com/doitintl/googlesqlwasm2go/p10.Fn27284
+func Fn27284(m *base.Module, l0 int32)
 
-//go:linkname Fn27177 github.com/goccy/googlesqlwasm2go/p10.Fn27177
-func Fn27177(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27286 github.com/doitintl/googlesqlwasm2go/p10.Fn27286
+func Fn27286(m *base.Module, l0 int32)
 
-//go:linkname Fn27183 github.com/goccy/googlesqlwasm2go/p10.Fn27183
-func Fn27183(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27291 github.com/doitintl/googlesqlwasm2go/p10.Fn27291
+func Fn27291(m *base.Module, l0 int32)
 
-//go:linkname Fn27185 github.com/goccy/googlesqlwasm2go/p10.Fn27185
-func Fn27185(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27294 github.com/doitintl/googlesqlwasm2go/p10.Fn27294
+func Fn27294(m *base.Module, l0 int32)
 
-//go:linkname Fn27187 github.com/goccy/googlesqlwasm2go/p8.Fn27187
-func Fn27187(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27309 github.com/doitintl/googlesqlwasm2go/p10.Fn27309
+func Fn27309(m *base.Module, l0 int32)
 
-//go:linkname Fn27193 github.com/goccy/googlesqlwasm2go/p10.Fn27193
-func Fn27193(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27361 github.com/doitintl/googlesqlwasm2go/p9.Fn27361
+func Fn27361(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27195 github.com/goccy/googlesqlwasm2go/p9.Fn27195
-func Fn27195(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27362 github.com/doitintl/googlesqlwasm2go/p10.Fn27362
+func Fn27362(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn27196 github.com/goccy/googlesqlwasm2go/p6.Fn27196
-func Fn27196(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27368 github.com/doitintl/googlesqlwasm2go/p10.Fn27368
+func Fn27368(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn27201 github.com/goccy/googlesqlwasm2go/p10.Fn27201
-func Fn27201(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27369 github.com/doitintl/googlesqlwasm2go/p10.Fn27369
+func Fn27369(m *base.Module, l0 int32) int32
 
-//go:linkname Fn27203 github.com/goccy/googlesqlwasm2go/p10.Fn27203
-func Fn27203(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27370 github.com/doitintl/googlesqlwasm2go/p10.Fn27370
+func Fn27370(m *base.Module, l0 int32) int32
 
-//go:linkname Fn27204 github.com/goccy/googlesqlwasm2go/p10.Fn27204
-func Fn27204(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27377 github.com/doitintl/googlesqlwasm2go/p10.Fn27377
+func Fn27377(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn27211 github.com/goccy/googlesqlwasm2go/p10.Fn27211
-func Fn27211(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27388 github.com/doitintl/googlesqlwasm2go/p10.Fn27388
+func Fn27388(m *base.Module, l0 int32)
 
-//go:linkname Fn27213 github.com/goccy/googlesqlwasm2go/p6.Fn27213
-func Fn27213(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27392 github.com/doitintl/googlesqlwasm2go/p9.Fn27392
+func Fn27392(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn27220 github.com/goccy/googlesqlwasm2go/p10.Fn27220
-func Fn27220(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27403 github.com/doitintl/googlesqlwasm2go/p9.Fn27403
+func Fn27403(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn27223 github.com/goccy/googlesqlwasm2go/p8.Fn27223
-func Fn27223(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27410 github.com/doitintl/googlesqlwasm2go/p10.Fn27410
+func Fn27410(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn27224 github.com/goccy/googlesqlwasm2go/p10.Fn27224
-func Fn27224(m *base.Module, l0 int32)
+//go:linkname Fn27420 github.com/doitintl/googlesqlwasm2go/p10.Fn27420
+func Fn27420(m *base.Module, l0 int32) int32
 
-//go:linkname Fn27225 github.com/goccy/googlesqlwasm2go/p10.Fn27225
-func Fn27225(m *base.Module, l0 int32)
+//go:linkname Fn27425 github.com/doitintl/googlesqlwasm2go/p10.Fn27425
+func Fn27425(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn27231 github.com/goccy/googlesqlwasm2go/p9.Fn27231
-func Fn27231(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27428 github.com/doitintl/googlesqlwasm2go/p10.Fn27428
+func Fn27428(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27232 github.com/goccy/googlesqlwasm2go/p9.Fn27232
-func Fn27232(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27430 github.com/doitintl/googlesqlwasm2go/p6.Fn27430
+func Fn27430(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn27233 github.com/goccy/googlesqlwasm2go/p10.Fn27233
-func Fn27233(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27235 github.com/goccy/googlesqlwasm2go/p6.Fn27235
-func Fn27235(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
-
-//go:linkname Fn27236 github.com/goccy/googlesqlwasm2go/p10.Fn27236
-func Fn27236(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27237 github.com/goccy/googlesqlwasm2go/p10.Fn27237
-func Fn27237(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27241 github.com/goccy/googlesqlwasm2go/p10.Fn27241
-func Fn27241(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27243 github.com/goccy/googlesqlwasm2go/p8.Fn27243
-func Fn27243(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27249 github.com/goccy/googlesqlwasm2go/p10.Fn27249
-func Fn27249(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27250 github.com/goccy/googlesqlwasm2go/p10.Fn27250
-func Fn27250(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27251 github.com/goccy/googlesqlwasm2go/p10.Fn27251
-func Fn27251(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27256 github.com/goccy/googlesqlwasm2go/p9.Fn27256
-func Fn27256(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27257 github.com/goccy/googlesqlwasm2go/p9.Fn27257
-func Fn27257(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27258 github.com/goccy/googlesqlwasm2go/p6.Fn27258
-func Fn27258(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27260 github.com/goccy/googlesqlwasm2go/p6.Fn27260
-func Fn27260(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
-
-//go:linkname Fn27261 github.com/goccy/googlesqlwasm2go/p5.Fn27261
-func Fn27261(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27262 github.com/goccy/googlesqlwasm2go/p5.Fn27262
-func Fn27262(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27268 github.com/goccy/googlesqlwasm2go/p10.Fn27268
-func Fn27268(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27270 github.com/goccy/googlesqlwasm2go/p10.Fn27270
-func Fn27270(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27271 github.com/goccy/googlesqlwasm2go/p10.Fn27271
-func Fn27271(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27272 github.com/goccy/googlesqlwasm2go/p10.Fn27272
-func Fn27272(m *base.Module, l0 int32)
-
-//go:linkname Fn27273 github.com/goccy/googlesqlwasm2go/p10.Fn27273
-func Fn27273(m *base.Module, l0 int32)
-
-//go:linkname Fn27279 github.com/goccy/googlesqlwasm2go/p10.Fn27279
-func Fn27279(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27283 github.com/goccy/googlesqlwasm2go/p10.Fn27283
-func Fn27283(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27284 github.com/goccy/googlesqlwasm2go/p10.Fn27284
-func Fn27284(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27290 github.com/goccy/googlesqlwasm2go/p9.Fn27290
-func Fn27290(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27291 github.com/goccy/googlesqlwasm2go/p9.Fn27291
-func Fn27291(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27292 github.com/goccy/googlesqlwasm2go/p6.Fn27292
-func Fn27292(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27294 github.com/goccy/googlesqlwasm2go/p5.Fn27294
-func Fn27294(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27295 github.com/goccy/googlesqlwasm2go/p5.Fn27295
-func Fn27295(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27303 github.com/goccy/googlesqlwasm2go/p10.Fn27303
-func Fn27303(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn27307 github.com/goccy/googlesqlwasm2go/p6.Fn27307
-func Fn27307(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27315 github.com/goccy/googlesqlwasm2go/p4.Fn27315
-func Fn27315(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27316 github.com/goccy/googlesqlwasm2go/p6.Fn27316
-func Fn27316(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27317 github.com/goccy/googlesqlwasm2go/p10.Fn27317
-func Fn27317(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27318 github.com/goccy/googlesqlwasm2go/p10.Fn27318
-func Fn27318(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27319 github.com/goccy/googlesqlwasm2go/p10.Fn27319
-func Fn27319(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27321 github.com/goccy/googlesqlwasm2go/p10.Fn27321
-func Fn27321(m *base.Module, l0 int32)
-
-//go:linkname Fn27325 github.com/goccy/googlesqlwasm2go/p10.Fn27325
-func Fn27325(m *base.Module, l0 int32)
-
-//go:linkname Fn27333 github.com/goccy/googlesqlwasm2go/p10.Fn27333
-func Fn27333(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27334 github.com/goccy/googlesqlwasm2go/p10.Fn27334
-func Fn27334(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27335 github.com/goccy/googlesqlwasm2go/p9.Fn27335
-func Fn27335(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27337 github.com/goccy/googlesqlwasm2go/p9.Fn27337
-func Fn27337(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27338 github.com/goccy/googlesqlwasm2go/p9.Fn27338
-func Fn27338(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27343 github.com/goccy/googlesqlwasm2go/p6.Fn27343
-func Fn27343(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn27351 github.com/goccy/googlesqlwasm2go/p10.Fn27351
-func Fn27351(m *base.Module, l0 int32)
-
-//go:linkname Fn27352 github.com/goccy/googlesqlwasm2go/p10.Fn27352
-func Fn27352(m *base.Module, l0 int32)
-
-//go:linkname Fn27361 github.com/goccy/googlesqlwasm2go/p6.Fn27361
-func Fn27361(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27362 github.com/goccy/googlesqlwasm2go/p6.Fn27362
-func Fn27362(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27363 github.com/goccy/googlesqlwasm2go/p5.Fn27363
-func Fn27363(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27365 github.com/goccy/googlesqlwasm2go/p4.Fn27365
-func Fn27365(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27366 github.com/goccy/googlesqlwasm2go/p4.Fn27366
-func Fn27366(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27367 github.com/goccy/googlesqlwasm2go/p10.Fn27367
-func Fn27367(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27368 github.com/goccy/googlesqlwasm2go/p5.Fn27368
-func Fn27368(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27369 github.com/goccy/googlesqlwasm2go/p6.Fn27369
-func Fn27369(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27371 github.com/goccy/googlesqlwasm2go/p10.Fn27371
-func Fn27371(m *base.Module, l0 int32)
-
-//go:linkname Fn27372 github.com/goccy/googlesqlwasm2go/p10.Fn27372
-func Fn27372(m *base.Module, l0 int32)
-
-//go:linkname Fn27373 github.com/goccy/googlesqlwasm2go/p9.Fn27373
-func Fn27373(m *base.Module, l0 int32)
-
-//go:linkname Fn27375 github.com/goccy/googlesqlwasm2go/p10.Fn27375
-func Fn27375(m *base.Module, l0 int32)
-
-//go:linkname Fn27376 github.com/goccy/googlesqlwasm2go/p10.Fn27376
-func Fn27376(m *base.Module, l0 int32)
-
-//go:linkname Fn27377 github.com/goccy/googlesqlwasm2go/p9.Fn27377
-func Fn27377(m *base.Module, l0 int32)
-
-//go:linkname Fn27381 github.com/goccy/googlesqlwasm2go/p6.Fn27381
-func Fn27381(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn27383 github.com/goccy/googlesqlwasm2go/p9.Fn27383
-func Fn27383(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27384 github.com/goccy/googlesqlwasm2go/p9.Fn27384
-func Fn27384(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27385 github.com/goccy/googlesqlwasm2go/p8.Fn27385
-func Fn27385(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27387 github.com/goccy/googlesqlwasm2go/p6.Fn27387
-func Fn27387(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27388 github.com/goccy/googlesqlwasm2go/p6.Fn27388
-func Fn27388(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27389 github.com/goccy/googlesqlwasm2go/p5.Fn27389
-func Fn27389(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27390 github.com/goccy/googlesqlwasm2go/p10.Fn27390
-func Fn27390(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27397 github.com/goccy/googlesqlwasm2go/p10.Fn27397
-func Fn27397(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27398 github.com/goccy/googlesqlwasm2go/p10.Fn27398
-func Fn27398(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27399 github.com/goccy/googlesqlwasm2go/p10.Fn27399
-func Fn27399(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27408 github.com/goccy/googlesqlwasm2go/p10.Fn27408
-func Fn27408(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27409 github.com/goccy/googlesqlwasm2go/p6.Fn27409
-func Fn27409(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27415 github.com/goccy/googlesqlwasm2go/p9.Fn27415
-func Fn27415(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27416 github.com/goccy/googlesqlwasm2go/p9.Fn27416
-func Fn27416(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27417 github.com/goccy/googlesqlwasm2go/p5.Fn27417
-func Fn27417(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27418 github.com/goccy/googlesqlwasm2go/p4.Fn27418
-func Fn27418(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27419 github.com/goccy/googlesqlwasm2go/p5.Fn27419
-func Fn27419(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27425 github.com/goccy/googlesqlwasm2go/p9.Fn27425
-func Fn27425(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27426 github.com/goccy/googlesqlwasm2go/p9.Fn27426
-func Fn27426(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27429 github.com/goccy/googlesqlwasm2go/p10.Fn27429
-func Fn27429(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27430 github.com/goccy/googlesqlwasm2go/p6.Fn27430
-func Fn27430(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27438 github.com/goccy/googlesqlwasm2go/p10.Fn27438
-func Fn27438(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27439 github.com/goccy/googlesqlwasm2go/p6.Fn27439
-func Fn27439(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27440 github.com/goccy/googlesqlwasm2go/p6.Fn27440
-func Fn27440(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27448 github.com/goccy/googlesqlwasm2go/p9.Fn27448
+//go:linkname Fn27448 github.com/doitintl/googlesqlwasm2go/p10.Fn27448
 func Fn27448(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27449 github.com/goccy/googlesqlwasm2go/p9.Fn27449
-func Fn27449(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27449 github.com/doitintl/googlesqlwasm2go/p10.Fn27449
+func Fn27449(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27450 github.com/goccy/googlesqlwasm2go/p8.Fn27450
-func Fn27450(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27450 github.com/doitintl/googlesqlwasm2go/p9.Fn27450
+func Fn27450(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27451 github.com/goccy/googlesqlwasm2go/p5.Fn27451
-func Fn27451(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27452 github.com/doitintl/googlesqlwasm2go/p6.Fn27452
+func Fn27452(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn27455 github.com/goccy/googlesqlwasm2go/p9.Fn27455
-func Fn27455(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27453 github.com/doitintl/googlesqlwasm2go/p10.Fn27453
+func Fn27453(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27456 github.com/goccy/googlesqlwasm2go/p9.Fn27456
-func Fn27456(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27454 github.com/doitintl/googlesqlwasm2go/p10.Fn27454
+func Fn27454(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27457 github.com/goccy/googlesqlwasm2go/p10.Fn27457
-func Fn27457(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27457 github.com/doitintl/googlesqlwasm2go/p10.Fn27457
+func Fn27457(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27459 github.com/goccy/googlesqlwasm2go/p5.Fn27459
-func Fn27459(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27463 github.com/doitintl/googlesqlwasm2go/p10.Fn27463
+func Fn27463(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27460 github.com/goccy/googlesqlwasm2go/p6.Fn27460
-func Fn27460(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27465 github.com/doitintl/googlesqlwasm2go/p10.Fn27465
+func Fn27465(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27466 github.com/goccy/googlesqlwasm2go/p10.Fn27466
-func Fn27466(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27467 github.com/doitintl/googlesqlwasm2go/p8.Fn27467
+func Fn27467(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27468 github.com/goccy/googlesqlwasm2go/p4.Fn27468
-func Fn27468(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27473 github.com/doitintl/googlesqlwasm2go/p10.Fn27473
+func Fn27473(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27469 github.com/goccy/googlesqlwasm2go/p5.Fn27469
-func Fn27469(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27475 github.com/doitintl/googlesqlwasm2go/p9.Fn27475
+func Fn27475(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27475 github.com/goccy/googlesqlwasm2go/p10.Fn27475
-func Fn27475(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27476 github.com/doitintl/googlesqlwasm2go/p6.Fn27476
+func Fn27476(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27477 github.com/goccy/googlesqlwasm2go/p5.Fn27477
-func Fn27477(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27481 github.com/doitintl/googlesqlwasm2go/p10.Fn27481
+func Fn27481(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27478 github.com/goccy/googlesqlwasm2go/p6.Fn27478
-func Fn27478(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27483 github.com/doitintl/googlesqlwasm2go/p10.Fn27483
+func Fn27483(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27482 github.com/goccy/googlesqlwasm2go/p10.Fn27482
-func Fn27482(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27484 github.com/doitintl/googlesqlwasm2go/p10.Fn27484
+func Fn27484(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27484 github.com/goccy/googlesqlwasm2go/p10.Fn27484
-func Fn27484(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27485 github.com/goccy/googlesqlwasm2go/p10.Fn27485
-func Fn27485(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27491 github.com/goccy/googlesqlwasm2go/p6.Fn27491
+//go:linkname Fn27491 github.com/doitintl/googlesqlwasm2go/p10.Fn27491
 func Fn27491(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27493 github.com/goccy/googlesqlwasm2go/p10.Fn27493
+//go:linkname Fn27493 github.com/doitintl/googlesqlwasm2go/p6.Fn27493
 func Fn27493(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27494 github.com/goccy/googlesqlwasm2go/p5.Fn27494
-func Fn27494(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27500 github.com/doitintl/googlesqlwasm2go/p10.Fn27500
+func Fn27500(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27498 github.com/goccy/googlesqlwasm2go/p10.Fn27498
-func Fn27498(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27503 github.com/goccy/googlesqlwasm2go/p9.Fn27503
+//go:linkname Fn27503 github.com/doitintl/googlesqlwasm2go/p8.Fn27503
 func Fn27503(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27504 github.com/goccy/googlesqlwasm2go/p9.Fn27504
-func Fn27504(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27504 github.com/doitintl/googlesqlwasm2go/p10.Fn27504
+func Fn27504(m *base.Module, l0 int32)
 
-//go:linkname Fn27505 github.com/goccy/googlesqlwasm2go/p10.Fn27505
-func Fn27505(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27505 github.com/doitintl/googlesqlwasm2go/p10.Fn27505
+func Fn27505(m *base.Module, l0 int32)
 
-//go:linkname Fn27508 github.com/goccy/googlesqlwasm2go/p5.Fn27508
-func Fn27508(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27511 github.com/doitintl/googlesqlwasm2go/p9.Fn27511
+func Fn27511(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27509 github.com/goccy/googlesqlwasm2go/p6.Fn27509
-func Fn27509(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27512 github.com/doitintl/googlesqlwasm2go/p9.Fn27512
+func Fn27512(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27515 github.com/goccy/googlesqlwasm2go/p6.Fn27515
-func Fn27515(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27513 github.com/doitintl/googlesqlwasm2go/p10.Fn27513
+func Fn27513(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27517 github.com/goccy/googlesqlwasm2go/p10.Fn27517
-func Fn27517(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27515 github.com/doitintl/googlesqlwasm2go/p6.Fn27515
+func Fn27515(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn27518 github.com/goccy/googlesqlwasm2go/p5.Fn27518
-func Fn27518(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27516 github.com/doitintl/googlesqlwasm2go/p10.Fn27516
+func Fn27516(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27522 github.com/goccy/googlesqlwasm2go/p10.Fn27522
-func Fn27522(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27517 github.com/doitintl/googlesqlwasm2go/p10.Fn27517
+func Fn27517(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27524 github.com/goccy/googlesqlwasm2go/p10.Fn27524
-func Fn27524(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27521 github.com/doitintl/googlesqlwasm2go/p10.Fn27521
+func Fn27521(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27525 github.com/goccy/googlesqlwasm2go/p10.Fn27525
-func Fn27525(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27523 github.com/doitintl/googlesqlwasm2go/p8.Fn27523
+func Fn27523(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27529 github.com/goccy/googlesqlwasm2go/p9.Fn27529
-func Fn27529(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27529 github.com/doitintl/googlesqlwasm2go/p10.Fn27529
+func Fn27529(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27530 github.com/goccy/googlesqlwasm2go/p9.Fn27530
-func Fn27530(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27530 github.com/doitintl/googlesqlwasm2go/p10.Fn27530
+func Fn27530(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27531 github.com/goccy/googlesqlwasm2go/p5.Fn27531
-func Fn27531(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27531 github.com/doitintl/googlesqlwasm2go/p10.Fn27531
+func Fn27531(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27534 github.com/goccy/googlesqlwasm2go/p4.Fn27534
-func Fn27534(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27536 github.com/doitintl/googlesqlwasm2go/p9.Fn27536
+func Fn27536(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27535 github.com/goccy/googlesqlwasm2go/p5.Fn27535
-func Fn27535(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27537 github.com/doitintl/googlesqlwasm2go/p9.Fn27537
+func Fn27537(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27541 github.com/goccy/googlesqlwasm2go/p6.Fn27541
+//go:linkname Fn27538 github.com/doitintl/googlesqlwasm2go/p6.Fn27538
+func Fn27538(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn27540 github.com/doitintl/googlesqlwasm2go/p6.Fn27540
+func Fn27540(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+
+//go:linkname Fn27541 github.com/doitintl/googlesqlwasm2go/p5.Fn27541
 func Fn27541(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27543 github.com/goccy/googlesqlwasm2go/p5.Fn27543
-func Fn27543(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27542 github.com/doitintl/googlesqlwasm2go/p5.Fn27542
+func Fn27542(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27544 github.com/goccy/googlesqlwasm2go/p5.Fn27544
-func Fn27544(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27548 github.com/doitintl/googlesqlwasm2go/p10.Fn27548
+func Fn27548(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27549 github.com/goccy/googlesqlwasm2go/p6.Fn27549
-func Fn27549(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn27550 github.com/doitintl/googlesqlwasm2go/p10.Fn27550
+func Fn27550(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27576 github.com/goccy/googlesqlwasm2go/p6.Fn27576
-func Fn27576(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27551 github.com/doitintl/googlesqlwasm2go/p10.Fn27551
+func Fn27551(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27577 github.com/goccy/googlesqlwasm2go/p8.Fn27577
-func Fn27577(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27552 github.com/doitintl/googlesqlwasm2go/p10.Fn27552
+func Fn27552(m *base.Module, l0 int32)
 
-//go:linkname Fn27579 github.com/goccy/googlesqlwasm2go/p9.Fn27579
-func Fn27579(m *base.Module, l0 int32)
+//go:linkname Fn27553 github.com/doitintl/googlesqlwasm2go/p10.Fn27553
+func Fn27553(m *base.Module, l0 int32)
 
-//go:linkname Fn27580 github.com/goccy/googlesqlwasm2go/p9.Fn27580
-func Fn27580(m *base.Module, l0 int32)
+//go:linkname Fn27559 github.com/doitintl/googlesqlwasm2go/p10.Fn27559
+func Fn27559(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27588 github.com/goccy/googlesqlwasm2go/p9.Fn27588
-func Fn27588(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27563 github.com/doitintl/googlesqlwasm2go/p10.Fn27563
+func Fn27563(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27589 github.com/goccy/googlesqlwasm2go/p9.Fn27589
-func Fn27589(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27564 github.com/doitintl/googlesqlwasm2go/p10.Fn27564
+func Fn27564(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27590 github.com/goccy/googlesqlwasm2go/p10.Fn27590
-func Fn27590(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27570 github.com/doitintl/googlesqlwasm2go/p9.Fn27570
+func Fn27570(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27594 github.com/goccy/googlesqlwasm2go/p5.Fn27594
-func Fn27594(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27571 github.com/doitintl/googlesqlwasm2go/p9.Fn27571
+func Fn27571(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27595 github.com/goccy/googlesqlwasm2go/p6.Fn27595
+//go:linkname Fn27572 github.com/doitintl/googlesqlwasm2go/p6.Fn27572
+func Fn27572(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn27574 github.com/doitintl/googlesqlwasm2go/p5.Fn27574
+func Fn27574(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn27575 github.com/doitintl/googlesqlwasm2go/p5.Fn27575
+func Fn27575(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn27583 github.com/doitintl/googlesqlwasm2go/p10.Fn27583
+func Fn27583(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+
+//go:linkname Fn27585 github.com/doitintl/googlesqlwasm2go/p6.Fn27585
+func Fn27585(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+
+//go:linkname Fn27587 github.com/doitintl/googlesqlwasm2go/p6.Fn27587
+func Fn27587(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn27595 github.com/doitintl/googlesqlwasm2go/p4.Fn27595
 func Fn27595(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27600 github.com/goccy/googlesqlwasm2go/p10.Fn27600
-func Fn27600(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27596 github.com/doitintl/googlesqlwasm2go/p6.Fn27596
+func Fn27596(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27602 github.com/goccy/googlesqlwasm2go/p10.Fn27602
-func Fn27602(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27597 github.com/doitintl/googlesqlwasm2go/p10.Fn27597
+func Fn27597(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27604 github.com/goccy/googlesqlwasm2go/p10.Fn27604
-func Fn27604(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27598 github.com/doitintl/googlesqlwasm2go/p10.Fn27598
+func Fn27598(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27606 github.com/goccy/googlesqlwasm2go/p10.Fn27606
-func Fn27606(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27599 github.com/doitintl/googlesqlwasm2go/p10.Fn27599
+func Fn27599(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27610 github.com/goccy/googlesqlwasm2go/p10.Fn27610
-func Fn27610(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27601 github.com/doitintl/googlesqlwasm2go/p10.Fn27601
+func Fn27601(m *base.Module, l0 int32)
 
-//go:linkname Fn27614 github.com/goccy/googlesqlwasm2go/p6.Fn27614
-func Fn27614(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27605 github.com/doitintl/googlesqlwasm2go/p10.Fn27605
+func Fn27605(m *base.Module, l0 int32)
 
-//go:linkname Fn27617 github.com/goccy/googlesqlwasm2go/p10.Fn27617
+//go:linkname Fn27613 github.com/doitintl/googlesqlwasm2go/p10.Fn27613
+func Fn27613(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn27614 github.com/doitintl/googlesqlwasm2go/p10.Fn27614
+func Fn27614(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn27615 github.com/doitintl/googlesqlwasm2go/p9.Fn27615
+func Fn27615(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn27617 github.com/doitintl/googlesqlwasm2go/p9.Fn27617
 func Fn27617(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27619 github.com/goccy/googlesqlwasm2go/p10.Fn27619
-func Fn27619(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27618 github.com/doitintl/googlesqlwasm2go/p9.Fn27618
+func Fn27618(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27623 github.com/goccy/googlesqlwasm2go/p5.Fn27623
+//go:linkname Fn27623 github.com/doitintl/googlesqlwasm2go/p6.Fn27623
 func Fn27623(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn27625 github.com/goccy/googlesqlwasm2go/p9.Fn27625
-func Fn27625(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27631 github.com/doitintl/googlesqlwasm2go/p10.Fn27631
+func Fn27631(m *base.Module, l0 int32)
 
-//go:linkname Fn27626 github.com/goccy/googlesqlwasm2go/p9.Fn27626
-func Fn27626(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27632 github.com/doitintl/googlesqlwasm2go/p10.Fn27632
+func Fn27632(m *base.Module, l0 int32)
 
-//go:linkname Fn27627 github.com/goccy/googlesqlwasm2go/p6.Fn27627
-func Fn27627(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27641 github.com/doitintl/googlesqlwasm2go/p6.Fn27641
+func Fn27641(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27629 github.com/goccy/googlesqlwasm2go/p4.Fn27629
-func Fn27629(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27642 github.com/doitintl/googlesqlwasm2go/p6.Fn27642
+func Fn27642(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27630 github.com/goccy/googlesqlwasm2go/p5.Fn27630
-func Fn27630(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27643 github.com/doitintl/googlesqlwasm2go/p5.Fn27643
+func Fn27643(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27631 github.com/goccy/googlesqlwasm2go/p10.Fn27631
-func Fn27631(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27645 github.com/doitintl/googlesqlwasm2go/p4.Fn27645
+func Fn27645(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27637 github.com/goccy/googlesqlwasm2go/p9.Fn27637
-func Fn27637(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27646 github.com/doitintl/googlesqlwasm2go/p4.Fn27646
+func Fn27646(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27638 github.com/goccy/googlesqlwasm2go/p9.Fn27638
-func Fn27638(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27647 github.com/doitintl/googlesqlwasm2go/p10.Fn27647
+func Fn27647(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27639 github.com/goccy/googlesqlwasm2go/p5.Fn27639
-func Fn27639(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27648 github.com/doitintl/googlesqlwasm2go/p5.Fn27648
+func Fn27648(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27642 github.com/goccy/googlesqlwasm2go/p4.Fn27642
-func Fn27642(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27649 github.com/doitintl/googlesqlwasm2go/p6.Fn27649
+func Fn27649(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27643 github.com/goccy/googlesqlwasm2go/p4.Fn27643
-func Fn27643(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27651 github.com/doitintl/googlesqlwasm2go/p10.Fn27651
+func Fn27651(m *base.Module, l0 int32)
 
-//go:linkname Fn27650 github.com/goccy/googlesqlwasm2go/p9.Fn27650
-func Fn27650(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27652 github.com/doitintl/googlesqlwasm2go/p10.Fn27652
+func Fn27652(m *base.Module, l0 int32)
 
-//go:linkname Fn27651 github.com/goccy/googlesqlwasm2go/p9.Fn27651
-func Fn27651(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27653 github.com/doitintl/googlesqlwasm2go/p10.Fn27653
+func Fn27653(m *base.Module, l0 int32)
 
-//go:linkname Fn27652 github.com/goccy/googlesqlwasm2go/p5.Fn27652
-func Fn27652(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27655 github.com/doitintl/googlesqlwasm2go/p10.Fn27655
+func Fn27655(m *base.Module, l0 int32)
 
-//go:linkname Fn27654 github.com/goccy/googlesqlwasm2go/p4.Fn27654
-func Fn27654(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27656 github.com/doitintl/googlesqlwasm2go/p10.Fn27656
+func Fn27656(m *base.Module, l0 int32)
 
-//go:linkname Fn27655 github.com/goccy/googlesqlwasm2go/p4.Fn27655
-func Fn27655(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27657 github.com/doitintl/googlesqlwasm2go/p10.Fn27657
+func Fn27657(m *base.Module, l0 int32)
 
-//go:linkname Fn27656 github.com/goccy/googlesqlwasm2go/p8.Fn27656
-func Fn27656(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27661 github.com/doitintl/googlesqlwasm2go/p6.Fn27661
+func Fn27661(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn27658 github.com/goccy/googlesqlwasm2go/p10.Fn27658
-func Fn27658(m *base.Module, l0 int32)
+//go:linkname Fn27663 github.com/doitintl/googlesqlwasm2go/p10.Fn27663
+func Fn27663(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27660 github.com/goccy/googlesqlwasm2go/p10.Fn27660
-func Fn27660(m *base.Module, l0 int32)
+//go:linkname Fn27664 github.com/doitintl/googlesqlwasm2go/p10.Fn27664
+func Fn27664(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27663 github.com/goccy/googlesqlwasm2go/p10.Fn27663
-func Fn27663(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27665 github.com/goccy/googlesqlwasm2go/p8.Fn27665
+//go:linkname Fn27665 github.com/doitintl/googlesqlwasm2go/p8.Fn27665
 func Fn27665(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27669 github.com/goccy/googlesqlwasm2go/p9.Fn27669
+//go:linkname Fn27667 github.com/doitintl/googlesqlwasm2go/p6.Fn27667
+func Fn27667(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn27668 github.com/doitintl/googlesqlwasm2go/p6.Fn27668
+func Fn27668(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn27669 github.com/doitintl/googlesqlwasm2go/p5.Fn27669
 func Fn27669(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27670 github.com/goccy/googlesqlwasm2go/p9.Fn27670
+//go:linkname Fn27670 github.com/doitintl/googlesqlwasm2go/p10.Fn27670
 func Fn27670(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27671 github.com/goccy/googlesqlwasm2go/p6.Fn27671
-func Fn27671(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27676 github.com/doitintl/googlesqlwasm2go/p6.Fn27676
+func Fn27676(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn27673 github.com/goccy/googlesqlwasm2go/p9.Fn27673
-func Fn27673(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27677 github.com/doitintl/googlesqlwasm2go/p10.Fn27677
+func Fn27677(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27674 github.com/goccy/googlesqlwasm2go/p5.Fn27674
-func Fn27674(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27678 github.com/doitintl/googlesqlwasm2go/p10.Fn27678
+func Fn27678(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27681 github.com/goccy/googlesqlwasm2go/p8.Fn27681
-func Fn27681(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27679 github.com/doitintl/googlesqlwasm2go/p10.Fn27679
+func Fn27679(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27683 github.com/goccy/googlesqlwasm2go/p5.Fn27683
-func Fn27683(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27688 github.com/doitintl/googlesqlwasm2go/p10.Fn27688
+func Fn27688(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27684 github.com/goccy/googlesqlwasm2go/p6.Fn27684
-func Fn27684(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27689 github.com/doitintl/googlesqlwasm2go/p6.Fn27689
+func Fn27689(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27685 github.com/goccy/googlesqlwasm2go/p10.Fn27685
-func Fn27685(m *base.Module, l0 int32)
+//go:linkname Fn27695 github.com/doitintl/googlesqlwasm2go/p9.Fn27695
+func Fn27695(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27686 github.com/goccy/googlesqlwasm2go/p10.Fn27686
-func Fn27686(m *base.Module, l0 int32)
+//go:linkname Fn27696 github.com/doitintl/googlesqlwasm2go/p9.Fn27696
+func Fn27696(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27694 github.com/goccy/googlesqlwasm2go/p10.Fn27694
-func Fn27694(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27697 github.com/doitintl/googlesqlwasm2go/p5.Fn27697
+func Fn27697(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27698 github.com/goccy/googlesqlwasm2go/p10.Fn27698
+//go:linkname Fn27698 github.com/doitintl/googlesqlwasm2go/p4.Fn27698
 func Fn27698(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27700 github.com/goccy/googlesqlwasm2go/p10.Fn27700
-func Fn27700(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27699 github.com/doitintl/googlesqlwasm2go/p5.Fn27699
+func Fn27699(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27701 github.com/goccy/googlesqlwasm2go/p10.Fn27701
-func Fn27701(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27705 github.com/doitintl/googlesqlwasm2go/p9.Fn27705
+func Fn27705(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27705 github.com/goccy/googlesqlwasm2go/p10.Fn27705
-func Fn27705(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27706 github.com/doitintl/googlesqlwasm2go/p9.Fn27706
+func Fn27706(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27707 github.com/goccy/googlesqlwasm2go/p10.Fn27707
-func Fn27707(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27709 github.com/doitintl/googlesqlwasm2go/p10.Fn27709
+func Fn27709(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27708 github.com/goccy/googlesqlwasm2go/p10.Fn27708
-func Fn27708(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27710 github.com/doitintl/googlesqlwasm2go/p6.Fn27710
+func Fn27710(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27712 github.com/goccy/googlesqlwasm2go/p10.Fn27712
-func Fn27712(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27718 github.com/doitintl/googlesqlwasm2go/p10.Fn27718
+func Fn27718(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27713 github.com/goccy/googlesqlwasm2go/p10.Fn27713
-func Fn27713(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27719 github.com/doitintl/googlesqlwasm2go/p6.Fn27719
+func Fn27719(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27717 github.com/goccy/googlesqlwasm2go/p10.Fn27717
-func Fn27717(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27719 github.com/goccy/googlesqlwasm2go/p10.Fn27719
-func Fn27719(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27720 github.com/goccy/googlesqlwasm2go/p10.Fn27720
+//go:linkname Fn27720 github.com/doitintl/googlesqlwasm2go/p6.Fn27720
 func Fn27720(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27724 github.com/goccy/googlesqlwasm2go/p10.Fn27724
-func Fn27724(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27728 github.com/doitintl/googlesqlwasm2go/p10.Fn27728
+func Fn27728(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27726 github.com/goccy/googlesqlwasm2go/p10.Fn27726
-func Fn27726(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27729 github.com/doitintl/googlesqlwasm2go/p10.Fn27729
+func Fn27729(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27727 github.com/goccy/googlesqlwasm2go/p10.Fn27727
-func Fn27727(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27730 github.com/doitintl/googlesqlwasm2go/p8.Fn27730
+func Fn27730(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27733 github.com/goccy/googlesqlwasm2go/p5.Fn27733
-func Fn27733(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27731 github.com/doitintl/googlesqlwasm2go/p5.Fn27731
+func Fn27731(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27741 github.com/goccy/googlesqlwasm2go/p9.Fn27741
-func Fn27741(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27735 github.com/doitintl/googlesqlwasm2go/p10.Fn27735
+func Fn27735(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27745 github.com/goccy/googlesqlwasm2go/p9.Fn27745
-func Fn27745(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27736 github.com/doitintl/googlesqlwasm2go/p10.Fn27736
+func Fn27736(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27746 github.com/goccy/googlesqlwasm2go/p9.Fn27746
-func Fn27746(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27737 github.com/doitintl/googlesqlwasm2go/p10.Fn27737
+func Fn27737(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27747 github.com/goccy/googlesqlwasm2go/p10.Fn27747
-func Fn27747(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27739 github.com/doitintl/googlesqlwasm2go/p5.Fn27739
+func Fn27739(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27748 github.com/goccy/googlesqlwasm2go/p10.Fn27748
+//go:linkname Fn27740 github.com/doitintl/googlesqlwasm2go/p6.Fn27740
+func Fn27740(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn27746 github.com/doitintl/googlesqlwasm2go/p10.Fn27746
+func Fn27746(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn27748 github.com/doitintl/googlesqlwasm2go/p5.Fn27748
 func Fn27748(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27750 github.com/goccy/googlesqlwasm2go/p9.Fn27750
-func Fn27750(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27749 github.com/doitintl/googlesqlwasm2go/p5.Fn27749
+func Fn27749(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27751 github.com/goccy/googlesqlwasm2go/p10.Fn27751
-func Fn27751(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27755 github.com/goccy/googlesqlwasm2go/p10.Fn27755
+//go:linkname Fn27755 github.com/doitintl/googlesqlwasm2go/p10.Fn27755
 func Fn27755(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27757 github.com/goccy/googlesqlwasm2go/p9.Fn27757
+//go:linkname Fn27757 github.com/doitintl/googlesqlwasm2go/p5.Fn27757
 func Fn27757(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27758 github.com/goccy/googlesqlwasm2go/p10.Fn27758
+//go:linkname Fn27758 github.com/doitintl/googlesqlwasm2go/p6.Fn27758
 func Fn27758(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27762 github.com/goccy/googlesqlwasm2go/p9.Fn27762
-func Fn27762(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27762 github.com/doitintl/googlesqlwasm2go/p10.Fn27762
+func Fn27762(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27763 github.com/goccy/googlesqlwasm2go/p9.Fn27763
-func Fn27763(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27764 github.com/doitintl/googlesqlwasm2go/p10.Fn27764
+func Fn27764(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27766 github.com/goccy/googlesqlwasm2go/p6.Fn27766
-func Fn27766(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27765 github.com/doitintl/googlesqlwasm2go/p10.Fn27765
+func Fn27765(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27767 github.com/goccy/googlesqlwasm2go/p6.Fn27767
-func Fn27767(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27771 github.com/doitintl/googlesqlwasm2go/p6.Fn27771
+func Fn27771(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27774 github.com/goccy/googlesqlwasm2go/p10.Fn27774
-func Fn27774(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27773 github.com/doitintl/googlesqlwasm2go/p10.Fn27773
+func Fn27773(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27776 github.com/goccy/googlesqlwasm2go/p9.Fn27776
-func Fn27776(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27774 github.com/doitintl/googlesqlwasm2go/p5.Fn27774
+func Fn27774(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27777 github.com/goccy/googlesqlwasm2go/p10.Fn27777
-func Fn27777(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27778 github.com/doitintl/googlesqlwasm2go/p10.Fn27778
+func Fn27778(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27784 github.com/goccy/googlesqlwasm2go/p9.Fn27784
+//go:linkname Fn27783 github.com/doitintl/googlesqlwasm2go/p10.Fn27783
+func Fn27783(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn27784 github.com/doitintl/googlesqlwasm2go/p10.Fn27784
 func Fn27784(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27785 github.com/goccy/googlesqlwasm2go/p9.Fn27785
-func Fn27785(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27785 github.com/doitintl/googlesqlwasm2go/p10.Fn27785
+func Fn27785(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27789 github.com/goccy/googlesqlwasm2go/p5.Fn27789
-func Fn27789(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27788 github.com/doitintl/googlesqlwasm2go/p5.Fn27788
+func Fn27788(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27790 github.com/goccy/googlesqlwasm2go/p6.Fn27790
-func Fn27790(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27789 github.com/doitintl/googlesqlwasm2go/p6.Fn27789
+func Fn27789(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27796 github.com/goccy/googlesqlwasm2go/p9.Fn27796
-func Fn27796(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27795 github.com/doitintl/googlesqlwasm2go/p6.Fn27795
+func Fn27795(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27797 github.com/goccy/googlesqlwasm2go/p9.Fn27797
-func Fn27797(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27797 github.com/doitintl/googlesqlwasm2go/p10.Fn27797
+func Fn27797(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27798 github.com/goccy/googlesqlwasm2go/p6.Fn27798
-func Fn27798(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27798 github.com/doitintl/googlesqlwasm2go/p6.Fn27798
+func Fn27798(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27800 github.com/goccy/googlesqlwasm2go/p9.Fn27800
-func Fn27800(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27802 github.com/doitintl/googlesqlwasm2go/p10.Fn27802
+func Fn27802(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27801 github.com/goccy/googlesqlwasm2go/p5.Fn27801
-func Fn27801(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27804 github.com/doitintl/googlesqlwasm2go/p10.Fn27804
+func Fn27804(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27807 github.com/goccy/googlesqlwasm2go/p9.Fn27807
-func Fn27807(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27805 github.com/doitintl/googlesqlwasm2go/p10.Fn27805
+func Fn27805(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27808 github.com/goccy/googlesqlwasm2go/p9.Fn27808
-func Fn27808(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27809 github.com/doitintl/googlesqlwasm2go/p9.Fn27809
+func Fn27809(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27809 github.com/goccy/googlesqlwasm2go/p10.Fn27809
-func Fn27809(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27810 github.com/doitintl/googlesqlwasm2go/p9.Fn27810
+func Fn27810(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27811 github.com/goccy/googlesqlwasm2go/p9.Fn27811
+//go:linkname Fn27811 github.com/doitintl/googlesqlwasm2go/p5.Fn27811
 func Fn27811(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27812 github.com/goccy/googlesqlwasm2go/p9.Fn27812
-func Fn27812(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27814 github.com/doitintl/googlesqlwasm2go/p4.Fn27814
+func Fn27814(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27818 github.com/goccy/googlesqlwasm2go/p10.Fn27818
-func Fn27818(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27815 github.com/doitintl/googlesqlwasm2go/p5.Fn27815
+func Fn27815(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27819 github.com/goccy/googlesqlwasm2go/p10.Fn27819
-func Fn27819(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27821 github.com/doitintl/googlesqlwasm2go/p6.Fn27821
+func Fn27821(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27820 github.com/goccy/googlesqlwasm2go/p10.Fn27820
-func Fn27820(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27823 github.com/doitintl/googlesqlwasm2go/p5.Fn27823
+func Fn27823(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27823 github.com/goccy/googlesqlwasm2go/p8.Fn27823
-func Fn27823(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27824 github.com/doitintl/googlesqlwasm2go/p5.Fn27824
+func Fn27824(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27832 github.com/goccy/googlesqlwasm2go/p6.Fn27832
-func Fn27832(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27829 github.com/doitintl/googlesqlwasm2go/p6.Fn27829
+func Fn27829(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn27834 github.com/goccy/googlesqlwasm2go/p9.Fn27834
-func Fn27834(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27856 github.com/doitintl/googlesqlwasm2go/p6.Fn27856
+func Fn27856(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27835 github.com/goccy/googlesqlwasm2go/p5.Fn27835
-func Fn27835(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27857 github.com/doitintl/googlesqlwasm2go/p8.Fn27857
+func Fn27857(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27836 github.com/goccy/googlesqlwasm2go/p5.Fn27836
-func Fn27836(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27859 github.com/doitintl/googlesqlwasm2go/p10.Fn27859
+func Fn27859(m *base.Module, l0 int32)
 
-//go:linkname Fn27837 github.com/goccy/googlesqlwasm2go/p5.Fn27837
-func Fn27837(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27860 github.com/doitintl/googlesqlwasm2go/p10.Fn27860
+func Fn27860(m *base.Module, l0 int32)
 
-//go:linkname Fn27838 github.com/goccy/googlesqlwasm2go/p6.Fn27838
-func Fn27838(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27868 github.com/doitintl/googlesqlwasm2go/p10.Fn27868
+func Fn27868(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27850 github.com/goccy/googlesqlwasm2go/p9.Fn27850
-func Fn27850(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27869 github.com/doitintl/googlesqlwasm2go/p10.Fn27869
+func Fn27869(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27851 github.com/goccy/googlesqlwasm2go/p9.Fn27851
-func Fn27851(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27870 github.com/doitintl/googlesqlwasm2go/p10.Fn27870
+func Fn27870(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27852 github.com/goccy/googlesqlwasm2go/p5.Fn27852
-func Fn27852(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27874 github.com/doitintl/googlesqlwasm2go/p5.Fn27874
+func Fn27874(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27854 github.com/goccy/googlesqlwasm2go/p4.Fn27854
-func Fn27854(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27875 github.com/doitintl/googlesqlwasm2go/p6.Fn27875
+func Fn27875(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27855 github.com/goccy/googlesqlwasm2go/p4.Fn27855
-func Fn27855(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27880 github.com/doitintl/googlesqlwasm2go/p10.Fn27880
+func Fn27880(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27865 github.com/goccy/googlesqlwasm2go/p9.Fn27865
-func Fn27865(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27866 github.com/goccy/googlesqlwasm2go/p9.Fn27866
-func Fn27866(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27867 github.com/goccy/googlesqlwasm2go/p10.Fn27867
-func Fn27867(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27868 github.com/goccy/googlesqlwasm2go/p6.Fn27868
-func Fn27868(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27871 github.com/goccy/googlesqlwasm2go/p10.Fn27871
-func Fn27871(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27872 github.com/goccy/googlesqlwasm2go/p5.Fn27872
-func Fn27872(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27873 github.com/goccy/googlesqlwasm2go/p6.Fn27873
-func Fn27873(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27880 github.com/goccy/googlesqlwasm2go/p9.Fn27880
-func Fn27880(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27881 github.com/goccy/googlesqlwasm2go/p9.Fn27881
-func Fn27881(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27882 github.com/goccy/googlesqlwasm2go/p6.Fn27882
+//go:linkname Fn27882 github.com/doitintl/googlesqlwasm2go/p10.Fn27882
 func Fn27882(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27884 github.com/goccy/googlesqlwasm2go/p4.Fn27884
+//go:linkname Fn27884 github.com/doitintl/googlesqlwasm2go/p10.Fn27884
 func Fn27884(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27890 github.com/goccy/googlesqlwasm2go/p9.Fn27890
-func Fn27890(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27886 github.com/doitintl/googlesqlwasm2go/p10.Fn27886
+func Fn27886(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27891 github.com/goccy/googlesqlwasm2go/p9.Fn27891
-func Fn27891(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27890 github.com/doitintl/googlesqlwasm2go/p10.Fn27890
+func Fn27890(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27892 github.com/goccy/googlesqlwasm2go/p5.Fn27892
-func Fn27892(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27894 github.com/goccy/googlesqlwasm2go/p4.Fn27894
+//go:linkname Fn27894 github.com/doitintl/googlesqlwasm2go/p6.Fn27894
 func Fn27894(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27895 github.com/goccy/googlesqlwasm2go/p5.Fn27895
-func Fn27895(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27897 github.com/doitintl/googlesqlwasm2go/p10.Fn27897
+func Fn27897(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27901 github.com/goccy/googlesqlwasm2go/p6.Fn27901
-func Fn27901(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn27899 github.com/doitintl/googlesqlwasm2go/p10.Fn27899
+func Fn27899(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27903 github.com/goccy/googlesqlwasm2go/p9.Fn27903
-func Fn27903(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27903 github.com/doitintl/googlesqlwasm2go/p5.Fn27903
+func Fn27903(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn27904 github.com/goccy/googlesqlwasm2go/p9.Fn27904
-func Fn27904(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27905 github.com/doitintl/googlesqlwasm2go/p9.Fn27905
+func Fn27905(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27905 github.com/goccy/googlesqlwasm2go/p6.Fn27905
-func Fn27905(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27906 github.com/doitintl/googlesqlwasm2go/p9.Fn27906
+func Fn27906(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27907 github.com/goccy/googlesqlwasm2go/p5.Fn27907
+//go:linkname Fn27907 github.com/doitintl/googlesqlwasm2go/p6.Fn27907
 func Fn27907(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27908 github.com/goccy/googlesqlwasm2go/p5.Fn27908
-func Fn27908(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27909 github.com/doitintl/googlesqlwasm2go/p4.Fn27909
+func Fn27909(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27909 github.com/goccy/googlesqlwasm2go/p5.Fn27909
-func Fn27909(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27910 github.com/doitintl/googlesqlwasm2go/p5.Fn27910
+func Fn27910(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27917 github.com/goccy/googlesqlwasm2go/p6.Fn27917
-func Fn27917(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn27911 github.com/doitintl/googlesqlwasm2go/p10.Fn27911
+func Fn27911(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27918 github.com/goccy/googlesqlwasm2go/p10.Fn27918
-func Fn27918(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27917 github.com/doitintl/googlesqlwasm2go/p9.Fn27917
+func Fn27917(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27920 github.com/goccy/googlesqlwasm2go/p9.Fn27920
-func Fn27920(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27918 github.com/doitintl/googlesqlwasm2go/p9.Fn27918
+func Fn27918(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27921 github.com/goccy/googlesqlwasm2go/p10.Fn27921
-func Fn27921(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27919 github.com/doitintl/googlesqlwasm2go/p5.Fn27919
+func Fn27919(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27926 github.com/goccy/googlesqlwasm2go/p9.Fn27926
-func Fn27926(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27922 github.com/doitintl/googlesqlwasm2go/p4.Fn27922
+func Fn27922(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27927 github.com/goccy/googlesqlwasm2go/p9.Fn27927
-func Fn27927(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27923 github.com/doitintl/googlesqlwasm2go/p5.Fn27923
+func Fn27923(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27928 github.com/goccy/googlesqlwasm2go/p6.Fn27928
-func Fn27928(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27930 github.com/doitintl/googlesqlwasm2go/p9.Fn27930
+func Fn27930(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27930 github.com/goccy/googlesqlwasm2go/p4.Fn27930
-func Fn27930(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27931 github.com/goccy/googlesqlwasm2go/p5.Fn27931
+//go:linkname Fn27931 github.com/doitintl/googlesqlwasm2go/p9.Fn27931
 func Fn27931(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27939 github.com/goccy/googlesqlwasm2go/p10.Fn27939
-func Fn27939(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27932 github.com/doitintl/googlesqlwasm2go/p5.Fn27932
+func Fn27932(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27946 github.com/goccy/googlesqlwasm2go/p5.Fn27946
-func Fn27946(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27934 github.com/doitintl/googlesqlwasm2go/p4.Fn27934
+func Fn27934(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27947 github.com/goccy/googlesqlwasm2go/p5.Fn27947
-func Fn27947(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27935 github.com/doitintl/googlesqlwasm2go/p4.Fn27935
+func Fn27935(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27954 github.com/goccy/googlesqlwasm2go/p9.Fn27954
+//go:linkname Fn27936 github.com/doitintl/googlesqlwasm2go/p8.Fn27936
+func Fn27936(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn27938 github.com/doitintl/googlesqlwasm2go/p10.Fn27938
+func Fn27938(m *base.Module, l0 int32)
+
+//go:linkname Fn27940 github.com/doitintl/googlesqlwasm2go/p10.Fn27940
+func Fn27940(m *base.Module, l0 int32)
+
+//go:linkname Fn27943 github.com/doitintl/googlesqlwasm2go/p10.Fn27943
+func Fn27943(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn27945 github.com/doitintl/googlesqlwasm2go/p8.Fn27945
+func Fn27945(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn27949 github.com/doitintl/googlesqlwasm2go/p9.Fn27949
+func Fn27949(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn27950 github.com/doitintl/googlesqlwasm2go/p9.Fn27950
+func Fn27950(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn27951 github.com/doitintl/googlesqlwasm2go/p6.Fn27951
+func Fn27951(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn27953 github.com/doitintl/googlesqlwasm2go/p10.Fn27953
+func Fn27953(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn27954 github.com/doitintl/googlesqlwasm2go/p6.Fn27954
 func Fn27954(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27955 github.com/goccy/googlesqlwasm2go/p9.Fn27955
-func Fn27955(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27961 github.com/doitintl/googlesqlwasm2go/p8.Fn27961
+func Fn27961(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27959 github.com/goccy/googlesqlwasm2go/p9.Fn27959
-func Fn27959(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27963 github.com/doitintl/googlesqlwasm2go/p6.Fn27963
+func Fn27963(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27960 github.com/goccy/googlesqlwasm2go/p4.Fn27960
-func Fn27960(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27964 github.com/doitintl/googlesqlwasm2go/p6.Fn27964
+func Fn27964(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27961 github.com/goccy/googlesqlwasm2go/p5.Fn27961
-func Fn27961(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27965 github.com/doitintl/googlesqlwasm2go/p10.Fn27965
+func Fn27965(m *base.Module, l0 int32)
 
-//go:linkname Fn27968 github.com/goccy/googlesqlwasm2go/p9.Fn27968
-func Fn27968(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27966 github.com/doitintl/googlesqlwasm2go/p10.Fn27966
+func Fn27966(m *base.Module, l0 int32)
 
-//go:linkname Fn27969 github.com/goccy/googlesqlwasm2go/p9.Fn27969
-func Fn27969(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27974 github.com/doitintl/googlesqlwasm2go/p10.Fn27974
+func Fn27974(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27970 github.com/goccy/googlesqlwasm2go/p6.Fn27970
-func Fn27970(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27978 github.com/doitintl/googlesqlwasm2go/p10.Fn27978
+func Fn27978(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27972 github.com/goccy/googlesqlwasm2go/p5.Fn27972
-func Fn27972(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn27973 github.com/goccy/googlesqlwasm2go/p5.Fn27973
-func Fn27973(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn27980 github.com/goccy/googlesqlwasm2go/p10.Fn27980
+//go:linkname Fn27980 github.com/doitintl/googlesqlwasm2go/p10.Fn27980
 func Fn27980(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27981 github.com/goccy/googlesqlwasm2go/p8.Fn27981
-func Fn27981(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27981 github.com/doitintl/googlesqlwasm2go/p10.Fn27981
+func Fn27981(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27982 github.com/goccy/googlesqlwasm2go/p8.Fn27982
-func Fn27982(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27985 github.com/doitintl/googlesqlwasm2go/p10.Fn27985
+func Fn27985(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27991 github.com/goccy/googlesqlwasm2go/p5.Fn27991
-func Fn27991(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27987 github.com/doitintl/googlesqlwasm2go/p10.Fn27987
+func Fn27987(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27992 github.com/goccy/googlesqlwasm2go/p6.Fn27992
-func Fn27992(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27988 github.com/doitintl/googlesqlwasm2go/p10.Fn27988
+func Fn27988(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn27998 github.com/goccy/googlesqlwasm2go/p9.Fn27998
-func Fn27998(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27992 github.com/doitintl/googlesqlwasm2go/p10.Fn27992
+func Fn27992(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn27999 github.com/goccy/googlesqlwasm2go/p9.Fn27999
-func Fn27999(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn27993 github.com/doitintl/googlesqlwasm2go/p10.Fn27993
+func Fn27993(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28000 github.com/goccy/googlesqlwasm2go/p6.Fn28000
-func Fn28000(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27997 github.com/doitintl/googlesqlwasm2go/p10.Fn27997
+func Fn27997(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28002 github.com/goccy/googlesqlwasm2go/p5.Fn28002
-func Fn28002(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn27999 github.com/doitintl/googlesqlwasm2go/p10.Fn27999
+func Fn27999(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28003 github.com/goccy/googlesqlwasm2go/p5.Fn28003
-func Fn28003(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28000 github.com/doitintl/googlesqlwasm2go/p10.Fn28000
+func Fn28000(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28009 github.com/goccy/googlesqlwasm2go/p9.Fn28009
-func Fn28009(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28004 github.com/doitintl/googlesqlwasm2go/p10.Fn28004
+func Fn28004(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28010 github.com/goccy/googlesqlwasm2go/p9.Fn28010
-func Fn28010(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28006 github.com/doitintl/googlesqlwasm2go/p10.Fn28006
+func Fn28006(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28013 github.com/goccy/googlesqlwasm2go/p5.Fn28013
+//go:linkname Fn28007 github.com/doitintl/googlesqlwasm2go/p10.Fn28007
+func Fn28007(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28013 github.com/doitintl/googlesqlwasm2go/p5.Fn28013
 func Fn28013(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28014 github.com/goccy/googlesqlwasm2go/p6.Fn28014
-func Fn28014(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28021 github.com/doitintl/googlesqlwasm2go/p9.Fn28021
+func Fn28021(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28020 github.com/goccy/googlesqlwasm2go/p9.Fn28020
-func Fn28020(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28021 github.com/goccy/googlesqlwasm2go/p9.Fn28021
-func Fn28021(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28024 github.com/goccy/googlesqlwasm2go/p6.Fn28024
-func Fn28024(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28025 github.com/goccy/googlesqlwasm2go/p6.Fn28025
+//go:linkname Fn28025 github.com/doitintl/googlesqlwasm2go/p9.Fn28025
 func Fn28025(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28031 github.com/goccy/googlesqlwasm2go/p8.Fn28031
+//go:linkname Fn28026 github.com/doitintl/googlesqlwasm2go/p9.Fn28026
+func Fn28026(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28027 github.com/doitintl/googlesqlwasm2go/p10.Fn28027
+func Fn28027(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28028 github.com/doitintl/googlesqlwasm2go/p10.Fn28028
+func Fn28028(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28030 github.com/doitintl/googlesqlwasm2go/p10.Fn28030
+func Fn28030(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28031 github.com/doitintl/googlesqlwasm2go/p10.Fn28031
 func Fn28031(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28032 github.com/goccy/googlesqlwasm2go/p8.Fn28032
-func Fn28032(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28035 github.com/doitintl/googlesqlwasm2go/p10.Fn28035
+func Fn28035(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28033 github.com/goccy/googlesqlwasm2go/p5.Fn28033
-func Fn28033(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28037 github.com/doitintl/googlesqlwasm2go/p10.Fn28037
+func Fn28037(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28036 github.com/goccy/googlesqlwasm2go/p4.Fn28036
-func Fn28036(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28038 github.com/doitintl/googlesqlwasm2go/p10.Fn28038
+func Fn28038(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28040 github.com/goccy/googlesqlwasm2go/p6.Fn28040
-func Fn28040(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn28042 github.com/doitintl/googlesqlwasm2go/p9.Fn28042
+func Fn28042(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28099 github.com/goccy/googlesqlwasm2go/p10.Fn28099
+//go:linkname Fn28043 github.com/doitintl/googlesqlwasm2go/p9.Fn28043
+func Fn28043(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28046 github.com/doitintl/googlesqlwasm2go/p6.Fn28046
+func Fn28046(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28047 github.com/doitintl/googlesqlwasm2go/p6.Fn28047
+func Fn28047(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28054 github.com/doitintl/googlesqlwasm2go/p10.Fn28054
+func Fn28054(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28056 github.com/doitintl/googlesqlwasm2go/p10.Fn28056
+func Fn28056(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28057 github.com/doitintl/googlesqlwasm2go/p10.Fn28057
+func Fn28057(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28064 github.com/doitintl/googlesqlwasm2go/p9.Fn28064
+func Fn28064(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28065 github.com/doitintl/googlesqlwasm2go/p9.Fn28065
+func Fn28065(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28069 github.com/doitintl/googlesqlwasm2go/p5.Fn28069
+func Fn28069(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28070 github.com/doitintl/googlesqlwasm2go/p6.Fn28070
+func Fn28070(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28076 github.com/doitintl/googlesqlwasm2go/p9.Fn28076
+func Fn28076(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28077 github.com/doitintl/googlesqlwasm2go/p9.Fn28077
+func Fn28077(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28078 github.com/doitintl/googlesqlwasm2go/p6.Fn28078
+func Fn28078(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28080 github.com/doitintl/googlesqlwasm2go/p10.Fn28080
+func Fn28080(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28081 github.com/doitintl/googlesqlwasm2go/p5.Fn28081
+func Fn28081(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28087 github.com/doitintl/googlesqlwasm2go/p9.Fn28087
+func Fn28087(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28088 github.com/doitintl/googlesqlwasm2go/p9.Fn28088
+func Fn28088(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28089 github.com/doitintl/googlesqlwasm2go/p10.Fn28089
+func Fn28089(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28091 github.com/doitintl/googlesqlwasm2go/p10.Fn28091
+func Fn28091(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28092 github.com/doitintl/googlesqlwasm2go/p10.Fn28092
+func Fn28092(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28098 github.com/doitintl/googlesqlwasm2go/p10.Fn28098
+func Fn28098(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28099 github.com/doitintl/googlesqlwasm2go/p10.Fn28099
 func Fn28099(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28107 github.com/goccy/googlesqlwasm2go/p9.Fn28107
-func Fn28107(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28100 github.com/doitintl/googlesqlwasm2go/p10.Fn28100
+func Fn28100(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28108 github.com/goccy/googlesqlwasm2go/p9.Fn28108
-func Fn28108(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28103 github.com/doitintl/googlesqlwasm2go/p8.Fn28103
+func Fn28103(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28109 github.com/goccy/googlesqlwasm2go/p10.Fn28109
-func Fn28109(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28112 github.com/doitintl/googlesqlwasm2go/p6.Fn28112
+func Fn28112(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28111 github.com/goccy/googlesqlwasm2go/p10.Fn28111
-func Fn28111(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28114 github.com/doitintl/googlesqlwasm2go/p10.Fn28114
+func Fn28114(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28112 github.com/goccy/googlesqlwasm2go/p6.Fn28112
-func Fn28112(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28115 github.com/doitintl/googlesqlwasm2go/p5.Fn28115
+func Fn28115(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28117 github.com/goccy/googlesqlwasm2go/p10.Fn28117
-func Fn28117(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28116 github.com/doitintl/googlesqlwasm2go/p5.Fn28116
+func Fn28116(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28119 github.com/goccy/googlesqlwasm2go/p10.Fn28119
-func Fn28119(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28117 github.com/doitintl/googlesqlwasm2go/p5.Fn28117
+func Fn28117(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28120 github.com/goccy/googlesqlwasm2go/p10.Fn28120
-func Fn28120(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28118 github.com/doitintl/googlesqlwasm2go/p6.Fn28118
+func Fn28118(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28124 github.com/goccy/googlesqlwasm2go/p9.Fn28124
-func Fn28124(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28130 github.com/doitintl/googlesqlwasm2go/p9.Fn28130
+func Fn28130(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28125 github.com/goccy/googlesqlwasm2go/p9.Fn28125
-func Fn28125(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28131 github.com/doitintl/googlesqlwasm2go/p9.Fn28131
+func Fn28131(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28126 github.com/goccy/googlesqlwasm2go/p6.Fn28126
-func Fn28126(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28132 github.com/doitintl/googlesqlwasm2go/p5.Fn28132
+func Fn28132(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28128 github.com/goccy/googlesqlwasm2go/p9.Fn28128
-func Fn28128(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28134 github.com/doitintl/googlesqlwasm2go/p4.Fn28134
+func Fn28134(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28129 github.com/goccy/googlesqlwasm2go/p5.Fn28129
-func Fn28129(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28135 github.com/goccy/googlesqlwasm2go/p9.Fn28135
+//go:linkname Fn28135 github.com/doitintl/googlesqlwasm2go/p4.Fn28135
 func Fn28135(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28136 github.com/goccy/googlesqlwasm2go/p9.Fn28136
-func Fn28136(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28145 github.com/doitintl/googlesqlwasm2go/p10.Fn28145
+func Fn28145(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28137 github.com/goccy/googlesqlwasm2go/p10.Fn28137
-func Fn28137(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28146 github.com/doitintl/googlesqlwasm2go/p10.Fn28146
+func Fn28146(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28138 github.com/goccy/googlesqlwasm2go/p6.Fn28138
-func Fn28138(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28140 github.com/goccy/googlesqlwasm2go/p5.Fn28140
-func Fn28140(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28141 github.com/goccy/googlesqlwasm2go/p5.Fn28141
-func Fn28141(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28147 github.com/goccy/googlesqlwasm2go/p6.Fn28147
+//go:linkname Fn28147 github.com/doitintl/googlesqlwasm2go/p10.Fn28147
 func Fn28147(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28149 github.com/goccy/googlesqlwasm2go/p9.Fn28149
-func Fn28149(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28148 github.com/doitintl/googlesqlwasm2go/p6.Fn28148
+func Fn28148(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28150 github.com/goccy/googlesqlwasm2go/p5.Fn28150
-func Fn28150(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28151 github.com/doitintl/googlesqlwasm2go/p10.Fn28151
+func Fn28151(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28156 github.com/goccy/googlesqlwasm2go/p9.Fn28156
-func Fn28156(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28152 github.com/doitintl/googlesqlwasm2go/p6.Fn28152
+func Fn28152(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28157 github.com/goccy/googlesqlwasm2go/p9.Fn28157
-func Fn28157(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28153 github.com/doitintl/googlesqlwasm2go/p6.Fn28153
+func Fn28153(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28160 github.com/goccy/googlesqlwasm2go/p6.Fn28160
-func Fn28160(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28160 github.com/doitintl/googlesqlwasm2go/p9.Fn28160
+func Fn28160(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28161 github.com/goccy/googlesqlwasm2go/p6.Fn28161
+//go:linkname Fn28161 github.com/doitintl/googlesqlwasm2go/p9.Fn28161
 func Fn28161(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28167 github.com/goccy/googlesqlwasm2go/p6.Fn28167
-func Fn28167(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn28162 github.com/doitintl/googlesqlwasm2go/p6.Fn28162
+func Fn28162(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28168 github.com/goccy/googlesqlwasm2go/p8.Fn28168
-func Fn28168(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28164 github.com/doitintl/googlesqlwasm2go/p4.Fn28164
+func Fn28164(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28170 github.com/goccy/googlesqlwasm2go/p10.Fn28170
-func Fn28170(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28170 github.com/doitintl/googlesqlwasm2go/p9.Fn28170
+func Fn28170(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28171 github.com/goccy/googlesqlwasm2go/p6.Fn28171
+//go:linkname Fn28171 github.com/doitintl/googlesqlwasm2go/p9.Fn28171
 func Fn28171(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28172 github.com/goccy/googlesqlwasm2go/p10.Fn28172
-func Fn28172(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28172 github.com/doitintl/googlesqlwasm2go/p6.Fn28172
+func Fn28172(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28180 github.com/goccy/googlesqlwasm2go/p9.Fn28180
-func Fn28180(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28174 github.com/doitintl/googlesqlwasm2go/p4.Fn28174
+func Fn28174(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28181 github.com/goccy/googlesqlwasm2go/p9.Fn28181
-func Fn28181(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28175 github.com/doitintl/googlesqlwasm2go/p5.Fn28175
+func Fn28175(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28182 github.com/goccy/googlesqlwasm2go/p10.Fn28182
-func Fn28182(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28181 github.com/doitintl/googlesqlwasm2go/p6.Fn28181
+func Fn28181(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn28184 github.com/goccy/googlesqlwasm2go/p10.Fn28184
-func Fn28184(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28183 github.com/doitintl/googlesqlwasm2go/p9.Fn28183
+func Fn28183(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28185 github.com/goccy/googlesqlwasm2go/p10.Fn28185
-func Fn28185(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28184 github.com/doitintl/googlesqlwasm2go/p9.Fn28184
+func Fn28184(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28208 github.com/goccy/googlesqlwasm2go/p10.Fn28208
-func Fn28208(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28185 github.com/doitintl/googlesqlwasm2go/p6.Fn28185
+func Fn28185(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28209 github.com/goccy/googlesqlwasm2go/p10.Fn28209
-func Fn28209(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28187 github.com/doitintl/googlesqlwasm2go/p5.Fn28187
+func Fn28187(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28210 github.com/goccy/googlesqlwasm2go/p10.Fn28210
+//go:linkname Fn28188 github.com/doitintl/googlesqlwasm2go/p5.Fn28188
+func Fn28188(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28189 github.com/doitintl/googlesqlwasm2go/p6.Fn28189
+func Fn28189(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28197 github.com/doitintl/googlesqlwasm2go/p6.Fn28197
+func Fn28197(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+
+//go:linkname Fn28198 github.com/doitintl/googlesqlwasm2go/p10.Fn28198
+func Fn28198(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28200 github.com/doitintl/googlesqlwasm2go/p10.Fn28200
+func Fn28200(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28201 github.com/doitintl/googlesqlwasm2go/p10.Fn28201
+func Fn28201(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28205 github.com/doitintl/googlesqlwasm2go/p5.Fn28205
+func Fn28205(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+
+//go:linkname Fn28206 github.com/doitintl/googlesqlwasm2go/p9.Fn28206
+func Fn28206(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28207 github.com/doitintl/googlesqlwasm2go/p9.Fn28207
+func Fn28207(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28208 github.com/doitintl/googlesqlwasm2go/p6.Fn28208
+func Fn28208(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28210 github.com/doitintl/googlesqlwasm2go/p4.Fn28210
 func Fn28210(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28222 github.com/goccy/googlesqlwasm2go/p9.Fn28222
-func Fn28222(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28211 github.com/doitintl/googlesqlwasm2go/p5.Fn28211
+func Fn28211(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28223 github.com/goccy/googlesqlwasm2go/p9.Fn28223
-func Fn28223(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28219 github.com/doitintl/googlesqlwasm2go/p10.Fn28219
+func Fn28219(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28224 github.com/goccy/googlesqlwasm2go/p6.Fn28224
-func Fn28224(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28226 github.com/goccy/googlesqlwasm2go/p5.Fn28226
+//go:linkname Fn28226 github.com/doitintl/googlesqlwasm2go/p5.Fn28226
 func Fn28226(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28227 github.com/goccy/googlesqlwasm2go/p5.Fn28227
+//go:linkname Fn28227 github.com/doitintl/googlesqlwasm2go/p5.Fn28227
 func Fn28227(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28234 github.com/goccy/googlesqlwasm2go/p9.Fn28234
+//go:linkname Fn28234 github.com/doitintl/googlesqlwasm2go/p9.Fn28234
 func Fn28234(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28235 github.com/goccy/googlesqlwasm2go/p9.Fn28235
+//go:linkname Fn28235 github.com/doitintl/googlesqlwasm2go/p9.Fn28235
 func Fn28235(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28236 github.com/goccy/googlesqlwasm2go/p6.Fn28236
-func Fn28236(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28238 github.com/goccy/googlesqlwasm2go/p5.Fn28238
-func Fn28238(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28239 github.com/goccy/googlesqlwasm2go/p5.Fn28239
+//go:linkname Fn28239 github.com/doitintl/googlesqlwasm2go/p10.Fn28239
 func Fn28239(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28246 github.com/goccy/googlesqlwasm2go/p6.Fn28246
-func Fn28246(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28240 github.com/doitintl/googlesqlwasm2go/p4.Fn28240
+func Fn28240(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28247 github.com/goccy/googlesqlwasm2go/p6.Fn28247
-func Fn28247(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28241 github.com/doitintl/googlesqlwasm2go/p5.Fn28241
+func Fn28241(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28248 github.com/goccy/googlesqlwasm2go/p5.Fn28248
-func Fn28248(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28248 github.com/doitintl/googlesqlwasm2go/p9.Fn28248
+func Fn28248(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28250 github.com/goccy/googlesqlwasm2go/p1.Fn28250
+//go:linkname Fn28249 github.com/doitintl/googlesqlwasm2go/p9.Fn28249
+func Fn28249(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28250 github.com/doitintl/googlesqlwasm2go/p6.Fn28250
 func Fn28250(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28251 github.com/goccy/googlesqlwasm2go/p4.Fn28251
-func Fn28251(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28252 github.com/doitintl/googlesqlwasm2go/p5.Fn28252
+func Fn28252(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28256 github.com/goccy/googlesqlwasm2go/p6.Fn28256
-func Fn28256(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn28253 github.com/doitintl/googlesqlwasm2go/p5.Fn28253
+func Fn28253(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28259 github.com/goccy/googlesqlwasm2go/p9.Fn28259
-func Fn28259(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28260 github.com/doitintl/googlesqlwasm2go/p10.Fn28260
+func Fn28260(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28260 github.com/goccy/googlesqlwasm2go/p9.Fn28260
-func Fn28260(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28261 github.com/doitintl/googlesqlwasm2go/p8.Fn28261
+func Fn28261(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28270 github.com/goccy/googlesqlwasm2go/p9.Fn28270
-func Fn28270(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28262 github.com/doitintl/googlesqlwasm2go/p8.Fn28262
+func Fn28262(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28271 github.com/goccy/googlesqlwasm2go/p9.Fn28271
-func Fn28271(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28271 github.com/doitintl/googlesqlwasm2go/p5.Fn28271
+func Fn28271(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28272 github.com/goccy/googlesqlwasm2go/p8.Fn28272
-func Fn28272(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28272 github.com/doitintl/googlesqlwasm2go/p6.Fn28272
+func Fn28272(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28274 github.com/goccy/googlesqlwasm2go/p10.Fn28274
-func Fn28274(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28278 github.com/doitintl/googlesqlwasm2go/p9.Fn28278
+func Fn28278(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28275 github.com/goccy/googlesqlwasm2go/p6.Fn28275
-func Fn28275(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28279 github.com/doitintl/googlesqlwasm2go/p9.Fn28279
+func Fn28279(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28281 github.com/goccy/googlesqlwasm2go/p8.Fn28281
-func Fn28281(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28280 github.com/doitintl/googlesqlwasm2go/p6.Fn28280
+func Fn28280(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28283 github.com/goccy/googlesqlwasm2go/p10.Fn28283
-func Fn28283(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28282 github.com/doitintl/googlesqlwasm2go/p5.Fn28282
+func Fn28282(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28284 github.com/goccy/googlesqlwasm2go/p6.Fn28284
-func Fn28284(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28283 github.com/doitintl/googlesqlwasm2go/p5.Fn28283
+func Fn28283(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28289 github.com/goccy/googlesqlwasm2go/p4.Fn28289
-func Fn28289(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn28289 github.com/doitintl/googlesqlwasm2go/p9.Fn28289
+func Fn28289(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28296 github.com/goccy/googlesqlwasm2go/p5.Fn28296
-func Fn28296(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28290 github.com/doitintl/googlesqlwasm2go/p9.Fn28290
+func Fn28290(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28305 github.com/goccy/googlesqlwasm2go/p9.Fn28305
+//go:linkname Fn28293 github.com/doitintl/googlesqlwasm2go/p5.Fn28293
+func Fn28293(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28294 github.com/doitintl/googlesqlwasm2go/p6.Fn28294
+func Fn28294(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28300 github.com/doitintl/googlesqlwasm2go/p9.Fn28300
+func Fn28300(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28301 github.com/doitintl/googlesqlwasm2go/p9.Fn28301
+func Fn28301(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28304 github.com/doitintl/googlesqlwasm2go/p6.Fn28304
+func Fn28304(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28305 github.com/doitintl/googlesqlwasm2go/p6.Fn28305
 func Fn28305(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28306 github.com/goccy/googlesqlwasm2go/p9.Fn28306
-func Fn28306(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28311 github.com/doitintl/googlesqlwasm2go/p8.Fn28311
+func Fn28311(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28307 github.com/goccy/googlesqlwasm2go/p5.Fn28307
-func Fn28307(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28312 github.com/doitintl/googlesqlwasm2go/p8.Fn28312
+func Fn28312(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28309 github.com/goccy/googlesqlwasm2go/p4.Fn28309
-func Fn28309(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28313 github.com/doitintl/googlesqlwasm2go/p5.Fn28313
+func Fn28313(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28310 github.com/goccy/googlesqlwasm2go/p5.Fn28310
-func Fn28310(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28316 github.com/doitintl/googlesqlwasm2go/p4.Fn28316
+func Fn28316(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28317 github.com/goccy/googlesqlwasm2go/p5.Fn28317
-func Fn28317(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn28318 github.com/goccy/googlesqlwasm2go/p8.Fn28318
-func Fn28318(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28319 github.com/goccy/googlesqlwasm2go/p8.Fn28319
-func Fn28319(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28320 github.com/goccy/googlesqlwasm2go/p5.Fn28320
-func Fn28320(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28322 github.com/goccy/googlesqlwasm2go/p4.Fn28322
-func Fn28322(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28323 github.com/goccy/googlesqlwasm2go/p5.Fn28323
-func Fn28323(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28330 github.com/goccy/googlesqlwasm2go/p6.Fn28330
-func Fn28330(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28332 github.com/goccy/googlesqlwasm2go/p5.Fn28332
-func Fn28332(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28333 github.com/goccy/googlesqlwasm2go/p5.Fn28333
-func Fn28333(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28339 github.com/goccy/googlesqlwasm2go/p5.Fn28339
-func Fn28339(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28340 github.com/goccy/googlesqlwasm2go/p5.Fn28340
-func Fn28340(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28341 github.com/goccy/googlesqlwasm2go/p4.Fn28341
-func Fn28341(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28343 github.com/goccy/googlesqlwasm2go/p3.Fn28343
-func Fn28343(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28344 github.com/goccy/googlesqlwasm2go/p4.Fn28344
-func Fn28344(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28365 github.com/goccy/googlesqlwasm2go/p10.Fn28365
-func Fn28365(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28369 github.com/goccy/googlesqlwasm2go/p6.Fn28369
-func Fn28369(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn28372 github.com/goccy/googlesqlwasm2go/p10.Fn28372
-func Fn28372(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28373 github.com/goccy/googlesqlwasm2go/p6.Fn28373
-func Fn28373(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28379 github.com/goccy/googlesqlwasm2go/p9.Fn28379
+//go:linkname Fn28379 github.com/doitintl/googlesqlwasm2go/p10.Fn28379
 func Fn28379(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28380 github.com/goccy/googlesqlwasm2go/p9.Fn28380
-func Fn28380(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28387 github.com/doitintl/googlesqlwasm2go/p10.Fn28387
+func Fn28387(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28381 github.com/goccy/googlesqlwasm2go/p6.Fn28381
-func Fn28381(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28388 github.com/doitintl/googlesqlwasm2go/p10.Fn28388
+func Fn28388(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28383 github.com/goccy/googlesqlwasm2go/p5.Fn28383
-func Fn28383(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28389 github.com/doitintl/googlesqlwasm2go/p10.Fn28389
+func Fn28389(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28384 github.com/goccy/googlesqlwasm2go/p5.Fn28384
-func Fn28384(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28391 github.com/doitintl/googlesqlwasm2go/p10.Fn28391
+func Fn28391(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28390 github.com/goccy/googlesqlwasm2go/p9.Fn28390
-func Fn28390(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28392 github.com/doitintl/googlesqlwasm2go/p6.Fn28392
+func Fn28392(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28391 github.com/goccy/googlesqlwasm2go/p9.Fn28391
-func Fn28391(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28397 github.com/doitintl/googlesqlwasm2go/p10.Fn28397
+func Fn28397(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28392 github.com/goccy/googlesqlwasm2go/p8.Fn28392
-func Fn28392(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28399 github.com/doitintl/googlesqlwasm2go/p10.Fn28399
+func Fn28399(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28394 github.com/goccy/googlesqlwasm2go/p6.Fn28394
-func Fn28394(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28400 github.com/doitintl/googlesqlwasm2go/p10.Fn28400
+func Fn28400(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28395 github.com/goccy/googlesqlwasm2go/p6.Fn28395
-func Fn28395(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28404 github.com/doitintl/googlesqlwasm2go/p9.Fn28404
+func Fn28404(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28401 github.com/goccy/googlesqlwasm2go/p9.Fn28401
-func Fn28401(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28405 github.com/doitintl/googlesqlwasm2go/p9.Fn28405
+func Fn28405(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28402 github.com/goccy/googlesqlwasm2go/p9.Fn28402
-func Fn28402(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28406 github.com/doitintl/googlesqlwasm2go/p6.Fn28406
+func Fn28406(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28403 github.com/goccy/googlesqlwasm2go/p6.Fn28403
-func Fn28403(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28408 github.com/doitintl/googlesqlwasm2go/p10.Fn28408
+func Fn28408(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28405 github.com/goccy/googlesqlwasm2go/p5.Fn28405
-func Fn28405(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28409 github.com/doitintl/googlesqlwasm2go/p6.Fn28409
+func Fn28409(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28406 github.com/goccy/googlesqlwasm2go/p5.Fn28406
-func Fn28406(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28415 github.com/doitintl/googlesqlwasm2go/p9.Fn28415
+func Fn28415(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28412 github.com/goccy/googlesqlwasm2go/p5.Fn28412
-func Fn28412(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn28416 github.com/doitintl/googlesqlwasm2go/p9.Fn28416
+func Fn28416(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28413 github.com/goccy/googlesqlwasm2go/p9.Fn28413
-func Fn28413(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28414 github.com/goccy/googlesqlwasm2go/p9.Fn28414
-func Fn28414(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28415 github.com/goccy/googlesqlwasm2go/p5.Fn28415
-func Fn28415(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28417 github.com/goccy/googlesqlwasm2go/p4.Fn28417
+//go:linkname Fn28417 github.com/doitintl/googlesqlwasm2go/p10.Fn28417
 func Fn28417(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28418 github.com/goccy/googlesqlwasm2go/p5.Fn28418
-func Fn28418(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28418 github.com/doitintl/googlesqlwasm2go/p6.Fn28418
+func Fn28418(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28424 github.com/goccy/googlesqlwasm2go/p6.Fn28424
-func Fn28424(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28420 github.com/doitintl/googlesqlwasm2go/p5.Fn28420
+func Fn28420(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28426 github.com/goccy/googlesqlwasm2go/p5.Fn28426
-func Fn28426(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28421 github.com/doitintl/googlesqlwasm2go/p5.Fn28421
+func Fn28421(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28427 github.com/goccy/googlesqlwasm2go/p5.Fn28427
-func Fn28427(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28427 github.com/doitintl/googlesqlwasm2go/p6.Fn28427
+func Fn28427(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28431 github.com/goccy/googlesqlwasm2go/p10.Fn28431
-func Fn28431(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28429 github.com/doitintl/googlesqlwasm2go/p10.Fn28429
+func Fn28429(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28432 github.com/goccy/googlesqlwasm2go/p5.Fn28432
-func Fn28432(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28430 github.com/doitintl/googlesqlwasm2go/p6.Fn28430
+func Fn28430(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28433 github.com/goccy/googlesqlwasm2go/p10.Fn28433
-func Fn28433(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28436 github.com/doitintl/googlesqlwasm2go/p9.Fn28436
+func Fn28436(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28437 github.com/goccy/googlesqlwasm2go/p10.Fn28437
-func Fn28437(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28437 github.com/doitintl/googlesqlwasm2go/p9.Fn28437
+func Fn28437(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28439 github.com/goccy/googlesqlwasm2go/p5.Fn28439
-func Fn28439(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28440 github.com/doitintl/googlesqlwasm2go/p6.Fn28440
+func Fn28440(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28440 github.com/goccy/googlesqlwasm2go/p9.Fn28440
-func Fn28440(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28441 github.com/doitintl/googlesqlwasm2go/p6.Fn28441
+func Fn28441(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28446 github.com/goccy/googlesqlwasm2go/p9.Fn28446
-func Fn28446(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28447 github.com/doitintl/googlesqlwasm2go/p6.Fn28447
+func Fn28447(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn28447 github.com/goccy/googlesqlwasm2go/p9.Fn28447
-func Fn28447(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28448 github.com/goccy/googlesqlwasm2go/p8.Fn28448
+//go:linkname Fn28448 github.com/doitintl/googlesqlwasm2go/p8.Fn28448
 func Fn28448(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28450 github.com/goccy/googlesqlwasm2go/p5.Fn28450
+//go:linkname Fn28450 github.com/doitintl/googlesqlwasm2go/p10.Fn28450
 func Fn28450(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28451 github.com/goccy/googlesqlwasm2go/p6.Fn28451
+//go:linkname Fn28451 github.com/doitintl/googlesqlwasm2go/p6.Fn28451
 func Fn28451(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28457 github.com/goccy/googlesqlwasm2go/p10.Fn28457
-func Fn28457(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28452 github.com/doitintl/googlesqlwasm2go/p10.Fn28452
+func Fn28452(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28459 github.com/goccy/googlesqlwasm2go/p10.Fn28459
-func Fn28459(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28460 github.com/goccy/googlesqlwasm2go/p10.Fn28460
+//go:linkname Fn28460 github.com/doitintl/googlesqlwasm2go/p9.Fn28460
 func Fn28460(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28464 github.com/goccy/googlesqlwasm2go/p10.Fn28464
+//go:linkname Fn28461 github.com/doitintl/googlesqlwasm2go/p9.Fn28461
+func Fn28461(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28462 github.com/doitintl/googlesqlwasm2go/p10.Fn28462
+func Fn28462(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28464 github.com/doitintl/googlesqlwasm2go/p10.Fn28464
 func Fn28464(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28465 github.com/goccy/googlesqlwasm2go/p10.Fn28465
-func Fn28465(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28465 github.com/doitintl/googlesqlwasm2go/p10.Fn28465
+func Fn28465(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28466 github.com/goccy/googlesqlwasm2go/p10.Fn28466
-func Fn28466(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28488 github.com/doitintl/googlesqlwasm2go/p10.Fn28488
+func Fn28488(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28469 github.com/goccy/googlesqlwasm2go/p10.Fn28469
-func Fn28469(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28489 github.com/doitintl/googlesqlwasm2go/p10.Fn28489
+func Fn28489(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28471 github.com/goccy/googlesqlwasm2go/p10.Fn28471
-func Fn28471(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28475 github.com/goccy/googlesqlwasm2go/p10.Fn28475
-func Fn28475(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28477 github.com/goccy/googlesqlwasm2go/p6.Fn28477
-func Fn28477(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28478 github.com/goccy/googlesqlwasm2go/p8.Fn28478
-func Fn28478(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28482 github.com/goccy/googlesqlwasm2go/p10.Fn28482
-func Fn28482(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28484 github.com/goccy/googlesqlwasm2go/p10.Fn28484
-func Fn28484(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28488 github.com/goccy/googlesqlwasm2go/p10.Fn28488
-func Fn28488(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28490 github.com/goccy/googlesqlwasm2go/p9.Fn28490
+//go:linkname Fn28490 github.com/doitintl/googlesqlwasm2go/p10.Fn28490
 func Fn28490(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28491 github.com/goccy/googlesqlwasm2go/p9.Fn28491
-func Fn28491(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28495 github.com/goccy/googlesqlwasm2go/p10.Fn28495
-func Fn28495(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28497 github.com/goccy/googlesqlwasm2go/p10.Fn28497
-func Fn28497(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28498 github.com/goccy/googlesqlwasm2go/p10.Fn28498
-func Fn28498(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28500 github.com/goccy/googlesqlwasm2go/p10.Fn28500
-func Fn28500(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28501 github.com/goccy/googlesqlwasm2go/p10.Fn28501
-func Fn28501(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28502 github.com/goccy/googlesqlwasm2go/p10.Fn28502
+//go:linkname Fn28502 github.com/doitintl/googlesqlwasm2go/p9.Fn28502
 func Fn28502(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28504 github.com/goccy/googlesqlwasm2go/p10.Fn28504
+//go:linkname Fn28503 github.com/doitintl/googlesqlwasm2go/p9.Fn28503
+func Fn28503(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28504 github.com/doitintl/googlesqlwasm2go/p6.Fn28504
 func Fn28504(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28509 github.com/goccy/googlesqlwasm2go/p9.Fn28509
-func Fn28509(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28506 github.com/doitintl/googlesqlwasm2go/p5.Fn28506
+func Fn28506(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28510 github.com/goccy/googlesqlwasm2go/p9.Fn28510
-func Fn28510(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28507 github.com/doitintl/googlesqlwasm2go/p5.Fn28507
+func Fn28507(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28511 github.com/goccy/googlesqlwasm2go/p6.Fn28511
-func Fn28511(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28513 github.com/goccy/googlesqlwasm2go/p5.Fn28513
-func Fn28513(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28514 github.com/goccy/googlesqlwasm2go/p5.Fn28514
+//go:linkname Fn28514 github.com/doitintl/googlesqlwasm2go/p9.Fn28514
 func Fn28514(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28521 github.com/goccy/googlesqlwasm2go/p9.Fn28521
-func Fn28521(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28515 github.com/doitintl/googlesqlwasm2go/p9.Fn28515
+func Fn28515(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28522 github.com/goccy/googlesqlwasm2go/p9.Fn28522
-func Fn28522(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28516 github.com/doitintl/googlesqlwasm2go/p6.Fn28516
+func Fn28516(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28523 github.com/goccy/googlesqlwasm2go/p6.Fn28523
-func Fn28523(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28518 github.com/doitintl/googlesqlwasm2go/p5.Fn28518
+func Fn28518(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28525 github.com/goccy/googlesqlwasm2go/p4.Fn28525
-func Fn28525(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28519 github.com/doitintl/googlesqlwasm2go/p5.Fn28519
+func Fn28519(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28526 github.com/goccy/googlesqlwasm2go/p5.Fn28526
+//go:linkname Fn28526 github.com/doitintl/googlesqlwasm2go/p6.Fn28526
 func Fn28526(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28532 github.com/goccy/googlesqlwasm2go/p6.Fn28532
-func Fn28532(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28527 github.com/doitintl/googlesqlwasm2go/p6.Fn28527
+func Fn28527(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28534 github.com/goccy/googlesqlwasm2go/p5.Fn28534
-func Fn28534(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28528 github.com/doitintl/googlesqlwasm2go/p5.Fn28528
+func Fn28528(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28535 github.com/goccy/googlesqlwasm2go/p5.Fn28535
-func Fn28535(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28530 github.com/doitintl/googlesqlwasm2go/p4.Fn28530
+func Fn28530(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28541 github.com/goccy/googlesqlwasm2go/p10.Fn28541
-func Fn28541(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28531 github.com/doitintl/googlesqlwasm2go/p4.Fn28531
+func Fn28531(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28543 github.com/goccy/googlesqlwasm2go/p9.Fn28543
-func Fn28543(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28539 github.com/doitintl/googlesqlwasm2go/p9.Fn28539
+func Fn28539(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28547 github.com/goccy/googlesqlwasm2go/p9.Fn28547
-func Fn28547(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28540 github.com/doitintl/googlesqlwasm2go/p9.Fn28540
+func Fn28540(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28548 github.com/goccy/googlesqlwasm2go/p9.Fn28548
-func Fn28548(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28550 github.com/doitintl/googlesqlwasm2go/p10.Fn28550
+func Fn28550(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28549 github.com/goccy/googlesqlwasm2go/p8.Fn28549
-func Fn28549(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28551 github.com/doitintl/googlesqlwasm2go/p10.Fn28551
+func Fn28551(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28550 github.com/goccy/googlesqlwasm2go/p5.Fn28550
-func Fn28550(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28552 github.com/doitintl/googlesqlwasm2go/p8.Fn28552
+func Fn28552(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28554 github.com/goccy/googlesqlwasm2go/p9.Fn28554
-func Fn28554(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28554 github.com/doitintl/googlesqlwasm2go/p10.Fn28554
+func Fn28554(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28555 github.com/goccy/googlesqlwasm2go/p9.Fn28555
+//go:linkname Fn28555 github.com/doitintl/googlesqlwasm2go/p6.Fn28555
 func Fn28555(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28556 github.com/goccy/googlesqlwasm2go/p6.Fn28556
-func Fn28556(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28561 github.com/doitintl/googlesqlwasm2go/p8.Fn28561
+func Fn28561(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28558 github.com/goccy/googlesqlwasm2go/p5.Fn28558
-func Fn28558(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28563 github.com/doitintl/googlesqlwasm2go/p10.Fn28563
+func Fn28563(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28562 github.com/goccy/googlesqlwasm2go/p6.Fn28562
-func Fn28562(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28564 github.com/doitintl/googlesqlwasm2go/p6.Fn28564
+func Fn28564(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28564 github.com/goccy/googlesqlwasm2go/p5.Fn28564
-func Fn28564(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28569 github.com/doitintl/googlesqlwasm2go/p4.Fn28569
+func Fn28569(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn28568 github.com/goccy/googlesqlwasm2go/p9.Fn28568
-func Fn28568(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28569 github.com/goccy/googlesqlwasm2go/p9.Fn28569
-func Fn28569(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28570 github.com/goccy/googlesqlwasm2go/p6.Fn28570
-func Fn28570(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28571 github.com/goccy/googlesqlwasm2go/p5.Fn28571
-func Fn28571(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28575 github.com/goccy/googlesqlwasm2go/p9.Fn28575
-func Fn28575(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28576 github.com/goccy/googlesqlwasm2go/p9.Fn28576
+//go:linkname Fn28576 github.com/doitintl/googlesqlwasm2go/p5.Fn28576
 func Fn28576(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28577 github.com/goccy/googlesqlwasm2go/p6.Fn28577
-func Fn28577(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28585 github.com/doitintl/googlesqlwasm2go/p9.Fn28585
+func Fn28585(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28579 github.com/goccy/googlesqlwasm2go/p5.Fn28579
-func Fn28579(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28586 github.com/doitintl/googlesqlwasm2go/p9.Fn28586
+func Fn28586(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28583 github.com/goccy/googlesqlwasm2go/p9.Fn28583
-func Fn28583(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28587 github.com/doitintl/googlesqlwasm2go/p5.Fn28587
+func Fn28587(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28584 github.com/goccy/googlesqlwasm2go/p9.Fn28584
-func Fn28584(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28589 github.com/doitintl/googlesqlwasm2go/p4.Fn28589
+func Fn28589(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28585 github.com/goccy/googlesqlwasm2go/p10.Fn28585
-func Fn28585(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28590 github.com/doitintl/googlesqlwasm2go/p5.Fn28590
+func Fn28590(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28586 github.com/goccy/googlesqlwasm2go/p9.Fn28586
-func Fn28586(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28597 github.com/doitintl/googlesqlwasm2go/p5.Fn28597
+func Fn28597(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn28591 github.com/goccy/googlesqlwasm2go/p10.Fn28591
-func Fn28591(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28598 github.com/doitintl/googlesqlwasm2go/p8.Fn28598
+func Fn28598(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28593 github.com/goccy/googlesqlwasm2go/p10.Fn28593
-func Fn28593(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28599 github.com/doitintl/googlesqlwasm2go/p8.Fn28599
+func Fn28599(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28594 github.com/goccy/googlesqlwasm2go/p10.Fn28594
-func Fn28594(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28600 github.com/doitintl/googlesqlwasm2go/p5.Fn28600
+func Fn28600(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28598 github.com/goccy/googlesqlwasm2go/p10.Fn28598
-func Fn28598(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28602 github.com/goccy/googlesqlwasm2go/p10.Fn28602
+//go:linkname Fn28602 github.com/doitintl/googlesqlwasm2go/p4.Fn28602
 func Fn28602(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28604 github.com/goccy/googlesqlwasm2go/p5.Fn28604
-func Fn28604(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28603 github.com/doitintl/googlesqlwasm2go/p5.Fn28603
+func Fn28603(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28605 github.com/goccy/googlesqlwasm2go/p6.Fn28605
-func Fn28605(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28610 github.com/goccy/googlesqlwasm2go/p10.Fn28610
+//go:linkname Fn28610 github.com/doitintl/googlesqlwasm2go/p6.Fn28610
 func Fn28610(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28612 github.com/goccy/googlesqlwasm2go/p10.Fn28612
+//go:linkname Fn28612 github.com/doitintl/googlesqlwasm2go/p5.Fn28612
 func Fn28612(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28613 github.com/goccy/googlesqlwasm2go/p10.Fn28613
+//go:linkname Fn28613 github.com/doitintl/googlesqlwasm2go/p5.Fn28613
 func Fn28613(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28622 github.com/goccy/googlesqlwasm2go/p3.Fn28622
-func Fn28622(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn28619 github.com/doitintl/googlesqlwasm2go/p5.Fn28619
+func Fn28619(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28623 github.com/goccy/googlesqlwasm2go/p9.Fn28623
-func Fn28623(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28620 github.com/doitintl/googlesqlwasm2go/p6.Fn28620
+func Fn28620(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28624 github.com/goccy/googlesqlwasm2go/p9.Fn28624
+//go:linkname Fn28621 github.com/doitintl/googlesqlwasm2go/p4.Fn28621
+func Fn28621(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28623 github.com/doitintl/googlesqlwasm2go/p4.Fn28623
+func Fn28623(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28624 github.com/doitintl/googlesqlwasm2go/p4.Fn28624
 func Fn28624(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28625 github.com/goccy/googlesqlwasm2go/p6.Fn28625
-func Fn28625(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28645 github.com/doitintl/googlesqlwasm2go/p10.Fn28645
+func Fn28645(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28627 github.com/goccy/googlesqlwasm2go/p4.Fn28627
-func Fn28627(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28628 github.com/goccy/googlesqlwasm2go/p3.Fn28628
-func Fn28628(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28629 github.com/goccy/googlesqlwasm2go/p3.Fn28629
-func Fn28629(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28630 github.com/goccy/googlesqlwasm2go/p3.Fn28630
-func Fn28630(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28631 github.com/goccy/googlesqlwasm2go/p4.Fn28631
-func Fn28631(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28632 github.com/goccy/googlesqlwasm2go/p3.Fn28632
-func Fn28632(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28633 github.com/goccy/googlesqlwasm2go/p3.Fn28633
-func Fn28633(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28652 github.com/goccy/googlesqlwasm2go/p10.Fn28652
+//go:linkname Fn28652 github.com/doitintl/googlesqlwasm2go/p10.Fn28652
 func Fn28652(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28653 github.com/goccy/googlesqlwasm2go/p6.Fn28653
+//go:linkname Fn28653 github.com/doitintl/googlesqlwasm2go/p6.Fn28653
 func Fn28653(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28660 github.com/goccy/googlesqlwasm2go/p6.Fn28660
+//go:linkname Fn28659 github.com/doitintl/googlesqlwasm2go/p9.Fn28659
+func Fn28659(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28660 github.com/doitintl/googlesqlwasm2go/p9.Fn28660
 func Fn28660(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28661 github.com/goccy/googlesqlwasm2go/p6.Fn28661
-func Fn28661(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28661 github.com/doitintl/googlesqlwasm2go/p6.Fn28661
+func Fn28661(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28662 github.com/goccy/googlesqlwasm2go/p4.Fn28662
-func Fn28662(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28663 github.com/doitintl/googlesqlwasm2go/p5.Fn28663
+func Fn28663(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28665 github.com/goccy/googlesqlwasm2go/p4.Fn28665
-func Fn28665(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28664 github.com/doitintl/googlesqlwasm2go/p5.Fn28664
+func Fn28664(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28666 github.com/goccy/googlesqlwasm2go/p5.Fn28666
-func Fn28666(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28670 github.com/doitintl/googlesqlwasm2go/p10.Fn28670
+func Fn28670(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28673 github.com/goccy/googlesqlwasm2go/p9.Fn28673
-func Fn28673(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28671 github.com/doitintl/googlesqlwasm2go/p10.Fn28671
+func Fn28671(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28674 github.com/goccy/googlesqlwasm2go/p9.Fn28674
-func Fn28674(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28672 github.com/doitintl/googlesqlwasm2go/p8.Fn28672
+func Fn28672(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28675 github.com/goccy/googlesqlwasm2go/p5.Fn28675
-func Fn28675(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28674 github.com/doitintl/googlesqlwasm2go/p6.Fn28674
+func Fn28674(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28677 github.com/goccy/googlesqlwasm2go/p4.Fn28677
-func Fn28677(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28675 github.com/doitintl/googlesqlwasm2go/p6.Fn28675
+func Fn28675(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28682 github.com/goccy/googlesqlwasm2go/p6.Fn28682
+//go:linkname Fn28681 github.com/doitintl/googlesqlwasm2go/p9.Fn28681
+func Fn28681(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28682 github.com/doitintl/googlesqlwasm2go/p9.Fn28682
 func Fn28682(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28683 github.com/goccy/googlesqlwasm2go/p6.Fn28683
-func Fn28683(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28683 github.com/doitintl/googlesqlwasm2go/p6.Fn28683
+func Fn28683(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28684 github.com/goccy/googlesqlwasm2go/p5.Fn28684
-func Fn28684(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28685 github.com/doitintl/googlesqlwasm2go/p5.Fn28685
+func Fn28685(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28686 github.com/goccy/googlesqlwasm2go/p4.Fn28686
-func Fn28686(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28686 github.com/doitintl/googlesqlwasm2go/p5.Fn28686
+func Fn28686(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28690 github.com/goccy/googlesqlwasm2go/p6.Fn28690
-func Fn28690(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28692 github.com/doitintl/googlesqlwasm2go/p5.Fn28692
+func Fn28692(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn28692 github.com/goccy/googlesqlwasm2go/p5.Fn28692
-func Fn28692(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28693 github.com/doitintl/googlesqlwasm2go/p9.Fn28693
+func Fn28693(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28698 github.com/goccy/googlesqlwasm2go/p5.Fn28698
-func Fn28698(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28694 github.com/doitintl/googlesqlwasm2go/p9.Fn28694
+func Fn28694(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28700 github.com/goccy/googlesqlwasm2go/p4.Fn28700
-func Fn28700(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28695 github.com/doitintl/googlesqlwasm2go/p5.Fn28695
+func Fn28695(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28705 github.com/goccy/googlesqlwasm2go/p9.Fn28705
-func Fn28705(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28697 github.com/doitintl/googlesqlwasm2go/p4.Fn28697
+func Fn28697(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28706 github.com/goccy/googlesqlwasm2go/p9.Fn28706
-func Fn28706(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28698 github.com/doitintl/googlesqlwasm2go/p5.Fn28698
+func Fn28698(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28707 github.com/goccy/googlesqlwasm2go/p6.Fn28707
-func Fn28707(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28704 github.com/doitintl/googlesqlwasm2go/p6.Fn28704
+func Fn28704(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28709 github.com/goccy/googlesqlwasm2go/p4.Fn28709
-func Fn28709(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28706 github.com/doitintl/googlesqlwasm2go/p5.Fn28706
+func Fn28706(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28710 github.com/goccy/googlesqlwasm2go/p5.Fn28710
-func Fn28710(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28707 github.com/doitintl/googlesqlwasm2go/p5.Fn28707
+func Fn28707(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28717 github.com/goccy/googlesqlwasm2go/p9.Fn28717
-func Fn28717(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28711 github.com/doitintl/googlesqlwasm2go/p10.Fn28711
+func Fn28711(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28718 github.com/goccy/googlesqlwasm2go/p9.Fn28718
-func Fn28718(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28712 github.com/doitintl/googlesqlwasm2go/p5.Fn28712
+func Fn28712(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28719 github.com/goccy/googlesqlwasm2go/p5.Fn28719
+//go:linkname Fn28713 github.com/doitintl/googlesqlwasm2go/p10.Fn28713
+func Fn28713(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28717 github.com/doitintl/googlesqlwasm2go/p10.Fn28717
+func Fn28717(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28719 github.com/doitintl/googlesqlwasm2go/p5.Fn28719
 func Fn28719(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28721 github.com/goccy/googlesqlwasm2go/p4.Fn28721
-func Fn28721(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28720 github.com/doitintl/googlesqlwasm2go/p10.Fn28720
+func Fn28720(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28722 github.com/goccy/googlesqlwasm2go/p5.Fn28722
-func Fn28722(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28726 github.com/doitintl/googlesqlwasm2go/p10.Fn28726
+func Fn28726(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28728 github.com/goccy/googlesqlwasm2go/p10.Fn28728
+//go:linkname Fn28727 github.com/doitintl/googlesqlwasm2go/p10.Fn28727
+func Fn28727(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28728 github.com/doitintl/googlesqlwasm2go/p8.Fn28728
 func Fn28728(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28730 github.com/goccy/googlesqlwasm2go/p9.Fn28730
+//go:linkname Fn28730 github.com/doitintl/googlesqlwasm2go/p5.Fn28730
 func Fn28730(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28731 github.com/goccy/googlesqlwasm2go/p10.Fn28731
+//go:linkname Fn28731 github.com/doitintl/googlesqlwasm2go/p6.Fn28731
 func Fn28731(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28738 github.com/goccy/googlesqlwasm2go/p10.Fn28738
-func Fn28738(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28737 github.com/doitintl/googlesqlwasm2go/p10.Fn28737
+func Fn28737(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28740 github.com/goccy/googlesqlwasm2go/p10.Fn28740
-func Fn28740(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28739 github.com/doitintl/googlesqlwasm2go/p10.Fn28739
+func Fn28739(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28741 github.com/goccy/googlesqlwasm2go/p10.Fn28741
-func Fn28741(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28740 github.com/doitintl/googlesqlwasm2go/p10.Fn28740
+func Fn28740(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28748 github.com/goccy/googlesqlwasm2go/p5.Fn28748
-func Fn28748(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28744 github.com/doitintl/googlesqlwasm2go/p10.Fn28744
+func Fn28744(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28749 github.com/goccy/googlesqlwasm2go/p6.Fn28749
-func Fn28749(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28745 github.com/doitintl/googlesqlwasm2go/p10.Fn28745
+func Fn28745(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28767 github.com/goccy/googlesqlwasm2go/p10.Fn28767
-func Fn28767(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28746 github.com/doitintl/googlesqlwasm2go/p10.Fn28746
+func Fn28746(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28769 github.com/goccy/googlesqlwasm2go/p10.Fn28769
-func Fn28769(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28749 github.com/doitintl/googlesqlwasm2go/p10.Fn28749
+func Fn28749(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28772 github.com/goccy/googlesqlwasm2go/p6.Fn28772
-func Fn28772(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn28751 github.com/doitintl/googlesqlwasm2go/p10.Fn28751
+func Fn28751(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28790 github.com/goccy/googlesqlwasm2go/p5.Fn28790
-func Fn28790(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28755 github.com/doitintl/googlesqlwasm2go/p10.Fn28755
+func Fn28755(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28796 github.com/goccy/googlesqlwasm2go/p10.Fn28796
-func Fn28796(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28757 github.com/doitintl/googlesqlwasm2go/p6.Fn28757
+func Fn28757(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28800 github.com/goccy/googlesqlwasm2go/p9.Fn28800
-func Fn28800(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28758 github.com/doitintl/googlesqlwasm2go/p8.Fn28758
+func Fn28758(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28801 github.com/goccy/googlesqlwasm2go/p9.Fn28801
+//go:linkname Fn28762 github.com/doitintl/googlesqlwasm2go/p10.Fn28762
+func Fn28762(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28764 github.com/doitintl/googlesqlwasm2go/p10.Fn28764
+func Fn28764(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28768 github.com/doitintl/googlesqlwasm2go/p10.Fn28768
+func Fn28768(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28770 github.com/doitintl/googlesqlwasm2go/p10.Fn28770
+func Fn28770(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28771 github.com/doitintl/googlesqlwasm2go/p10.Fn28771
+func Fn28771(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28775 github.com/doitintl/googlesqlwasm2go/p10.Fn28775
+func Fn28775(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28777 github.com/doitintl/googlesqlwasm2go/p10.Fn28777
+func Fn28777(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28778 github.com/doitintl/googlesqlwasm2go/p10.Fn28778
+func Fn28778(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28780 github.com/doitintl/googlesqlwasm2go/p10.Fn28780
+func Fn28780(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28781 github.com/doitintl/googlesqlwasm2go/p10.Fn28781
+func Fn28781(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28782 github.com/doitintl/googlesqlwasm2go/p10.Fn28782
+func Fn28782(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28784 github.com/doitintl/googlesqlwasm2go/p10.Fn28784
+func Fn28784(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28789 github.com/doitintl/googlesqlwasm2go/p9.Fn28789
+func Fn28789(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28790 github.com/doitintl/googlesqlwasm2go/p9.Fn28790
+func Fn28790(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28791 github.com/doitintl/googlesqlwasm2go/p6.Fn28791
+func Fn28791(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28793 github.com/doitintl/googlesqlwasm2go/p5.Fn28793
+func Fn28793(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28794 github.com/doitintl/googlesqlwasm2go/p5.Fn28794
+func Fn28794(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28801 github.com/doitintl/googlesqlwasm2go/p9.Fn28801
 func Fn28801(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28802 github.com/goccy/googlesqlwasm2go/p8.Fn28802
-func Fn28802(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28802 github.com/doitintl/googlesqlwasm2go/p9.Fn28802
+func Fn28802(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28804 github.com/goccy/googlesqlwasm2go/p5.Fn28804
-func Fn28804(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28803 github.com/doitintl/googlesqlwasm2go/p6.Fn28803
+func Fn28803(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28805 github.com/goccy/googlesqlwasm2go/p6.Fn28805
-func Fn28805(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28805 github.com/doitintl/googlesqlwasm2go/p5.Fn28805
+func Fn28805(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28809 github.com/goccy/googlesqlwasm2go/p10.Fn28809
-func Fn28809(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28806 github.com/doitintl/googlesqlwasm2go/p5.Fn28806
+func Fn28806(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28811 github.com/goccy/googlesqlwasm2go/p10.Fn28811
-func Fn28811(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28812 github.com/doitintl/googlesqlwasm2go/p6.Fn28812
+func Fn28812(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28813 github.com/goccy/googlesqlwasm2go/p10.Fn28813
-func Fn28813(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28814 github.com/doitintl/googlesqlwasm2go/p5.Fn28814
+func Fn28814(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28815 github.com/goccy/googlesqlwasm2go/p10.Fn28815
-func Fn28815(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28815 github.com/doitintl/googlesqlwasm2go/p5.Fn28815
+func Fn28815(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28817 github.com/goccy/googlesqlwasm2go/p10.Fn28817
-func Fn28817(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28821 github.com/doitintl/googlesqlwasm2go/p10.Fn28821
+func Fn28821(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28821 github.com/goccy/googlesqlwasm2go/p9.Fn28821
-func Fn28821(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28822 github.com/goccy/googlesqlwasm2go/p9.Fn28822
-func Fn28822(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28823 github.com/goccy/googlesqlwasm2go/p10.Fn28823
+//go:linkname Fn28823 github.com/doitintl/googlesqlwasm2go/p10.Fn28823
 func Fn28823(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28825 github.com/goccy/googlesqlwasm2go/p10.Fn28825
-func Fn28825(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28827 github.com/doitintl/googlesqlwasm2go/p10.Fn28827
+func Fn28827(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28826 github.com/goccy/googlesqlwasm2go/p10.Fn28826
-func Fn28826(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28828 github.com/doitintl/googlesqlwasm2go/p10.Fn28828
+func Fn28828(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28830 github.com/goccy/googlesqlwasm2go/p10.Fn28830
+//go:linkname Fn28829 github.com/doitintl/googlesqlwasm2go/p8.Fn28829
+func Fn28829(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28830 github.com/doitintl/googlesqlwasm2go/p5.Fn28830
 func Fn28830(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28832 github.com/goccy/googlesqlwasm2go/p10.Fn28832
-func Fn28832(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28834 github.com/doitintl/googlesqlwasm2go/p9.Fn28834
+func Fn28834(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28845 github.com/goccy/googlesqlwasm2go/p10.Fn28845
-func Fn28845(m *base.Module, l0 int32) int32
+//go:linkname Fn28835 github.com/doitintl/googlesqlwasm2go/p9.Fn28835
+func Fn28835(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28858 github.com/goccy/googlesqlwasm2go/p10.Fn28858
-func Fn28858(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28836 github.com/doitintl/googlesqlwasm2go/p6.Fn28836
+func Fn28836(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28861 github.com/goccy/googlesqlwasm2go/p8.Fn28861
-func Fn28861(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28838 github.com/doitintl/googlesqlwasm2go/p5.Fn28838
+func Fn28838(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28869 github.com/goccy/googlesqlwasm2go/p10.Fn28869
-func Fn28869(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28842 github.com/doitintl/googlesqlwasm2go/p6.Fn28842
+func Fn28842(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28870 github.com/goccy/googlesqlwasm2go/p9.Fn28870
-func Fn28870(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28844 github.com/doitintl/googlesqlwasm2go/p5.Fn28844
+func Fn28844(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28878 github.com/goccy/googlesqlwasm2go/p10.Fn28878
+//go:linkname Fn28848 github.com/doitintl/googlesqlwasm2go/p9.Fn28848
+func Fn28848(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28849 github.com/doitintl/googlesqlwasm2go/p9.Fn28849
+func Fn28849(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28850 github.com/doitintl/googlesqlwasm2go/p6.Fn28850
+func Fn28850(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28851 github.com/doitintl/googlesqlwasm2go/p5.Fn28851
+func Fn28851(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28855 github.com/doitintl/googlesqlwasm2go/p9.Fn28855
+func Fn28855(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28856 github.com/doitintl/googlesqlwasm2go/p9.Fn28856
+func Fn28856(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28857 github.com/doitintl/googlesqlwasm2go/p6.Fn28857
+func Fn28857(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28859 github.com/doitintl/googlesqlwasm2go/p5.Fn28859
+func Fn28859(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28863 github.com/doitintl/googlesqlwasm2go/p10.Fn28863
+func Fn28863(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28864 github.com/doitintl/googlesqlwasm2go/p10.Fn28864
+func Fn28864(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28865 github.com/doitintl/googlesqlwasm2go/p10.Fn28865
+func Fn28865(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28866 github.com/doitintl/googlesqlwasm2go/p10.Fn28866
+func Fn28866(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28870 github.com/doitintl/googlesqlwasm2go/p10.Fn28870
+func Fn28870(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+
+//go:linkname Fn28871 github.com/doitintl/googlesqlwasm2go/p10.Fn28871
+func Fn28871(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28873 github.com/doitintl/googlesqlwasm2go/p10.Fn28873
+func Fn28873(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn28874 github.com/doitintl/googlesqlwasm2go/p10.Fn28874
+func Fn28874(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28878 github.com/doitintl/googlesqlwasm2go/p10.Fn28878
 func Fn28878(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28879 github.com/goccy/googlesqlwasm2go/p6.Fn28879
-func Fn28879(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28882 github.com/doitintl/googlesqlwasm2go/p10.Fn28882
+func Fn28882(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28881 github.com/goccy/googlesqlwasm2go/p8.Fn28881
-func Fn28881(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28884 github.com/doitintl/googlesqlwasm2go/p5.Fn28884
+func Fn28884(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28883 github.com/goccy/googlesqlwasm2go/p5.Fn28883
-func Fn28883(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28885 github.com/doitintl/googlesqlwasm2go/p6.Fn28885
+func Fn28885(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28884 github.com/goccy/googlesqlwasm2go/p5.Fn28884
-func Fn28884(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28890 github.com/doitintl/googlesqlwasm2go/p10.Fn28890
+func Fn28890(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28888 github.com/goccy/googlesqlwasm2go/p9.Fn28888
-func Fn28888(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28889 github.com/goccy/googlesqlwasm2go/p9.Fn28889
-func Fn28889(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28892 github.com/goccy/googlesqlwasm2go/p5.Fn28892
+//go:linkname Fn28892 github.com/doitintl/googlesqlwasm2go/p10.Fn28892
 func Fn28892(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28893 github.com/goccy/googlesqlwasm2go/p5.Fn28893
+//go:linkname Fn28893 github.com/doitintl/googlesqlwasm2go/p10.Fn28893
 func Fn28893(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28899 github.com/goccy/googlesqlwasm2go/p10.Fn28899
-func Fn28899(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28902 github.com/doitintl/googlesqlwasm2go/p3.Fn28902
+func Fn28902(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn28901 github.com/goccy/googlesqlwasm2go/p5.Fn28901
-func Fn28901(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28903 github.com/doitintl/googlesqlwasm2go/p9.Fn28903
+func Fn28903(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28902 github.com/goccy/googlesqlwasm2go/p9.Fn28902
-func Fn28902(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28904 github.com/doitintl/googlesqlwasm2go/p9.Fn28904
+func Fn28904(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28903 github.com/goccy/googlesqlwasm2go/p10.Fn28903
-func Fn28903(m *base.Module, l0 int32)
+//go:linkname Fn28905 github.com/doitintl/googlesqlwasm2go/p6.Fn28905
+func Fn28905(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28904 github.com/goccy/googlesqlwasm2go/p10.Fn28904
-func Fn28904(m *base.Module, l0 int32)
+//go:linkname Fn28907 github.com/doitintl/googlesqlwasm2go/p4.Fn28907
+func Fn28907(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28908 github.com/goccy/googlesqlwasm2go/p8.Fn28908
-func Fn28908(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28908 github.com/doitintl/googlesqlwasm2go/p3.Fn28908
+func Fn28908(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28910 github.com/goccy/googlesqlwasm2go/p9.Fn28910
-func Fn28910(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28909 github.com/doitintl/googlesqlwasm2go/p3.Fn28909
+func Fn28909(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28911 github.com/goccy/googlesqlwasm2go/p6.Fn28911
+//go:linkname Fn28910 github.com/doitintl/googlesqlwasm2go/p3.Fn28910
+func Fn28910(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn28911 github.com/doitintl/googlesqlwasm2go/p5.Fn28911
 func Fn28911(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28919 github.com/goccy/googlesqlwasm2go/p5.Fn28919
-func Fn28919(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28912 github.com/doitintl/googlesqlwasm2go/p3.Fn28912
+func Fn28912(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28920 github.com/goccy/googlesqlwasm2go/p6.Fn28920
-func Fn28920(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28913 github.com/doitintl/googlesqlwasm2go/p3.Fn28913
+func Fn28913(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28924 github.com/goccy/googlesqlwasm2go/p10.Fn28924
-func Fn28924(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28932 github.com/doitintl/googlesqlwasm2go/p10.Fn28932
+func Fn28932(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28926 github.com/goccy/googlesqlwasm2go/p8.Fn28926
-func Fn28926(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28933 github.com/doitintl/googlesqlwasm2go/p6.Fn28933
+func Fn28933(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28928 github.com/goccy/googlesqlwasm2go/p5.Fn28928
-func Fn28928(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28940 github.com/doitintl/googlesqlwasm2go/p6.Fn28940
+func Fn28940(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28929 github.com/goccy/googlesqlwasm2go/p6.Fn28929
-func Fn28929(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28941 github.com/doitintl/googlesqlwasm2go/p6.Fn28941
+func Fn28941(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28935 github.com/goccy/googlesqlwasm2go/p10.Fn28935
-func Fn28935(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28937 github.com/goccy/googlesqlwasm2go/p10.Fn28937
-func Fn28937(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28938 github.com/goccy/googlesqlwasm2go/p10.Fn28938
-func Fn28938(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28940 github.com/goccy/googlesqlwasm2go/p10.Fn28940
-func Fn28940(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28942 github.com/goccy/googlesqlwasm2go/p10.Fn28942
+//go:linkname Fn28942 github.com/doitintl/googlesqlwasm2go/p5.Fn28942
 func Fn28942(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28943 github.com/goccy/googlesqlwasm2go/p10.Fn28943
-func Fn28943(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28945 github.com/doitintl/googlesqlwasm2go/p3.Fn28945
+func Fn28945(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28947 github.com/goccy/googlesqlwasm2go/p9.Fn28947
-func Fn28947(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28946 github.com/doitintl/googlesqlwasm2go/p5.Fn28946
+func Fn28946(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28948 github.com/goccy/googlesqlwasm2go/p9.Fn28948
-func Fn28948(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28953 github.com/doitintl/googlesqlwasm2go/p9.Fn28953
+func Fn28953(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28951 github.com/goccy/googlesqlwasm2go/p6.Fn28951
-func Fn28951(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28954 github.com/doitintl/googlesqlwasm2go/p9.Fn28954
+func Fn28954(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28952 github.com/goccy/googlesqlwasm2go/p6.Fn28952
-func Fn28952(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28955 github.com/doitintl/googlesqlwasm2go/p5.Fn28955
+func Fn28955(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28958 github.com/goccy/googlesqlwasm2go/p10.Fn28958
-func Fn28958(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28957 github.com/doitintl/googlesqlwasm2go/p4.Fn28957
+func Fn28957(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28960 github.com/goccy/googlesqlwasm2go/p10.Fn28960
-func Fn28960(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28962 github.com/doitintl/googlesqlwasm2go/p6.Fn28962
+func Fn28962(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28964 github.com/goccy/googlesqlwasm2go/p8.Fn28964
+//go:linkname Fn28964 github.com/doitintl/googlesqlwasm2go/p5.Fn28964
 func Fn28964(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28966 github.com/goccy/googlesqlwasm2go/p10.Fn28966
+//go:linkname Fn28966 github.com/doitintl/googlesqlwasm2go/p4.Fn28966
 func Fn28966(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28967 github.com/goccy/googlesqlwasm2go/p6.Fn28967
-func Fn28967(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28970 github.com/doitintl/googlesqlwasm2go/p6.Fn28970
+func Fn28970(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28973 github.com/goccy/googlesqlwasm2go/p9.Fn28973
-func Fn28973(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28972 github.com/doitintl/googlesqlwasm2go/p5.Fn28972
+func Fn28972(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28974 github.com/goccy/googlesqlwasm2go/p9.Fn28974
-func Fn28974(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28978 github.com/doitintl/googlesqlwasm2go/p5.Fn28978
+func Fn28978(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28975 github.com/goccy/googlesqlwasm2go/p8.Fn28975
-func Fn28975(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28980 github.com/doitintl/googlesqlwasm2go/p4.Fn28980
+func Fn28980(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28977 github.com/goccy/googlesqlwasm2go/p5.Fn28977
-func Fn28977(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28985 github.com/doitintl/googlesqlwasm2go/p9.Fn28985
+func Fn28985(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28978 github.com/goccy/googlesqlwasm2go/p6.Fn28978
-func Fn28978(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28986 github.com/doitintl/googlesqlwasm2go/p9.Fn28986
+func Fn28986(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28984 github.com/goccy/googlesqlwasm2go/p8.Fn28984
-func Fn28984(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28987 github.com/doitintl/googlesqlwasm2go/p6.Fn28987
+func Fn28987(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28986 github.com/goccy/googlesqlwasm2go/p10.Fn28986
-func Fn28986(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28989 github.com/doitintl/googlesqlwasm2go/p4.Fn28989
+func Fn28989(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn28987 github.com/goccy/googlesqlwasm2go/p6.Fn28987
-func Fn28987(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn28990 github.com/doitintl/googlesqlwasm2go/p5.Fn28990
+func Fn28990(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28991 github.com/goccy/googlesqlwasm2go/p10.Fn28991
-func Fn28991(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28997 github.com/doitintl/googlesqlwasm2go/p9.Fn28997
+func Fn28997(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28993 github.com/goccy/googlesqlwasm2go/p10.Fn28993
-func Fn28993(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn28998 github.com/doitintl/googlesqlwasm2go/p9.Fn28998
+func Fn28998(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn28994 github.com/goccy/googlesqlwasm2go/p10.Fn28994
-func Fn28994(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn28995 github.com/goccy/googlesqlwasm2go/p10.Fn28995
-func Fn28995(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn28999 github.com/goccy/googlesqlwasm2go/p10.Fn28999
+//go:linkname Fn28999 github.com/doitintl/googlesqlwasm2go/p5.Fn28999
 func Fn28999(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29001 github.com/goccy/googlesqlwasm2go/p5.Fn29001
+//go:linkname Fn29001 github.com/doitintl/googlesqlwasm2go/p4.Fn29001
 func Fn29001(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29002 github.com/goccy/googlesqlwasm2go/p10.Fn29002
+//go:linkname Fn29002 github.com/doitintl/googlesqlwasm2go/p5.Fn29002
 func Fn29002(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29004 github.com/goccy/googlesqlwasm2go/p10.Fn29004
-func Fn29004(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29008 github.com/doitintl/googlesqlwasm2go/p10.Fn29008
+func Fn29008(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29006 github.com/goccy/googlesqlwasm2go/p6.Fn29006
-func Fn29006(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29010 github.com/doitintl/googlesqlwasm2go/p10.Fn29010
+func Fn29010(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29007 github.com/goccy/googlesqlwasm2go/p10.Fn29007
-func Fn29007(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29011 github.com/doitintl/googlesqlwasm2go/p10.Fn29011
+func Fn29011(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29009 github.com/goccy/googlesqlwasm2go/p10.Fn29009
-func Fn29009(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29018 github.com/doitintl/googlesqlwasm2go/p10.Fn29018
+func Fn29018(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29011 github.com/goccy/googlesqlwasm2go/p10.Fn29011
-func Fn29011(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29020 github.com/doitintl/googlesqlwasm2go/p10.Fn29020
+func Fn29020(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29012 github.com/goccy/googlesqlwasm2go/p10.Fn29012
-func Fn29012(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29021 github.com/doitintl/googlesqlwasm2go/p10.Fn29021
+func Fn29021(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29014 github.com/goccy/googlesqlwasm2go/p10.Fn29014
-func Fn29014(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29028 github.com/doitintl/googlesqlwasm2go/p5.Fn29028
+func Fn29028(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29016 github.com/goccy/googlesqlwasm2go/p5.Fn29016
-func Fn29016(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29017 github.com/goccy/googlesqlwasm2go/p6.Fn29017
-func Fn29017(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29021 github.com/goccy/googlesqlwasm2go/p10.Fn29021
-func Fn29021(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29023 github.com/goccy/googlesqlwasm2go/p5.Fn29023
-func Fn29023(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29024 github.com/goccy/googlesqlwasm2go/p10.Fn29024
-func Fn29024(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29028 github.com/goccy/googlesqlwasm2go/p9.Fn29028
-func Fn29028(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29029 github.com/goccy/googlesqlwasm2go/p9.Fn29029
+//go:linkname Fn29029 github.com/doitintl/googlesqlwasm2go/p6.Fn29029
 func Fn29029(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29030 github.com/goccy/googlesqlwasm2go/p6.Fn29030
-func Fn29030(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29047 github.com/doitintl/googlesqlwasm2go/p10.Fn29047
+func Fn29047(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29032 github.com/goccy/googlesqlwasm2go/p5.Fn29032
-func Fn29032(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29049 github.com/doitintl/googlesqlwasm2go/p10.Fn29049
+func Fn29049(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29033 github.com/goccy/googlesqlwasm2go/p5.Fn29033
-func Fn29033(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29052 github.com/doitintl/googlesqlwasm2go/p6.Fn29052
+func Fn29052(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn29039 github.com/goccy/googlesqlwasm2go/p9.Fn29039
-func Fn29039(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29040 github.com/goccy/googlesqlwasm2go/p9.Fn29040
-func Fn29040(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29041 github.com/goccy/googlesqlwasm2go/p6.Fn29041
-func Fn29041(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29043 github.com/goccy/googlesqlwasm2go/p4.Fn29043
-func Fn29043(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29044 github.com/goccy/googlesqlwasm2go/p5.Fn29044
-func Fn29044(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29050 github.com/goccy/googlesqlwasm2go/p9.Fn29050
-func Fn29050(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29051 github.com/goccy/googlesqlwasm2go/p9.Fn29051
-func Fn29051(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29054 github.com/goccy/googlesqlwasm2go/p5.Fn29054
-func Fn29054(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29055 github.com/goccy/googlesqlwasm2go/p5.Fn29055
-func Fn29055(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29061 github.com/goccy/googlesqlwasm2go/p10.Fn29061
-func Fn29061(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29063 github.com/goccy/googlesqlwasm2go/p5.Fn29063
-func Fn29063(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29064 github.com/goccy/googlesqlwasm2go/p6.Fn29064
-func Fn29064(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29068 github.com/goccy/googlesqlwasm2go/p10.Fn29068
-func Fn29068(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29070 github.com/goccy/googlesqlwasm2go/p9.Fn29070
+//go:linkname Fn29070 github.com/doitintl/googlesqlwasm2go/p5.Fn29070
 func Fn29070(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29071 github.com/goccy/googlesqlwasm2go/p9.Fn29071
-func Fn29071(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29076 github.com/doitintl/googlesqlwasm2go/p10.Fn29076
+func Fn29076(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29073 github.com/goccy/googlesqlwasm2go/p10.Fn29073
-func Fn29073(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29080 github.com/doitintl/googlesqlwasm2go/p10.Fn29080
+func Fn29080(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29075 github.com/goccy/googlesqlwasm2go/p10.Fn29075
-func Fn29075(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29076 github.com/goccy/googlesqlwasm2go/p10.Fn29076
-func Fn29076(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29078 github.com/goccy/googlesqlwasm2go/p10.Fn29078
-func Fn29078(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29080 github.com/goccy/googlesqlwasm2go/p10.Fn29080
-func Fn29080(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29081 github.com/goccy/googlesqlwasm2go/p10.Fn29081
+//go:linkname Fn29081 github.com/doitintl/googlesqlwasm2go/p10.Fn29081
 func Fn29081(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29085 github.com/goccy/googlesqlwasm2go/p9.Fn29085
+//go:linkname Fn29082 github.com/doitintl/googlesqlwasm2go/p8.Fn29082
+func Fn29082(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29084 github.com/doitintl/googlesqlwasm2go/p5.Fn29084
+func Fn29084(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29085 github.com/doitintl/googlesqlwasm2go/p6.Fn29085
 func Fn29085(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29086 github.com/goccy/googlesqlwasm2go/p9.Fn29086
-func Fn29086(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29087 github.com/goccy/googlesqlwasm2go/p10.Fn29087
-func Fn29087(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29089 github.com/goccy/googlesqlwasm2go/p9.Fn29089
+//go:linkname Fn29089 github.com/doitintl/googlesqlwasm2go/p10.Fn29089
 func Fn29089(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29090 github.com/goccy/googlesqlwasm2go/p10.Fn29090
-func Fn29090(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29091 github.com/doitintl/googlesqlwasm2go/p10.Fn29091
+func Fn29091(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29094 github.com/goccy/googlesqlwasm2go/p10.Fn29094
-func Fn29094(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29093 github.com/doitintl/googlesqlwasm2go/p10.Fn29093
+func Fn29093(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29096 github.com/goccy/googlesqlwasm2go/p9.Fn29096
-func Fn29096(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29095 github.com/doitintl/googlesqlwasm2go/p10.Fn29095
+func Fn29095(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29097 github.com/goccy/googlesqlwasm2go/p10.Fn29097
-func Fn29097(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29097 github.com/doitintl/googlesqlwasm2go/p10.Fn29097
+func Fn29097(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29099 github.com/goccy/googlesqlwasm2go/p10.Fn29099
-func Fn29099(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29101 github.com/doitintl/googlesqlwasm2go/p10.Fn29101
+func Fn29101(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29101 github.com/goccy/googlesqlwasm2go/p6.Fn29101
-func Fn29101(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29102 github.com/goccy/googlesqlwasm2go/p6.Fn29102
+//go:linkname Fn29102 github.com/doitintl/googlesqlwasm2go/p10.Fn29102
 func Fn29102(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29104 github.com/goccy/googlesqlwasm2go/p10.Fn29104
-func Fn29104(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29103 github.com/doitintl/googlesqlwasm2go/p10.Fn29103
+func Fn29103(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29106 github.com/goccy/googlesqlwasm2go/p5.Fn29106
-func Fn29106(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29105 github.com/doitintl/googlesqlwasm2go/p10.Fn29105
+func Fn29105(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29107 github.com/goccy/googlesqlwasm2go/p6.Fn29107
-func Fn29107(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29106 github.com/doitintl/googlesqlwasm2go/p10.Fn29106
+func Fn29106(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29111 github.com/goccy/googlesqlwasm2go/p10.Fn29111
-func Fn29111(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29110 github.com/doitintl/googlesqlwasm2go/p10.Fn29110
+func Fn29110(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29113 github.com/goccy/googlesqlwasm2go/p10.Fn29113
-func Fn29113(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29112 github.com/doitintl/googlesqlwasm2go/p10.Fn29112
+func Fn29112(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29114 github.com/goccy/googlesqlwasm2go/p10.Fn29114
-func Fn29114(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29114 github.com/doitintl/googlesqlwasm2go/p9.Fn29114
+func Fn29114(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn29118 github.com/goccy/googlesqlwasm2go/p9.Fn29118
-func Fn29118(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29125 github.com/doitintl/googlesqlwasm2go/p10.Fn29125
+func Fn29125(m *base.Module, l0 int32) int32
 
-//go:linkname Fn29119 github.com/goccy/googlesqlwasm2go/p9.Fn29119
-func Fn29119(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29122 github.com/goccy/googlesqlwasm2go/p5.Fn29122
-func Fn29122(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29123 github.com/goccy/googlesqlwasm2go/p6.Fn29123
-func Fn29123(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29129 github.com/goccy/googlesqlwasm2go/p9.Fn29129
-func Fn29129(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29130 github.com/goccy/googlesqlwasm2go/p9.Fn29130
-func Fn29130(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29131 github.com/goccy/googlesqlwasm2go/p8.Fn29131
-func Fn29131(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29133 github.com/goccy/googlesqlwasm2go/p6.Fn29133
-func Fn29133(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29134 github.com/goccy/googlesqlwasm2go/p6.Fn29134
-func Fn29134(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29138 github.com/goccy/googlesqlwasm2go/p10.Fn29138
+//go:linkname Fn29138 github.com/doitintl/googlesqlwasm2go/p10.Fn29138
 func Fn29138(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29139 github.com/goccy/googlesqlwasm2go/p10.Fn29139
-func Fn29139(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29141 github.com/doitintl/googlesqlwasm2go/p8.Fn29141
+func Fn29141(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29140 github.com/goccy/googlesqlwasm2go/p10.Fn29140
-func Fn29140(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29149 github.com/doitintl/googlesqlwasm2go/p10.Fn29149
+func Fn29149(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29144 github.com/goccy/googlesqlwasm2go/p8.Fn29144
-func Fn29144(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29146 github.com/goccy/googlesqlwasm2go/p6.Fn29146
-func Fn29146(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29147 github.com/goccy/googlesqlwasm2go/p6.Fn29147
-func Fn29147(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29153 github.com/goccy/googlesqlwasm2go/p9.Fn29153
-func Fn29153(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29154 github.com/goccy/googlesqlwasm2go/p9.Fn29154
-func Fn29154(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29155 github.com/goccy/googlesqlwasm2go/p5.Fn29155
-func Fn29155(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29158 github.com/goccy/googlesqlwasm2go/p4.Fn29158
+//go:linkname Fn29158 github.com/doitintl/googlesqlwasm2go/p10.Fn29158
 func Fn29158(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29159 github.com/goccy/googlesqlwasm2go/p4.Fn29159
+//go:linkname Fn29159 github.com/doitintl/googlesqlwasm2go/p6.Fn29159
 func Fn29159(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29164 github.com/goccy/googlesqlwasm2go/p10.Fn29164
-func Fn29164(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29161 github.com/doitintl/googlesqlwasm2go/p8.Fn29161
+func Fn29161(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29167 github.com/goccy/googlesqlwasm2go/p6.Fn29167
-func Fn29167(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29163 github.com/doitintl/googlesqlwasm2go/p5.Fn29163
+func Fn29163(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29170 github.com/goccy/googlesqlwasm2go/p10.Fn29170
-func Fn29170(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29164 github.com/doitintl/googlesqlwasm2go/p5.Fn29164
+func Fn29164(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29173 github.com/goccy/googlesqlwasm2go/p8.Fn29173
+//go:linkname Fn29168 github.com/doitintl/googlesqlwasm2go/p9.Fn29168
+func Fn29168(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29169 github.com/doitintl/googlesqlwasm2go/p9.Fn29169
+func Fn29169(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29172 github.com/doitintl/googlesqlwasm2go/p5.Fn29172
+func Fn29172(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29173 github.com/doitintl/googlesqlwasm2go/p5.Fn29173
 func Fn29173(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29177 github.com/goccy/googlesqlwasm2go/p9.Fn29177
-func Fn29177(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29178 github.com/goccy/googlesqlwasm2go/p9.Fn29178
-func Fn29178(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29179 github.com/goccy/googlesqlwasm2go/p5.Fn29179
+//go:linkname Fn29179 github.com/doitintl/googlesqlwasm2go/p10.Fn29179
 func Fn29179(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29181 github.com/goccy/googlesqlwasm2go/p4.Fn29181
+//go:linkname Fn29181 github.com/doitintl/googlesqlwasm2go/p5.Fn29181
 func Fn29181(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29182 github.com/goccy/googlesqlwasm2go/p5.Fn29182
+//go:linkname Fn29182 github.com/doitintl/googlesqlwasm2go/p10.Fn29182
 func Fn29182(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29186 github.com/goccy/googlesqlwasm2go/p10.Fn29186
-func Fn29186(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29188 github.com/goccy/googlesqlwasm2go/p6.Fn29188
+//go:linkname Fn29188 github.com/doitintl/googlesqlwasm2go/p8.Fn29188
 func Fn29188(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29196 github.com/goccy/googlesqlwasm2go/p10.Fn29196
-func Fn29196(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29190 github.com/doitintl/googlesqlwasm2go/p10.Fn29190
+func Fn29190(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29204 github.com/goccy/googlesqlwasm2go/p10.Fn29204
+//go:linkname Fn29191 github.com/doitintl/googlesqlwasm2go/p6.Fn29191
+func Fn29191(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29199 github.com/doitintl/googlesqlwasm2go/p5.Fn29199
+func Fn29199(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29200 github.com/doitintl/googlesqlwasm2go/p6.Fn29200
+func Fn29200(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29204 github.com/doitintl/googlesqlwasm2go/p10.Fn29204
 func Fn29204(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29206 github.com/goccy/googlesqlwasm2go/p8.Fn29206
+//go:linkname Fn29206 github.com/doitintl/googlesqlwasm2go/p8.Fn29206
 func Fn29206(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29207 github.com/goccy/googlesqlwasm2go/p8.Fn29207
-func Fn29207(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29208 github.com/doitintl/googlesqlwasm2go/p5.Fn29208
+func Fn29208(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29213 github.com/goccy/googlesqlwasm2go/p9.Fn29213
-func Fn29213(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29209 github.com/doitintl/googlesqlwasm2go/p6.Fn29209
+func Fn29209(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29214 github.com/goccy/googlesqlwasm2go/p9.Fn29214
-func Fn29214(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29215 github.com/goccy/googlesqlwasm2go/p6.Fn29215
+//go:linkname Fn29215 github.com/doitintl/googlesqlwasm2go/p10.Fn29215
 func Fn29215(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29217 github.com/goccy/googlesqlwasm2go/p5.Fn29217
+//go:linkname Fn29217 github.com/doitintl/googlesqlwasm2go/p10.Fn29217
 func Fn29217(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29218 github.com/goccy/googlesqlwasm2go/p6.Fn29218
+//go:linkname Fn29218 github.com/doitintl/googlesqlwasm2go/p10.Fn29218
 func Fn29218(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29222 github.com/goccy/googlesqlwasm2go/p10.Fn29222
+//go:linkname Fn29220 github.com/doitintl/googlesqlwasm2go/p10.Fn29220
+func Fn29220(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29222 github.com/doitintl/googlesqlwasm2go/p10.Fn29222
 func Fn29222(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29223 github.com/goccy/googlesqlwasm2go/p10.Fn29223
-func Fn29223(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29223 github.com/doitintl/googlesqlwasm2go/p10.Fn29223
+func Fn29223(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29224 github.com/goccy/googlesqlwasm2go/p10.Fn29224
-func Fn29224(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29227 github.com/doitintl/googlesqlwasm2go/p9.Fn29227
+func Fn29227(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29228 github.com/goccy/googlesqlwasm2go/p9.Fn29228
+//go:linkname Fn29228 github.com/doitintl/googlesqlwasm2go/p9.Fn29228
 func Fn29228(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29229 github.com/goccy/googlesqlwasm2go/p9.Fn29229
-func Fn29229(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29231 github.com/doitintl/googlesqlwasm2go/p6.Fn29231
+func Fn29231(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29232 github.com/goccy/googlesqlwasm2go/p5.Fn29232
-func Fn29232(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29232 github.com/doitintl/googlesqlwasm2go/p6.Fn29232
+func Fn29232(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29233 github.com/goccy/googlesqlwasm2go/p6.Fn29233
-func Fn29233(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29238 github.com/doitintl/googlesqlwasm2go/p10.Fn29238
+func Fn29238(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29239 github.com/goccy/googlesqlwasm2go/p9.Fn29239
-func Fn29239(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29240 github.com/doitintl/googlesqlwasm2go/p10.Fn29240
+func Fn29240(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29240 github.com/goccy/googlesqlwasm2go/p9.Fn29240
-func Fn29240(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29244 github.com/doitintl/googlesqlwasm2go/p8.Fn29244
+func Fn29244(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29243 github.com/goccy/googlesqlwasm2go/p4.Fn29243
-func Fn29243(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29246 github.com/doitintl/googlesqlwasm2go/p10.Fn29246
+func Fn29246(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29244 github.com/goccy/googlesqlwasm2go/p5.Fn29244
-func Fn29244(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29247 github.com/doitintl/googlesqlwasm2go/p6.Fn29247
+func Fn29247(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29248 github.com/goccy/googlesqlwasm2go/p10.Fn29248
-func Fn29248(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29253 github.com/doitintl/googlesqlwasm2go/p10.Fn29253
+func Fn29253(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29249 github.com/goccy/googlesqlwasm2go/p10.Fn29249
-func Fn29249(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29254 github.com/doitintl/googlesqlwasm2go/p10.Fn29254
+func Fn29254(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29250 github.com/goccy/googlesqlwasm2go/p10.Fn29250
-func Fn29250(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29255 github.com/doitintl/googlesqlwasm2go/p8.Fn29255
+func Fn29255(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29252 github.com/goccy/googlesqlwasm2go/p10.Fn29252
-func Fn29252(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29257 github.com/doitintl/googlesqlwasm2go/p5.Fn29257
+func Fn29257(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29254 github.com/goccy/googlesqlwasm2go/p9.Fn29254
-func Fn29254(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29258 github.com/goccy/googlesqlwasm2go/p9.Fn29258
+//go:linkname Fn29258 github.com/doitintl/googlesqlwasm2go/p6.Fn29258
 func Fn29258(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29259 github.com/goccy/googlesqlwasm2go/p9.Fn29259
-func Fn29259(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29264 github.com/doitintl/googlesqlwasm2go/p8.Fn29264
+func Fn29264(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29260 github.com/goccy/googlesqlwasm2go/p5.Fn29260
-func Fn29260(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29266 github.com/doitintl/googlesqlwasm2go/p10.Fn29266
+func Fn29266(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29262 github.com/goccy/googlesqlwasm2go/p4.Fn29262
-func Fn29262(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29267 github.com/doitintl/googlesqlwasm2go/p6.Fn29267
+func Fn29267(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29263 github.com/goccy/googlesqlwasm2go/p5.Fn29263
-func Fn29263(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29271 github.com/doitintl/googlesqlwasm2go/p10.Fn29271
+func Fn29271(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29267 github.com/goccy/googlesqlwasm2go/p10.Fn29267
-func Fn29267(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29271 github.com/goccy/googlesqlwasm2go/p9.Fn29271
-func Fn29271(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29272 github.com/goccy/googlesqlwasm2go/p9.Fn29272
-func Fn29272(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29273 github.com/goccy/googlesqlwasm2go/p6.Fn29273
+//go:linkname Fn29273 github.com/doitintl/googlesqlwasm2go/p10.Fn29273
 func Fn29273(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29275 github.com/goccy/googlesqlwasm2go/p4.Fn29275
-func Fn29275(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29274 github.com/doitintl/googlesqlwasm2go/p10.Fn29274
+func Fn29274(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29276 github.com/goccy/googlesqlwasm2go/p5.Fn29276
-func Fn29276(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29275 github.com/doitintl/googlesqlwasm2go/p10.Fn29275
+func Fn29275(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29281 github.com/goccy/googlesqlwasm2go/p10.Fn29281
+//go:linkname Fn29279 github.com/doitintl/googlesqlwasm2go/p10.Fn29279
+func Fn29279(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29281 github.com/doitintl/googlesqlwasm2go/p5.Fn29281
 func Fn29281(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29283 github.com/goccy/googlesqlwasm2go/p9.Fn29283
-func Fn29283(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29282 github.com/doitintl/googlesqlwasm2go/p10.Fn29282
+func Fn29282(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29284 github.com/goccy/googlesqlwasm2go/p10.Fn29284
-func Fn29284(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29284 github.com/doitintl/googlesqlwasm2go/p10.Fn29284
+func Fn29284(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29288 github.com/goccy/googlesqlwasm2go/p9.Fn29288
-func Fn29288(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29286 github.com/doitintl/googlesqlwasm2go/p6.Fn29286
+func Fn29286(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29289 github.com/goccy/googlesqlwasm2go/p9.Fn29289
-func Fn29289(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29287 github.com/doitintl/googlesqlwasm2go/p10.Fn29287
+func Fn29287(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29290 github.com/goccy/googlesqlwasm2go/p6.Fn29290
-func Fn29290(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29289 github.com/doitintl/googlesqlwasm2go/p10.Fn29289
+func Fn29289(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29292 github.com/goccy/googlesqlwasm2go/p5.Fn29292
-func Fn29292(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29291 github.com/doitintl/googlesqlwasm2go/p10.Fn29291
+func Fn29291(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29293 github.com/goccy/googlesqlwasm2go/p5.Fn29293
-func Fn29293(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29292 github.com/doitintl/googlesqlwasm2go/p10.Fn29292
+func Fn29292(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29299 github.com/goccy/googlesqlwasm2go/p6.Fn29299
-func Fn29299(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29294 github.com/doitintl/googlesqlwasm2go/p10.Fn29294
+func Fn29294(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29301 github.com/goccy/googlesqlwasm2go/p9.Fn29301
+//go:linkname Fn29296 github.com/doitintl/googlesqlwasm2go/p5.Fn29296
+func Fn29296(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29297 github.com/doitintl/googlesqlwasm2go/p6.Fn29297
+func Fn29297(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29301 github.com/doitintl/googlesqlwasm2go/p10.Fn29301
 func Fn29301(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29302 github.com/goccy/googlesqlwasm2go/p5.Fn29302
-func Fn29302(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29303 github.com/doitintl/googlesqlwasm2go/p5.Fn29303
+func Fn29303(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29308 github.com/goccy/googlesqlwasm2go/p9.Fn29308
+//go:linkname Fn29304 github.com/doitintl/googlesqlwasm2go/p10.Fn29304
+func Fn29304(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29308 github.com/doitintl/googlesqlwasm2go/p9.Fn29308
 func Fn29308(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29309 github.com/goccy/googlesqlwasm2go/p9.Fn29309
+//go:linkname Fn29309 github.com/doitintl/googlesqlwasm2go/p9.Fn29309
 func Fn29309(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29312 github.com/goccy/googlesqlwasm2go/p5.Fn29312
+//go:linkname Fn29310 github.com/doitintl/googlesqlwasm2go/p6.Fn29310
+func Fn29310(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29312 github.com/doitintl/googlesqlwasm2go/p5.Fn29312
 func Fn29312(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29313 github.com/goccy/googlesqlwasm2go/p5.Fn29313
+//go:linkname Fn29313 github.com/doitintl/googlesqlwasm2go/p5.Fn29313
 func Fn29313(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29319 github.com/goccy/googlesqlwasm2go/p10.Fn29319
+//go:linkname Fn29319 github.com/doitintl/googlesqlwasm2go/p9.Fn29319
 func Fn29319(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29320 github.com/goccy/googlesqlwasm2go/p10.Fn29320
+//go:linkname Fn29320 github.com/doitintl/googlesqlwasm2go/p9.Fn29320
 func Fn29320(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29321 github.com/goccy/googlesqlwasm2go/p10.Fn29321
+//go:linkname Fn29321 github.com/doitintl/googlesqlwasm2go/p6.Fn29321
 func Fn29321(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29324 github.com/goccy/googlesqlwasm2go/p8.Fn29324
+//go:linkname Fn29323 github.com/doitintl/googlesqlwasm2go/p4.Fn29323
+func Fn29323(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29324 github.com/doitintl/googlesqlwasm2go/p4.Fn29324
 func Fn29324(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29329 github.com/goccy/googlesqlwasm2go/p10.Fn29329
-func Fn29329(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29330 github.com/doitintl/googlesqlwasm2go/p9.Fn29330
+func Fn29330(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29331 github.com/goccy/googlesqlwasm2go/p5.Fn29331
-func Fn29331(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29331 github.com/doitintl/googlesqlwasm2go/p9.Fn29331
+func Fn29331(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29332 github.com/goccy/googlesqlwasm2go/p10.Fn29332
-func Fn29332(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29334 github.com/doitintl/googlesqlwasm2go/p5.Fn29334
+func Fn29334(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29336 github.com/goccy/googlesqlwasm2go/p6.Fn29336
-func Fn29336(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29335 github.com/doitintl/googlesqlwasm2go/p5.Fn29335
+func Fn29335(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29338 github.com/goccy/googlesqlwasm2go/p5.Fn29338
-func Fn29338(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29341 github.com/doitintl/googlesqlwasm2go/p10.Fn29341
+func Fn29341(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29340 github.com/goccy/googlesqlwasm2go/p4.Fn29340
-func Fn29340(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29343 github.com/doitintl/googlesqlwasm2go/p5.Fn29343
+func Fn29343(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29341 github.com/goccy/googlesqlwasm2go/p4.Fn29341
-func Fn29341(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29344 github.com/doitintl/googlesqlwasm2go/p6.Fn29344
+func Fn29344(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29347 github.com/goccy/googlesqlwasm2go/p9.Fn29347
-func Fn29347(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29348 github.com/doitintl/googlesqlwasm2go/p10.Fn29348
+func Fn29348(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29348 github.com/goccy/googlesqlwasm2go/p9.Fn29348
-func Fn29348(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29350 github.com/doitintl/googlesqlwasm2go/p10.Fn29350
+func Fn29350(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29349 github.com/goccy/googlesqlwasm2go/p5.Fn29349
-func Fn29349(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29351 github.com/doitintl/googlesqlwasm2go/p10.Fn29351
+func Fn29351(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29351 github.com/goccy/googlesqlwasm2go/p5.Fn29351
-func Fn29351(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29353 github.com/doitintl/googlesqlwasm2go/p10.Fn29353
+func Fn29353(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29355 github.com/goccy/googlesqlwasm2go/p10.Fn29355
+//go:linkname Fn29355 github.com/doitintl/googlesqlwasm2go/p10.Fn29355
 func Fn29355(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29356 github.com/goccy/googlesqlwasm2go/p10.Fn29356
-func Fn29356(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29356 github.com/doitintl/googlesqlwasm2go/p10.Fn29356
+func Fn29356(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29357 github.com/goccy/googlesqlwasm2go/p10.Fn29357
-func Fn29357(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29358 github.com/doitintl/googlesqlwasm2go/p10.Fn29358
+func Fn29358(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29361 github.com/goccy/googlesqlwasm2go/p8.Fn29361
+//go:linkname Fn29360 github.com/doitintl/googlesqlwasm2go/p10.Fn29360
+func Fn29360(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29361 github.com/doitintl/googlesqlwasm2go/p10.Fn29361
 func Fn29361(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29362 github.com/goccy/googlesqlwasm2go/p8.Fn29362
-func Fn29362(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29365 github.com/doitintl/googlesqlwasm2go/p9.Fn29365
+func Fn29365(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29363 github.com/goccy/googlesqlwasm2go/p5.Fn29363
-func Fn29363(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29365 github.com/goccy/googlesqlwasm2go/p4.Fn29365
-func Fn29365(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29366 github.com/goccy/googlesqlwasm2go/p4.Fn29366
+//go:linkname Fn29366 github.com/doitintl/googlesqlwasm2go/p9.Fn29366
 func Fn29366(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29376 github.com/goccy/googlesqlwasm2go/p6.Fn29376
-func Fn29376(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29367 github.com/doitintl/googlesqlwasm2go/p10.Fn29367
+func Fn29367(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29378 github.com/goccy/googlesqlwasm2go/p5.Fn29378
-func Fn29378(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29369 github.com/doitintl/googlesqlwasm2go/p10.Fn29369
+func Fn29369(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29380 github.com/goccy/googlesqlwasm2go/p4.Fn29380
-func Fn29380(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29370 github.com/doitintl/googlesqlwasm2go/p10.Fn29370
+func Fn29370(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29381 github.com/goccy/googlesqlwasm2go/p4.Fn29381
-func Fn29381(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29374 github.com/doitintl/googlesqlwasm2go/p10.Fn29374
+func Fn29374(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29382 github.com/goccy/googlesqlwasm2go/p10.Fn29382
+//go:linkname Fn29376 github.com/doitintl/googlesqlwasm2go/p10.Fn29376
+func Fn29376(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29377 github.com/doitintl/googlesqlwasm2go/p10.Fn29377
+func Fn29377(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29379 github.com/doitintl/googlesqlwasm2go/p10.Fn29379
+func Fn29379(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29381 github.com/doitintl/googlesqlwasm2go/p6.Fn29381
+func Fn29381(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29382 github.com/doitintl/googlesqlwasm2go/p6.Fn29382
 func Fn29382(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29383 github.com/goccy/googlesqlwasm2go/p5.Fn29383
-func Fn29383(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29384 github.com/doitintl/googlesqlwasm2go/p10.Fn29384
+func Fn29384(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29384 github.com/goccy/googlesqlwasm2go/p10.Fn29384
-func Fn29384(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29386 github.com/doitintl/googlesqlwasm2go/p5.Fn29386
+func Fn29386(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29394 github.com/goccy/googlesqlwasm2go/p9.Fn29394
+//go:linkname Fn29387 github.com/doitintl/googlesqlwasm2go/p6.Fn29387
+func Fn29387(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29391 github.com/doitintl/googlesqlwasm2go/p10.Fn29391
+func Fn29391(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29393 github.com/doitintl/googlesqlwasm2go/p10.Fn29393
+func Fn29393(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29394 github.com/doitintl/googlesqlwasm2go/p10.Fn29394
 func Fn29394(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29395 github.com/goccy/googlesqlwasm2go/p9.Fn29395
-func Fn29395(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29398 github.com/doitintl/googlesqlwasm2go/p9.Fn29398
+func Fn29398(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29396 github.com/goccy/googlesqlwasm2go/p6.Fn29396
-func Fn29396(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29399 github.com/doitintl/googlesqlwasm2go/p9.Fn29399
+func Fn29399(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29398 github.com/goccy/googlesqlwasm2go/p5.Fn29398
-func Fn29398(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29400 github.com/goccy/googlesqlwasm2go/p10.Fn29400
-func Fn29400(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29402 github.com/goccy/googlesqlwasm2go/p9.Fn29402
+//go:linkname Fn29402 github.com/doitintl/googlesqlwasm2go/p5.Fn29402
 func Fn29402(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29404 github.com/goccy/googlesqlwasm2go/p10.Fn29404
-func Fn29404(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29403 github.com/doitintl/googlesqlwasm2go/p6.Fn29403
+func Fn29403(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29406 github.com/goccy/googlesqlwasm2go/p10.Fn29406
-func Fn29406(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29409 github.com/doitintl/googlesqlwasm2go/p10.Fn29409
+func Fn29409(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29408 github.com/goccy/googlesqlwasm2go/p10.Fn29408
-func Fn29408(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29410 github.com/doitintl/googlesqlwasm2go/p10.Fn29410
+func Fn29410(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29410 github.com/goccy/googlesqlwasm2go/p10.Fn29410
-func Fn29410(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29411 github.com/doitintl/googlesqlwasm2go/p8.Fn29411
+func Fn29411(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29411 github.com/goccy/googlesqlwasm2go/p10.Fn29411
-func Fn29411(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29413 github.com/goccy/googlesqlwasm2go/p10.Fn29413
+//go:linkname Fn29413 github.com/doitintl/googlesqlwasm2go/p6.Fn29413
 func Fn29413(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29415 github.com/goccy/googlesqlwasm2go/p10.Fn29415
-func Fn29415(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29414 github.com/doitintl/googlesqlwasm2go/p6.Fn29414
+func Fn29414(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29420 github.com/goccy/googlesqlwasm2go/p5.Fn29420
-func Fn29420(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29418 github.com/doitintl/googlesqlwasm2go/p10.Fn29418
+func Fn29418(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29421 github.com/goccy/googlesqlwasm2go/p10.Fn29421
-func Fn29421(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29419 github.com/doitintl/googlesqlwasm2go/p10.Fn29419
+func Fn29419(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29425 github.com/goccy/googlesqlwasm2go/p6.Fn29425
-func Fn29425(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29420 github.com/doitintl/googlesqlwasm2go/p10.Fn29420
+func Fn29420(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29427 github.com/goccy/googlesqlwasm2go/p4.Fn29427
-func Fn29427(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29424 github.com/doitintl/googlesqlwasm2go/p8.Fn29424
+func Fn29424(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29428 github.com/goccy/googlesqlwasm2go/p5.Fn29428
-func Fn29428(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29426 github.com/doitintl/googlesqlwasm2go/p6.Fn29426
+func Fn29426(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29432 github.com/goccy/googlesqlwasm2go/p10.Fn29432
-func Fn29432(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29427 github.com/doitintl/googlesqlwasm2go/p6.Fn29427
+func Fn29427(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29434 github.com/goccy/googlesqlwasm2go/p9.Fn29434
-func Fn29434(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29433 github.com/doitintl/googlesqlwasm2go/p9.Fn29433
+func Fn29433(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29435 github.com/goccy/googlesqlwasm2go/p10.Fn29435
-func Fn29435(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29434 github.com/doitintl/googlesqlwasm2go/p9.Fn29434
+func Fn29434(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29438 github.com/goccy/googlesqlwasm2go/p10.Fn29438
+//go:linkname Fn29435 github.com/doitintl/googlesqlwasm2go/p5.Fn29435
+func Fn29435(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29438 github.com/doitintl/googlesqlwasm2go/p4.Fn29438
 func Fn29438(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29440 github.com/goccy/googlesqlwasm2go/p6.Fn29440
-func Fn29440(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29439 github.com/doitintl/googlesqlwasm2go/p4.Fn29439
+func Fn29439(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29441 github.com/goccy/googlesqlwasm2go/p10.Fn29441
-func Fn29441(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29443 github.com/doitintl/googlesqlwasm2go/p6.Fn29443
+func Fn29443(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn29445 github.com/goccy/googlesqlwasm2go/p9.Fn29445
-func Fn29445(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29444 github.com/doitintl/googlesqlwasm2go/p10.Fn29444
+func Fn29444(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29446 github.com/goccy/googlesqlwasm2go/p9.Fn29446
-func Fn29446(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29447 github.com/goccy/googlesqlwasm2go/p6.Fn29447
+//go:linkname Fn29447 github.com/doitintl/googlesqlwasm2go/p6.Fn29447
 func Fn29447(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29449 github.com/goccy/googlesqlwasm2go/p5.Fn29449
-func Fn29449(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29450 github.com/doitintl/googlesqlwasm2go/p10.Fn29450
+func Fn29450(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29450 github.com/goccy/googlesqlwasm2go/p5.Fn29450
-func Fn29450(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29453 github.com/doitintl/googlesqlwasm2go/p8.Fn29453
+func Fn29453(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29455 github.com/goccy/googlesqlwasm2go/p10.Fn29455
-func Fn29455(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29457 github.com/doitintl/googlesqlwasm2go/p9.Fn29457
+func Fn29457(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29457 github.com/goccy/googlesqlwasm2go/p5.Fn29457
-func Fn29457(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29458 github.com/goccy/googlesqlwasm2go/p6.Fn29458
+//go:linkname Fn29458 github.com/doitintl/googlesqlwasm2go/p9.Fn29458
 func Fn29458(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29464 github.com/goccy/googlesqlwasm2go/p5.Fn29464
-func Fn29464(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29459 github.com/doitintl/googlesqlwasm2go/p6.Fn29459
+func Fn29459(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29465 github.com/goccy/googlesqlwasm2go/p5.Fn29465
-func Fn29465(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29461 github.com/doitintl/googlesqlwasm2go/p4.Fn29461
+func Fn29461(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29466 github.com/goccy/googlesqlwasm2go/p4.Fn29466
+//go:linkname Fn29462 github.com/doitintl/googlesqlwasm2go/p5.Fn29462
+func Fn29462(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29466 github.com/doitintl/googlesqlwasm2go/p10.Fn29466
 func Fn29466(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29468 github.com/goccy/googlesqlwasm2go/p3.Fn29468
+//go:linkname Fn29468 github.com/doitintl/googlesqlwasm2go/p6.Fn29468
 func Fn29468(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29469 github.com/goccy/googlesqlwasm2go/p4.Fn29469
-func Fn29469(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29476 github.com/doitintl/googlesqlwasm2go/p10.Fn29476
+func Fn29476(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29482 github.com/goccy/googlesqlwasm2go/p6.Fn29482
-func Fn29482(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29484 github.com/goccy/googlesqlwasm2go/p5.Fn29484
+//go:linkname Fn29484 github.com/doitintl/googlesqlwasm2go/p10.Fn29484
 func Fn29484(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29486 github.com/goccy/googlesqlwasm2go/p4.Fn29486
+//go:linkname Fn29486 github.com/doitintl/googlesqlwasm2go/p8.Fn29486
 func Fn29486(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29487 github.com/goccy/googlesqlwasm2go/p4.Fn29487
+//go:linkname Fn29487 github.com/doitintl/googlesqlwasm2go/p8.Fn29487
 func Fn29487(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29488 github.com/goccy/googlesqlwasm2go/p4.Fn29488
-func Fn29488(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29489 github.com/goccy/googlesqlwasm2go/p6.Fn29489
-func Fn29489(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29490 github.com/goccy/googlesqlwasm2go/p6.Fn29490
-func Fn29490(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29491 github.com/goccy/googlesqlwasm2go/p5.Fn29491
-func Fn29491(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29492 github.com/goccy/googlesqlwasm2go/p5.Fn29492
-func Fn29492(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29493 github.com/goccy/googlesqlwasm2go/p10.Fn29493
+//go:linkname Fn29493 github.com/doitintl/googlesqlwasm2go/p9.Fn29493
 func Fn29493(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29494 github.com/goccy/googlesqlwasm2go/p10.Fn29494
+//go:linkname Fn29494 github.com/doitintl/googlesqlwasm2go/p9.Fn29494
 func Fn29494(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29510 github.com/goccy/googlesqlwasm2go/p5.Fn29510
-func Fn29510(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29495 github.com/doitintl/googlesqlwasm2go/p6.Fn29495
+func Fn29495(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29512 github.com/goccy/googlesqlwasm2go/p4.Fn29512
+//go:linkname Fn29497 github.com/doitintl/googlesqlwasm2go/p5.Fn29497
+func Fn29497(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29498 github.com/doitintl/googlesqlwasm2go/p6.Fn29498
+func Fn29498(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29502 github.com/doitintl/googlesqlwasm2go/p10.Fn29502
+func Fn29502(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29503 github.com/doitintl/googlesqlwasm2go/p10.Fn29503
+func Fn29503(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29504 github.com/doitintl/googlesqlwasm2go/p10.Fn29504
+func Fn29504(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29508 github.com/doitintl/googlesqlwasm2go/p9.Fn29508
+func Fn29508(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29509 github.com/doitintl/googlesqlwasm2go/p9.Fn29509
+func Fn29509(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29512 github.com/doitintl/googlesqlwasm2go/p5.Fn29512
 func Fn29512(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29516 github.com/goccy/googlesqlwasm2go/p9.Fn29516
-func Fn29516(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29513 github.com/doitintl/googlesqlwasm2go/p6.Fn29513
+func Fn29513(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29517 github.com/goccy/googlesqlwasm2go/p9.Fn29517
-func Fn29517(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29519 github.com/doitintl/googlesqlwasm2go/p9.Fn29519
+func Fn29519(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29518 github.com/goccy/googlesqlwasm2go/p6.Fn29518
-func Fn29518(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29520 github.com/doitintl/googlesqlwasm2go/p9.Fn29520
+func Fn29520(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29520 github.com/goccy/googlesqlwasm2go/p5.Fn29520
-func Fn29520(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29523 github.com/doitintl/googlesqlwasm2go/p4.Fn29523
+func Fn29523(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29526 github.com/goccy/googlesqlwasm2go/p5.Fn29526
-func Fn29526(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29524 github.com/doitintl/googlesqlwasm2go/p5.Fn29524
+func Fn29524(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29528 github.com/goccy/googlesqlwasm2go/p10.Fn29528
+//go:linkname Fn29528 github.com/doitintl/googlesqlwasm2go/p10.Fn29528
 func Fn29528(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29530 github.com/goccy/googlesqlwasm2go/p5.Fn29530
-func Fn29530(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29529 github.com/doitintl/googlesqlwasm2go/p10.Fn29529
+func Fn29529(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29534 github.com/goccy/googlesqlwasm2go/p9.Fn29534
-func Fn29534(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29530 github.com/doitintl/googlesqlwasm2go/p10.Fn29530
+func Fn29530(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29535 github.com/goccy/googlesqlwasm2go/p9.Fn29535
-func Fn29535(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29532 github.com/doitintl/googlesqlwasm2go/p10.Fn29532
+func Fn29532(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29536 github.com/goccy/googlesqlwasm2go/p6.Fn29536
-func Fn29536(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29534 github.com/doitintl/googlesqlwasm2go/p10.Fn29534
+func Fn29534(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29538 github.com/goccy/googlesqlwasm2go/p4.Fn29538
-func Fn29538(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29538 github.com/doitintl/googlesqlwasm2go/p9.Fn29538
+func Fn29538(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29540 github.com/goccy/googlesqlwasm2go/p10.Fn29540
+//go:linkname Fn29539 github.com/doitintl/googlesqlwasm2go/p9.Fn29539
+func Fn29539(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29540 github.com/doitintl/googlesqlwasm2go/p6.Fn29540
 func Fn29540(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29542 github.com/goccy/googlesqlwasm2go/p10.Fn29542
+//go:linkname Fn29542 github.com/doitintl/googlesqlwasm2go/p5.Fn29542
 func Fn29542(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29544 github.com/goccy/googlesqlwasm2go/p10.Fn29544
-func Fn29544(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29543 github.com/doitintl/googlesqlwasm2go/p5.Fn29543
+func Fn29543(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29546 github.com/goccy/googlesqlwasm2go/p10.Fn29546
-func Fn29546(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29547 github.com/doitintl/googlesqlwasm2go/p10.Fn29547
+func Fn29547(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29549 github.com/goccy/googlesqlwasm2go/p10.Fn29549
-func Fn29549(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29551 github.com/doitintl/googlesqlwasm2go/p9.Fn29551
+func Fn29551(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29551 github.com/goccy/googlesqlwasm2go/p10.Fn29551
-func Fn29551(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29552 github.com/doitintl/googlesqlwasm2go/p9.Fn29552
+func Fn29552(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29557 github.com/goccy/googlesqlwasm2go/p6.Fn29557
-func Fn29557(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29553 github.com/doitintl/googlesqlwasm2go/p6.Fn29553
+func Fn29553(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29558 github.com/goccy/googlesqlwasm2go/p6.Fn29558
-func Fn29558(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29555 github.com/doitintl/googlesqlwasm2go/p4.Fn29555
+func Fn29555(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29564 github.com/goccy/googlesqlwasm2go/p9.Fn29564
+//go:linkname Fn29556 github.com/doitintl/googlesqlwasm2go/p5.Fn29556
+func Fn29556(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29561 github.com/doitintl/googlesqlwasm2go/p10.Fn29561
+func Fn29561(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29563 github.com/doitintl/googlesqlwasm2go/p10.Fn29563
+func Fn29563(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29564 github.com/doitintl/googlesqlwasm2go/p10.Fn29564
 func Fn29564(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29565 github.com/goccy/googlesqlwasm2go/p9.Fn29565
-func Fn29565(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29568 github.com/doitintl/googlesqlwasm2go/p9.Fn29568
+func Fn29568(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29566 github.com/goccy/googlesqlwasm2go/p6.Fn29566
-func Fn29566(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29568 github.com/goccy/googlesqlwasm2go/p5.Fn29568
-func Fn29568(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29569 github.com/goccy/googlesqlwasm2go/p5.Fn29569
+//go:linkname Fn29569 github.com/doitintl/googlesqlwasm2go/p9.Fn29569
 func Fn29569(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29575 github.com/goccy/googlesqlwasm2go/p9.Fn29575
-func Fn29575(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29570 github.com/doitintl/googlesqlwasm2go/p6.Fn29570
+func Fn29570(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29576 github.com/goccy/googlesqlwasm2go/p9.Fn29576
-func Fn29576(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29572 github.com/doitintl/googlesqlwasm2go/p5.Fn29572
+func Fn29572(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29577 github.com/goccy/googlesqlwasm2go/p6.Fn29577
-func Fn29577(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29573 github.com/doitintl/googlesqlwasm2go/p5.Fn29573
+func Fn29573(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29579 github.com/goccy/googlesqlwasm2go/p4.Fn29579
+//go:linkname Fn29579 github.com/doitintl/googlesqlwasm2go/p6.Fn29579
 func Fn29579(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29580 github.com/goccy/googlesqlwasm2go/p5.Fn29580
-func Fn29580(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29581 github.com/doitintl/googlesqlwasm2go/p10.Fn29581
+func Fn29581(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29593 github.com/goccy/googlesqlwasm2go/p9.Fn29593
+//go:linkname Fn29582 github.com/doitintl/googlesqlwasm2go/p6.Fn29582
+func Fn29582(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29588 github.com/doitintl/googlesqlwasm2go/p9.Fn29588
+func Fn29588(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29589 github.com/doitintl/googlesqlwasm2go/p9.Fn29589
+func Fn29589(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29592 github.com/doitintl/googlesqlwasm2go/p5.Fn29592
+func Fn29592(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29593 github.com/doitintl/googlesqlwasm2go/p5.Fn29593
 func Fn29593(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29594 github.com/goccy/googlesqlwasm2go/p9.Fn29594
-func Fn29594(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29595 github.com/goccy/googlesqlwasm2go/p6.Fn29595
-func Fn29595(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29597 github.com/goccy/googlesqlwasm2go/p4.Fn29597
-func Fn29597(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29598 github.com/goccy/googlesqlwasm2go/p5.Fn29598
-func Fn29598(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29599 github.com/goccy/googlesqlwasm2go/p4.Fn29599
+//go:linkname Fn29599 github.com/doitintl/googlesqlwasm2go/p10.Fn29599
 func Fn29599(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29600 github.com/goccy/googlesqlwasm2go/p5.Fn29600
+//go:linkname Fn29600 github.com/doitintl/googlesqlwasm2go/p10.Fn29600
 func Fn29600(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29602 github.com/goccy/googlesqlwasm2go/p10.Fn29602
-func Fn29602(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29601 github.com/doitintl/googlesqlwasm2go/p10.Fn29601
+func Fn29601(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29603 github.com/goccy/googlesqlwasm2go/p10.Fn29603
-func Fn29603(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29604 github.com/goccy/googlesqlwasm2go/p10.Fn29604
+//go:linkname Fn29604 github.com/doitintl/googlesqlwasm2go/p8.Fn29604
 func Fn29604(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29607 github.com/goccy/googlesqlwasm2go/p9.Fn29607
-func Fn29607(m *base.Module, l0 int32)
+//go:linkname Fn29609 github.com/doitintl/googlesqlwasm2go/p10.Fn29609
+func Fn29609(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29608 github.com/goccy/googlesqlwasm2go/p10.Fn29608
-func Fn29608(m *base.Module, l0 int32)
+//go:linkname Fn29611 github.com/doitintl/googlesqlwasm2go/p5.Fn29611
+func Fn29611(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29611 github.com/goccy/googlesqlwasm2go/p9.Fn29611
-func Fn29611(m *base.Module, l0 int32)
+//go:linkname Fn29612 github.com/doitintl/googlesqlwasm2go/p10.Fn29612
+func Fn29612(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29612 github.com/goccy/googlesqlwasm2go/p10.Fn29612
-func Fn29612(m *base.Module, l0 int32)
-
-//go:linkname Fn29616 github.com/goccy/googlesqlwasm2go/p6.Fn29616
-func Fn29616(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29618 github.com/goccy/googlesqlwasm2go/p9.Fn29618
+//go:linkname Fn29618 github.com/doitintl/googlesqlwasm2go/p5.Fn29618
 func Fn29618(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29620 github.com/goccy/googlesqlwasm2go/p10.Fn29620
+//go:linkname Fn29620 github.com/doitintl/googlesqlwasm2go/p4.Fn29620
 func Fn29620(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29622 github.com/goccy/googlesqlwasm2go/p5.Fn29622
-func Fn29622(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29621 github.com/doitintl/googlesqlwasm2go/p4.Fn29621
+func Fn29621(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29639 github.com/goccy/googlesqlwasm2go/p9.Fn29639
-func Fn29639(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29627 github.com/doitintl/googlesqlwasm2go/p9.Fn29627
+func Fn29627(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29643 github.com/goccy/googlesqlwasm2go/p9.Fn29643
-func Fn29643(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29628 github.com/doitintl/googlesqlwasm2go/p9.Fn29628
+func Fn29628(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29644 github.com/goccy/googlesqlwasm2go/p9.Fn29644
-func Fn29644(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29629 github.com/doitintl/googlesqlwasm2go/p6.Fn29629
+func Fn29629(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29645 github.com/goccy/googlesqlwasm2go/p5.Fn29645
+//go:linkname Fn29631 github.com/doitintl/googlesqlwasm2go/p5.Fn29631
+func Fn29631(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29635 github.com/doitintl/googlesqlwasm2go/p10.Fn29635
+func Fn29635(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29636 github.com/doitintl/googlesqlwasm2go/p10.Fn29636
+func Fn29636(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29637 github.com/doitintl/googlesqlwasm2go/p10.Fn29637
+func Fn29637(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29641 github.com/doitintl/googlesqlwasm2go/p8.Fn29641
+func Fn29641(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29642 github.com/doitintl/googlesqlwasm2go/p8.Fn29642
+func Fn29642(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29643 github.com/doitintl/googlesqlwasm2go/p5.Fn29643
+func Fn29643(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29645 github.com/doitintl/googlesqlwasm2go/p4.Fn29645
 func Fn29645(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29647 github.com/goccy/googlesqlwasm2go/p5.Fn29647
-func Fn29647(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29646 github.com/doitintl/googlesqlwasm2go/p5.Fn29646
+func Fn29646(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29648 github.com/goccy/googlesqlwasm2go/p5.Fn29648
-func Fn29648(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29658 github.com/doitintl/googlesqlwasm2go/p5.Fn29658
+func Fn29658(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29655 github.com/goccy/googlesqlwasm2go/p9.Fn29655
-func Fn29655(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29656 github.com/goccy/googlesqlwasm2go/p9.Fn29656
-func Fn29656(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29657 github.com/goccy/googlesqlwasm2go/p6.Fn29657
-func Fn29657(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29660 github.com/goccy/googlesqlwasm2go/p5.Fn29660
+//go:linkname Fn29660 github.com/doitintl/googlesqlwasm2go/p4.Fn29660
 func Fn29660(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29661 github.com/goccy/googlesqlwasm2go/p5.Fn29661
+//go:linkname Fn29661 github.com/doitintl/googlesqlwasm2go/p4.Fn29661
 func Fn29661(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29666 github.com/goccy/googlesqlwasm2go/p10.Fn29666
-func Fn29666(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29662 github.com/doitintl/googlesqlwasm2go/p10.Fn29662
+func Fn29662(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29670 github.com/goccy/googlesqlwasm2go/p5.Fn29670
-func Fn29670(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29663 github.com/doitintl/googlesqlwasm2go/p5.Fn29663
+func Fn29663(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29671 github.com/goccy/googlesqlwasm2go/p10.Fn29671
-func Fn29671(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29664 github.com/doitintl/googlesqlwasm2go/p10.Fn29664
+func Fn29664(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29674 github.com/goccy/googlesqlwasm2go/p8.Fn29674
-func Fn29674(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29674 github.com/doitintl/googlesqlwasm2go/p9.Fn29674
+func Fn29674(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29676 github.com/goccy/googlesqlwasm2go/p5.Fn29676
+//go:linkname Fn29675 github.com/doitintl/googlesqlwasm2go/p9.Fn29675
+func Fn29675(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29676 github.com/doitintl/googlesqlwasm2go/p6.Fn29676
 func Fn29676(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29677 github.com/goccy/googlesqlwasm2go/p10.Fn29677
-func Fn29677(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29678 github.com/doitintl/googlesqlwasm2go/p5.Fn29678
+func Fn29678(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29679 github.com/goccy/googlesqlwasm2go/p9.Fn29679
-func Fn29679(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29680 github.com/doitintl/googlesqlwasm2go/p10.Fn29680
+func Fn29680(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29684 github.com/goccy/googlesqlwasm2go/p9.Fn29684
-func Fn29684(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29682 github.com/doitintl/googlesqlwasm2go/p10.Fn29682
+func Fn29682(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29685 github.com/goccy/googlesqlwasm2go/p9.Fn29685
-func Fn29685(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29684 github.com/doitintl/googlesqlwasm2go/p10.Fn29684
+func Fn29684(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29686 github.com/goccy/googlesqlwasm2go/p6.Fn29686
+//go:linkname Fn29686 github.com/doitintl/googlesqlwasm2go/p10.Fn29686
 func Fn29686(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29688 github.com/goccy/googlesqlwasm2go/p4.Fn29688
+//go:linkname Fn29688 github.com/doitintl/googlesqlwasm2go/p10.Fn29688
 func Fn29688(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29689 github.com/goccy/googlesqlwasm2go/p5.Fn29689
-func Fn29689(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29690 github.com/doitintl/googlesqlwasm2go/p10.Fn29690
+func Fn29690(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29694 github.com/goccy/googlesqlwasm2go/p10.Fn29694
-func Fn29694(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29691 github.com/doitintl/googlesqlwasm2go/p10.Fn29691
+func Fn29691(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29696 github.com/goccy/googlesqlwasm2go/p9.Fn29696
-func Fn29696(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29693 github.com/doitintl/googlesqlwasm2go/p10.Fn29693
+func Fn29693(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29697 github.com/goccy/googlesqlwasm2go/p10.Fn29697
-func Fn29697(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29695 github.com/doitintl/googlesqlwasm2go/p10.Fn29695
+func Fn29695(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29701 github.com/goccy/googlesqlwasm2go/p9.Fn29701
+//go:linkname Fn29700 github.com/doitintl/googlesqlwasm2go/p5.Fn29700
+func Fn29700(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29701 github.com/doitintl/googlesqlwasm2go/p10.Fn29701
 func Fn29701(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29702 github.com/goccy/googlesqlwasm2go/p9.Fn29702
-func Fn29702(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29703 github.com/goccy/googlesqlwasm2go/p5.Fn29703
-func Fn29703(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29705 github.com/goccy/googlesqlwasm2go/p4.Fn29705
+//go:linkname Fn29705 github.com/doitintl/googlesqlwasm2go/p6.Fn29705
 func Fn29705(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29706 github.com/goccy/googlesqlwasm2go/p5.Fn29706
-func Fn29706(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29707 github.com/doitintl/googlesqlwasm2go/p5.Fn29707
+func Fn29707(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29712 github.com/goccy/googlesqlwasm2go/p9.Fn29712
-func Fn29712(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29708 github.com/doitintl/googlesqlwasm2go/p5.Fn29708
+func Fn29708(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29713 github.com/goccy/googlesqlwasm2go/p9.Fn29713
-func Fn29713(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29712 github.com/doitintl/googlesqlwasm2go/p10.Fn29712
+func Fn29712(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29714 github.com/goccy/googlesqlwasm2go/p6.Fn29714
+//go:linkname Fn29714 github.com/doitintl/googlesqlwasm2go/p10.Fn29714
 func Fn29714(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29716 github.com/goccy/googlesqlwasm2go/p4.Fn29716
-func Fn29716(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29715 github.com/doitintl/googlesqlwasm2go/p10.Fn29715
+func Fn29715(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29717 github.com/goccy/googlesqlwasm2go/p5.Fn29717
-func Fn29717(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29718 github.com/doitintl/googlesqlwasm2go/p10.Fn29718
+func Fn29718(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29722 github.com/goccy/googlesqlwasm2go/p10.Fn29722
-func Fn29722(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29720 github.com/doitintl/googlesqlwasm2go/p6.Fn29720
+func Fn29720(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29724 github.com/goccy/googlesqlwasm2go/p6.Fn29724
-func Fn29724(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29721 github.com/doitintl/googlesqlwasm2go/p10.Fn29721
+func Fn29721(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29727 github.com/goccy/googlesqlwasm2go/p10.Fn29727
+//go:linkname Fn29725 github.com/doitintl/googlesqlwasm2go/p9.Fn29725
+func Fn29725(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29726 github.com/doitintl/googlesqlwasm2go/p9.Fn29726
+func Fn29726(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29727 github.com/doitintl/googlesqlwasm2go/p6.Fn29727
 func Fn29727(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29729 github.com/goccy/googlesqlwasm2go/p10.Fn29729
+//go:linkname Fn29729 github.com/doitintl/googlesqlwasm2go/p5.Fn29729
 func Fn29729(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29731 github.com/goccy/googlesqlwasm2go/p10.Fn29731
-func Fn29731(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29730 github.com/doitintl/googlesqlwasm2go/p5.Fn29730
+func Fn29730(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29733 github.com/goccy/googlesqlwasm2go/p10.Fn29733
-func Fn29733(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29735 github.com/doitintl/googlesqlwasm2go/p10.Fn29735
+func Fn29735(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29737 github.com/goccy/googlesqlwasm2go/p6.Fn29737
-func Fn29737(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29737 github.com/doitintl/googlesqlwasm2go/p6.Fn29737
+func Fn29737(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29738 github.com/goccy/googlesqlwasm2go/p6.Fn29738
+//go:linkname Fn29738 github.com/doitintl/googlesqlwasm2go/p6.Fn29738
 func Fn29738(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29739 github.com/goccy/googlesqlwasm2go/p4.Fn29739
-func Fn29739(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29744 github.com/doitintl/googlesqlwasm2go/p5.Fn29744
+func Fn29744(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29741 github.com/goccy/googlesqlwasm2go/p4.Fn29741
-func Fn29741(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29745 github.com/goccy/googlesqlwasm2go/p9.Fn29745
+//go:linkname Fn29745 github.com/doitintl/googlesqlwasm2go/p6.Fn29745
 func Fn29745(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29746 github.com/goccy/googlesqlwasm2go/p9.Fn29746
-func Fn29746(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29746 github.com/doitintl/googlesqlwasm2go/p4.Fn29746
+func Fn29746(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29747 github.com/goccy/googlesqlwasm2go/p6.Fn29747
-func Fn29747(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29748 github.com/doitintl/googlesqlwasm2go/p3.Fn29748
+func Fn29748(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29749 github.com/goccy/googlesqlwasm2go/p5.Fn29749
-func Fn29749(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29749 github.com/doitintl/googlesqlwasm2go/p4.Fn29749
+func Fn29749(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29750 github.com/goccy/googlesqlwasm2go/p5.Fn29750
-func Fn29750(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29764 github.com/doitintl/googlesqlwasm2go/p5.Fn29764
+func Fn29764(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29756 github.com/goccy/googlesqlwasm2go/p9.Fn29756
-func Fn29756(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29766 github.com/doitintl/googlesqlwasm2go/p4.Fn29766
+func Fn29766(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29757 github.com/goccy/googlesqlwasm2go/p9.Fn29757
-func Fn29757(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29767 github.com/doitintl/googlesqlwasm2go/p4.Fn29767
+func Fn29767(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29758 github.com/goccy/googlesqlwasm2go/p6.Fn29758
-func Fn29758(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29768 github.com/doitintl/googlesqlwasm2go/p4.Fn29768
+func Fn29768(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29760 github.com/goccy/googlesqlwasm2go/p4.Fn29760
-func Fn29760(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29769 github.com/doitintl/googlesqlwasm2go/p6.Fn29769
+func Fn29769(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29761 github.com/goccy/googlesqlwasm2go/p5.Fn29761
-func Fn29761(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29770 github.com/doitintl/googlesqlwasm2go/p6.Fn29770
+func Fn29770(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29767 github.com/goccy/googlesqlwasm2go/p10.Fn29767
-func Fn29767(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29771 github.com/doitintl/googlesqlwasm2go/p5.Fn29771
+func Fn29771(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29769 github.com/goccy/googlesqlwasm2go/p5.Fn29769
-func Fn29769(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29772 github.com/doitintl/googlesqlwasm2go/p5.Fn29772
+func Fn29772(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29773 github.com/goccy/googlesqlwasm2go/p6.Fn29773
-func Fn29773(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29773 github.com/doitintl/googlesqlwasm2go/p10.Fn29773
+func Fn29773(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29775 github.com/goccy/googlesqlwasm2go/p9.Fn29775
-func Fn29775(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29774 github.com/doitintl/googlesqlwasm2go/p10.Fn29774
+func Fn29774(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29776 github.com/goccy/googlesqlwasm2go/p5.Fn29776
-func Fn29776(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29782 github.com/goccy/googlesqlwasm2go/p10.Fn29782
-func Fn29782(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29783 github.com/goccy/googlesqlwasm2go/p6.Fn29783
-func Fn29783(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29784 github.com/goccy/googlesqlwasm2go/p6.Fn29784
-func Fn29784(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29788 github.com/goccy/googlesqlwasm2go/p10.Fn29788
-func Fn29788(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29790 github.com/goccy/googlesqlwasm2go/p9.Fn29790
+//go:linkname Fn29790 github.com/doitintl/googlesqlwasm2go/p5.Fn29790
 func Fn29790(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29791 github.com/goccy/googlesqlwasm2go/p9.Fn29791
-func Fn29791(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29792 github.com/doitintl/googlesqlwasm2go/p4.Fn29792
+func Fn29792(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29796 github.com/goccy/googlesqlwasm2go/p6.Fn29796
-func Fn29796(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29796 github.com/doitintl/googlesqlwasm2go/p9.Fn29796
+func Fn29796(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29798 github.com/goccy/googlesqlwasm2go/p9.Fn29798
+//go:linkname Fn29797 github.com/doitintl/googlesqlwasm2go/p9.Fn29797
+func Fn29797(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29798 github.com/doitintl/googlesqlwasm2go/p6.Fn29798
 func Fn29798(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29799 github.com/goccy/googlesqlwasm2go/p5.Fn29799
-func Fn29799(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29800 github.com/doitintl/googlesqlwasm2go/p5.Fn29800
+func Fn29800(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29800 github.com/goccy/googlesqlwasm2go/p10.Fn29800
-func Fn29800(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29806 github.com/doitintl/googlesqlwasm2go/p5.Fn29806
+func Fn29806(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29807 github.com/goccy/googlesqlwasm2go/p9.Fn29807
-func Fn29807(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29808 github.com/doitintl/googlesqlwasm2go/p10.Fn29808
+func Fn29808(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29808 github.com/goccy/googlesqlwasm2go/p9.Fn29808
-func Fn29808(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29810 github.com/doitintl/googlesqlwasm2go/p5.Fn29810
+func Fn29810(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29809 github.com/goccy/googlesqlwasm2go/p6.Fn29809
-func Fn29809(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29814 github.com/doitintl/googlesqlwasm2go/p9.Fn29814
+func Fn29814(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29811 github.com/goccy/googlesqlwasm2go/p5.Fn29811
-func Fn29811(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29815 github.com/doitintl/googlesqlwasm2go/p9.Fn29815
+func Fn29815(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29812 github.com/goccy/googlesqlwasm2go/p5.Fn29812
-func Fn29812(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29816 github.com/doitintl/googlesqlwasm2go/p6.Fn29816
+func Fn29816(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29813 github.com/goccy/googlesqlwasm2go/p6.Fn29813
-func Fn29813(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29818 github.com/doitintl/googlesqlwasm2go/p4.Fn29818
+func Fn29818(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29821 github.com/goccy/googlesqlwasm2go/p9.Fn29821
-func Fn29821(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29820 github.com/doitintl/googlesqlwasm2go/p10.Fn29820
+func Fn29820(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29822 github.com/goccy/googlesqlwasm2go/p9.Fn29822
-func Fn29822(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29822 github.com/doitintl/googlesqlwasm2go/p10.Fn29822
+func Fn29822(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29823 github.com/goccy/googlesqlwasm2go/p6.Fn29823
-func Fn29823(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29824 github.com/doitintl/googlesqlwasm2go/p10.Fn29824
+func Fn29824(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29825 github.com/goccy/googlesqlwasm2go/p6.Fn29825
-func Fn29825(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29826 github.com/doitintl/googlesqlwasm2go/p10.Fn29826
+func Fn29826(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29830 github.com/goccy/googlesqlwasm2go/p10.Fn29830
-func Fn29830(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29829 github.com/doitintl/googlesqlwasm2go/p10.Fn29829
+func Fn29829(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29832 github.com/goccy/googlesqlwasm2go/p9.Fn29832
-func Fn29832(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29831 github.com/doitintl/googlesqlwasm2go/p10.Fn29831
+func Fn29831(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29833 github.com/goccy/googlesqlwasm2go/p10.Fn29833
-func Fn29833(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29837 github.com/doitintl/googlesqlwasm2go/p6.Fn29837
+func Fn29837(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29834 github.com/goccy/googlesqlwasm2go/p6.Fn29834
-func Fn29834(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29838 github.com/doitintl/googlesqlwasm2go/p6.Fn29838
+func Fn29838(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29840 github.com/goccy/googlesqlwasm2go/p10.Fn29840
-func Fn29840(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29844 github.com/doitintl/googlesqlwasm2go/p9.Fn29844
+func Fn29844(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29841 github.com/goccy/googlesqlwasm2go/p9.Fn29841
-func Fn29841(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29845 github.com/doitintl/googlesqlwasm2go/p9.Fn29845
+func Fn29845(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29842 github.com/goccy/googlesqlwasm2go/p10.Fn29842
-func Fn29842(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29846 github.com/goccy/googlesqlwasm2go/p8.Fn29846
+//go:linkname Fn29846 github.com/doitintl/googlesqlwasm2go/p6.Fn29846
 func Fn29846(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29848 github.com/goccy/googlesqlwasm2go/p10.Fn29848
+//go:linkname Fn29848 github.com/doitintl/googlesqlwasm2go/p5.Fn29848
 func Fn29848(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29849 github.com/goccy/googlesqlwasm2go/p6.Fn29849
+//go:linkname Fn29849 github.com/doitintl/googlesqlwasm2go/p5.Fn29849
 func Fn29849(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29855 github.com/goccy/googlesqlwasm2go/p8.Fn29855
-func Fn29855(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29855 github.com/doitintl/googlesqlwasm2go/p9.Fn29855
+func Fn29855(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29857 github.com/goccy/googlesqlwasm2go/p10.Fn29857
+//go:linkname Fn29856 github.com/doitintl/googlesqlwasm2go/p9.Fn29856
+func Fn29856(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29857 github.com/doitintl/googlesqlwasm2go/p6.Fn29857
 func Fn29857(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29858 github.com/goccy/googlesqlwasm2go/p6.Fn29858
-func Fn29858(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29859 github.com/doitintl/googlesqlwasm2go/p4.Fn29859
+func Fn29859(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29864 github.com/goccy/googlesqlwasm2go/p8.Fn29864
-func Fn29864(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29860 github.com/doitintl/googlesqlwasm2go/p5.Fn29860
+func Fn29860(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29866 github.com/goccy/googlesqlwasm2go/p10.Fn29866
-func Fn29866(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29873 github.com/doitintl/googlesqlwasm2go/p9.Fn29873
+func Fn29873(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29867 github.com/goccy/googlesqlwasm2go/p6.Fn29867
-func Fn29867(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29874 github.com/doitintl/googlesqlwasm2go/p9.Fn29874
+func Fn29874(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29871 github.com/goccy/googlesqlwasm2go/p10.Fn29871
-func Fn29871(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29873 github.com/goccy/googlesqlwasm2go/p10.Fn29873
-func Fn29873(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29875 github.com/goccy/googlesqlwasm2go/p10.Fn29875
+//go:linkname Fn29875 github.com/doitintl/googlesqlwasm2go/p6.Fn29875
 func Fn29875(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29879 github.com/goccy/googlesqlwasm2go/p9.Fn29879
+//go:linkname Fn29877 github.com/doitintl/googlesqlwasm2go/p4.Fn29877
+func Fn29877(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn29878 github.com/doitintl/googlesqlwasm2go/p5.Fn29878
+func Fn29878(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29879 github.com/doitintl/googlesqlwasm2go/p4.Fn29879
 func Fn29879(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29880 github.com/goccy/googlesqlwasm2go/p9.Fn29880
+//go:linkname Fn29880 github.com/doitintl/googlesqlwasm2go/p6.Fn29880
 func Fn29880(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29881 github.com/goccy/googlesqlwasm2go/p6.Fn29881
-func Fn29881(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29882 github.com/doitintl/googlesqlwasm2go/p10.Fn29882
+func Fn29882(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29883 github.com/goccy/googlesqlwasm2go/p5.Fn29883
-func Fn29883(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29883 github.com/doitintl/googlesqlwasm2go/p10.Fn29883
+func Fn29883(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29884 github.com/goccy/googlesqlwasm2go/p5.Fn29884
+//go:linkname Fn29884 github.com/doitintl/googlesqlwasm2go/p10.Fn29884
 func Fn29884(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29890 github.com/goccy/googlesqlwasm2go/p6.Fn29890
-func Fn29890(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29887 github.com/doitintl/googlesqlwasm2go/p10.Fn29887
+func Fn29887(m *base.Module, l0 int32)
 
-//go:linkname Fn29892 github.com/goccy/googlesqlwasm2go/p9.Fn29892
-func Fn29892(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29888 github.com/doitintl/googlesqlwasm2go/p10.Fn29888
+func Fn29888(m *base.Module, l0 int32)
 
-//go:linkname Fn29894 github.com/goccy/googlesqlwasm2go/p10.Fn29894
-func Fn29894(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29891 github.com/doitintl/googlesqlwasm2go/p10.Fn29891
+func Fn29891(m *base.Module, l0 int32)
 
-//go:linkname Fn29895 github.com/goccy/googlesqlwasm2go/p10.Fn29895
-func Fn29895(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29892 github.com/doitintl/googlesqlwasm2go/p10.Fn29892
+func Fn29892(m *base.Module, l0 int32)
 
-//go:linkname Fn29897 github.com/goccy/googlesqlwasm2go/p10.Fn29897
-func Fn29897(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29896 github.com/doitintl/googlesqlwasm2go/p6.Fn29896
+func Fn29896(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29898 github.com/goccy/googlesqlwasm2go/p6.Fn29898
-func Fn29898(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29898 github.com/doitintl/googlesqlwasm2go/p10.Fn29898
+func Fn29898(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29904 github.com/goccy/googlesqlwasm2go/p10.Fn29904
-func Fn29904(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29900 github.com/doitintl/googlesqlwasm2go/p10.Fn29900
+func Fn29900(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29905 github.com/goccy/googlesqlwasm2go/p10.Fn29905
-func Fn29905(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29902 github.com/doitintl/googlesqlwasm2go/p6.Fn29902
+func Fn29902(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29906 github.com/goccy/googlesqlwasm2go/p10.Fn29906
-func Fn29906(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29919 github.com/doitintl/googlesqlwasm2go/p9.Fn29919
+func Fn29919(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29908 github.com/goccy/googlesqlwasm2go/p10.Fn29908
-func Fn29908(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29923 github.com/doitintl/googlesqlwasm2go/p9.Fn29923
+func Fn29923(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29910 github.com/goccy/googlesqlwasm2go/p10.Fn29910
-func Fn29910(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29912 github.com/goccy/googlesqlwasm2go/p10.Fn29912
-func Fn29912(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29915 github.com/goccy/googlesqlwasm2go/p10.Fn29915
-func Fn29915(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29917 github.com/goccy/googlesqlwasm2go/p5.Fn29917
-func Fn29917(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29918 github.com/goccy/googlesqlwasm2go/p6.Fn29918
-func Fn29918(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29924 github.com/goccy/googlesqlwasm2go/p9.Fn29924
+//go:linkname Fn29924 github.com/doitintl/googlesqlwasm2go/p9.Fn29924
 func Fn29924(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29925 github.com/goccy/googlesqlwasm2go/p9.Fn29925
-func Fn29925(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29925 github.com/doitintl/googlesqlwasm2go/p6.Fn29925
+func Fn29925(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29926 github.com/goccy/googlesqlwasm2go/p6.Fn29926
-func Fn29926(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29927 github.com/doitintl/googlesqlwasm2go/p5.Fn29927
+func Fn29927(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn29928 github.com/goccy/googlesqlwasm2go/p5.Fn29928
-func Fn29928(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29928 github.com/doitintl/googlesqlwasm2go/p5.Fn29928
+func Fn29928(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29929 github.com/goccy/googlesqlwasm2go/p5.Fn29929
-func Fn29929(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn29933 github.com/goccy/googlesqlwasm2go/p10.Fn29933
-func Fn29933(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29934 github.com/goccy/googlesqlwasm2go/p10.Fn29934
-func Fn29934(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn29935 github.com/goccy/googlesqlwasm2go/p10.Fn29935
+//go:linkname Fn29935 github.com/doitintl/googlesqlwasm2go/p9.Fn29935
 func Fn29935(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn29937 github.com/goccy/googlesqlwasm2go/p10.Fn29937
+//go:linkname Fn29936 github.com/doitintl/googlesqlwasm2go/p9.Fn29936
+func Fn29936(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn29937 github.com/doitintl/googlesqlwasm2go/p6.Fn29937
 func Fn29937(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn30526 github.com/goccy/googlesqlwasm2go/p9.Fn30526
-func Fn30526(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn29940 github.com/doitintl/googlesqlwasm2go/p5.Fn29940
+func Fn29940(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn30597 github.com/goccy/googlesqlwasm2go/p9.Fn30597
-func Fn30597(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29941 github.com/doitintl/googlesqlwasm2go/p5.Fn29941
+func Fn29941(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn30768 github.com/goccy/googlesqlwasm2go/p6.Fn30768
-func Fn30768(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29946 github.com/doitintl/googlesqlwasm2go/p10.Fn29946
+func Fn29946(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn30974 github.com/goccy/googlesqlwasm2go/p9.Fn30974
-func Fn30974(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29950 github.com/doitintl/googlesqlwasm2go/p5.Fn29950
+func Fn29950(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn30981 github.com/goccy/googlesqlwasm2go/p6.Fn30981
-func Fn30981(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29951 github.com/doitintl/googlesqlwasm2go/p10.Fn29951
+func Fn29951(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn30984 github.com/goccy/googlesqlwasm2go/p9.Fn30984
-func Fn30984(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29954 github.com/doitintl/googlesqlwasm2go/p8.Fn29954
+func Fn29954(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn30986 github.com/goccy/googlesqlwasm2go/p6.Fn30986
-func Fn30986(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn29956 github.com/doitintl/googlesqlwasm2go/p5.Fn29956
+func Fn29956(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn30988 github.com/goccy/googlesqlwasm2go/p10.Fn30988
-func Fn30988(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29957 github.com/doitintl/googlesqlwasm2go/p10.Fn29957
+func Fn29957(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn30990 github.com/goccy/googlesqlwasm2go/p10.Fn30990
-func Fn30990(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29959 github.com/doitintl/googlesqlwasm2go/p9.Fn29959
+func Fn29959(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn30991 github.com/goccy/googlesqlwasm2go/p9.Fn30991
-func Fn30991(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn29964 github.com/doitintl/googlesqlwasm2go/p9.Fn29964
+func Fn29964(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn30996 github.com/goccy/googlesqlwasm2go/p9.Fn30996
-func Fn30996(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29965 github.com/doitintl/googlesqlwasm2go/p9.Fn29965
+func Fn29965(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn30997 github.com/goccy/googlesqlwasm2go/p9.Fn30997
-func Fn30997(m *base.Module, l0 int32) int32
+//go:linkname Fn29966 github.com/doitintl/googlesqlwasm2go/p6.Fn29966
+func Fn29966(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn30999 github.com/goccy/googlesqlwasm2go/p10.Fn30999
-func Fn30999(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29968 github.com/doitintl/googlesqlwasm2go/p5.Fn29968
+func Fn29968(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31012 github.com/goccy/googlesqlwasm2go/p5.Fn31012
-func Fn31012(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn29969 github.com/doitintl/googlesqlwasm2go/p5.Fn29969
+func Fn29969(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31017 github.com/goccy/googlesqlwasm2go/p6.Fn31017
-func Fn31017(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29974 github.com/doitintl/googlesqlwasm2go/p10.Fn29974
+func Fn29974(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31024 github.com/goccy/googlesqlwasm2go/p10.Fn31024
-func Fn31024(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29976 github.com/doitintl/googlesqlwasm2go/p10.Fn29976
+func Fn29976(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31042 github.com/goccy/googlesqlwasm2go/p10.Fn31042
-func Fn31042(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29977 github.com/doitintl/googlesqlwasm2go/p10.Fn29977
+func Fn29977(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31130 github.com/goccy/googlesqlwasm2go/p4.Fn31130
-func Fn31130(m *base.Module, l0 int32) int32
+//go:linkname Fn29981 github.com/doitintl/googlesqlwasm2go/p9.Fn29981
+func Fn29981(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31131 github.com/goccy/googlesqlwasm2go/p10.Fn31131
-func Fn31131(m *base.Module, l0 int32) int32
+//go:linkname Fn29982 github.com/doitintl/googlesqlwasm2go/p9.Fn29982
+func Fn29982(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31132 github.com/goccy/googlesqlwasm2go/p3.Fn31132
-func Fn31132(m *base.Module, l0 int32) int32
+//go:linkname Fn29983 github.com/doitintl/googlesqlwasm2go/p5.Fn29983
+func Fn29983(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31133 github.com/goccy/googlesqlwasm2go/p3.Fn31133
-func Fn31133(m *base.Module, l0 int32) int32
+//go:linkname Fn29985 github.com/doitintl/googlesqlwasm2go/p4.Fn29985
+func Fn29985(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31137 github.com/goccy/googlesqlwasm2go/p10.Fn31137
-func Fn31137(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn29986 github.com/doitintl/googlesqlwasm2go/p5.Fn29986
+func Fn29986(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31139 github.com/goccy/googlesqlwasm2go/p9.Fn31139
-func Fn31139(m *base.Module, l0 int32) int32
+//go:linkname Fn29992 github.com/doitintl/googlesqlwasm2go/p9.Fn29992
+func Fn29992(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31140 github.com/goccy/googlesqlwasm2go/p9.Fn31140
-func Fn31140(m *base.Module, l0 int32) int32
+//go:linkname Fn29993 github.com/doitintl/googlesqlwasm2go/p9.Fn29993
+func Fn29993(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31141 github.com/goccy/googlesqlwasm2go/p9.Fn31141
-func Fn31141(m *base.Module, l0 int32) int32
+//go:linkname Fn29994 github.com/doitintl/googlesqlwasm2go/p6.Fn29994
+func Fn29994(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31142 github.com/goccy/googlesqlwasm2go/p9.Fn31142
-func Fn31142(m *base.Module, l0 int32) int32
+//go:linkname Fn29996 github.com/doitintl/googlesqlwasm2go/p4.Fn29996
+func Fn29996(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31143 github.com/goccy/googlesqlwasm2go/p9.Fn31143
-func Fn31143(m *base.Module, l0 int32) int32
+//go:linkname Fn29997 github.com/doitintl/googlesqlwasm2go/p5.Fn29997
+func Fn29997(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31144 github.com/goccy/googlesqlwasm2go/p9.Fn31144
-func Fn31144(m *base.Module, l0 int32) int32
+//go:linkname Fn30002 github.com/doitintl/googlesqlwasm2go/p10.Fn30002
+func Fn30002(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31145 github.com/goccy/googlesqlwasm2go/p9.Fn31145
-func Fn31145(m *base.Module, l0 int32) int32
+//go:linkname Fn30004 github.com/doitintl/googlesqlwasm2go/p6.Fn30004
+func Fn30004(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31146 github.com/goccy/googlesqlwasm2go/p9.Fn31146
-func Fn31146(m *base.Module, l0 int32) int32
+//go:linkname Fn30007 github.com/doitintl/googlesqlwasm2go/p10.Fn30007
+func Fn30007(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31147 github.com/goccy/googlesqlwasm2go/p3.Fn31147
-func Fn31147(m *base.Module, l0 int32) int32
+//go:linkname Fn30009 github.com/doitintl/googlesqlwasm2go/p10.Fn30009
+func Fn30009(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31148 github.com/goccy/googlesqlwasm2go/p9.Fn31148
-func Fn31148(m *base.Module, l0 int32) int32
+//go:linkname Fn30011 github.com/doitintl/googlesqlwasm2go/p10.Fn30011
+func Fn30011(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31149 github.com/goccy/googlesqlwasm2go/p3.Fn31149
-func Fn31149(m *base.Module, l0 int32) int32
+//go:linkname Fn30013 github.com/doitintl/googlesqlwasm2go/p10.Fn30013
+func Fn30013(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31150 github.com/goccy/googlesqlwasm2go/p9.Fn31150
-func Fn31150(m *base.Module, l0 int32) int32
+//go:linkname Fn30017 github.com/doitintl/googlesqlwasm2go/p6.Fn30017
+func Fn30017(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31151 github.com/goccy/googlesqlwasm2go/p9.Fn31151
-func Fn31151(m *base.Module, l0 int32) int32
+//go:linkname Fn30018 github.com/doitintl/googlesqlwasm2go/p6.Fn30018
+func Fn30018(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31152 github.com/goccy/googlesqlwasm2go/p9.Fn31152
-func Fn31152(m *base.Module, l0 int32) int32
+//go:linkname Fn30019 github.com/doitintl/googlesqlwasm2go/p4.Fn30019
+func Fn30019(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31153 github.com/goccy/googlesqlwasm2go/p9.Fn31153
-func Fn31153(m *base.Module, l0 int32) int32
+//go:linkname Fn30021 github.com/doitintl/googlesqlwasm2go/p4.Fn30021
+func Fn30021(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31154 github.com/goccy/googlesqlwasm2go/p8.Fn31154
-func Fn31154(m *base.Module, l0 int32) int32
+//go:linkname Fn30025 github.com/doitintl/googlesqlwasm2go/p9.Fn30025
+func Fn30025(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31155 github.com/goccy/googlesqlwasm2go/p9.Fn31155
-func Fn31155(m *base.Module, l0 int32) int32
+//go:linkname Fn30026 github.com/doitintl/googlesqlwasm2go/p9.Fn30026
+func Fn30026(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31156 github.com/goccy/googlesqlwasm2go/p9.Fn31156
-func Fn31156(m *base.Module, l0 int32) int32
+//go:linkname Fn30027 github.com/doitintl/googlesqlwasm2go/p6.Fn30027
+func Fn30027(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31157 github.com/goccy/googlesqlwasm2go/p3.Fn31157
-func Fn31157(m *base.Module, l0 int32) int32
+//go:linkname Fn30029 github.com/doitintl/googlesqlwasm2go/p5.Fn30029
+func Fn30029(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31158 github.com/goccy/googlesqlwasm2go/p9.Fn31158
-func Fn31158(m *base.Module, l0 int32) int32
+//go:linkname Fn30030 github.com/doitintl/googlesqlwasm2go/p5.Fn30030
+func Fn30030(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31159 github.com/goccy/googlesqlwasm2go/p9.Fn31159
-func Fn31159(m *base.Module, l0 int32) int32
+//go:linkname Fn30036 github.com/doitintl/googlesqlwasm2go/p9.Fn30036
+func Fn30036(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31160 github.com/goccy/googlesqlwasm2go/p9.Fn31160
-func Fn31160(m *base.Module, l0 int32) int32
+//go:linkname Fn30037 github.com/doitintl/googlesqlwasm2go/p9.Fn30037
+func Fn30037(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31161 github.com/goccy/googlesqlwasm2go/p9.Fn31161
-func Fn31161(m *base.Module, l0 int32) int32
+//go:linkname Fn30038 github.com/doitintl/googlesqlwasm2go/p6.Fn30038
+func Fn30038(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31162 github.com/goccy/googlesqlwasm2go/p9.Fn31162
-func Fn31162(m *base.Module, l0 int32) int32
+//go:linkname Fn30040 github.com/doitintl/googlesqlwasm2go/p4.Fn30040
+func Fn30040(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31163 github.com/goccy/googlesqlwasm2go/p9.Fn31163
-func Fn31163(m *base.Module, l0 int32) int32
+//go:linkname Fn30041 github.com/doitintl/googlesqlwasm2go/p5.Fn30041
+func Fn30041(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31164 github.com/goccy/googlesqlwasm2go/p4.Fn31164
-func Fn31164(m *base.Module, l0 int32) int32
+//go:linkname Fn30047 github.com/doitintl/googlesqlwasm2go/p10.Fn30047
+func Fn30047(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31165 github.com/goccy/googlesqlwasm2go/p9.Fn31165
-func Fn31165(m *base.Module, l0 int32) int32
+//go:linkname Fn30049 github.com/doitintl/googlesqlwasm2go/p5.Fn30049
+func Fn30049(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31166 github.com/goccy/googlesqlwasm2go/p9.Fn31166
-func Fn31166(m *base.Module, l0 int32) int32
+//go:linkname Fn30053 github.com/doitintl/googlesqlwasm2go/p6.Fn30053
+func Fn30053(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31167 github.com/goccy/googlesqlwasm2go/p9.Fn31167
-func Fn31167(m *base.Module, l0 int32) int32
+//go:linkname Fn30055 github.com/doitintl/googlesqlwasm2go/p10.Fn30055
+func Fn30055(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31168 github.com/goccy/googlesqlwasm2go/p9.Fn31168
-func Fn31168(m *base.Module, l0 int32) int32
+//go:linkname Fn30056 github.com/doitintl/googlesqlwasm2go/p6.Fn30056
+func Fn30056(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31169 github.com/goccy/googlesqlwasm2go/p9.Fn31169
-func Fn31169(m *base.Module, l0 int32) int32
+//go:linkname Fn30062 github.com/doitintl/googlesqlwasm2go/p10.Fn30062
+func Fn30062(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31170 github.com/goccy/googlesqlwasm2go/p9.Fn31170
-func Fn31170(m *base.Module, l0 int32) int32
+//go:linkname Fn30063 github.com/doitintl/googlesqlwasm2go/p6.Fn30063
+func Fn30063(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31171 github.com/goccy/googlesqlwasm2go/p10.Fn31171
-func Fn31171(m *base.Module, l0 int32) int32
+//go:linkname Fn30064 github.com/doitintl/googlesqlwasm2go/p6.Fn30064
+func Fn30064(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31172 github.com/goccy/googlesqlwasm2go/p9.Fn31172
-func Fn31172(m *base.Module, l0 int32) int32
+//go:linkname Fn30068 github.com/doitintl/googlesqlwasm2go/p10.Fn30068
+func Fn30068(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31173 github.com/goccy/googlesqlwasm2go/p9.Fn31173
-func Fn31173(m *base.Module, l0 int32) int32
+//go:linkname Fn30070 github.com/doitintl/googlesqlwasm2go/p10.Fn30070
+func Fn30070(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31174 github.com/goccy/googlesqlwasm2go/p9.Fn31174
-func Fn31174(m *base.Module, l0 int32) int32
+//go:linkname Fn30071 github.com/doitintl/googlesqlwasm2go/p10.Fn30071
+func Fn30071(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31175 github.com/goccy/googlesqlwasm2go/p3.Fn31175
-func Fn31175(m *base.Module, l0 int32) int32
+//go:linkname Fn30076 github.com/doitintl/googlesqlwasm2go/p6.Fn30076
+func Fn30076(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31176 github.com/goccy/googlesqlwasm2go/p9.Fn31176
-func Fn31176(m *base.Module, l0 int32) int32
+//go:linkname Fn30078 github.com/doitintl/googlesqlwasm2go/p10.Fn30078
+func Fn30078(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31177 github.com/goccy/googlesqlwasm2go/p9.Fn31177
-func Fn31177(m *base.Module, l0 int32) int32
+//go:linkname Fn30079 github.com/doitintl/googlesqlwasm2go/p5.Fn30079
+func Fn30079(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31178 github.com/goccy/googlesqlwasm2go/p9.Fn31178
-func Fn31178(m *base.Module, l0 int32) int32
+//go:linkname Fn30080 github.com/doitintl/googlesqlwasm2go/p10.Fn30080
+func Fn30080(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31179 github.com/goccy/googlesqlwasm2go/p9.Fn31179
-func Fn31179(m *base.Module, l0 int32) int32
+//go:linkname Fn30087 github.com/doitintl/googlesqlwasm2go/p9.Fn30087
+func Fn30087(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31180 github.com/goccy/googlesqlwasm2go/p9.Fn31180
-func Fn31180(m *base.Module, l0 int32) int32
+//go:linkname Fn30088 github.com/doitintl/googlesqlwasm2go/p9.Fn30088
+func Fn30088(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31181 github.com/goccy/googlesqlwasm2go/p9.Fn31181
-func Fn31181(m *base.Module, l0 int32) int32
+//go:linkname Fn30089 github.com/doitintl/googlesqlwasm2go/p6.Fn30089
+func Fn30089(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31182 github.com/goccy/googlesqlwasm2go/p9.Fn31182
-func Fn31182(m *base.Module, l0 int32) int32
+//go:linkname Fn30091 github.com/doitintl/googlesqlwasm2go/p5.Fn30091
+func Fn30091(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31183 github.com/goccy/googlesqlwasm2go/p9.Fn31183
-func Fn31183(m *base.Module, l0 int32) int32
+//go:linkname Fn30092 github.com/doitintl/googlesqlwasm2go/p5.Fn30092
+func Fn30092(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31184 github.com/goccy/googlesqlwasm2go/p10.Fn31184
-func Fn31184(m *base.Module, l0 int32) int32
+//go:linkname Fn30093 github.com/doitintl/googlesqlwasm2go/p6.Fn30093
+func Fn30093(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31185 github.com/goccy/googlesqlwasm2go/p9.Fn31185
-func Fn31185(m *base.Module, l0 int32) int32
+//go:linkname Fn30101 github.com/doitintl/googlesqlwasm2go/p9.Fn30101
+func Fn30101(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31186 github.com/goccy/googlesqlwasm2go/p9.Fn31186
-func Fn31186(m *base.Module, l0 int32) int32
+//go:linkname Fn30102 github.com/doitintl/googlesqlwasm2go/p9.Fn30102
+func Fn30102(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31187 github.com/goccy/googlesqlwasm2go/p3.Fn31187
-func Fn31187(m *base.Module, l0 int32) int32
+//go:linkname Fn30103 github.com/doitintl/googlesqlwasm2go/p6.Fn30103
+func Fn30103(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31188 github.com/goccy/googlesqlwasm2go/p10.Fn31188
-func Fn31188(m *base.Module, l0 int32) int32
+//go:linkname Fn30105 github.com/doitintl/googlesqlwasm2go/p6.Fn30105
+func Fn30105(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31189 github.com/goccy/googlesqlwasm2go/p3.Fn31189
-func Fn31189(m *base.Module, l0 int32) int32
+//go:linkname Fn30110 github.com/doitintl/googlesqlwasm2go/p10.Fn30110
+func Fn30110(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31190 github.com/goccy/googlesqlwasm2go/p9.Fn31190
-func Fn31190(m *base.Module, l0 int32) int32
+//go:linkname Fn30112 github.com/doitintl/googlesqlwasm2go/p10.Fn30112
+func Fn30112(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31191 github.com/goccy/googlesqlwasm2go/p10.Fn31191
-func Fn31191(m *base.Module, l0 int32) int32
+//go:linkname Fn30113 github.com/doitintl/googlesqlwasm2go/p10.Fn30113
+func Fn30113(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31192 github.com/goccy/googlesqlwasm2go/p3.Fn31192
-func Fn31192(m *base.Module, l0 int32) int32
+//go:linkname Fn30114 github.com/doitintl/googlesqlwasm2go/p6.Fn30114
+func Fn30114(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31193 github.com/goccy/googlesqlwasm2go/p3.Fn31193
-func Fn31193(m *base.Module, l0 int32) int32
+//go:linkname Fn30120 github.com/doitintl/googlesqlwasm2go/p10.Fn30120
+func Fn30120(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31194 github.com/goccy/googlesqlwasm2go/p9.Fn31194
-func Fn31194(m *base.Module, l0 int32) int32
+//go:linkname Fn30121 github.com/doitintl/googlesqlwasm2go/p10.Fn30121
+func Fn30121(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31195 github.com/goccy/googlesqlwasm2go/p9.Fn31195
-func Fn31195(m *base.Module, l0 int32) int32
+//go:linkname Fn30122 github.com/doitintl/googlesqlwasm2go/p10.Fn30122
+func Fn30122(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31196 github.com/goccy/googlesqlwasm2go/p3.Fn31196
-func Fn31196(m *base.Module, l0 int32) int32
+//go:linkname Fn30126 github.com/doitintl/googlesqlwasm2go/p8.Fn30126
+func Fn30126(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31197 github.com/goccy/googlesqlwasm2go/p9.Fn31197
-func Fn31197(m *base.Module, l0 int32) int32
+//go:linkname Fn30128 github.com/doitintl/googlesqlwasm2go/p10.Fn30128
+func Fn30128(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31198 github.com/goccy/googlesqlwasm2go/p9.Fn31198
-func Fn31198(m *base.Module, l0 int32) int32
+//go:linkname Fn30129 github.com/doitintl/googlesqlwasm2go/p6.Fn30129
+func Fn30129(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31199 github.com/goccy/googlesqlwasm2go/p9.Fn31199
-func Fn31199(m *base.Module, l0 int32) int32
+//go:linkname Fn30135 github.com/doitintl/googlesqlwasm2go/p8.Fn30135
+func Fn30135(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31200 github.com/goccy/googlesqlwasm2go/p9.Fn31200
-func Fn31200(m *base.Module, l0 int32) int32
+//go:linkname Fn30137 github.com/doitintl/googlesqlwasm2go/p10.Fn30137
+func Fn30137(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31204 github.com/goccy/googlesqlwasm2go/p10.Fn31204
-func Fn31204(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn30138 github.com/doitintl/googlesqlwasm2go/p6.Fn30138
+func Fn30138(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31210 github.com/goccy/googlesqlwasm2go/p10.Fn31210
-func Fn31210(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn30144 github.com/doitintl/googlesqlwasm2go/p8.Fn30144
+func Fn30144(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31212 github.com/goccy/googlesqlwasm2go/p3.Fn31212
-func Fn31212(m *base.Module, l0 int32) int32
+//go:linkname Fn30146 github.com/doitintl/googlesqlwasm2go/p10.Fn30146
+func Fn30146(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31213 github.com/goccy/googlesqlwasm2go/p9.Fn31213
-func Fn31213(m *base.Module, l0 int32) int32
+//go:linkname Fn30147 github.com/doitintl/googlesqlwasm2go/p6.Fn30147
+func Fn30147(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31214 github.com/goccy/googlesqlwasm2go/p9.Fn31214
-func Fn31214(m *base.Module, l0 int32) int32
+//go:linkname Fn30151 github.com/doitintl/googlesqlwasm2go/p10.Fn30151
+func Fn30151(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31215 github.com/goccy/googlesqlwasm2go/p9.Fn31215
-func Fn31215(m *base.Module, l0 int32) int32
+//go:linkname Fn30153 github.com/doitintl/googlesqlwasm2go/p10.Fn30153
+func Fn30153(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31216 github.com/goccy/googlesqlwasm2go/p3.Fn31216
-func Fn31216(m *base.Module, l0 int32) int32
+//go:linkname Fn30155 github.com/doitintl/googlesqlwasm2go/p10.Fn30155
+func Fn30155(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31217 github.com/goccy/googlesqlwasm2go/p3.Fn31217
-func Fn31217(m *base.Module, l0 int32) int32
+//go:linkname Fn30159 github.com/doitintl/googlesqlwasm2go/p9.Fn30159
+func Fn30159(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31218 github.com/goccy/googlesqlwasm2go/p9.Fn31218
-func Fn31218(m *base.Module, l0 int32) int32
+//go:linkname Fn30160 github.com/doitintl/googlesqlwasm2go/p9.Fn30160
+func Fn30160(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31219 github.com/goccy/googlesqlwasm2go/p3.Fn31219
-func Fn31219(m *base.Module, l0 int32) int32
+//go:linkname Fn30161 github.com/doitintl/googlesqlwasm2go/p6.Fn30161
+func Fn30161(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31220 github.com/goccy/googlesqlwasm2go/p3.Fn31220
-func Fn31220(m *base.Module, l0 int32) int32
+//go:linkname Fn30163 github.com/doitintl/googlesqlwasm2go/p5.Fn30163
+func Fn30163(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31221 github.com/goccy/googlesqlwasm2go/p3.Fn31221
-func Fn31221(m *base.Module, l0 int32) int32
+//go:linkname Fn30164 github.com/doitintl/googlesqlwasm2go/p5.Fn30164
+func Fn30164(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31222 github.com/goccy/googlesqlwasm2go/p10.Fn31222
-func Fn31222(m *base.Module, l0 int32) int32
+//go:linkname Fn30170 github.com/doitintl/googlesqlwasm2go/p6.Fn30170
+func Fn30170(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31223 github.com/goccy/googlesqlwasm2go/p9.Fn31223
-func Fn31223(m *base.Module, l0 int32) int32
+//go:linkname Fn30172 github.com/doitintl/googlesqlwasm2go/p10.Fn30172
+func Fn30172(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31224 github.com/goccy/googlesqlwasm2go/p3.Fn31224
-func Fn31224(m *base.Module, l0 int32) int32
+//go:linkname Fn30174 github.com/doitintl/googlesqlwasm2go/p10.Fn30174
+func Fn30174(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31225 github.com/goccy/googlesqlwasm2go/p3.Fn31225
-func Fn31225(m *base.Module, l0 int32) int32
+//go:linkname Fn30175 github.com/doitintl/googlesqlwasm2go/p10.Fn30175
+func Fn30175(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31226 github.com/goccy/googlesqlwasm2go/p9.Fn31226
-func Fn31226(m *base.Module, l0 int32) int32
+//go:linkname Fn30177 github.com/doitintl/googlesqlwasm2go/p10.Fn30177
+func Fn30177(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31227 github.com/goccy/googlesqlwasm2go/p3.Fn31227
-func Fn31227(m *base.Module, l0 int32) int32
+//go:linkname Fn30178 github.com/doitintl/googlesqlwasm2go/p6.Fn30178
+func Fn30178(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31228 github.com/goccy/googlesqlwasm2go/p9.Fn31228
+//go:linkname Fn30184 github.com/doitintl/googlesqlwasm2go/p10.Fn30184
+func Fn30184(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn30185 github.com/doitintl/googlesqlwasm2go/p10.Fn30185
+func Fn30185(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn30186 github.com/doitintl/googlesqlwasm2go/p10.Fn30186
+func Fn30186(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn30188 github.com/doitintl/googlesqlwasm2go/p10.Fn30188
+func Fn30188(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn30190 github.com/doitintl/googlesqlwasm2go/p10.Fn30190
+func Fn30190(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn30192 github.com/doitintl/googlesqlwasm2go/p10.Fn30192
+func Fn30192(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn30195 github.com/doitintl/googlesqlwasm2go/p10.Fn30195
+func Fn30195(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn30197 github.com/doitintl/googlesqlwasm2go/p5.Fn30197
+func Fn30197(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn30198 github.com/doitintl/googlesqlwasm2go/p6.Fn30198
+func Fn30198(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn30204 github.com/doitintl/googlesqlwasm2go/p9.Fn30204
+func Fn30204(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn30205 github.com/doitintl/googlesqlwasm2go/p9.Fn30205
+func Fn30205(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn30206 github.com/doitintl/googlesqlwasm2go/p6.Fn30206
+func Fn30206(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn30208 github.com/doitintl/googlesqlwasm2go/p5.Fn30208
+func Fn30208(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn30209 github.com/doitintl/googlesqlwasm2go/p5.Fn30209
+func Fn30209(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn30213 github.com/doitintl/googlesqlwasm2go/p10.Fn30213
+func Fn30213(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn30214 github.com/doitintl/googlesqlwasm2go/p10.Fn30214
+func Fn30214(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn30215 github.com/doitintl/googlesqlwasm2go/p10.Fn30215
+func Fn30215(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn30217 github.com/doitintl/googlesqlwasm2go/p10.Fn30217
+func Fn30217(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn30803 github.com/doitintl/googlesqlwasm2go/p9.Fn30803
+func Fn30803(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+
+//go:linkname Fn30807 github.com/doitintl/googlesqlwasm2go/p9.Fn30807
+func Fn30807(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+
+//go:linkname Fn30878 github.com/doitintl/googlesqlwasm2go/p9.Fn30878
+func Fn30878(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn31053 github.com/doitintl/googlesqlwasm2go/p6.Fn31053
+func Fn31053(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn31228 github.com/doitintl/googlesqlwasm2go/p10.Fn31228
 func Fn31228(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31229 github.com/goccy/googlesqlwasm2go/p3.Fn31229
-func Fn31229(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31230 github.com/goccy/googlesqlwasm2go/p3.Fn31230
-func Fn31230(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31231 github.com/goccy/googlesqlwasm2go/p3.Fn31231
+//go:linkname Fn31231 github.com/doitintl/googlesqlwasm2go/p10.Fn31231
 func Fn31231(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31232 github.com/goccy/googlesqlwasm2go/p3.Fn31232
-func Fn31232(m *base.Module, l0 int32) int32
+//go:linkname Fn31255 github.com/doitintl/googlesqlwasm2go/p9.Fn31255
+func Fn31255(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31233 github.com/goccy/googlesqlwasm2go/p3.Fn31233
-func Fn31233(m *base.Module, l0 int32) int32
+//go:linkname Fn31262 github.com/doitintl/googlesqlwasm2go/p6.Fn31262
+func Fn31262(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31237 github.com/goccy/googlesqlwasm2go/p10.Fn31237
-func Fn31237(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31242 github.com/goccy/googlesqlwasm2go/p10.Fn31242
-func Fn31242(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31246 github.com/goccy/googlesqlwasm2go/p10.Fn31246
-func Fn31246(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31250 github.com/goccy/googlesqlwasm2go/p10.Fn31250
-func Fn31250(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31253 github.com/goccy/googlesqlwasm2go/p10.Fn31253
-func Fn31253(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31257 github.com/goccy/googlesqlwasm2go/p10.Fn31257
-func Fn31257(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31261 github.com/goccy/googlesqlwasm2go/p10.Fn31261
-func Fn31261(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31265 github.com/goccy/googlesqlwasm2go/p10.Fn31265
+//go:linkname Fn31265 github.com/doitintl/googlesqlwasm2go/p9.Fn31265
 func Fn31265(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31269 github.com/goccy/googlesqlwasm2go/p10.Fn31269
+//go:linkname Fn31266 github.com/doitintl/googlesqlwasm2go/p9.Fn31266
+func Fn31266(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn31267 github.com/doitintl/googlesqlwasm2go/p6.Fn31267
+func Fn31267(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+
+//go:linkname Fn31269 github.com/doitintl/googlesqlwasm2go/p10.Fn31269
 func Fn31269(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31273 github.com/goccy/googlesqlwasm2go/p10.Fn31273
-func Fn31273(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31271 github.com/doitintl/googlesqlwasm2go/p10.Fn31271
+func Fn31271(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31277 github.com/goccy/googlesqlwasm2go/p10.Fn31277
+//go:linkname Fn31272 github.com/doitintl/googlesqlwasm2go/p9.Fn31272
+func Fn31272(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn31277 github.com/doitintl/googlesqlwasm2go/p9.Fn31277
 func Fn31277(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31281 github.com/goccy/googlesqlwasm2go/p10.Fn31281
-func Fn31281(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31278 github.com/doitintl/googlesqlwasm2go/p9.Fn31278
+func Fn31278(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31284 github.com/goccy/googlesqlwasm2go/p10.Fn31284
-func Fn31284(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31280 github.com/doitintl/googlesqlwasm2go/p10.Fn31280
+func Fn31280(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31288 github.com/goccy/googlesqlwasm2go/p10.Fn31288
-func Fn31288(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31286 github.com/doitintl/googlesqlwasm2go/p9.Fn31286
+func Fn31286(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn31290 github.com/goccy/googlesqlwasm2go/p9.Fn31290
-func Fn31290(m *base.Module, l0 int32) int32
+//go:linkname Fn31293 github.com/doitintl/googlesqlwasm2go/p5.Fn31293
+func Fn31293(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn31291 github.com/goccy/googlesqlwasm2go/p3.Fn31291
-func Fn31291(m *base.Module, l0 int32) int32
+//go:linkname Fn31298 github.com/doitintl/googlesqlwasm2go/p6.Fn31298
+func Fn31298(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31295 github.com/goccy/googlesqlwasm2go/p10.Fn31295
-func Fn31295(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31301 github.com/goccy/googlesqlwasm2go/p10.Fn31301
-func Fn31301(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31305 github.com/goccy/googlesqlwasm2go/p10.Fn31305
+//go:linkname Fn31305 github.com/doitintl/googlesqlwasm2go/p10.Fn31305
 func Fn31305(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31307 github.com/goccy/googlesqlwasm2go/p3.Fn31307
-func Fn31307(m *base.Module, l0 int32) int32
+//go:linkname Fn31323 github.com/doitintl/googlesqlwasm2go/p10.Fn31323
+func Fn31323(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31308 github.com/goccy/googlesqlwasm2go/p3.Fn31308
-func Fn31308(m *base.Module, l0 int32) int32
+//go:linkname Fn31410 github.com/doitintl/googlesqlwasm2go/p8.Fn31410
+func Fn31410(m *base.Module, l0 int32)
 
-//go:linkname Fn31312 github.com/goccy/googlesqlwasm2go/p10.Fn31312
-func Fn31312(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31418 github.com/doitintl/googlesqlwasm2go/p10.Fn31418
+func Fn31418(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31317 github.com/goccy/googlesqlwasm2go/p10.Fn31317
-func Fn31317(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31419 github.com/doitintl/googlesqlwasm2go/p4.Fn31419
+func Fn31419(m *base.Module, l0 int32)
 
-//go:linkname Fn31321 github.com/goccy/googlesqlwasm2go/p10.Fn31321
-func Fn31321(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31434 github.com/doitintl/googlesqlwasm2go/p9.Fn31434
+func Fn31434(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31325 github.com/goccy/googlesqlwasm2go/p10.Fn31325
-func Fn31325(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31435 github.com/doitintl/googlesqlwasm2go/p8.Fn31435
+func Fn31435(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31329 github.com/goccy/googlesqlwasm2go/p10.Fn31329
-func Fn31329(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31436 github.com/doitintl/googlesqlwasm2go/p10.Fn31436
+func Fn31436(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31332 github.com/goccy/googlesqlwasm2go/p10.Fn31332
-func Fn31332(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31437 github.com/doitintl/googlesqlwasm2go/p9.Fn31437
+func Fn31437(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31336 github.com/goccy/googlesqlwasm2go/p10.Fn31336
-func Fn31336(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31439 github.com/doitintl/googlesqlwasm2go/p9.Fn31439
+func Fn31439(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31340 github.com/goccy/googlesqlwasm2go/p10.Fn31340
-func Fn31340(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31440 github.com/doitintl/googlesqlwasm2go/p9.Fn31440
+func Fn31440(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31343 github.com/goccy/googlesqlwasm2go/p10.Fn31343
-func Fn31343(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31442 github.com/doitintl/googlesqlwasm2go/p9.Fn31442
+func Fn31442(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31347 github.com/goccy/googlesqlwasm2go/p10.Fn31347
-func Fn31347(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31443 github.com/doitintl/googlesqlwasm2go/p9.Fn31443
+func Fn31443(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31351 github.com/goccy/googlesqlwasm2go/p10.Fn31351
-func Fn31351(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31445 github.com/doitintl/googlesqlwasm2go/p4.Fn31445
+func Fn31445(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31355 github.com/goccy/googlesqlwasm2go/p10.Fn31355
-func Fn31355(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31449 github.com/doitintl/googlesqlwasm2go/p10.Fn31449
+func Fn31449(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31359 github.com/goccy/googlesqlwasm2go/p10.Fn31359
-func Fn31359(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31450 github.com/doitintl/googlesqlwasm2go/p9.Fn31450
+func Fn31450(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31363 github.com/goccy/googlesqlwasm2go/p10.Fn31363
-func Fn31363(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31451 github.com/doitintl/googlesqlwasm2go/p9.Fn31451
+func Fn31451(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31366 github.com/goccy/googlesqlwasm2go/p10.Fn31366
-func Fn31366(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31452 github.com/doitintl/googlesqlwasm2go/p10.Fn31452
+func Fn31452(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31370 github.com/goccy/googlesqlwasm2go/p10.Fn31370
-func Fn31370(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31455 github.com/doitintl/googlesqlwasm2go/p10.Fn31455
+func Fn31455(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31375 github.com/goccy/googlesqlwasm2go/p10.Fn31375
-func Fn31375(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31456 github.com/doitintl/googlesqlwasm2go/p3.Fn31456
+func Fn31456(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31378 github.com/goccy/googlesqlwasm2go/p10.Fn31378
-func Fn31378(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31457 github.com/doitintl/googlesqlwasm2go/p9.Fn31457
+func Fn31457(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31382 github.com/goccy/googlesqlwasm2go/p10.Fn31382
-func Fn31382(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31458 github.com/doitintl/googlesqlwasm2go/p9.Fn31458
+func Fn31458(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31387 github.com/goccy/googlesqlwasm2go/p10.Fn31387
-func Fn31387(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31459 github.com/doitintl/googlesqlwasm2go/p9.Fn31459
+func Fn31459(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31390 github.com/goccy/googlesqlwasm2go/p10.Fn31390
-func Fn31390(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31460 github.com/doitintl/googlesqlwasm2go/p10.Fn31460
+func Fn31460(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31392 github.com/goccy/googlesqlwasm2go/p3.Fn31392
-func Fn31392(m *base.Module, l0 int32) int32
+//go:linkname Fn31461 github.com/doitintl/googlesqlwasm2go/p9.Fn31461
+func Fn31461(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31393 github.com/goccy/googlesqlwasm2go/p10.Fn31393
-func Fn31393(m *base.Module, l0 int32) int32
+//go:linkname Fn31462 github.com/doitintl/googlesqlwasm2go/p10.Fn31462
+func Fn31462(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31394 github.com/goccy/googlesqlwasm2go/p3.Fn31394
-func Fn31394(m *base.Module, l0 int32) int32
+//go:linkname Fn31463 github.com/doitintl/googlesqlwasm2go/p9.Fn31463
+func Fn31463(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31395 github.com/goccy/googlesqlwasm2go/p3.Fn31395
-func Fn31395(m *base.Module, l0 int32) int32
+//go:linkname Fn31464 github.com/doitintl/googlesqlwasm2go/p9.Fn31464
+func Fn31464(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31396 github.com/goccy/googlesqlwasm2go/p3.Fn31396
-func Fn31396(m *base.Module, l0 int32) int32
+//go:linkname Fn31465 github.com/doitintl/googlesqlwasm2go/p10.Fn31465
+func Fn31465(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31397 github.com/goccy/googlesqlwasm2go/p3.Fn31397
-func Fn31397(m *base.Module, l0 int32) int32
+//go:linkname Fn31466 github.com/doitintl/googlesqlwasm2go/p9.Fn31466
+func Fn31466(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31398 github.com/goccy/googlesqlwasm2go/p9.Fn31398
-func Fn31398(m *base.Module, l0 int32) int32
+//go:linkname Fn31467 github.com/doitintl/googlesqlwasm2go/p9.Fn31467
+func Fn31467(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31399 github.com/goccy/googlesqlwasm2go/p3.Fn31399
-func Fn31399(m *base.Module, l0 int32) int32
+//go:linkname Fn31468 github.com/doitintl/googlesqlwasm2go/p3.Fn31468
+func Fn31468(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31400 github.com/goccy/googlesqlwasm2go/p3.Fn31400
-func Fn31400(m *base.Module, l0 int32) int32
+//go:linkname Fn31469 github.com/doitintl/googlesqlwasm2go/p10.Fn31469
+func Fn31469(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31401 github.com/goccy/googlesqlwasm2go/p9.Fn31401
-func Fn31401(m *base.Module, l0 int32) int32
+//go:linkname Fn31471 github.com/doitintl/googlesqlwasm2go/p9.Fn31471
+func Fn31471(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31402 github.com/goccy/googlesqlwasm2go/p3.Fn31402
-func Fn31402(m *base.Module, l0 int32) int32
+//go:linkname Fn31473 github.com/doitintl/googlesqlwasm2go/p3.Fn31473
+func Fn31473(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31403 github.com/goccy/googlesqlwasm2go/p9.Fn31403
-func Fn31403(m *base.Module, l0 int32) int32
+//go:linkname Fn31476 github.com/doitintl/googlesqlwasm2go/p9.Fn31476
+func Fn31476(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31404 github.com/goccy/googlesqlwasm2go/p3.Fn31404
-func Fn31404(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31405 github.com/goccy/googlesqlwasm2go/p3.Fn31405
-func Fn31405(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31406 github.com/goccy/googlesqlwasm2go/p3.Fn31406
-func Fn31406(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31407 github.com/goccy/googlesqlwasm2go/p9.Fn31407
-func Fn31407(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31408 github.com/goccy/googlesqlwasm2go/p3.Fn31408
-func Fn31408(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31409 github.com/goccy/googlesqlwasm2go/p3.Fn31409
-func Fn31409(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31410 github.com/goccy/googlesqlwasm2go/p3.Fn31410
-func Fn31410(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31411 github.com/goccy/googlesqlwasm2go/p3.Fn31411
-func Fn31411(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31412 github.com/goccy/googlesqlwasm2go/p3.Fn31412
-func Fn31412(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31413 github.com/goccy/googlesqlwasm2go/p3.Fn31413
-func Fn31413(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31414 github.com/goccy/googlesqlwasm2go/p3.Fn31414
-func Fn31414(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31415 github.com/goccy/googlesqlwasm2go/p3.Fn31415
-func Fn31415(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31416 github.com/goccy/googlesqlwasm2go/p3.Fn31416
-func Fn31416(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31417 github.com/goccy/googlesqlwasm2go/p3.Fn31417
-func Fn31417(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31418 github.com/goccy/googlesqlwasm2go/p3.Fn31418
-func Fn31418(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31419 github.com/goccy/googlesqlwasm2go/p3.Fn31419
-func Fn31419(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31420 github.com/goccy/googlesqlwasm2go/p3.Fn31420
-func Fn31420(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31424 github.com/goccy/googlesqlwasm2go/p10.Fn31424
-func Fn31424(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31430 github.com/goccy/googlesqlwasm2go/p10.Fn31430
-func Fn31430(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31434 github.com/goccy/googlesqlwasm2go/p10.Fn31434
-func Fn31434(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31437 github.com/goccy/googlesqlwasm2go/p10.Fn31437
-func Fn31437(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31440 github.com/goccy/googlesqlwasm2go/p10.Fn31440
-func Fn31440(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31445 github.com/goccy/googlesqlwasm2go/p10.Fn31445
-func Fn31445(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31449 github.com/goccy/googlesqlwasm2go/p10.Fn31449
-func Fn31449(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31452 github.com/goccy/googlesqlwasm2go/p10.Fn31452
-func Fn31452(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31456 github.com/goccy/googlesqlwasm2go/p10.Fn31456
-func Fn31456(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31460 github.com/goccy/googlesqlwasm2go/p10.Fn31460
-func Fn31460(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31464 github.com/goccy/googlesqlwasm2go/p10.Fn31464
-func Fn31464(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31468 github.com/goccy/googlesqlwasm2go/p10.Fn31468
-func Fn31468(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31472 github.com/goccy/googlesqlwasm2go/p10.Fn31472
-func Fn31472(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31476 github.com/goccy/googlesqlwasm2go/p10.Fn31476
-func Fn31476(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31478 github.com/goccy/googlesqlwasm2go/p9.Fn31478
+//go:linkname Fn31478 github.com/doitintl/googlesqlwasm2go/p9.Fn31478
 func Fn31478(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31482 github.com/goccy/googlesqlwasm2go/p10.Fn31482
-func Fn31482(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31480 github.com/doitintl/googlesqlwasm2go/p10.Fn31480
+func Fn31480(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31486 github.com/goccy/googlesqlwasm2go/p10.Fn31486
-func Fn31486(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31485 github.com/doitintl/googlesqlwasm2go/p10.Fn31485
+func Fn31485(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31490 github.com/goccy/googlesqlwasm2go/p10.Fn31490
-func Fn31490(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31491 github.com/doitintl/googlesqlwasm2go/p10.Fn31491
+func Fn31491(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31493 github.com/goccy/googlesqlwasm2go/p10.Fn31493
-func Fn31493(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31492 github.com/doitintl/googlesqlwasm2go/p3.Fn31492
+func Fn31492(m *base.Module, l0 int32)
 
-//go:linkname Fn31496 github.com/goccy/googlesqlwasm2go/p10.Fn31496
-func Fn31496(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31518 github.com/doitintl/googlesqlwasm2go/p10.Fn31518
+func Fn31518(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31499 github.com/goccy/googlesqlwasm2go/p10.Fn31499
-func Fn31499(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31502 github.com/goccy/googlesqlwasm2go/p10.Fn31502
-func Fn31502(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31504 github.com/goccy/googlesqlwasm2go/p3.Fn31504
-func Fn31504(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31505 github.com/goccy/googlesqlwasm2go/p3.Fn31505
-func Fn31505(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31506 github.com/goccy/googlesqlwasm2go/p3.Fn31506
-func Fn31506(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31510 github.com/goccy/googlesqlwasm2go/p10.Fn31510
-func Fn31510(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31515 github.com/goccy/googlesqlwasm2go/p10.Fn31515
-func Fn31515(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31519 github.com/goccy/googlesqlwasm2go/p10.Fn31519
-func Fn31519(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31523 github.com/goccy/googlesqlwasm2go/p10.Fn31523
+//go:linkname Fn31523 github.com/doitintl/googlesqlwasm2go/p10.Fn31523
 func Fn31523(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31526 github.com/goccy/googlesqlwasm2go/p10.Fn31526
-func Fn31526(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31527 github.com/doitintl/googlesqlwasm2go/p10.Fn31527
+func Fn31527(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31530 github.com/goccy/googlesqlwasm2go/p10.Fn31530
-func Fn31530(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31531 github.com/doitintl/googlesqlwasm2go/p10.Fn31531
+func Fn31531(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31534 github.com/goccy/googlesqlwasm2go/p10.Fn31534
+//go:linkname Fn31534 github.com/doitintl/googlesqlwasm2go/p10.Fn31534
 func Fn31534(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31538 github.com/goccy/googlesqlwasm2go/p10.Fn31538
+//go:linkname Fn31538 github.com/doitintl/googlesqlwasm2go/p10.Fn31538
 func Fn31538(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31542 github.com/goccy/googlesqlwasm2go/p10.Fn31542
+//go:linkname Fn31542 github.com/doitintl/googlesqlwasm2go/p10.Fn31542
 func Fn31542(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31546 github.com/goccy/googlesqlwasm2go/p10.Fn31546
+//go:linkname Fn31546 github.com/doitintl/googlesqlwasm2go/p10.Fn31546
 func Fn31546(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31550 github.com/goccy/googlesqlwasm2go/p10.Fn31550
+//go:linkname Fn31550 github.com/doitintl/googlesqlwasm2go/p10.Fn31550
 func Fn31550(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31553 github.com/goccy/googlesqlwasm2go/p10.Fn31553
-func Fn31553(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31554 github.com/doitintl/googlesqlwasm2go/p10.Fn31554
+func Fn31554(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31557 github.com/goccy/googlesqlwasm2go/p10.Fn31557
-func Fn31557(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31558 github.com/doitintl/googlesqlwasm2go/p10.Fn31558
+func Fn31558(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31559 github.com/goccy/googlesqlwasm2go/p10.Fn31559
-func Fn31559(m *base.Module, l0 int32) int32
+//go:linkname Fn31562 github.com/doitintl/googlesqlwasm2go/p10.Fn31562
+func Fn31562(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31563 github.com/goccy/googlesqlwasm2go/p10.Fn31563
-func Fn31563(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31565 github.com/doitintl/googlesqlwasm2go/p10.Fn31565
+func Fn31565(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31566 github.com/goccy/googlesqlwasm2go/p10.Fn31566
-func Fn31566(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31569 github.com/doitintl/googlesqlwasm2go/p10.Fn31569
+func Fn31569(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31568 github.com/goccy/googlesqlwasm2go/p3.Fn31568
-func Fn31568(m *base.Module, l0 int32) int32
+//go:linkname Fn31570 github.com/doitintl/googlesqlwasm2go/p3.Fn31570
+func Fn31570(m *base.Module, l0 int32)
 
-//go:linkname Fn31569 github.com/goccy/googlesqlwasm2go/p9.Fn31569
-func Fn31569(m *base.Module, l0 int32) int32
+//go:linkname Fn31576 github.com/doitintl/googlesqlwasm2go/p10.Fn31576
+func Fn31576(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31573 github.com/goccy/googlesqlwasm2go/p10.Fn31573
-func Fn31573(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31575 github.com/goccy/googlesqlwasm2go/p10.Fn31575
-func Fn31575(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31578 github.com/goccy/googlesqlwasm2go/p10.Fn31578
-func Fn31578(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31582 github.com/goccy/googlesqlwasm2go/p10.Fn31582
+//go:linkname Fn31582 github.com/doitintl/googlesqlwasm2go/p10.Fn31582
 func Fn31582(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31586 github.com/goccy/googlesqlwasm2go/p10.Fn31586
+//go:linkname Fn31586 github.com/doitintl/googlesqlwasm2go/p10.Fn31586
 func Fn31586(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31590 github.com/goccy/googlesqlwasm2go/p10.Fn31590
-func Fn31590(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31587 github.com/doitintl/googlesqlwasm2go/p3.Fn31587
+func Fn31587(m *base.Module, l0 int32)
 
-//go:linkname Fn31595 github.com/goccy/googlesqlwasm2go/p10.Fn31595
-func Fn31595(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31593 github.com/doitintl/googlesqlwasm2go/p10.Fn31593
+func Fn31593(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31599 github.com/goccy/googlesqlwasm2go/p10.Fn31599
-func Fn31599(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31598 github.com/doitintl/googlesqlwasm2go/p10.Fn31598
+func Fn31598(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31603 github.com/goccy/googlesqlwasm2go/p10.Fn31603
-func Fn31603(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31602 github.com/doitintl/googlesqlwasm2go/p10.Fn31602
+func Fn31602(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31607 github.com/goccy/googlesqlwasm2go/p10.Fn31607
-func Fn31607(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31606 github.com/doitintl/googlesqlwasm2go/p10.Fn31606
+func Fn31606(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31609 github.com/goccy/googlesqlwasm2go/p9.Fn31609
-func Fn31609(m *base.Module, l0 int32) int32
+//go:linkname Fn31610 github.com/doitintl/googlesqlwasm2go/p10.Fn31610
+func Fn31610(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31610 github.com/goccy/googlesqlwasm2go/p9.Fn31610
-func Fn31610(m *base.Module, l0 int32) int32
+//go:linkname Fn31613 github.com/doitintl/googlesqlwasm2go/p10.Fn31613
+func Fn31613(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31611 github.com/goccy/googlesqlwasm2go/p9.Fn31611
-func Fn31611(m *base.Module, l0 int32) int32
+//go:linkname Fn31617 github.com/doitintl/googlesqlwasm2go/p10.Fn31617
+func Fn31617(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31615 github.com/goccy/googlesqlwasm2go/p10.Fn31615
-func Fn31615(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31621 github.com/doitintl/googlesqlwasm2go/p10.Fn31621
+func Fn31621(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31618 github.com/goccy/googlesqlwasm2go/p10.Fn31618
-func Fn31618(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31624 github.com/doitintl/googlesqlwasm2go/p10.Fn31624
+func Fn31624(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31622 github.com/goccy/googlesqlwasm2go/p10.Fn31622
-func Fn31622(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31628 github.com/doitintl/googlesqlwasm2go/p10.Fn31628
+func Fn31628(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31626 github.com/goccy/googlesqlwasm2go/p10.Fn31626
-func Fn31626(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31632 github.com/doitintl/googlesqlwasm2go/p10.Fn31632
+func Fn31632(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31630 github.com/goccy/googlesqlwasm2go/p10.Fn31630
-func Fn31630(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31636 github.com/doitintl/googlesqlwasm2go/p10.Fn31636
+func Fn31636(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31634 github.com/goccy/googlesqlwasm2go/p10.Fn31634
-func Fn31634(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31637 github.com/goccy/googlesqlwasm2go/p10.Fn31637
-func Fn31637(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31640 github.com/goccy/googlesqlwasm2go/p10.Fn31640
+//go:linkname Fn31640 github.com/doitintl/googlesqlwasm2go/p10.Fn31640
 func Fn31640(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31644 github.com/goccy/googlesqlwasm2go/p10.Fn31644
+//go:linkname Fn31644 github.com/doitintl/googlesqlwasm2go/p10.Fn31644
 func Fn31644(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31648 github.com/goccy/googlesqlwasm2go/p10.Fn31648
-func Fn31648(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31647 github.com/doitintl/googlesqlwasm2go/p10.Fn31647
+func Fn31647(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31652 github.com/goccy/googlesqlwasm2go/p10.Fn31652
-func Fn31652(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31651 github.com/doitintl/googlesqlwasm2go/p10.Fn31651
+func Fn31651(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31654 github.com/goccy/googlesqlwasm2go/p9.Fn31654
-func Fn31654(m *base.Module, l0 int32) int32
+//go:linkname Fn31656 github.com/doitintl/googlesqlwasm2go/p10.Fn31656
+func Fn31656(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31655 github.com/goccy/googlesqlwasm2go/p4.Fn31655
-func Fn31655(m *base.Module, l0 int32) int32
+//go:linkname Fn31659 github.com/doitintl/googlesqlwasm2go/p10.Fn31659
+func Fn31659(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31656 github.com/goccy/googlesqlwasm2go/p9.Fn31656
-func Fn31656(m *base.Module, l0 int32) int32
+//go:linkname Fn31663 github.com/doitintl/googlesqlwasm2go/p10.Fn31663
+func Fn31663(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31657 github.com/goccy/googlesqlwasm2go/p10.Fn31657
-func Fn31657(m *base.Module, l0 int32) int32
+//go:linkname Fn31668 github.com/doitintl/googlesqlwasm2go/p10.Fn31668
+func Fn31668(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31658 github.com/goccy/googlesqlwasm2go/p3.Fn31658
-func Fn31658(m *base.Module, l0 int32) int32
+//go:linkname Fn31671 github.com/doitintl/googlesqlwasm2go/p10.Fn31671
+func Fn31671(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31659 github.com/goccy/googlesqlwasm2go/p9.Fn31659
-func Fn31659(m *base.Module, l0 int32) int32
+//go:linkname Fn31672 github.com/doitintl/googlesqlwasm2go/p3.Fn31672
+func Fn31672(m *base.Module, l0 int32)
 
-//go:linkname Fn31660 github.com/goccy/googlesqlwasm2go/p9.Fn31660
-func Fn31660(m *base.Module, l0 int32) int32
+//go:linkname Fn31705 github.com/doitintl/googlesqlwasm2go/p10.Fn31705
+func Fn31705(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31661 github.com/goccy/googlesqlwasm2go/p9.Fn31661
-func Fn31661(m *base.Module, l0 int32) int32
+//go:linkname Fn31711 github.com/doitintl/googlesqlwasm2go/p10.Fn31711
+func Fn31711(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31662 github.com/goccy/googlesqlwasm2go/p9.Fn31662
-func Fn31662(m *base.Module, l0 int32) int32
+//go:linkname Fn31715 github.com/doitintl/googlesqlwasm2go/p10.Fn31715
+func Fn31715(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31663 github.com/goccy/googlesqlwasm2go/p10.Fn31663
-func Fn31663(m *base.Module, l0 int32) int32
+//go:linkname Fn31718 github.com/doitintl/googlesqlwasm2go/p10.Fn31718
+func Fn31718(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31664 github.com/goccy/googlesqlwasm2go/p3.Fn31664
-func Fn31664(m *base.Module, l0 int32) int32
+//go:linkname Fn31721 github.com/doitintl/googlesqlwasm2go/p10.Fn31721
+func Fn31721(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31665 github.com/goccy/googlesqlwasm2go/p9.Fn31665
-func Fn31665(m *base.Module, l0 int32) int32
+//go:linkname Fn31726 github.com/doitintl/googlesqlwasm2go/p10.Fn31726
+func Fn31726(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31666 github.com/goccy/googlesqlwasm2go/p8.Fn31666
-func Fn31666(m *base.Module, l0 int32) int32
+//go:linkname Fn31730 github.com/doitintl/googlesqlwasm2go/p10.Fn31730
+func Fn31730(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31667 github.com/goccy/googlesqlwasm2go/p10.Fn31667
-func Fn31667(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31668 github.com/goccy/googlesqlwasm2go/p9.Fn31668
-func Fn31668(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31669 github.com/goccy/googlesqlwasm2go/p9.Fn31669
-func Fn31669(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31670 github.com/goccy/googlesqlwasm2go/p9.Fn31670
-func Fn31670(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31671 github.com/goccy/googlesqlwasm2go/p9.Fn31671
-func Fn31671(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31672 github.com/goccy/googlesqlwasm2go/p9.Fn31672
-func Fn31672(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31673 github.com/goccy/googlesqlwasm2go/p9.Fn31673
-func Fn31673(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31674 github.com/goccy/googlesqlwasm2go/p10.Fn31674
-func Fn31674(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31675 github.com/goccy/googlesqlwasm2go/p9.Fn31675
-func Fn31675(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31676 github.com/goccy/googlesqlwasm2go/p9.Fn31676
-func Fn31676(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31677 github.com/goccy/googlesqlwasm2go/p9.Fn31677
-func Fn31677(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31678 github.com/goccy/googlesqlwasm2go/p9.Fn31678
-func Fn31678(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31679 github.com/goccy/googlesqlwasm2go/p9.Fn31679
-func Fn31679(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31680 github.com/goccy/googlesqlwasm2go/p9.Fn31680
-func Fn31680(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31681 github.com/goccy/googlesqlwasm2go/p9.Fn31681
-func Fn31681(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31682 github.com/goccy/googlesqlwasm2go/p8.Fn31682
-func Fn31682(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31683 github.com/goccy/googlesqlwasm2go/p9.Fn31683
-func Fn31683(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31684 github.com/goccy/googlesqlwasm2go/p9.Fn31684
-func Fn31684(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31685 github.com/goccy/googlesqlwasm2go/p9.Fn31685
-func Fn31685(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31686 github.com/goccy/googlesqlwasm2go/p9.Fn31686
-func Fn31686(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31687 github.com/goccy/googlesqlwasm2go/p9.Fn31687
-func Fn31687(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31688 github.com/goccy/googlesqlwasm2go/p9.Fn31688
-func Fn31688(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31689 github.com/goccy/googlesqlwasm2go/p9.Fn31689
-func Fn31689(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31690 github.com/goccy/googlesqlwasm2go/p4.Fn31690
-func Fn31690(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31694 github.com/goccy/googlesqlwasm2go/p10.Fn31694
-func Fn31694(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31700 github.com/goccy/googlesqlwasm2go/p10.Fn31700
-func Fn31700(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31704 github.com/goccy/googlesqlwasm2go/p10.Fn31704
-func Fn31704(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31708 github.com/goccy/googlesqlwasm2go/p10.Fn31708
-func Fn31708(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31712 github.com/goccy/googlesqlwasm2go/p10.Fn31712
-func Fn31712(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31716 github.com/goccy/googlesqlwasm2go/p10.Fn31716
-func Fn31716(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31720 github.com/goccy/googlesqlwasm2go/p10.Fn31720
-func Fn31720(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31724 github.com/goccy/googlesqlwasm2go/p10.Fn31724
-func Fn31724(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31728 github.com/goccy/googlesqlwasm2go/p10.Fn31728
-func Fn31728(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31733 github.com/goccy/googlesqlwasm2go/p10.Fn31733
+//go:linkname Fn31733 github.com/doitintl/googlesqlwasm2go/p10.Fn31733
 func Fn31733(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31735 github.com/goccy/googlesqlwasm2go/p9.Fn31735
-func Fn31735(m *base.Module, l0 int32) int32
+//go:linkname Fn31737 github.com/doitintl/googlesqlwasm2go/p10.Fn31737
+func Fn31737(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31736 github.com/goccy/googlesqlwasm2go/p9.Fn31736
-func Fn31736(m *base.Module, l0 int32) int32
+//go:linkname Fn31741 github.com/doitintl/googlesqlwasm2go/p10.Fn31741
+func Fn31741(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31737 github.com/goccy/googlesqlwasm2go/p9.Fn31737
-func Fn31737(m *base.Module, l0 int32) int32
+//go:linkname Fn31745 github.com/doitintl/googlesqlwasm2go/p10.Fn31745
+func Fn31745(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31738 github.com/goccy/googlesqlwasm2go/p9.Fn31738
-func Fn31738(m *base.Module, l0 int32) int32
+//go:linkname Fn31749 github.com/doitintl/googlesqlwasm2go/p10.Fn31749
+func Fn31749(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31739 github.com/goccy/googlesqlwasm2go/p10.Fn31739
-func Fn31739(m *base.Module, l0 int32) int32
+//go:linkname Fn31753 github.com/doitintl/googlesqlwasm2go/p10.Fn31753
+func Fn31753(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31740 github.com/goccy/googlesqlwasm2go/p9.Fn31740
-func Fn31740(m *base.Module, l0 int32) int32
+//go:linkname Fn31757 github.com/doitintl/googlesqlwasm2go/p10.Fn31757
+func Fn31757(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31741 github.com/goccy/googlesqlwasm2go/p10.Fn31741
-func Fn31741(m *base.Module, l0 int32) int32
+//go:linkname Fn31759 github.com/doitintl/googlesqlwasm2go/p10.Fn31759
+func Fn31759(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31742 github.com/goccy/googlesqlwasm2go/p9.Fn31742
-func Fn31742(m *base.Module, l0 int32) int32
+//go:linkname Fn31763 github.com/doitintl/googlesqlwasm2go/p10.Fn31763
+func Fn31763(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31743 github.com/goccy/googlesqlwasm2go/p9.Fn31743
-func Fn31743(m *base.Module, l0 int32) int32
+//go:linkname Fn31767 github.com/doitintl/googlesqlwasm2go/p10.Fn31767
+func Fn31767(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31744 github.com/goccy/googlesqlwasm2go/p9.Fn31744
-func Fn31744(m *base.Module, l0 int32) int32
+//go:linkname Fn31771 github.com/doitintl/googlesqlwasm2go/p10.Fn31771
+func Fn31771(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31745 github.com/goccy/googlesqlwasm2go/p9.Fn31745
-func Fn31745(m *base.Module, l0 int32) int32
+//go:linkname Fn31774 github.com/doitintl/googlesqlwasm2go/p10.Fn31774
+func Fn31774(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31746 github.com/goccy/googlesqlwasm2go/p9.Fn31746
-func Fn31746(m *base.Module, l0 int32) int32
+//go:linkname Fn31777 github.com/doitintl/googlesqlwasm2go/p10.Fn31777
+func Fn31777(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31747 github.com/goccy/googlesqlwasm2go/p10.Fn31747
-func Fn31747(m *base.Module, l0 int32) int32
+//go:linkname Fn31780 github.com/doitintl/googlesqlwasm2go/p10.Fn31780
+func Fn31780(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31748 github.com/goccy/googlesqlwasm2go/p9.Fn31748
-func Fn31748(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31752 github.com/goccy/googlesqlwasm2go/p10.Fn31752
-func Fn31752(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31756 github.com/goccy/googlesqlwasm2go/p10.Fn31756
-func Fn31756(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31760 github.com/goccy/googlesqlwasm2go/p10.Fn31760
-func Fn31760(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31764 github.com/goccy/googlesqlwasm2go/p10.Fn31764
-func Fn31764(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31768 github.com/goccy/googlesqlwasm2go/p10.Fn31768
-func Fn31768(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31770 github.com/goccy/googlesqlwasm2go/p9.Fn31770
-func Fn31770(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31771 github.com/goccy/googlesqlwasm2go/p9.Fn31771
-func Fn31771(m *base.Module, l0 int32) int32
-
-//go:linkname Fn31775 github.com/goccy/googlesqlwasm2go/p10.Fn31775
-func Fn31775(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31779 github.com/goccy/googlesqlwasm2go/p10.Fn31779
-func Fn31779(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31783 github.com/goccy/googlesqlwasm2go/p10.Fn31783
+//go:linkname Fn31783 github.com/doitintl/googlesqlwasm2go/p10.Fn31783
 func Fn31783(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31787 github.com/goccy/googlesqlwasm2go/p10.Fn31787
-func Fn31787(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31784 github.com/doitintl/googlesqlwasm2go/p3.Fn31784
+func Fn31784(m *base.Module, l0 int32)
 
-//go:linkname Fn31789 github.com/goccy/googlesqlwasm2go/p3.Fn31789
-func Fn31789(m *base.Module, l0 int32) int32
+//go:linkname Fn31787 github.com/doitintl/googlesqlwasm2go/p3.Fn31787
+func Fn31787(m *base.Module, l0 int32) int32
 
-//go:linkname Fn31790 github.com/goccy/googlesqlwasm2go/p9.Fn31790
-func Fn31790(m *base.Module, l0 int32) int32
+//go:linkname Fn31791 github.com/doitintl/googlesqlwasm2go/p10.Fn31791
+func Fn31791(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31791 github.com/goccy/googlesqlwasm2go/p9.Fn31791
-func Fn31791(m *base.Module, l0 int32) int32
+//go:linkname Fn31796 github.com/doitintl/googlesqlwasm2go/p10.Fn31796
+func Fn31796(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31795 github.com/goccy/googlesqlwasm2go/p10.Fn31795
-func Fn31795(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31800 github.com/doitintl/googlesqlwasm2go/p10.Fn31800
+func Fn31800(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31801 github.com/goccy/googlesqlwasm2go/p10.Fn31801
-func Fn31801(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31804 github.com/doitintl/googlesqlwasm2go/p10.Fn31804
+func Fn31804(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31805 github.com/goccy/googlesqlwasm2go/p10.Fn31805
-func Fn31805(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31807 github.com/doitintl/googlesqlwasm2go/p10.Fn31807
+func Fn31807(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31810 github.com/goccy/googlesqlwasm2go/p10.Fn31810
-func Fn31810(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31811 github.com/doitintl/googlesqlwasm2go/p10.Fn31811
+func Fn31811(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31814 github.com/goccy/googlesqlwasm2go/p10.Fn31814
-func Fn31814(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31815 github.com/doitintl/googlesqlwasm2go/p10.Fn31815
+func Fn31815(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31819 github.com/goccy/googlesqlwasm2go/p10.Fn31819
+//go:linkname Fn31819 github.com/doitintl/googlesqlwasm2go/p10.Fn31819
 func Fn31819(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31821 github.com/goccy/googlesqlwasm2go/p10.Fn31821
-func Fn31821(m *base.Module, l0 int32) int32
+//go:linkname Fn31823 github.com/doitintl/googlesqlwasm2go/p10.Fn31823
+func Fn31823(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31822 github.com/goccy/googlesqlwasm2go/p9.Fn31822
-func Fn31822(m *base.Module, l0 int32) int32
+//go:linkname Fn31827 github.com/doitintl/googlesqlwasm2go/p10.Fn31827
+func Fn31827(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31826 github.com/goccy/googlesqlwasm2go/p10.Fn31826
-func Fn31826(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31831 github.com/goccy/googlesqlwasm2go/p10.Fn31831
+//go:linkname Fn31831 github.com/doitintl/googlesqlwasm2go/p10.Fn31831
 func Fn31831(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31835 github.com/goccy/googlesqlwasm2go/p10.Fn31835
-func Fn31835(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31834 github.com/doitintl/googlesqlwasm2go/p10.Fn31834
+func Fn31834(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31838 github.com/goccy/googlesqlwasm2go/p10.Fn31838
+//go:linkname Fn31838 github.com/doitintl/googlesqlwasm2go/p10.Fn31838
 func Fn31838(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31842 github.com/goccy/googlesqlwasm2go/p10.Fn31842
-func Fn31842(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31839 github.com/doitintl/googlesqlwasm2go/p9.Fn31839
+func Fn31839(m *base.Module, l0 int32)
 
-//go:linkname Fn31846 github.com/goccy/googlesqlwasm2go/p10.Fn31846
-func Fn31846(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31844 github.com/doitintl/googlesqlwasm2go/p10.Fn31844
+func Fn31844(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31850 github.com/goccy/googlesqlwasm2go/p10.Fn31850
-func Fn31850(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31847 github.com/doitintl/googlesqlwasm2go/p10.Fn31847
+func Fn31847(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31854 github.com/goccy/googlesqlwasm2go/p10.Fn31854
+//go:linkname Fn31848 github.com/doitintl/googlesqlwasm2go/p9.Fn31848
+func Fn31848(m *base.Module, l0 int32)
+
+//go:linkname Fn31854 github.com/doitintl/googlesqlwasm2go/p10.Fn31854
 func Fn31854(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31858 github.com/goccy/googlesqlwasm2go/p10.Fn31858
-func Fn31858(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31859 github.com/doitintl/googlesqlwasm2go/p10.Fn31859
+func Fn31859(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31861 github.com/goccy/googlesqlwasm2go/p10.Fn31861
-func Fn31861(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31863 github.com/doitintl/googlesqlwasm2go/p10.Fn31863
+func Fn31863(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31865 github.com/goccy/googlesqlwasm2go/p10.Fn31865
-func Fn31865(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31867 github.com/doitintl/googlesqlwasm2go/p10.Fn31867
+func Fn31867(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31869 github.com/goccy/googlesqlwasm2go/p10.Fn31869
-func Fn31869(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31871 github.com/doitintl/googlesqlwasm2go/p10.Fn31871
+func Fn31871(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31872 github.com/goccy/googlesqlwasm2go/p10.Fn31872
-func Fn31872(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31876 github.com/doitintl/googlesqlwasm2go/p10.Fn31876
+func Fn31876(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31875 github.com/goccy/googlesqlwasm2go/p10.Fn31875
-func Fn31875(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31880 github.com/doitintl/googlesqlwasm2go/p10.Fn31880
+func Fn31880(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31879 github.com/goccy/googlesqlwasm2go/p10.Fn31879
-func Fn31879(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31884 github.com/doitintl/googlesqlwasm2go/p10.Fn31884
+func Fn31884(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31882 github.com/goccy/googlesqlwasm2go/p10.Fn31882
-func Fn31882(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31888 github.com/doitintl/googlesqlwasm2go/p10.Fn31888
+func Fn31888(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31886 github.com/goccy/googlesqlwasm2go/p10.Fn31886
-func Fn31886(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31889 github.com/doitintl/googlesqlwasm2go/p9.Fn31889
+func Fn31889(m *base.Module, l0 int32)
 
-//go:linkname Fn31889 github.com/goccy/googlesqlwasm2go/p10.Fn31889
-func Fn31889(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31892 github.com/goccy/googlesqlwasm2go/p10.Fn31892
-func Fn31892(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31896 github.com/goccy/googlesqlwasm2go/p10.Fn31896
+//go:linkname Fn31896 github.com/doitintl/googlesqlwasm2go/p10.Fn31896
 func Fn31896(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31899 github.com/goccy/googlesqlwasm2go/p10.Fn31899
+//go:linkname Fn31899 github.com/doitintl/googlesqlwasm2go/p10.Fn31899
 func Fn31899(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31902 github.com/goccy/googlesqlwasm2go/p10.Fn31902
-func Fn31902(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31903 github.com/doitintl/googlesqlwasm2go/p10.Fn31903
+func Fn31903(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31905 github.com/goccy/googlesqlwasm2go/p10.Fn31905
-func Fn31905(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31907 github.com/doitintl/googlesqlwasm2go/p10.Fn31907
+func Fn31907(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31909 github.com/goccy/googlesqlwasm2go/p10.Fn31909
-func Fn31909(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31911 github.com/doitintl/googlesqlwasm2go/p10.Fn31911
+func Fn31911(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31913 github.com/goccy/googlesqlwasm2go/p10.Fn31913
-func Fn31913(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31915 github.com/doitintl/googlesqlwasm2go/p10.Fn31915
+func Fn31915(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31916 github.com/goccy/googlesqlwasm2go/p10.Fn31916
-func Fn31916(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31918 github.com/doitintl/googlesqlwasm2go/p10.Fn31918
+func Fn31918(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31920 github.com/goccy/googlesqlwasm2go/p10.Fn31920
-func Fn31920(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31921 github.com/doitintl/googlesqlwasm2go/p10.Fn31921
+func Fn31921(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31924 github.com/goccy/googlesqlwasm2go/p10.Fn31924
-func Fn31924(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31925 github.com/doitintl/googlesqlwasm2go/p10.Fn31925
+func Fn31925(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31928 github.com/goccy/googlesqlwasm2go/p10.Fn31928
-func Fn31928(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31929 github.com/doitintl/googlesqlwasm2go/p10.Fn31929
+func Fn31929(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31932 github.com/goccy/googlesqlwasm2go/p10.Fn31932
-func Fn31932(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31933 github.com/doitintl/googlesqlwasm2go/p10.Fn31933
+func Fn31933(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31936 github.com/goccy/googlesqlwasm2go/p10.Fn31936
-func Fn31936(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31934 github.com/doitintl/googlesqlwasm2go/p4.Fn31934
+func Fn31934(m *base.Module, l0 int32)
 
-//go:linkname Fn31940 github.com/goccy/googlesqlwasm2go/p10.Fn31940
-func Fn31940(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31975 github.com/doitintl/googlesqlwasm2go/p10.Fn31975
+func Fn31975(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31944 github.com/goccy/googlesqlwasm2go/p10.Fn31944
-func Fn31944(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31976 github.com/doitintl/googlesqlwasm2go/p10.Fn31976
+func Fn31976(m *base.Module, l0 int32)
 
-//go:linkname Fn31947 github.com/goccy/googlesqlwasm2go/p10.Fn31947
-func Fn31947(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31981 github.com/doitintl/googlesqlwasm2go/p10.Fn31981
+func Fn31981(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31950 github.com/goccy/googlesqlwasm2go/p10.Fn31950
-func Fn31950(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31985 github.com/doitintl/googlesqlwasm2go/p10.Fn31985
+func Fn31985(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31954 github.com/goccy/googlesqlwasm2go/p10.Fn31954
-func Fn31954(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31989 github.com/doitintl/googlesqlwasm2go/p10.Fn31989
+func Fn31989(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31957 github.com/goccy/googlesqlwasm2go/p10.Fn31957
-func Fn31957(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31993 github.com/doitintl/googlesqlwasm2go/p10.Fn31993
+func Fn31993(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31961 github.com/goccy/googlesqlwasm2go/p10.Fn31961
-func Fn31961(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn31997 github.com/doitintl/googlesqlwasm2go/p10.Fn31997
+func Fn31997(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31964 github.com/goccy/googlesqlwasm2go/p10.Fn31964
-func Fn31964(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32001 github.com/doitintl/googlesqlwasm2go/p10.Fn32001
+func Fn32001(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31968 github.com/goccy/googlesqlwasm2go/p10.Fn31968
-func Fn31968(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32005 github.com/doitintl/googlesqlwasm2go/p10.Fn32005
+func Fn32005(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31972 github.com/goccy/googlesqlwasm2go/p10.Fn31972
-func Fn31972(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32009 github.com/doitintl/googlesqlwasm2go/p10.Fn32009
+func Fn32009(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31976 github.com/goccy/googlesqlwasm2go/p10.Fn31976
-func Fn31976(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32014 github.com/doitintl/googlesqlwasm2go/p10.Fn32014
+func Fn32014(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31980 github.com/goccy/googlesqlwasm2go/p10.Fn31980
-func Fn31980(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32015 github.com/doitintl/googlesqlwasm2go/p5.Fn32015
+func Fn32015(m *base.Module, l0 int32)
 
-//go:linkname Fn31984 github.com/goccy/googlesqlwasm2go/p10.Fn31984
-func Fn31984(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32033 github.com/doitintl/googlesqlwasm2go/p10.Fn32033
+func Fn32033(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn31988 github.com/goccy/googlesqlwasm2go/p10.Fn31988
-func Fn31988(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31992 github.com/goccy/googlesqlwasm2go/p10.Fn31992
-func Fn31992(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn31996 github.com/goccy/googlesqlwasm2go/p10.Fn31996
-func Fn31996(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn32000 github.com/goccy/googlesqlwasm2go/p10.Fn32000
-func Fn32000(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn32004 github.com/goccy/googlesqlwasm2go/p10.Fn32004
-func Fn32004(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn32006 github.com/goccy/googlesqlwasm2go/p10.Fn32006
-func Fn32006(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32010 github.com/goccy/googlesqlwasm2go/p10.Fn32010
-func Fn32010(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn32016 github.com/goccy/googlesqlwasm2go/p10.Fn32016
-func Fn32016(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn32020 github.com/goccy/googlesqlwasm2go/p10.Fn32020
-func Fn32020(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn32023 github.com/goccy/googlesqlwasm2go/p10.Fn32023
-func Fn32023(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn32025 github.com/goccy/googlesqlwasm2go/p9.Fn32025
-func Fn32025(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32026 github.com/goccy/googlesqlwasm2go/p9.Fn32026
-func Fn32026(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32027 github.com/goccy/googlesqlwasm2go/p10.Fn32027
-func Fn32027(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32028 github.com/goccy/googlesqlwasm2go/p9.Fn32028
-func Fn32028(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32029 github.com/goccy/googlesqlwasm2go/p9.Fn32029
-func Fn32029(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32030 github.com/goccy/googlesqlwasm2go/p9.Fn32030
-func Fn32030(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32034 github.com/goccy/googlesqlwasm2go/p10.Fn32034
-func Fn32034(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn32037 github.com/goccy/googlesqlwasm2go/p10.Fn32037
+//go:linkname Fn32037 github.com/doitintl/googlesqlwasm2go/p10.Fn32037
 func Fn32037(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32041 github.com/goccy/googlesqlwasm2go/p10.Fn32041
+//go:linkname Fn32041 github.com/doitintl/googlesqlwasm2go/p10.Fn32041
 func Fn32041(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32045 github.com/goccy/googlesqlwasm2go/p10.Fn32045
+//go:linkname Fn32045 github.com/doitintl/googlesqlwasm2go/p10.Fn32045
 func Fn32045(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32048 github.com/goccy/googlesqlwasm2go/p10.Fn32048
-func Fn32048(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32049 github.com/doitintl/googlesqlwasm2go/p10.Fn32049
+func Fn32049(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32051 github.com/goccy/googlesqlwasm2go/p10.Fn32051
-func Fn32051(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32050 github.com/doitintl/googlesqlwasm2go/p9.Fn32050
+func Fn32050(m *base.Module, l0 int32)
 
-//go:linkname Fn32054 github.com/goccy/googlesqlwasm2go/p10.Fn32054
-func Fn32054(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32056 github.com/doitintl/googlesqlwasm2go/p10.Fn32056
+func Fn32056(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32057 github.com/goccy/googlesqlwasm2go/p10.Fn32057
-func Fn32057(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn32060 github.com/goccy/googlesqlwasm2go/p10.Fn32060
+//go:linkname Fn32060 github.com/doitintl/googlesqlwasm2go/p10.Fn32060
 func Fn32060(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32064 github.com/goccy/googlesqlwasm2go/p10.Fn32064
+//go:linkname Fn32064 github.com/doitintl/googlesqlwasm2go/p10.Fn32064
 func Fn32064(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32067 github.com/goccy/googlesqlwasm2go/p10.Fn32067
-func Fn32067(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32068 github.com/doitintl/googlesqlwasm2go/p10.Fn32068
+func Fn32068(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32069 github.com/goccy/googlesqlwasm2go/p9.Fn32069
-func Fn32069(m *base.Module, l0 int32) int32
+//go:linkname Fn32069 github.com/doitintl/googlesqlwasm2go/p9.Fn32069
+func Fn32069(m *base.Module, l0 int32)
 
-//go:linkname Fn32070 github.com/goccy/googlesqlwasm2go/p9.Fn32070
-func Fn32070(m *base.Module, l0 int32) int32
+//go:linkname Fn32076 github.com/doitintl/googlesqlwasm2go/p10.Fn32076
+func Fn32076(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32071 github.com/goccy/googlesqlwasm2go/p9.Fn32071
-func Fn32071(m *base.Module, l0 int32) int32
+//go:linkname Fn32082 github.com/doitintl/googlesqlwasm2go/p10.Fn32082
+func Fn32082(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32072 github.com/goccy/googlesqlwasm2go/p9.Fn32072
-func Fn32072(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32073 github.com/goccy/googlesqlwasm2go/p9.Fn32073
-func Fn32073(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32074 github.com/goccy/googlesqlwasm2go/p9.Fn32074
-func Fn32074(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32075 github.com/goccy/googlesqlwasm2go/p9.Fn32075
-func Fn32075(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32076 github.com/goccy/googlesqlwasm2go/p10.Fn32076
-func Fn32076(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32077 github.com/goccy/googlesqlwasm2go/p4.Fn32077
-func Fn32077(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32078 github.com/goccy/googlesqlwasm2go/p9.Fn32078
-func Fn32078(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32079 github.com/goccy/googlesqlwasm2go/p9.Fn32079
-func Fn32079(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32083 github.com/goccy/googlesqlwasm2go/p10.Fn32083
-func Fn32083(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn32086 github.com/goccy/googlesqlwasm2go/p10.Fn32086
+//go:linkname Fn32086 github.com/doitintl/googlesqlwasm2go/p10.Fn32086
 func Fn32086(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32088 github.com/goccy/googlesqlwasm2go/p9.Fn32088
-func Fn32088(m *base.Module, l0 int32) int32
+//go:linkname Fn32091 github.com/doitintl/googlesqlwasm2go/p10.Fn32091
+func Fn32091(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32089 github.com/goccy/googlesqlwasm2go/p10.Fn32089
-func Fn32089(m *base.Module, l0 int32) int32
+//go:linkname Fn32095 github.com/doitintl/googlesqlwasm2go/p10.Fn32095
+func Fn32095(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32090 github.com/goccy/googlesqlwasm2go/p9.Fn32090
-func Fn32090(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32091 github.com/goccy/googlesqlwasm2go/p9.Fn32091
-func Fn32091(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32092 github.com/goccy/googlesqlwasm2go/p9.Fn32092
-func Fn32092(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32096 github.com/goccy/googlesqlwasm2go/p10.Fn32096
-func Fn32096(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn32100 github.com/goccy/googlesqlwasm2go/p10.Fn32100
+//go:linkname Fn32100 github.com/doitintl/googlesqlwasm2go/p10.Fn32100
 func Fn32100(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32103 github.com/goccy/googlesqlwasm2go/p10.Fn32103
-func Fn32103(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32101 github.com/doitintl/googlesqlwasm2go/p9.Fn32101
+func Fn32101(m *base.Module, l0 int32)
 
-//go:linkname Fn32107 github.com/goccy/googlesqlwasm2go/p10.Fn32107
+//go:linkname Fn32107 github.com/doitintl/googlesqlwasm2go/p10.Fn32107
 func Fn32107(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32111 github.com/goccy/googlesqlwasm2go/p10.Fn32111
-func Fn32111(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32112 github.com/doitintl/googlesqlwasm2go/p10.Fn32112
+func Fn32112(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32115 github.com/goccy/googlesqlwasm2go/p10.Fn32115
-func Fn32115(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32116 github.com/doitintl/googlesqlwasm2go/p10.Fn32116
+func Fn32116(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32119 github.com/goccy/googlesqlwasm2go/p10.Fn32119
+//go:linkname Fn32119 github.com/doitintl/googlesqlwasm2go/p10.Fn32119
 func Fn32119(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32123 github.com/goccy/googlesqlwasm2go/p10.Fn32123
+//go:linkname Fn32123 github.com/doitintl/googlesqlwasm2go/p10.Fn32123
 func Fn32123(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32126 github.com/goccy/googlesqlwasm2go/p10.Fn32126
-func Fn32126(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32127 github.com/doitintl/googlesqlwasm2go/p10.Fn32127
+func Fn32127(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32130 github.com/goccy/googlesqlwasm2go/p10.Fn32130
-func Fn32130(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32131 github.com/doitintl/googlesqlwasm2go/p10.Fn32131
+func Fn32131(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32133 github.com/goccy/googlesqlwasm2go/p10.Fn32133
-func Fn32133(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32135 github.com/doitintl/googlesqlwasm2go/p10.Fn32135
+func Fn32135(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32136 github.com/goccy/googlesqlwasm2go/p10.Fn32136
-func Fn32136(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32139 github.com/doitintl/googlesqlwasm2go/p10.Fn32139
+func Fn32139(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32140 github.com/goccy/googlesqlwasm2go/p10.Fn32140
-func Fn32140(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32142 github.com/doitintl/googlesqlwasm2go/p10.Fn32142
+func Fn32142(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32144 github.com/goccy/googlesqlwasm2go/p10.Fn32144
-func Fn32144(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32146 github.com/doitintl/googlesqlwasm2go/p10.Fn32146
+func Fn32146(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32147 github.com/goccy/googlesqlwasm2go/p10.Fn32147
-func Fn32147(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32150 github.com/doitintl/googlesqlwasm2go/p10.Fn32150
+func Fn32150(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32151 github.com/goccy/googlesqlwasm2go/p10.Fn32151
-func Fn32151(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32153 github.com/doitintl/googlesqlwasm2go/p10.Fn32153
+func Fn32153(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32155 github.com/goccy/googlesqlwasm2go/p10.Fn32155
-func Fn32155(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32156 github.com/doitintl/googlesqlwasm2go/p10.Fn32156
+func Fn32156(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32159 github.com/goccy/googlesqlwasm2go/p10.Fn32159
-func Fn32159(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32160 github.com/doitintl/googlesqlwasm2go/p10.Fn32160
+func Fn32160(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32162 github.com/goccy/googlesqlwasm2go/p10.Fn32162
-func Fn32162(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32163 github.com/doitintl/googlesqlwasm2go/p10.Fn32163
+func Fn32163(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32165 github.com/goccy/googlesqlwasm2go/p10.Fn32165
-func Fn32165(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32167 github.com/doitintl/googlesqlwasm2go/p10.Fn32167
+func Fn32167(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32168 github.com/goccy/googlesqlwasm2go/p10.Fn32168
-func Fn32168(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32170 github.com/doitintl/googlesqlwasm2go/p10.Fn32170
+func Fn32170(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32171 github.com/goccy/googlesqlwasm2go/p10.Fn32171
-func Fn32171(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32173 github.com/doitintl/googlesqlwasm2go/p10.Fn32173
+func Fn32173(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32175 github.com/goccy/googlesqlwasm2go/p10.Fn32175
-func Fn32175(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32177 github.com/doitintl/googlesqlwasm2go/p10.Fn32177
+func Fn32177(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32178 github.com/goccy/googlesqlwasm2go/p10.Fn32178
-func Fn32178(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32180 github.com/doitintl/googlesqlwasm2go/p10.Fn32180
+func Fn32180(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32181 github.com/goccy/googlesqlwasm2go/p10.Fn32181
-func Fn32181(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32183 github.com/doitintl/googlesqlwasm2go/p10.Fn32183
+func Fn32183(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32185 github.com/goccy/googlesqlwasm2go/p10.Fn32185
-func Fn32185(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32186 github.com/doitintl/googlesqlwasm2go/p10.Fn32186
+func Fn32186(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32189 github.com/goccy/googlesqlwasm2go/p10.Fn32189
-func Fn32189(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32190 github.com/doitintl/googlesqlwasm2go/p10.Fn32190
+func Fn32190(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32193 github.com/goccy/googlesqlwasm2go/p10.Fn32193
-func Fn32193(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32194 github.com/doitintl/googlesqlwasm2go/p10.Fn32194
+func Fn32194(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32196 github.com/goccy/googlesqlwasm2go/p10.Fn32196
-func Fn32196(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32197 github.com/doitintl/googlesqlwasm2go/p10.Fn32197
+func Fn32197(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32199 github.com/goccy/googlesqlwasm2go/p10.Fn32199
-func Fn32199(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32201 github.com/doitintl/googlesqlwasm2go/p10.Fn32201
+func Fn32201(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32202 github.com/goccy/googlesqlwasm2go/p10.Fn32202
-func Fn32202(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn32205 github.com/goccy/googlesqlwasm2go/p10.Fn32205
+//go:linkname Fn32205 github.com/doitintl/googlesqlwasm2go/p10.Fn32205
 func Fn32205(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32208 github.com/goccy/googlesqlwasm2go/p10.Fn32208
-func Fn32208(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32209 github.com/doitintl/googlesqlwasm2go/p10.Fn32209
+func Fn32209(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32211 github.com/goccy/googlesqlwasm2go/p10.Fn32211
-func Fn32211(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32213 github.com/doitintl/googlesqlwasm2go/p10.Fn32213
+func Fn32213(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32215 github.com/goccy/googlesqlwasm2go/p10.Fn32215
-func Fn32215(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32217 github.com/doitintl/googlesqlwasm2go/p10.Fn32217
+func Fn32217(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32218 github.com/goccy/googlesqlwasm2go/p10.Fn32218
-func Fn32218(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32221 github.com/doitintl/googlesqlwasm2go/p10.Fn32221
+func Fn32221(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32222 github.com/goccy/googlesqlwasm2go/p10.Fn32222
-func Fn32222(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32225 github.com/doitintl/googlesqlwasm2go/p10.Fn32225
+func Fn32225(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32226 github.com/goccy/googlesqlwasm2go/p10.Fn32226
-func Fn32226(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32228 github.com/doitintl/googlesqlwasm2go/p10.Fn32228
+func Fn32228(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32230 github.com/goccy/googlesqlwasm2go/p10.Fn32230
-func Fn32230(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32231 github.com/doitintl/googlesqlwasm2go/p10.Fn32231
+func Fn32231(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32233 github.com/goccy/googlesqlwasm2go/p10.Fn32233
-func Fn32233(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32235 github.com/doitintl/googlesqlwasm2go/p10.Fn32235
+func Fn32235(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32237 github.com/goccy/googlesqlwasm2go/p10.Fn32237
-func Fn32237(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32238 github.com/doitintl/googlesqlwasm2go/p10.Fn32238
+func Fn32238(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32241 github.com/goccy/googlesqlwasm2go/p10.Fn32241
-func Fn32241(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32242 github.com/doitintl/googlesqlwasm2go/p10.Fn32242
+func Fn32242(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32245 github.com/goccy/googlesqlwasm2go/p10.Fn32245
+//go:linkname Fn32245 github.com/doitintl/googlesqlwasm2go/p10.Fn32245
 func Fn32245(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32248 github.com/goccy/googlesqlwasm2go/p10.Fn32248
-func Fn32248(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32249 github.com/doitintl/googlesqlwasm2go/p10.Fn32249
+func Fn32249(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32252 github.com/goccy/googlesqlwasm2go/p10.Fn32252
-func Fn32252(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32253 github.com/doitintl/googlesqlwasm2go/p10.Fn32253
+func Fn32253(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32255 github.com/goccy/googlesqlwasm2go/p10.Fn32255
-func Fn32255(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32257 github.com/doitintl/googlesqlwasm2go/p10.Fn32257
+func Fn32257(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32258 github.com/goccy/googlesqlwasm2go/p10.Fn32258
-func Fn32258(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32261 github.com/doitintl/googlesqlwasm2go/p10.Fn32261
+func Fn32261(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32262 github.com/goccy/googlesqlwasm2go/p10.Fn32262
-func Fn32262(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32265 github.com/doitintl/googlesqlwasm2go/p10.Fn32265
+func Fn32265(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32266 github.com/goccy/googlesqlwasm2go/p10.Fn32266
-func Fn32266(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn32269 github.com/goccy/googlesqlwasm2go/p10.Fn32269
+//go:linkname Fn32269 github.com/doitintl/googlesqlwasm2go/p10.Fn32269
 func Fn32269(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32273 github.com/goccy/googlesqlwasm2go/p10.Fn32273
+//go:linkname Fn32273 github.com/doitintl/googlesqlwasm2go/p10.Fn32273
 func Fn32273(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32277 github.com/goccy/googlesqlwasm2go/p10.Fn32277
+//go:linkname Fn32277 github.com/doitintl/googlesqlwasm2go/p10.Fn32277
 func Fn32277(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32280 github.com/goccy/googlesqlwasm2go/p10.Fn32280
-func Fn32280(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32281 github.com/doitintl/googlesqlwasm2go/p10.Fn32281
+func Fn32281(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32283 github.com/goccy/googlesqlwasm2go/p10.Fn32283
-func Fn32283(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32285 github.com/doitintl/googlesqlwasm2go/p10.Fn32285
+func Fn32285(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32287 github.com/goccy/googlesqlwasm2go/p10.Fn32287
-func Fn32287(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32286 github.com/doitintl/googlesqlwasm2go/p9.Fn32286
+func Fn32286(m *base.Module, l0 int32)
 
-//go:linkname Fn32290 github.com/goccy/googlesqlwasm2go/p10.Fn32290
-func Fn32290(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32291 github.com/doitintl/googlesqlwasm2go/p10.Fn32291
+func Fn32291(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32294 github.com/goccy/googlesqlwasm2go/p10.Fn32294
-func Fn32294(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn32297 github.com/goccy/googlesqlwasm2go/p10.Fn32297
+//go:linkname Fn32297 github.com/doitintl/googlesqlwasm2go/p10.Fn32297
 func Fn32297(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32301 github.com/goccy/googlesqlwasm2go/p10.Fn32301
+//go:linkname Fn32301 github.com/doitintl/googlesqlwasm2go/p10.Fn32301
 func Fn32301(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32305 github.com/goccy/googlesqlwasm2go/p10.Fn32305
-func Fn32305(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32304 github.com/doitintl/googlesqlwasm2go/p10.Fn32304
+func Fn32304(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32309 github.com/goccy/googlesqlwasm2go/p10.Fn32309
-func Fn32309(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32305 github.com/doitintl/googlesqlwasm2go/p5.Fn32305
+func Fn32305(m *base.Module, l0 int32)
 
-//go:linkname Fn32313 github.com/goccy/googlesqlwasm2go/p10.Fn32313
-func Fn32313(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32306 github.com/doitintl/googlesqlwasm2go/p9.Fn32306
+func Fn32306(m *base.Module, l0 int32) int32
 
-//go:linkname Fn32316 github.com/goccy/googlesqlwasm2go/p10.Fn32316
-func Fn32316(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32309 github.com/doitintl/googlesqlwasm2go/p10.Fn32309
+func Fn32309(m *base.Module, l0 int32) int32
 
-//go:linkname Fn32320 github.com/goccy/googlesqlwasm2go/p10.Fn32320
-func Fn32320(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32310 github.com/doitintl/googlesqlwasm2go/p10.Fn32310
+func Fn32310(m *base.Module, l0 int32) int32
 
-//go:linkname Fn32324 github.com/goccy/googlesqlwasm2go/p10.Fn32324
-func Fn32324(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32311 github.com/doitintl/googlesqlwasm2go/p9.Fn32311
+func Fn32311(m *base.Module, l0 int32) int32
 
-//go:linkname Fn32327 github.com/goccy/googlesqlwasm2go/p10.Fn32327
-func Fn32327(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32315 github.com/doitintl/googlesqlwasm2go/p10.Fn32315
+func Fn32315(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32331 github.com/goccy/googlesqlwasm2go/p10.Fn32331
-func Fn32331(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32318 github.com/doitintl/googlesqlwasm2go/p10.Fn32318
+func Fn32318(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32335 github.com/goccy/googlesqlwasm2go/p10.Fn32335
+//go:linkname Fn32322 github.com/doitintl/googlesqlwasm2go/p10.Fn32322
+func Fn32322(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn32326 github.com/doitintl/googlesqlwasm2go/p10.Fn32326
+func Fn32326(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn32329 github.com/doitintl/googlesqlwasm2go/p10.Fn32329
+func Fn32329(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn32332 github.com/doitintl/googlesqlwasm2go/p10.Fn32332
+func Fn32332(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn32335 github.com/doitintl/googlesqlwasm2go/p10.Fn32335
 func Fn32335(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32339 github.com/goccy/googlesqlwasm2go/p10.Fn32339
-func Fn32339(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32338 github.com/doitintl/googlesqlwasm2go/p10.Fn32338
+func Fn32338(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32342 github.com/goccy/googlesqlwasm2go/p10.Fn32342
-func Fn32342(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32341 github.com/doitintl/googlesqlwasm2go/p10.Fn32341
+func Fn32341(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32344 github.com/goccy/googlesqlwasm2go/p3.Fn32344
-func Fn32344(m *base.Module, l0 int32) int32
+//go:linkname Fn32345 github.com/doitintl/googlesqlwasm2go/p10.Fn32345
+func Fn32345(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32348 github.com/goccy/googlesqlwasm2go/p10.Fn32348
+//go:linkname Fn32348 github.com/doitintl/googlesqlwasm2go/p10.Fn32348
 func Fn32348(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32351 github.com/goccy/googlesqlwasm2go/p10.Fn32351
-func Fn32351(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32349 github.com/doitintl/googlesqlwasm2go/p4.Fn32349
+func Fn32349(m *base.Module, l0 int32)
 
-//go:linkname Fn32354 github.com/goccy/googlesqlwasm2go/p10.Fn32354
-func Fn32354(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32350 github.com/doitintl/googlesqlwasm2go/p10.Fn32350
+func Fn32350(m *base.Module, l0 int32) int32
 
-//go:linkname Fn32357 github.com/goccy/googlesqlwasm2go/p10.Fn32357
-func Fn32357(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32352 github.com/doitintl/googlesqlwasm2go/p9.Fn32352
+func Fn32352(m *base.Module, l0 int32) int32
 
-//go:linkname Fn32360 github.com/goccy/googlesqlwasm2go/p10.Fn32360
-func Fn32360(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32353 github.com/doitintl/googlesqlwasm2go/p10.Fn32353
+func Fn32353(m *base.Module, l0 int32) int32
 
-//go:linkname Fn32363 github.com/goccy/googlesqlwasm2go/p10.Fn32363
-func Fn32363(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32355 github.com/doitintl/googlesqlwasm2go/p9.Fn32355
+func Fn32355(m *base.Module, l0 int32) int32
 
-//go:linkname Fn32367 github.com/goccy/googlesqlwasm2go/p10.Fn32367
+//go:linkname Fn32356 github.com/doitintl/googlesqlwasm2go/p10.Fn32356
+func Fn32356(m *base.Module, l0 int32) int32
+
+//go:linkname Fn32357 github.com/doitintl/googlesqlwasm2go/p10.Fn32357
+func Fn32357(m *base.Module, l0 int32) int32
+
+//go:linkname Fn32358 github.com/doitintl/googlesqlwasm2go/p4.Fn32358
+func Fn32358(m *base.Module, l0 int32) int32
+
+//go:linkname Fn32359 github.com/doitintl/googlesqlwasm2go/p9.Fn32359
+func Fn32359(m *base.Module, l0 int32) int32
+
+//go:linkname Fn32360 github.com/doitintl/googlesqlwasm2go/p10.Fn32360
+func Fn32360(m *base.Module, l0 int32) int32
+
+//go:linkname Fn32364 github.com/doitintl/googlesqlwasm2go/p10.Fn32364
+func Fn32364(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn32367 github.com/doitintl/googlesqlwasm2go/p10.Fn32367
 func Fn32367(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32371 github.com/goccy/googlesqlwasm2go/p10.Fn32371
-func Fn32371(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32368 github.com/doitintl/googlesqlwasm2go/p6.Fn32368
+func Fn32368(m *base.Module, l0 int32)
 
-//go:linkname Fn32375 github.com/goccy/googlesqlwasm2go/p10.Fn32375
-func Fn32375(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32369 github.com/doitintl/googlesqlwasm2go/p10.Fn32369
+func Fn32369(m *base.Module, l0 int32) int32
 
-//go:linkname Fn32379 github.com/goccy/googlesqlwasm2go/p10.Fn32379
-func Fn32379(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32371 github.com/doitintl/googlesqlwasm2go/p9.Fn32371
+func Fn32371(m *base.Module, l0 int32) int32
 
-//go:linkname Fn32382 github.com/goccy/googlesqlwasm2go/p10.Fn32382
-func Fn32382(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32372 github.com/doitintl/googlesqlwasm2go/p10.Fn32372
+func Fn32372(m *base.Module, l0 int32) int32
 
-//go:linkname Fn32387 github.com/goccy/googlesqlwasm2go/p10.Fn32387
-func Fn32387(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32373 github.com/doitintl/googlesqlwasm2go/p10.Fn32373
+func Fn32373(m *base.Module, l0 int32) int32
 
-//go:linkname Fn32391 github.com/goccy/googlesqlwasm2go/p10.Fn32391
-func Fn32391(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32377 github.com/doitintl/googlesqlwasm2go/p10.Fn32377
+func Fn32377(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32395 github.com/goccy/googlesqlwasm2go/p10.Fn32395
-func Fn32395(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32381 github.com/doitintl/googlesqlwasm2go/p10.Fn32381
+func Fn32381(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32399 github.com/goccy/googlesqlwasm2go/p10.Fn32399
-func Fn32399(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32384 github.com/doitintl/googlesqlwasm2go/p10.Fn32384
+func Fn32384(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32403 github.com/goccy/googlesqlwasm2go/p10.Fn32403
-func Fn32403(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32388 github.com/doitintl/googlesqlwasm2go/p10.Fn32388
+func Fn32388(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32407 github.com/goccy/googlesqlwasm2go/p10.Fn32407
+//go:linkname Fn32392 github.com/doitintl/googlesqlwasm2go/p10.Fn32392
+func Fn32392(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn32396 github.com/doitintl/googlesqlwasm2go/p10.Fn32396
+func Fn32396(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn32400 github.com/doitintl/googlesqlwasm2go/p10.Fn32400
+func Fn32400(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn32404 github.com/doitintl/googlesqlwasm2go/p10.Fn32404
+func Fn32404(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn32407 github.com/doitintl/googlesqlwasm2go/p10.Fn32407
 func Fn32407(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32411 github.com/goccy/googlesqlwasm2go/p10.Fn32411
+//go:linkname Fn32411 github.com/doitintl/googlesqlwasm2go/p10.Fn32411
 func Fn32411(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32414 github.com/goccy/googlesqlwasm2go/p10.Fn32414
+//go:linkname Fn32414 github.com/doitintl/googlesqlwasm2go/p10.Fn32414
 func Fn32414(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32417 github.com/goccy/googlesqlwasm2go/p10.Fn32417
+//go:linkname Fn32417 github.com/doitintl/googlesqlwasm2go/p10.Fn32417
 func Fn32417(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32419 github.com/goccy/googlesqlwasm2go/p3.Fn32419
-func Fn32419(m *base.Module, l0 int32) int32
+//go:linkname Fn32421 github.com/doitintl/googlesqlwasm2go/p10.Fn32421
+func Fn32421(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32420 github.com/goccy/googlesqlwasm2go/p9.Fn32420
-func Fn32420(m *base.Module, l0 int32) int32
+//go:linkname Fn32425 github.com/doitintl/googlesqlwasm2go/p10.Fn32425
+func Fn32425(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32424 github.com/goccy/googlesqlwasm2go/p10.Fn32424
-func Fn32424(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32428 github.com/doitintl/googlesqlwasm2go/p10.Fn32428
+func Fn32428(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32427 github.com/goccy/googlesqlwasm2go/p10.Fn32427
-func Fn32427(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32432 github.com/doitintl/googlesqlwasm2go/p10.Fn32432
+func Fn32432(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32430 github.com/goccy/googlesqlwasm2go/p10.Fn32430
-func Fn32430(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32436 github.com/doitintl/googlesqlwasm2go/p10.Fn32436
+func Fn32436(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32434 github.com/goccy/googlesqlwasm2go/p10.Fn32434
-func Fn32434(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32440 github.com/doitintl/googlesqlwasm2go/p10.Fn32440
+func Fn32440(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32438 github.com/goccy/googlesqlwasm2go/p10.Fn32438
-func Fn32438(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32443 github.com/doitintl/googlesqlwasm2go/p10.Fn32443
+func Fn32443(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32442 github.com/goccy/googlesqlwasm2go/p10.Fn32442
-func Fn32442(m *base.Module, l0 int32, l1 int32)
-
-//go:linkname Fn32446 github.com/goccy/googlesqlwasm2go/p10.Fn32446
+//go:linkname Fn32446 github.com/doitintl/googlesqlwasm2go/p10.Fn32446
 func Fn32446(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32450 github.com/goccy/googlesqlwasm2go/p10.Fn32450
-func Fn32450(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32449 github.com/doitintl/googlesqlwasm2go/p10.Fn32449
+func Fn32449(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32453 github.com/goccy/googlesqlwasm2go/p10.Fn32453
-func Fn32453(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32452 github.com/doitintl/googlesqlwasm2go/p10.Fn32452
+func Fn32452(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32455 github.com/goccy/googlesqlwasm2go/p3.Fn32455
-func Fn32455(m *base.Module, l0 int32) int32
+//go:linkname Fn32456 github.com/doitintl/googlesqlwasm2go/p10.Fn32456
+func Fn32456(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32456 github.com/goccy/googlesqlwasm2go/p3.Fn32456
-func Fn32456(m *base.Module, l0 int32) int32
+//go:linkname Fn32459 github.com/doitintl/googlesqlwasm2go/p10.Fn32459
+func Fn32459(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32460 github.com/goccy/googlesqlwasm2go/p10.Fn32460
-func Fn32460(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32462 github.com/doitintl/googlesqlwasm2go/p10.Fn32462
+func Fn32462(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32463 github.com/goccy/googlesqlwasm2go/p10.Fn32463
-func Fn32463(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32466 github.com/doitintl/googlesqlwasm2go/p10.Fn32466
+func Fn32466(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32465 github.com/goccy/googlesqlwasm2go/p3.Fn32465
-func Fn32465(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32466 github.com/goccy/googlesqlwasm2go/p3.Fn32466
-func Fn32466(m *base.Module, l0 int32) int32
-
-//go:linkname Fn32470 github.com/goccy/googlesqlwasm2go/p10.Fn32470
+//go:linkname Fn32470 github.com/doitintl/googlesqlwasm2go/p10.Fn32470
 func Fn32470(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32475 github.com/goccy/googlesqlwasm2go/p10.Fn32475
-func Fn32475(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32474 github.com/doitintl/googlesqlwasm2go/p10.Fn32474
+func Fn32474(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32479 github.com/goccy/googlesqlwasm2go/p10.Fn32479
-func Fn32479(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32477 github.com/doitintl/googlesqlwasm2go/p10.Fn32477
+func Fn32477(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32483 github.com/goccy/googlesqlwasm2go/p10.Fn32483
+//go:linkname Fn32480 github.com/doitintl/googlesqlwasm2go/p10.Fn32480
+func Fn32480(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn32483 github.com/doitintl/googlesqlwasm2go/p10.Fn32483
 func Fn32483(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32487 github.com/goccy/googlesqlwasm2go/p10.Fn32487
-func Fn32487(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32486 github.com/doitintl/googlesqlwasm2go/p10.Fn32486
+func Fn32486(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32489 github.com/goccy/googlesqlwasm2go/p3.Fn32489
-func Fn32489(m *base.Module, l0 int32) int32
+//go:linkname Fn32489 github.com/doitintl/googlesqlwasm2go/p10.Fn32489
+func Fn32489(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32493 github.com/goccy/googlesqlwasm2go/p10.Fn32493
-func Fn32493(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32492 github.com/doitintl/googlesqlwasm2go/p10.Fn32492
+func Fn32492(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32496 github.com/goccy/googlesqlwasm2go/p10.Fn32496
+//go:linkname Fn32496 github.com/doitintl/googlesqlwasm2go/p10.Fn32496
 func Fn32496(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32499 github.com/goccy/googlesqlwasm2go/p10.Fn32499
+//go:linkname Fn32499 github.com/doitintl/googlesqlwasm2go/p10.Fn32499
 func Fn32499(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32503 github.com/goccy/googlesqlwasm2go/p10.Fn32503
+//go:linkname Fn32503 github.com/doitintl/googlesqlwasm2go/p10.Fn32503
 func Fn32503(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32506 github.com/goccy/googlesqlwasm2go/p10.Fn32506
-func Fn32506(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32507 github.com/doitintl/googlesqlwasm2go/p10.Fn32507
+func Fn32507(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32510 github.com/goccy/googlesqlwasm2go/p10.Fn32510
-func Fn32510(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32511 github.com/doitintl/googlesqlwasm2go/p10.Fn32511
+func Fn32511(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32514 github.com/goccy/googlesqlwasm2go/p10.Fn32514
+//go:linkname Fn32514 github.com/doitintl/googlesqlwasm2go/p10.Fn32514
 func Fn32514(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32518 github.com/goccy/googlesqlwasm2go/p10.Fn32518
+//go:linkname Fn32518 github.com/doitintl/googlesqlwasm2go/p10.Fn32518
 func Fn32518(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32522 github.com/goccy/googlesqlwasm2go/p10.Fn32522
+//go:linkname Fn32522 github.com/doitintl/googlesqlwasm2go/p10.Fn32522
 func Fn32522(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32526 github.com/goccy/googlesqlwasm2go/p10.Fn32526
+//go:linkname Fn32526 github.com/doitintl/googlesqlwasm2go/p10.Fn32526
 func Fn32526(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32529 github.com/goccy/googlesqlwasm2go/p10.Fn32529
+//go:linkname Fn32529 github.com/doitintl/googlesqlwasm2go/p10.Fn32529
 func Fn32529(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32533 github.com/goccy/googlesqlwasm2go/p10.Fn32533
+//go:linkname Fn32533 github.com/doitintl/googlesqlwasm2go/p10.Fn32533
 func Fn32533(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32537 github.com/goccy/googlesqlwasm2go/p10.Fn32537
-func Fn32537(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32536 github.com/doitintl/googlesqlwasm2go/p10.Fn32536
+func Fn32536(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32541 github.com/goccy/googlesqlwasm2go/p10.Fn32541
-func Fn32541(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32539 github.com/doitintl/googlesqlwasm2go/p10.Fn32539
+func Fn32539(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32545 github.com/goccy/googlesqlwasm2go/p10.Fn32545
-func Fn32545(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32543 github.com/doitintl/googlesqlwasm2go/p10.Fn32543
+func Fn32543(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32549 github.com/goccy/googlesqlwasm2go/p10.Fn32549
-func Fn32549(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32547 github.com/doitintl/googlesqlwasm2go/p10.Fn32547
+func Fn32547(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32553 github.com/goccy/googlesqlwasm2go/p10.Fn32553
-func Fn32553(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32550 github.com/doitintl/googlesqlwasm2go/p10.Fn32550
+func Fn32550(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32557 github.com/goccy/googlesqlwasm2go/p10.Fn32557
-func Fn32557(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32554 github.com/doitintl/googlesqlwasm2go/p10.Fn32554
+func Fn32554(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32560 github.com/goccy/googlesqlwasm2go/p10.Fn32560
-func Fn32560(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32558 github.com/doitintl/googlesqlwasm2go/p10.Fn32558
+func Fn32558(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32564 github.com/goccy/googlesqlwasm2go/p10.Fn32564
+//go:linkname Fn32561 github.com/doitintl/googlesqlwasm2go/p10.Fn32561
+func Fn32561(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn32564 github.com/doitintl/googlesqlwasm2go/p10.Fn32564
 func Fn32564(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32567 github.com/goccy/googlesqlwasm2go/p10.Fn32567
-func Fn32567(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32568 github.com/doitintl/googlesqlwasm2go/p10.Fn32568
+func Fn32568(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32571 github.com/goccy/googlesqlwasm2go/p10.Fn32571
+//go:linkname Fn32571 github.com/doitintl/googlesqlwasm2go/p10.Fn32571
 func Fn32571(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32574 github.com/goccy/googlesqlwasm2go/p10.Fn32574
-func Fn32574(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32575 github.com/doitintl/googlesqlwasm2go/p10.Fn32575
+func Fn32575(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32577 github.com/goccy/googlesqlwasm2go/p10.Fn32577
-func Fn32577(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32578 github.com/doitintl/googlesqlwasm2go/p10.Fn32578
+func Fn32578(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32581 github.com/goccy/googlesqlwasm2go/p10.Fn32581
-func Fn32581(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32582 github.com/doitintl/googlesqlwasm2go/p10.Fn32582
+func Fn32582(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32585 github.com/goccy/googlesqlwasm2go/p10.Fn32585
-func Fn32585(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32586 github.com/doitintl/googlesqlwasm2go/p10.Fn32586
+func Fn32586(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32589 github.com/goccy/googlesqlwasm2go/p10.Fn32589
-func Fn32589(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32590 github.com/doitintl/googlesqlwasm2go/p10.Fn32590
+func Fn32590(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32593 github.com/goccy/googlesqlwasm2go/p10.Fn32593
-func Fn32593(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32594 github.com/doitintl/googlesqlwasm2go/p10.Fn32594
+func Fn32594(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32596 github.com/goccy/googlesqlwasm2go/p10.Fn32596
-func Fn32596(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32597 github.com/doitintl/googlesqlwasm2go/p10.Fn32597
+func Fn32597(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32600 github.com/goccy/googlesqlwasm2go/p10.Fn32600
-func Fn32600(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32601 github.com/doitintl/googlesqlwasm2go/p10.Fn32601
+func Fn32601(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32604 github.com/goccy/googlesqlwasm2go/p10.Fn32604
-func Fn32604(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32605 github.com/doitintl/googlesqlwasm2go/p10.Fn32605
+func Fn32605(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32608 github.com/goccy/googlesqlwasm2go/p10.Fn32608
+//go:linkname Fn32608 github.com/doitintl/googlesqlwasm2go/p10.Fn32608
 func Fn32608(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32611 github.com/goccy/googlesqlwasm2go/p10.Fn32611
-func Fn32611(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32612 github.com/doitintl/googlesqlwasm2go/p10.Fn32612
+func Fn32612(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32614 github.com/goccy/googlesqlwasm2go/p10.Fn32614
-func Fn32614(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32616 github.com/doitintl/googlesqlwasm2go/p10.Fn32616
+func Fn32616(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32617 github.com/goccy/googlesqlwasm2go/p10.Fn32617
-func Fn32617(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32620 github.com/doitintl/googlesqlwasm2go/p10.Fn32620
+func Fn32620(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32621 github.com/goccy/googlesqlwasm2go/p10.Fn32621
-func Fn32621(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32623 github.com/doitintl/googlesqlwasm2go/p10.Fn32623
+func Fn32623(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32625 github.com/goccy/googlesqlwasm2go/p10.Fn32625
-func Fn32625(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32624 github.com/doitintl/googlesqlwasm2go/p3.Fn32624
+func Fn32624(m *base.Module, l0 int32)
 
-//go:linkname Fn32628 github.com/goccy/googlesqlwasm2go/p10.Fn32628
-func Fn32628(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32629 github.com/doitintl/googlesqlwasm2go/p10.Fn32629
+func Fn32629(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32631 github.com/goccy/googlesqlwasm2go/p10.Fn32631
-func Fn32631(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32632 github.com/doitintl/googlesqlwasm2go/p10.Fn32632
+func Fn32632(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn32950 github.com/goccy/googlesqlwasm2go/p10.Fn32950
-func Fn32950(m *base.Module, l0 int32)
+//go:linkname Fn32635 github.com/doitintl/googlesqlwasm2go/p10.Fn32635
+func Fn32635(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33238 github.com/goccy/googlesqlwasm2go/p10.Fn33238
-func Fn33238(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32638 github.com/doitintl/googlesqlwasm2go/p10.Fn32638
+func Fn32638(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33248 github.com/goccy/googlesqlwasm2go/p9.Fn33248
-func Fn33248(m *base.Module, l0 int32) int32
+//go:linkname Fn32641 github.com/doitintl/googlesqlwasm2go/p10.Fn32641
+func Fn32641(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33249 github.com/goccy/googlesqlwasm2go/p10.Fn33249
-func Fn33249(m *base.Module, l0 int32) int32
+//go:linkname Fn32644 github.com/doitintl/googlesqlwasm2go/p10.Fn32644
+func Fn32644(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33264 github.com/goccy/googlesqlwasm2go/p10.Fn33264
-func Fn33264(m *base.Module, l0 int32)
+//go:linkname Fn32648 github.com/doitintl/googlesqlwasm2go/p10.Fn32648
+func Fn32648(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33290 github.com/goccy/googlesqlwasm2go/p9.Fn33290
-func Fn33290(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32652 github.com/doitintl/googlesqlwasm2go/p10.Fn32652
+func Fn32652(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33300 github.com/goccy/googlesqlwasm2go/p9.Fn33300
-func Fn33300(m *base.Module, l0 int32)
+//go:linkname Fn32656 github.com/doitintl/googlesqlwasm2go/p10.Fn32656
+func Fn32656(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33301 github.com/goccy/googlesqlwasm2go/p9.Fn33301
-func Fn33301(m *base.Module, l0 int32)
+//go:linkname Fn32660 github.com/doitintl/googlesqlwasm2go/p10.Fn32660
+func Fn32660(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33309 github.com/goccy/googlesqlwasm2go/p10.Fn33309
-func Fn33309(m *base.Module, l0 int32)
+//go:linkname Fn32663 github.com/doitintl/googlesqlwasm2go/p10.Fn32663
+func Fn32663(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33334 github.com/goccy/googlesqlwasm2go/p10.Fn33334
-func Fn33334(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32668 github.com/doitintl/googlesqlwasm2go/p10.Fn32668
+func Fn32668(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33349 github.com/goccy/googlesqlwasm2go/p10.Fn33349
-func Fn33349(m *base.Module, l0 int32)
+//go:linkname Fn32672 github.com/doitintl/googlesqlwasm2go/p10.Fn32672
+func Fn32672(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33350 github.com/goccy/googlesqlwasm2go/p10.Fn33350
-func Fn33350(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32676 github.com/doitintl/googlesqlwasm2go/p10.Fn32676
+func Fn32676(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33354 github.com/goccy/googlesqlwasm2go/p10.Fn33354
-func Fn33354(m *base.Module, l0 int32)
+//go:linkname Fn32680 github.com/doitintl/googlesqlwasm2go/p10.Fn32680
+func Fn32680(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33355 github.com/goccy/googlesqlwasm2go/p9.Fn33355
-func Fn33355(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32684 github.com/doitintl/googlesqlwasm2go/p10.Fn32684
+func Fn32684(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33357 github.com/goccy/googlesqlwasm2go/p8.Fn33357
-func Fn33357(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn32688 github.com/doitintl/googlesqlwasm2go/p10.Fn32688
+func Fn32688(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33359 github.com/goccy/googlesqlwasm2go/p10.Fn33359
-func Fn33359(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32692 github.com/doitintl/googlesqlwasm2go/p10.Fn32692
+func Fn32692(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33362 github.com/goccy/googlesqlwasm2go/p10.Fn33362
-func Fn33362(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32695 github.com/doitintl/googlesqlwasm2go/p10.Fn32695
+func Fn32695(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33364 github.com/goccy/googlesqlwasm2go/p9.Fn33364
-func Fn33364(m *base.Module, l0 int32)
+//go:linkname Fn32698 github.com/doitintl/googlesqlwasm2go/p10.Fn32698
+func Fn32698(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33367 github.com/goccy/googlesqlwasm2go/p10.Fn33367
-func Fn33367(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn32699 github.com/doitintl/googlesqlwasm2go/p3.Fn32699
+func Fn32699(m *base.Module, l0 int32)
 
-//go:linkname Fn33430 github.com/goccy/googlesqlwasm2go/p9.Fn33430
-func Fn33430(m *base.Module, l0 int32)
+//go:linkname Fn32705 github.com/doitintl/googlesqlwasm2go/p10.Fn32705
+func Fn32705(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33471 github.com/goccy/googlesqlwasm2go/p9.Fn33471
-func Fn33471(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn32708 github.com/doitintl/googlesqlwasm2go/p10.Fn32708
+func Fn32708(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33473 github.com/goccy/googlesqlwasm2go/p9.Fn33473
-func Fn33473(m *base.Module, l0 int32)
+//go:linkname Fn32711 github.com/doitintl/googlesqlwasm2go/p10.Fn32711
+func Fn32711(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33500 github.com/goccy/googlesqlwasm2go/p9.Fn33500
-func Fn33500(m *base.Module, l0 int32)
+//go:linkname Fn32715 github.com/doitintl/googlesqlwasm2go/p10.Fn32715
+func Fn32715(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33509 github.com/goccy/googlesqlwasm2go/p9.Fn33509
-func Fn33509(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+//go:linkname Fn32719 github.com/doitintl/googlesqlwasm2go/p10.Fn32719
+func Fn32719(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33518 github.com/goccy/googlesqlwasm2go/p5.Fn33518
-func Fn33518(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn32723 github.com/doitintl/googlesqlwasm2go/p10.Fn32723
+func Fn32723(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33533 github.com/goccy/googlesqlwasm2go/p9.Fn33533
-func Fn33533(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn32727 github.com/doitintl/googlesqlwasm2go/p10.Fn32727
+func Fn32727(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33585 github.com/goccy/googlesqlwasm2go/p10.Fn33585
-func Fn33585(m *base.Module, l0 int32)
+//go:linkname Fn32731 github.com/doitintl/googlesqlwasm2go/p10.Fn32731
+func Fn32731(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33588 github.com/goccy/googlesqlwasm2go/p9.Fn33588
-func Fn33588(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32734 github.com/doitintl/googlesqlwasm2go/p10.Fn32734
+func Fn32734(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33592 github.com/goccy/googlesqlwasm2go/p6.Fn33592
-func Fn33592(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn32735 github.com/doitintl/googlesqlwasm2go/p3.Fn32735
+func Fn32735(m *base.Module, l0 int32)
 
-//go:linkname Fn33601 github.com/goccy/googlesqlwasm2go/p9.Fn33601
-func Fn33601(m *base.Module, l0 int32)
+//go:linkname Fn32741 github.com/doitintl/googlesqlwasm2go/p10.Fn32741
+func Fn32741(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33602 github.com/goccy/googlesqlwasm2go/p9.Fn33602
-func Fn33602(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32744 github.com/doitintl/googlesqlwasm2go/p10.Fn32744
+func Fn32744(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33608 github.com/goccy/googlesqlwasm2go/p10.Fn33608
-func Fn33608(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn32745 github.com/doitintl/googlesqlwasm2go/p3.Fn32745
+func Fn32745(m *base.Module, l0 int32)
 
-//go:linkname Fn33612 github.com/goccy/googlesqlwasm2go/p9.Fn33612
-func Fn33612(m *base.Module, l0 int32) int32
+//go:linkname Fn32751 github.com/doitintl/googlesqlwasm2go/p10.Fn32751
+func Fn32751(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33815 github.com/goccy/googlesqlwasm2go/p10.Fn33815
-func Fn33815(m *base.Module, l0 int32)
+//go:linkname Fn32756 github.com/doitintl/googlesqlwasm2go/p10.Fn32756
+func Fn32756(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33817 github.com/goccy/googlesqlwasm2go/p9.Fn33817
-func Fn33817(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn32760 github.com/doitintl/googlesqlwasm2go/p10.Fn32760
+func Fn32760(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33964 github.com/goccy/googlesqlwasm2go/p10.Fn33964
-func Fn33964(m *base.Module, l0 int32) int32
+//go:linkname Fn32764 github.com/doitintl/googlesqlwasm2go/p10.Fn32764
+func Fn32764(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33989 github.com/goccy/googlesqlwasm2go/p9.Fn33989
-func Fn33989(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn32768 github.com/doitintl/googlesqlwasm2go/p10.Fn32768
+func Fn32768(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn33996 github.com/goccy/googlesqlwasm2go/p9.Fn33996
-func Fn33996(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn32769 github.com/doitintl/googlesqlwasm2go/p3.Fn32769
+func Fn32769(m *base.Module, l0 int32)
 
-//go:linkname Fn34021 github.com/goccy/googlesqlwasm2go/p9.Fn34021
-func Fn34021(m *base.Module, l0 int32)
+//go:linkname Fn32774 github.com/doitintl/googlesqlwasm2go/p10.Fn32774
+func Fn32774(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34062 github.com/goccy/googlesqlwasm2go/p9.Fn34062
-func Fn34062(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn32777 github.com/doitintl/googlesqlwasm2go/p10.Fn32777
+func Fn32777(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34090 github.com/goccy/googlesqlwasm2go/p6.Fn34090
-func Fn34090(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn32780 github.com/doitintl/googlesqlwasm2go/p10.Fn32780
+func Fn32780(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34136 github.com/goccy/googlesqlwasm2go/p9.Fn34136
-func Fn34136(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32784 github.com/doitintl/googlesqlwasm2go/p10.Fn32784
+func Fn32784(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34141 github.com/goccy/googlesqlwasm2go/p9.Fn34141
-func Fn34141(m *base.Module, l0 int32)
+//go:linkname Fn32787 github.com/doitintl/googlesqlwasm2go/p10.Fn32787
+func Fn32787(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34159 github.com/goccy/googlesqlwasm2go/p5.Fn34159
-func Fn34159(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn32791 github.com/doitintl/googlesqlwasm2go/p10.Fn32791
+func Fn32791(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34185 github.com/goccy/googlesqlwasm2go/p10.Fn34185
-func Fn34185(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn32795 github.com/doitintl/googlesqlwasm2go/p10.Fn32795
+func Fn32795(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34293 github.com/goccy/googlesqlwasm2go/p10.Fn34293
-func Fn34293(m *base.Module, l0 int32)
+//go:linkname Fn32799 github.com/doitintl/googlesqlwasm2go/p10.Fn32799
+func Fn32799(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34321 github.com/goccy/googlesqlwasm2go/p10.Fn34321
-func Fn34321(m *base.Module, l0 int32) int32
+//go:linkname Fn32803 github.com/doitintl/googlesqlwasm2go/p10.Fn32803
+func Fn32803(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34453 github.com/goccy/googlesqlwasm2go/p9.Fn34453
-func Fn34453(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn32807 github.com/doitintl/googlesqlwasm2go/p10.Fn32807
+func Fn32807(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34455 github.com/goccy/googlesqlwasm2go/p10.Fn34455
-func Fn34455(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn32810 github.com/doitintl/googlesqlwasm2go/p10.Fn32810
+func Fn32810(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34456 github.com/goccy/googlesqlwasm2go/p10.Fn34456
-func Fn34456(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn32814 github.com/doitintl/googlesqlwasm2go/p10.Fn32814
+func Fn32814(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34461 github.com/goccy/googlesqlwasm2go/p9.Fn34461
-func Fn34461(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn32818 github.com/doitintl/googlesqlwasm2go/p10.Fn32818
+func Fn32818(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34463 github.com/goccy/googlesqlwasm2go/p9.Fn34463
-func Fn34463(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn32822 github.com/doitintl/googlesqlwasm2go/p10.Fn32822
+func Fn32822(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34469 github.com/goccy/googlesqlwasm2go/p9.Fn34469
-func Fn34469(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32826 github.com/doitintl/googlesqlwasm2go/p10.Fn32826
+func Fn32826(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34473 github.com/goccy/googlesqlwasm2go/p9.Fn34473
-func Fn34473(m *base.Module, l0 int32)
+//go:linkname Fn32830 github.com/doitintl/googlesqlwasm2go/p10.Fn32830
+func Fn32830(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34504 github.com/goccy/googlesqlwasm2go/p10.Fn34504
-func Fn34504(m *base.Module, l0 int32)
+//go:linkname Fn32834 github.com/doitintl/googlesqlwasm2go/p10.Fn32834
+func Fn32834(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34577 github.com/goccy/googlesqlwasm2go/p5.Fn34577
-func Fn34577(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn32838 github.com/doitintl/googlesqlwasm2go/p10.Fn32838
+func Fn32838(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34583 github.com/goccy/googlesqlwasm2go/p6.Fn34583
-func Fn34583(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn32841 github.com/doitintl/googlesqlwasm2go/p10.Fn32841
+func Fn32841(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34607 github.com/goccy/googlesqlwasm2go/p4.Fn34607
-func Fn34607(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
+//go:linkname Fn32845 github.com/doitintl/googlesqlwasm2go/p10.Fn32845
+func Fn32845(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34754 github.com/goccy/googlesqlwasm2go/p10.Fn34754
-func Fn34754(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32848 github.com/doitintl/googlesqlwasm2go/p10.Fn32848
+func Fn32848(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34785 github.com/goccy/googlesqlwasm2go/p8.Fn34785
-func Fn34785(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32852 github.com/doitintl/googlesqlwasm2go/p10.Fn32852
+func Fn32852(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34786 github.com/goccy/googlesqlwasm2go/p9.Fn34786
-func Fn34786(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn32855 github.com/doitintl/googlesqlwasm2go/p10.Fn32855
+func Fn32855(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34787 github.com/goccy/googlesqlwasm2go/p9.Fn34787
-func Fn34787(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn32858 github.com/doitintl/googlesqlwasm2go/p10.Fn32858
+func Fn32858(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34889 github.com/goccy/googlesqlwasm2go/p10.Fn34889
-func Fn34889(m *base.Module, l0 int32) int32
+//go:linkname Fn32862 github.com/doitintl/googlesqlwasm2go/p10.Fn32862
+func Fn32862(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34890 github.com/goccy/googlesqlwasm2go/p10.Fn34890
-func Fn34890(m *base.Module, l0 int32) int32
+//go:linkname Fn32866 github.com/doitintl/googlesqlwasm2go/p10.Fn32866
+func Fn32866(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34891 github.com/goccy/googlesqlwasm2go/p10.Fn34891
-func Fn34891(m *base.Module, l0 int32) int32
+//go:linkname Fn32870 github.com/doitintl/googlesqlwasm2go/p10.Fn32870
+func Fn32870(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34905 github.com/goccy/googlesqlwasm2go/p10.Fn34905
-func Fn34905(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn32874 github.com/doitintl/googlesqlwasm2go/p10.Fn32874
+func Fn32874(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34965 github.com/goccy/googlesqlwasm2go/p9.Fn34965
-func Fn34965(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32877 github.com/doitintl/googlesqlwasm2go/p10.Fn32877
+func Fn32877(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34981 github.com/goccy/googlesqlwasm2go/p9.Fn34981
-func Fn34981(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32881 github.com/doitintl/googlesqlwasm2go/p10.Fn32881
+func Fn32881(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34992 github.com/goccy/googlesqlwasm2go/p9.Fn34992
-func Fn34992(m *base.Module, l0 int32)
+//go:linkname Fn32885 github.com/doitintl/googlesqlwasm2go/p10.Fn32885
+func Fn32885(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn34995 github.com/goccy/googlesqlwasm2go/p9.Fn34995
-func Fn34995(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn32889 github.com/doitintl/googlesqlwasm2go/p10.Fn32889
+func Fn32889(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35061 github.com/goccy/googlesqlwasm2go/p10.Fn35061
+//go:linkname Fn32892 github.com/doitintl/googlesqlwasm2go/p10.Fn32892
+func Fn32892(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn32895 github.com/doitintl/googlesqlwasm2go/p10.Fn32895
+func Fn32895(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn32898 github.com/doitintl/googlesqlwasm2go/p10.Fn32898
+func Fn32898(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn32902 github.com/doitintl/googlesqlwasm2go/p10.Fn32902
+func Fn32902(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn32906 github.com/doitintl/googlesqlwasm2go/p10.Fn32906
+func Fn32906(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn32909 github.com/doitintl/googlesqlwasm2go/p10.Fn32909
+func Fn32909(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn32912 github.com/doitintl/googlesqlwasm2go/p10.Fn32912
+func Fn32912(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn33231 github.com/doitintl/googlesqlwasm2go/p10.Fn33231
+func Fn33231(m *base.Module, l0 int32)
+
+//go:linkname Fn33529 github.com/doitintl/googlesqlwasm2go/p10.Fn33529
+func Fn33529(m *base.Module, l0 int32) int32
+
+//go:linkname Fn33530 github.com/doitintl/googlesqlwasm2go/p10.Fn33530
+func Fn33530(m *base.Module, l0 int32) int32
+
+//go:linkname Fn33533 github.com/doitintl/googlesqlwasm2go/p10.Fn33533
+func Fn33533(m *base.Module, l0 int32)
+
+//go:linkname Fn33545 github.com/doitintl/googlesqlwasm2go/p10.Fn33545
+func Fn33545(m *base.Module, l0 int32)
+
+//go:linkname Fn33550 github.com/doitintl/googlesqlwasm2go/p10.Fn33550
+func Fn33550(m *base.Module, l0 int32)
+
+//go:linkname Fn33567 github.com/doitintl/googlesqlwasm2go/p10.Fn33567
+func Fn33567(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn33568 github.com/doitintl/googlesqlwasm2go/p10.Fn33568
+func Fn33568(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn33569 github.com/doitintl/googlesqlwasm2go/p10.Fn33569
+func Fn33569(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn33571 github.com/doitintl/googlesqlwasm2go/p10.Fn33571
+func Fn33571(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn33581 github.com/doitintl/googlesqlwasm2go/p10.Fn33581
+func Fn33581(m *base.Module, l0 int32)
+
+//go:linkname Fn33582 github.com/doitintl/googlesqlwasm2go/p10.Fn33582
+func Fn33582(m *base.Module, l0 int32)
+
+//go:linkname Fn33615 github.com/doitintl/googlesqlwasm2go/p10.Fn33615
+func Fn33615(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn33628 github.com/doitintl/googlesqlwasm2go/p10.Fn33628
+func Fn33628(m *base.Module, l0 int32)
+
+//go:linkname Fn33630 github.com/doitintl/googlesqlwasm2go/p10.Fn33630
+func Fn33630(m *base.Module, l0 int32)
+
+//go:linkname Fn33631 github.com/doitintl/googlesqlwasm2go/p10.Fn33631
+func Fn33631(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn33635 github.com/doitintl/googlesqlwasm2go/p10.Fn33635
+func Fn33635(m *base.Module, l0 int32)
+
+//go:linkname Fn33636 github.com/doitintl/googlesqlwasm2go/p10.Fn33636
+func Fn33636(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn33638 github.com/doitintl/googlesqlwasm2go/p8.Fn33638
+func Fn33638(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn33640 github.com/doitintl/googlesqlwasm2go/p10.Fn33640
+func Fn33640(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn33643 github.com/doitintl/googlesqlwasm2go/p10.Fn33643
+func Fn33643(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn33645 github.com/doitintl/googlesqlwasm2go/p9.Fn33645
+func Fn33645(m *base.Module, l0 int32)
+
+//go:linkname Fn33648 github.com/doitintl/googlesqlwasm2go/p10.Fn33648
+func Fn33648(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn33711 github.com/doitintl/googlesqlwasm2go/p10.Fn33711
+func Fn33711(m *base.Module, l0 int32)
+
+//go:linkname Fn33752 github.com/doitintl/googlesqlwasm2go/p9.Fn33752
+func Fn33752(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn33754 github.com/doitintl/googlesqlwasm2go/p9.Fn33754
+func Fn33754(m *base.Module, l0 int32)
+
+//go:linkname Fn33781 github.com/doitintl/googlesqlwasm2go/p10.Fn33781
+func Fn33781(m *base.Module, l0 int32)
+
+//go:linkname Fn33790 github.com/doitintl/googlesqlwasm2go/p9.Fn33790
+func Fn33790(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+
+//go:linkname Fn33799 github.com/doitintl/googlesqlwasm2go/p5.Fn33799
+func Fn33799(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+
+//go:linkname Fn33814 github.com/doitintl/googlesqlwasm2go/p9.Fn33814
+func Fn33814(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn33866 github.com/doitintl/googlesqlwasm2go/p10.Fn33866
+func Fn33866(m *base.Module, l0 int32)
+
+//go:linkname Fn33869 github.com/doitintl/googlesqlwasm2go/p10.Fn33869
+func Fn33869(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn33873 github.com/doitintl/googlesqlwasm2go/p6.Fn33873
+func Fn33873(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn33882 github.com/doitintl/googlesqlwasm2go/p9.Fn33882
+func Fn33882(m *base.Module, l0 int32)
+
+//go:linkname Fn33883 github.com/doitintl/googlesqlwasm2go/p10.Fn33883
+func Fn33883(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn33889 github.com/doitintl/googlesqlwasm2go/p10.Fn33889
+func Fn33889(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn33893 github.com/doitintl/googlesqlwasm2go/p9.Fn33893
+func Fn33893(m *base.Module, l0 int32) int32
+
+//go:linkname Fn34095 github.com/doitintl/googlesqlwasm2go/p10.Fn34095
+func Fn34095(m *base.Module, l0 int32)
+
+//go:linkname Fn34097 github.com/doitintl/googlesqlwasm2go/p10.Fn34097
+func Fn34097(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn34244 github.com/doitintl/googlesqlwasm2go/p10.Fn34244
+func Fn34244(m *base.Module, l0 int32) int32
+
+//go:linkname Fn34269 github.com/doitintl/googlesqlwasm2go/p9.Fn34269
+func Fn34269(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn34276 github.com/doitintl/googlesqlwasm2go/p9.Fn34276
+func Fn34276(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+
+//go:linkname Fn34301 github.com/doitintl/googlesqlwasm2go/p9.Fn34301
+func Fn34301(m *base.Module, l0 int32)
+
+//go:linkname Fn34342 github.com/doitintl/googlesqlwasm2go/p9.Fn34342
+func Fn34342(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn34370 github.com/doitintl/googlesqlwasm2go/p6.Fn34370
+func Fn34370(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn34416 github.com/doitintl/googlesqlwasm2go/p9.Fn34416
+func Fn34416(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn34421 github.com/doitintl/googlesqlwasm2go/p9.Fn34421
+func Fn34421(m *base.Module, l0 int32)
+
+//go:linkname Fn34465 github.com/doitintl/googlesqlwasm2go/p10.Fn34465
+func Fn34465(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn34537 github.com/doitintl/googlesqlwasm2go/p9.Fn34537
+func Fn34537(m *base.Module, l0 int32) int32
+
+//go:linkname Fn34556 github.com/doitintl/googlesqlwasm2go/p10.Fn34556
+func Fn34556(m *base.Module, l0 int32) int32
+
+//go:linkname Fn34573 github.com/doitintl/googlesqlwasm2go/p10.Fn34573
+func Fn34573(m *base.Module, l0 int32)
+
+//go:linkname Fn34601 github.com/doitintl/googlesqlwasm2go/p10.Fn34601
+func Fn34601(m *base.Module, l0 int32) int32
+
+//go:linkname Fn34664 github.com/doitintl/googlesqlwasm2go/p5.Fn34664
+func Fn34664(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn34721 github.com/doitintl/googlesqlwasm2go/p6.Fn34721
+func Fn34721(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+
+//go:linkname Fn34733 github.com/doitintl/googlesqlwasm2go/p10.Fn34733
+func Fn34733(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn34735 github.com/doitintl/googlesqlwasm2go/p10.Fn34735
+func Fn34735(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn34736 github.com/doitintl/googlesqlwasm2go/p10.Fn34736
+func Fn34736(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn34741 github.com/doitintl/googlesqlwasm2go/p10.Fn34741
+func Fn34741(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn34743 github.com/doitintl/googlesqlwasm2go/p9.Fn34743
+func Fn34743(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn34749 github.com/doitintl/googlesqlwasm2go/p10.Fn34749
+func Fn34749(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn34753 github.com/doitintl/googlesqlwasm2go/p9.Fn34753
+func Fn34753(m *base.Module, l0 int32)
+
+//go:linkname Fn34784 github.com/doitintl/googlesqlwasm2go/p10.Fn34784
+func Fn34784(m *base.Module, l0 int32)
+
+//go:linkname Fn34857 github.com/doitintl/googlesqlwasm2go/p5.Fn34857
+func Fn34857(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn34887 github.com/doitintl/googlesqlwasm2go/p4.Fn34887
+func Fn34887(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
+
+//go:linkname Fn34897 github.com/doitintl/googlesqlwasm2go/p10.Fn34897
+func Fn34897(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+
+//go:linkname Fn34898 github.com/doitintl/googlesqlwasm2go/p5.Fn34898
+func Fn34898(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn34899 github.com/doitintl/googlesqlwasm2go/p9.Fn34899
+func Fn34899(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn35030 github.com/doitintl/googlesqlwasm2go/p10.Fn35030
+func Fn35030(m *base.Module, l0 int32, l1 int32)
+
+//go:linkname Fn35056 github.com/doitintl/googlesqlwasm2go/p9.Fn35056
+func Fn35056(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+
+//go:linkname Fn35057 github.com/doitintl/googlesqlwasm2go/p8.Fn35057
+func Fn35057(m *base.Module, l0 int32, l1 int32, l2 int32)
+
+//go:linkname Fn35061 github.com/doitintl/googlesqlwasm2go/p8.Fn35061
 func Fn35061(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35088 github.com/goccy/googlesqlwasm2go/p9.Fn35088
-func Fn35088(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35062 github.com/doitintl/googlesqlwasm2go/p9.Fn35062
+func Fn35062(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn35114 github.com/goccy/googlesqlwasm2go/p5.Fn35114
-func Fn35114(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn35063 github.com/doitintl/googlesqlwasm2go/p9.Fn35063
+func Fn35063(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn35148 github.com/goccy/googlesqlwasm2go/p9.Fn35148
-func Fn35148(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn35094 github.com/doitintl/googlesqlwasm2go/p9.Fn35094
+func Fn35094(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn35150 github.com/goccy/googlesqlwasm2go/p9.Fn35150
-func Fn35150(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn35095 github.com/doitintl/googlesqlwasm2go/p5.Fn35095
+func Fn35095(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn35162 github.com/goccy/googlesqlwasm2go/p9.Fn35162
-func Fn35162(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35165 github.com/doitintl/googlesqlwasm2go/p10.Fn35165
+func Fn35165(m *base.Module, l0 int32) int32
 
-//go:linkname Fn35163 github.com/goccy/googlesqlwasm2go/p10.Fn35163
-func Fn35163(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn35166 github.com/doitintl/googlesqlwasm2go/p10.Fn35166
+func Fn35166(m *base.Module, l0 int32) int32
 
-//go:linkname Fn35166 github.com/goccy/googlesqlwasm2go/p5.Fn35166
-func Fn35166(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn35167 github.com/doitintl/googlesqlwasm2go/p10.Fn35167
+func Fn35167(m *base.Module, l0 int32) int32
 
-//go:linkname Fn35181 github.com/goccy/googlesqlwasm2go/p9.Fn35181
-func Fn35181(m *base.Module, l0 int32, l1 int32, l2 int64) int32
+//go:linkname Fn35181 github.com/doitintl/googlesqlwasm2go/p10.Fn35181
+func Fn35181(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn35184 github.com/goccy/googlesqlwasm2go/p10.Fn35184
-func Fn35184(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35241 github.com/doitintl/googlesqlwasm2go/p9.Fn35241
+func Fn35241(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35194 github.com/goccy/googlesqlwasm2go/p10.Fn35194
-func Fn35194(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn35257 github.com/doitintl/googlesqlwasm2go/p9.Fn35257
+func Fn35257(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35195 github.com/goccy/googlesqlwasm2go/p10.Fn35195
-func Fn35195(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn35266 github.com/doitintl/googlesqlwasm2go/p9.Fn35266
+func Fn35266(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35249 github.com/goccy/googlesqlwasm2go/p10.Fn35249
-func Fn35249(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn35268 github.com/doitintl/googlesqlwasm2go/p10.Fn35268
+func Fn35268(m *base.Module, l0 int32)
 
-//go:linkname Fn35315 github.com/goccy/googlesqlwasm2go/p8.Fn35315
-func Fn35315(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35271 github.com/doitintl/googlesqlwasm2go/p10.Fn35271
+func Fn35271(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35337 github.com/goccy/googlesqlwasm2go/p9.Fn35337
+//go:linkname Fn35283 github.com/doitintl/googlesqlwasm2go/p10.Fn35283
+func Fn35283(m *base.Module, l0 int32) int32
+
+//go:linkname Fn35337 github.com/doitintl/googlesqlwasm2go/p10.Fn35337
 func Fn35337(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35365 github.com/goccy/googlesqlwasm2go/p9.Fn35365
-func Fn35365(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35364 github.com/doitintl/googlesqlwasm2go/p9.Fn35364
+func Fn35364(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35384 github.com/goccy/googlesqlwasm2go/p9.Fn35384
-func Fn35384(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35390 github.com/doitintl/googlesqlwasm2go/p5.Fn35390
+func Fn35390(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn35401 github.com/goccy/googlesqlwasm2go/p9.Fn35401
-func Fn35401(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35391 github.com/doitintl/googlesqlwasm2go/p9.Fn35391
+func Fn35391(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn35405 github.com/goccy/googlesqlwasm2go/p9.Fn35405
-func Fn35405(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35396 github.com/doitintl/googlesqlwasm2go/p9.Fn35396
+func Fn35396(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn35417 github.com/goccy/googlesqlwasm2go/p9.Fn35417
-func Fn35417(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35406 github.com/doitintl/googlesqlwasm2go/p9.Fn35406
+func Fn35406(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn35420 github.com/goccy/googlesqlwasm2go/p10.Fn35420
-func Fn35420(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn35424 github.com/doitintl/googlesqlwasm2go/p9.Fn35424
+func Fn35424(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn35422 github.com/goccy/googlesqlwasm2go/p10.Fn35422
-func Fn35422(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn35426 github.com/doitintl/googlesqlwasm2go/p9.Fn35426
+func Fn35426(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn35441 github.com/goccy/googlesqlwasm2go/p9.Fn35441
-func Fn35441(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35438 github.com/doitintl/googlesqlwasm2go/p10.Fn35438
+func Fn35438(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35442 github.com/goccy/googlesqlwasm2go/p9.Fn35442
-func Fn35442(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn35439 github.com/doitintl/googlesqlwasm2go/p10.Fn35439
+func Fn35439(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn35456 github.com/goccy/googlesqlwasm2go/p9.Fn35456
-func Fn35456(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35442 github.com/doitintl/googlesqlwasm2go/p5.Fn35442
+func Fn35442(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn35457 github.com/goccy/googlesqlwasm2go/p10.Fn35457
-func Fn35457(m *base.Module, l0 int32) int32
+//go:linkname Fn35457 github.com/doitintl/googlesqlwasm2go/p9.Fn35457
+func Fn35457(m *base.Module, l0 int32, l1 int32, l2 int64) int32
 
-//go:linkname Fn35477 github.com/goccy/googlesqlwasm2go/p10.Fn35477
-func Fn35477(m *base.Module, l0 int32)
+//go:linkname Fn35460 github.com/doitintl/googlesqlwasm2go/p10.Fn35460
+func Fn35460(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35484 github.com/goccy/googlesqlwasm2go/p9.Fn35484
-func Fn35484(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35470 github.com/doitintl/googlesqlwasm2go/p10.Fn35470
+func Fn35470(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn35485 github.com/goccy/googlesqlwasm2go/p9.Fn35485
-func Fn35485(m *base.Module, l0 int32)
+//go:linkname Fn35471 github.com/doitintl/googlesqlwasm2go/p10.Fn35471
+func Fn35471(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn35486 github.com/goccy/googlesqlwasm2go/p9.Fn35486
-func Fn35486(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn35525 github.com/doitintl/googlesqlwasm2go/p10.Fn35525
+func Fn35525(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn35556 github.com/goccy/googlesqlwasm2go/p9.Fn35556
-func Fn35556(m *base.Module, l0 int32) int32
+//go:linkname Fn35591 github.com/doitintl/googlesqlwasm2go/p8.Fn35591
+func Fn35591(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35557 github.com/goccy/googlesqlwasm2go/p9.Fn35557
-func Fn35557(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn35613 github.com/doitintl/googlesqlwasm2go/p10.Fn35613
+func Fn35613(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35593 github.com/goccy/googlesqlwasm2go/p10.Fn35593
-func Fn35593(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35641 github.com/doitintl/googlesqlwasm2go/p9.Fn35641
+func Fn35641(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35594 github.com/goccy/googlesqlwasm2go/p10.Fn35594
-func Fn35594(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35660 github.com/doitintl/googlesqlwasm2go/p9.Fn35660
+func Fn35660(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35595 github.com/goccy/googlesqlwasm2go/p10.Fn35595
-func Fn35595(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35677 github.com/doitintl/googlesqlwasm2go/p9.Fn35677
+func Fn35677(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35597 github.com/goccy/googlesqlwasm2go/p10.Fn35597
-func Fn35597(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35681 github.com/doitintl/googlesqlwasm2go/p9.Fn35681
+func Fn35681(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35598 github.com/goccy/googlesqlwasm2go/p10.Fn35598
-func Fn35598(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35693 github.com/doitintl/googlesqlwasm2go/p9.Fn35693
+func Fn35693(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35617 github.com/goccy/googlesqlwasm2go/p10.Fn35617
-func Fn35617(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35696 github.com/doitintl/googlesqlwasm2go/p10.Fn35696
+func Fn35696(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn35618 github.com/goccy/googlesqlwasm2go/p10.Fn35618
-func Fn35618(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35698 github.com/doitintl/googlesqlwasm2go/p10.Fn35698
+func Fn35698(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn35619 github.com/goccy/googlesqlwasm2go/p10.Fn35619
-func Fn35619(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35717 github.com/doitintl/googlesqlwasm2go/p9.Fn35717
+func Fn35717(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35622 github.com/goccy/googlesqlwasm2go/p10.Fn35622
-func Fn35622(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35718 github.com/doitintl/googlesqlwasm2go/p10.Fn35718
+func Fn35718(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn35645 github.com/goccy/googlesqlwasm2go/p9.Fn35645
-func Fn35645(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35732 github.com/doitintl/googlesqlwasm2go/p9.Fn35732
+func Fn35732(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35654 github.com/goccy/googlesqlwasm2go/p6.Fn35654
-func Fn35654(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn35733 github.com/doitintl/googlesqlwasm2go/p10.Fn35733
+func Fn35733(m *base.Module, l0 int32) int32
 
-//go:linkname Fn35679 github.com/goccy/googlesqlwasm2go/p9.Fn35679
-func Fn35679(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn35753 github.com/doitintl/googlesqlwasm2go/p10.Fn35753
+func Fn35753(m *base.Module, l0 int32)
 
-//go:linkname Fn35700 github.com/goccy/googlesqlwasm2go/p9.Fn35700
-func Fn35700(m *base.Module, l0 int32) int32
+//go:linkname Fn35760 github.com/doitintl/googlesqlwasm2go/p9.Fn35760
+func Fn35760(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35736 github.com/goccy/googlesqlwasm2go/p9.Fn35736
-func Fn35736(m *base.Module, l0 int32, l1 int64, l2 int32)
+//go:linkname Fn35761 github.com/doitintl/googlesqlwasm2go/p9.Fn35761
+func Fn35761(m *base.Module, l0 int32)
 
-//go:linkname Fn35799 github.com/goccy/googlesqlwasm2go/p9.Fn35799
-func Fn35799(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+//go:linkname Fn35762 github.com/doitintl/googlesqlwasm2go/p9.Fn35762
+func Fn35762(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn35806 github.com/goccy/googlesqlwasm2go/p6.Fn35806
-func Fn35806(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn35817 github.com/doitintl/googlesqlwasm2go/p9.Fn35817
+func Fn35817(m *base.Module, l0 int32) int32
 
-//go:linkname Fn35807 github.com/goccy/googlesqlwasm2go/p6.Fn35807
-func Fn35807(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn35818 github.com/doitintl/googlesqlwasm2go/p10.Fn35818
+func Fn35818(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn35813 github.com/goccy/googlesqlwasm2go/p5.Fn35813
-func Fn35813(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35864 github.com/doitintl/googlesqlwasm2go/p9.Fn35864
+func Fn35864(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn35835 github.com/goccy/googlesqlwasm2go/p4.Fn35835
-func Fn35835(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn35868 github.com/doitintl/googlesqlwasm2go/p10.Fn35868
+func Fn35868(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35845 github.com/goccy/googlesqlwasm2go/p4.Fn35845
-func Fn35845(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn35869 github.com/doitintl/googlesqlwasm2go/p10.Fn35869
+func Fn35869(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35858 github.com/goccy/googlesqlwasm2go/p8.Fn35858
-func Fn35858(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn35870 github.com/doitintl/googlesqlwasm2go/p10.Fn35870
+func Fn35870(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35859 github.com/goccy/googlesqlwasm2go/p8.Fn35859
-func Fn35859(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn35873 github.com/doitintl/googlesqlwasm2go/p10.Fn35873
+func Fn35873(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35863 github.com/goccy/googlesqlwasm2go/p9.Fn35863
-func Fn35863(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35881 github.com/doitintl/googlesqlwasm2go/p10.Fn35881
+func Fn35881(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35864 github.com/goccy/googlesqlwasm2go/p9.Fn35864
-func Fn35864(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn35882 github.com/doitintl/googlesqlwasm2go/p10.Fn35882
+func Fn35882(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35865 github.com/goccy/googlesqlwasm2go/p9.Fn35865
-func Fn35865(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn35867 github.com/goccy/googlesqlwasm2go/p6.Fn35867
-func Fn35867(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn35869 github.com/goccy/googlesqlwasm2go/p5.Fn35869
-func Fn35869(m *base.Module, l0 int32, l1 int32, l2 int32)
-
-//go:linkname Fn35872 github.com/goccy/googlesqlwasm2go/p8.Fn35872
-func Fn35872(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn35873 github.com/goccy/googlesqlwasm2go/p9.Fn35873
-func Fn35873(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
-
-//go:linkname Fn35883 github.com/goccy/googlesqlwasm2go/p8.Fn35883
+//go:linkname Fn35883 github.com/doitintl/googlesqlwasm2go/p10.Fn35883
 func Fn35883(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35889 github.com/goccy/googlesqlwasm2go/p6.Fn35889
-func Fn35889(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn35885 github.com/doitintl/googlesqlwasm2go/p10.Fn35885
+func Fn35885(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35890 github.com/goccy/googlesqlwasm2go/p9.Fn35890
-func Fn35890(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35886 github.com/doitintl/googlesqlwasm2go/p10.Fn35886
+func Fn35886(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35893 github.com/goccy/googlesqlwasm2go/p10.Fn35893
-func Fn35893(m *base.Module, l0 int32) int32
+//go:linkname Fn35906 github.com/doitintl/googlesqlwasm2go/p9.Fn35906
+func Fn35906(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn35934 github.com/goccy/googlesqlwasm2go/p9.Fn35934
-func Fn35934(m *base.Module, l0 int32)
+//go:linkname Fn35915 github.com/doitintl/googlesqlwasm2go/p6.Fn35915
+func Fn35915(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn35944 github.com/goccy/googlesqlwasm2go/p9.Fn35944
-func Fn35944(m *base.Module, l0 int32)
+//go:linkname Fn35934 github.com/doitintl/googlesqlwasm2go/p10.Fn35934
+func Fn35934(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn36000 github.com/goccy/googlesqlwasm2go/p9.Fn36000
-func Fn36000(m *base.Module, l0 int32) int64
+//go:linkname Fn35940 github.com/doitintl/googlesqlwasm2go/p9.Fn35940
+func Fn35940(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn36080 github.com/goccy/googlesqlwasm2go/p9.Fn36080
-func Fn36080(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn35961 github.com/doitintl/googlesqlwasm2go/p9.Fn35961
+func Fn35961(m *base.Module, l0 int32) int32
 
-//go:linkname Fn36081 github.com/goccy/googlesqlwasm2go/p9.Fn36081
-func Fn36081(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn35977 github.com/doitintl/googlesqlwasm2go/p9.Fn35977
+func Fn35977(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn36087 github.com/goccy/googlesqlwasm2go/p9.Fn36087
-func Fn36087(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn35996 github.com/doitintl/googlesqlwasm2go/p9.Fn35996
+func Fn35996(m *base.Module, l0 int32, l1 int64, l2 int32)
 
-//go:linkname Fn36104 github.com/goccy/googlesqlwasm2go/p10.Fn36104
-func Fn36104(m *base.Module, l0 int32) int32
+//go:linkname Fn36052 github.com/doitintl/googlesqlwasm2go/p10.Fn36052
+func Fn36052(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn36106 github.com/goccy/googlesqlwasm2go/p10.Fn36106
-func Fn36106(m *base.Module, l0 int32) int32
+//go:linkname Fn36053 github.com/doitintl/googlesqlwasm2go/p10.Fn36053
+func Fn36053(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn36108 github.com/goccy/googlesqlwasm2go/p10.Fn36108
-func Fn36108(m *base.Module, l0 int32)
+//go:linkname Fn36061 github.com/doitintl/googlesqlwasm2go/p9.Fn36061
+func Fn36061(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
 
-//go:linkname Fn36110 github.com/goccy/googlesqlwasm2go/p9.Fn36110
-func Fn36110(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn36068 github.com/doitintl/googlesqlwasm2go/p6.Fn36068
+func Fn36068(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn36112 github.com/goccy/googlesqlwasm2go/p10.Fn36112
-func Fn36112(m *base.Module, l0 int32) int32
+//go:linkname Fn36069 github.com/doitintl/googlesqlwasm2go/p6.Fn36069
+func Fn36069(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn36116 github.com/goccy/googlesqlwasm2go/p9.Fn36116
-func Fn36116(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn36075 github.com/doitintl/googlesqlwasm2go/p6.Fn36075
+func Fn36075(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn36120 github.com/goccy/googlesqlwasm2go/p10.Fn36120
-func Fn36120(m *base.Module, l0 int32) int32
+//go:linkname Fn36082 github.com/doitintl/googlesqlwasm2go/p9.Fn36082
+func Fn36082(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn36124 github.com/goccy/googlesqlwasm2go/p9.Fn36124
-func Fn36124(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn36091 github.com/doitintl/googlesqlwasm2go/p10.Fn36091
+func Fn36091(m *base.Module, l0 int32)
 
-//go:linkname Fn36129 github.com/goccy/googlesqlwasm2go/p10.Fn36129
-func Fn36129(m *base.Module, l0 int32) int32
+//go:linkname Fn36097 github.com/doitintl/googlesqlwasm2go/p4.Fn36097
+func Fn36097(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn36138 github.com/goccy/googlesqlwasm2go/p10.Fn36138
-func Fn36138(m *base.Module, l0 int32) int32
+//go:linkname Fn36120 github.com/doitintl/googlesqlwasm2go/p8.Fn36120
+func Fn36120(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn36143 github.com/goccy/googlesqlwasm2go/p10.Fn36143
-func Fn36143(m *base.Module, l0 int32) int32
+//go:linkname Fn36121 github.com/doitintl/googlesqlwasm2go/p8.Fn36121
+func Fn36121(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn36146 github.com/goccy/googlesqlwasm2go/p10.Fn36146
-func Fn36146(m *base.Module, l0 int32) int32
+//go:linkname Fn36123 github.com/doitintl/googlesqlwasm2go/p8.Fn36123
+func Fn36123(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn36156 github.com/goccy/googlesqlwasm2go/p9.Fn36156
-func Fn36156(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn36124 github.com/doitintl/googlesqlwasm2go/p9.Fn36124
+func Fn36124(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn36198 github.com/goccy/googlesqlwasm2go/p9.Fn36198
-func Fn36198(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
+//go:linkname Fn36125 github.com/doitintl/googlesqlwasm2go/p9.Fn36125
+func Fn36125(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn36209 github.com/goccy/googlesqlwasm2go/p9.Fn36209
-func Fn36209(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn36126 github.com/doitintl/googlesqlwasm2go/p9.Fn36126
+func Fn36126(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn36226 github.com/goccy/googlesqlwasm2go/p9.Fn36226
-func Fn36226(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn36127 github.com/doitintl/googlesqlwasm2go/p9.Fn36127
+func Fn36127(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn36264 github.com/goccy/googlesqlwasm2go/p10.Fn36264
-func Fn36264(m *base.Module, l0 int32) int32
+//go:linkname Fn36129 github.com/doitintl/googlesqlwasm2go/p6.Fn36129
+func Fn36129(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn36283 github.com/goccy/googlesqlwasm2go/p10.Fn36283
-func Fn36283(m *base.Module, l0 int32)
+//go:linkname Fn36131 github.com/doitintl/googlesqlwasm2go/p5.Fn36131
+func Fn36131(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn36289 github.com/goccy/googlesqlwasm2go/p9.Fn36289
-func Fn36289(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
+//go:linkname Fn36134 github.com/doitintl/googlesqlwasm2go/p8.Fn36134
+func Fn36134(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn36294 github.com/goccy/googlesqlwasm2go/p10.Fn36294
-func Fn36294(m *base.Module, l0 int32)
+//go:linkname Fn36135 github.com/doitintl/googlesqlwasm2go/p10.Fn36135
+func Fn36135(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn36302 github.com/goccy/googlesqlwasm2go/p10.Fn36302
-func Fn36302(m *base.Module, l0 int32)
+//go:linkname Fn36145 github.com/doitintl/googlesqlwasm2go/p8.Fn36145
+func Fn36145(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn36316 github.com/goccy/googlesqlwasm2go/p9.Fn36316
-func Fn36316(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn36151 github.com/doitintl/googlesqlwasm2go/p6.Fn36151
+func Fn36151(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn36318 github.com/goccy/googlesqlwasm2go/p9.Fn36318
-func Fn36318(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
+//go:linkname Fn36152 github.com/doitintl/googlesqlwasm2go/p10.Fn36152
+func Fn36152(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn36341 github.com/goccy/googlesqlwasm2go/p9.Fn36341
-func Fn36341(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn36155 github.com/doitintl/googlesqlwasm2go/p10.Fn36155
+func Fn36155(m *base.Module, l0 int32) int32
 
-//go:linkname Fn36350 github.com/goccy/googlesqlwasm2go/p10.Fn36350
-func Fn36350(m *base.Module, l0 int32) int32
+//go:linkname Fn36196 github.com/doitintl/googlesqlwasm2go/p9.Fn36196
+func Fn36196(m *base.Module, l0 int32)
 
-//go:linkname Fn36444 github.com/goccy/googlesqlwasm2go/p10.Fn36444
-func Fn36444(m *base.Module, l0 int32) int32
+//go:linkname Fn36206 github.com/doitintl/googlesqlwasm2go/p9.Fn36206
+func Fn36206(m *base.Module, l0 int32)
 
-//go:linkname Fn36447 github.com/goccy/googlesqlwasm2go/p9.Fn36447
-func Fn36447(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn36251 github.com/doitintl/googlesqlwasm2go/p10.Fn36251
+func Fn36251(m *base.Module, l0 int32)
 
-//go:linkname Fn36486 github.com/goccy/googlesqlwasm2go/p9.Fn36486
-func Fn36486(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn36262 github.com/doitintl/googlesqlwasm2go/p9.Fn36262
+func Fn36262(m *base.Module, l0 int32) int64
 
-//go:linkname Fn36507 github.com/goccy/googlesqlwasm2go/p10.Fn36507
-func Fn36507(m *base.Module, l0 int32) int32
+//go:linkname Fn36343 github.com/doitintl/googlesqlwasm2go/p9.Fn36343
+func Fn36343(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn36508 github.com/goccy/googlesqlwasm2go/p10.Fn36508
-func Fn36508(m *base.Module, l0 int32) int32
+//go:linkname Fn36344 github.com/doitintl/googlesqlwasm2go/p9.Fn36344
+func Fn36344(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn36509 github.com/goccy/googlesqlwasm2go/p9.Fn36509
-func Fn36509(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn36367 github.com/doitintl/googlesqlwasm2go/p10.Fn36367
+func Fn36367(m *base.Module, l0 int32) int32
 
-//go:linkname Fn36514 github.com/goccy/googlesqlwasm2go/p10.Fn36514
-func Fn36514(m *base.Module, l0 int32)
+//go:linkname Fn36369 github.com/doitintl/googlesqlwasm2go/p10.Fn36369
+func Fn36369(m *base.Module, l0 int32) int32
 
-//go:linkname Fn36551 github.com/goccy/googlesqlwasm2go/p10.Fn36551
-func Fn36551(m *base.Module, l0 int32) int32
+//go:linkname Fn36371 github.com/doitintl/googlesqlwasm2go/p10.Fn36371
+func Fn36371(m *base.Module, l0 int32)
 
-//go:linkname Fn36579 github.com/goccy/googlesqlwasm2go/p10.Fn36579
-func Fn36579(m *base.Module, l0 int32) int32
+//go:linkname Fn36373 github.com/doitintl/googlesqlwasm2go/p9.Fn36373
+func Fn36373(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn36581 github.com/goccy/googlesqlwasm2go/p10.Fn36581
-func Fn36581(m *base.Module, l0 int32) int32
+//go:linkname Fn36375 github.com/doitintl/googlesqlwasm2go/p10.Fn36375
+func Fn36375(m *base.Module, l0 int32) int32
 
-//go:linkname Fn36667 github.com/goccy/googlesqlwasm2go/p10.Fn36667
-func Fn36667(m *base.Module, l0 int32) int32
+//go:linkname Fn36379 github.com/doitintl/googlesqlwasm2go/p9.Fn36379
+func Fn36379(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn36670 github.com/goccy/googlesqlwasm2go/p10.Fn36670
-func Fn36670(m *base.Module, l0 int32)
+//go:linkname Fn36383 github.com/doitintl/googlesqlwasm2go/p10.Fn36383
+func Fn36383(m *base.Module, l0 int32) int32
 
-//go:linkname Fn36705 github.com/goccy/googlesqlwasm2go/p10.Fn36705
-func Fn36705(m *base.Module, l0 int32)
+//go:linkname Fn36387 github.com/doitintl/googlesqlwasm2go/p10.Fn36387
+func Fn36387(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn36760 github.com/goccy/googlesqlwasm2go/p10.Fn36760
-func Fn36760(m *base.Module, l0 int32) int32
+//go:linkname Fn36392 github.com/doitintl/googlesqlwasm2go/p10.Fn36392
+func Fn36392(m *base.Module, l0 int32) int32
 
-//go:linkname Fn36763 github.com/goccy/googlesqlwasm2go/p10.Fn36763
-func Fn36763(m *base.Module, l0 int32) int32
+//go:linkname Fn36401 github.com/doitintl/googlesqlwasm2go/p10.Fn36401
+func Fn36401(m *base.Module, l0 int32) int32
 
-//go:linkname Fn36769 github.com/goccy/googlesqlwasm2go/p10.Fn36769
-func Fn36769(m *base.Module, l0 int32) int32
+//go:linkname Fn36406 github.com/doitintl/googlesqlwasm2go/p10.Fn36406
+func Fn36406(m *base.Module, l0 int32) int32
 
-//go:linkname Fn36771 github.com/goccy/googlesqlwasm2go/p10.Fn36771
-func Fn36771(m *base.Module, l0 int32)
+//go:linkname Fn36409 github.com/doitintl/googlesqlwasm2go/p10.Fn36409
+func Fn36409(m *base.Module, l0 int32) int32
 
-//go:linkname Fn36773 github.com/goccy/googlesqlwasm2go/p6.Fn36773
-func Fn36773(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn36419 github.com/doitintl/googlesqlwasm2go/p9.Fn36419
+func Fn36419(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn36787 github.com/goccy/googlesqlwasm2go/p10.Fn36787
-func Fn36787(m *base.Module, l0 int32) int32
+//go:linkname Fn36472 github.com/doitintl/googlesqlwasm2go/p9.Fn36472
+func Fn36472(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn36791 github.com/goccy/googlesqlwasm2go/p10.Fn36791
-func Fn36791(m *base.Module, l0 int32) int32
+//go:linkname Fn36489 github.com/doitintl/googlesqlwasm2go/p9.Fn36489
+func Fn36489(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn36795 github.com/goccy/googlesqlwasm2go/p10.Fn36795
-func Fn36795(m *base.Module, l0 int32)
+//go:linkname Fn36527 github.com/doitintl/googlesqlwasm2go/p10.Fn36527
+func Fn36527(m *base.Module, l0 int32) int32
 
-//go:linkname Fn36798 github.com/goccy/googlesqlwasm2go/p10.Fn36798
-func Fn36798(m *base.Module, l0 int32) int32
+//go:linkname Fn36546 github.com/doitintl/googlesqlwasm2go/p10.Fn36546
+func Fn36546(m *base.Module, l0 int32)
 
-//go:linkname Fn36799 github.com/goccy/googlesqlwasm2go/p10.Fn36799
-func Fn36799(m *base.Module, l0 int32)
+//go:linkname Fn36552 github.com/doitintl/googlesqlwasm2go/p9.Fn36552
+func Fn36552(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
 
-//go:linkname Fn36801 github.com/goccy/googlesqlwasm2go/p8.Fn36801
-func Fn36801(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn36554 github.com/doitintl/googlesqlwasm2go/p9.Fn36554
+func Fn36554(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
 
-//go:linkname Fn36872 github.com/goccy/googlesqlwasm2go/p10.Fn36872
-func Fn36872(m *base.Module, l0 int32) int32
+//go:linkname Fn36557 github.com/doitintl/googlesqlwasm2go/p10.Fn36557
+func Fn36557(m *base.Module, l0 int32)
 
-//go:linkname Fn36874 github.com/goccy/googlesqlwasm2go/p10.Fn36874
-func Fn36874(m *base.Module, l0 int32)
+//go:linkname Fn36572 github.com/doitintl/googlesqlwasm2go/p10.Fn36572
+func Fn36572(m *base.Module, l0 int32) int32
 
-//go:linkname Fn36908 github.com/goccy/googlesqlwasm2go/p10.Fn36908
-func Fn36908(m *base.Module, l0 int32) int32
+//go:linkname Fn36579 github.com/doitintl/googlesqlwasm2go/p9.Fn36579
+func Fn36579(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn36982 github.com/goccy/googlesqlwasm2go/p10.Fn36982
-func Fn36982(m *base.Module, l0 int32)
+//go:linkname Fn36581 github.com/doitintl/googlesqlwasm2go/p9.Fn36581
+func Fn36581(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
 
-//go:linkname Fn36983 github.com/goccy/googlesqlwasm2go/p9.Fn36983
-func Fn36983(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn36583 github.com/doitintl/googlesqlwasm2go/p10.Fn36583
+func Fn36583(m *base.Module, l0 int32) int32
 
-//go:linkname Fn36986 github.com/goccy/googlesqlwasm2go/p10.Fn36986
-func Fn36986(m *base.Module, l0 int32) int32
+//go:linkname Fn36604 github.com/doitintl/googlesqlwasm2go/p9.Fn36604
+func Fn36604(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn37040 github.com/goccy/googlesqlwasm2go/p10.Fn37040
-func Fn37040(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn36605 github.com/doitintl/googlesqlwasm2go/p10.Fn36605
+func Fn36605(m *base.Module, l0 int32)
 
-//go:linkname Fn37095 github.com/goccy/googlesqlwasm2go/p8.Fn37095
-func Fn37095(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn36613 github.com/doitintl/googlesqlwasm2go/p10.Fn36613
+func Fn36613(m *base.Module, l0 int32) int32
 
-//go:linkname Fn37212 github.com/goccy/googlesqlwasm2go/p9.Fn37212
-func Fn37212(m *base.Module, l0 int32)
+//go:linkname Fn36707 github.com/doitintl/googlesqlwasm2go/p10.Fn36707
+func Fn36707(m *base.Module, l0 int32) int32
 
-//go:linkname Fn37215 github.com/goccy/googlesqlwasm2go/p9.Fn37215
-func Fn37215(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn36710 github.com/doitintl/googlesqlwasm2go/p9.Fn36710
+func Fn36710(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn37217 github.com/goccy/googlesqlwasm2go/p9.Fn37217
-func Fn37217(m *base.Module, l0 int32)
+//go:linkname Fn36749 github.com/doitintl/googlesqlwasm2go/p10.Fn36749
+func Fn36749(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn37218 github.com/goccy/googlesqlwasm2go/p10.Fn37218
-func Fn37218(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn36770 github.com/doitintl/googlesqlwasm2go/p10.Fn36770
+func Fn36770(m *base.Module, l0 int32) int32
 
-//go:linkname Fn37221 github.com/goccy/googlesqlwasm2go/p10.Fn37221
-func Fn37221(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn36777 github.com/doitintl/googlesqlwasm2go/p10.Fn36777
+func Fn36777(m *base.Module, l0 int32)
 
-//go:linkname Fn37223 github.com/goccy/googlesqlwasm2go/p10.Fn37223
-func Fn37223(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn36811 github.com/doitintl/googlesqlwasm2go/p10.Fn36811
+func Fn36811(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn37353 github.com/goccy/googlesqlwasm2go/p9.Fn37353
-func Fn37353(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn36814 github.com/doitintl/googlesqlwasm2go/p10.Fn36814
+func Fn36814(m *base.Module, l0 int32) int32
 
-//go:linkname Fn37358 github.com/goccy/googlesqlwasm2go/p10.Fn37358
+//go:linkname Fn36816 github.com/doitintl/googlesqlwasm2go/p10.Fn36816
+func Fn36816(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn36842 github.com/doitintl/googlesqlwasm2go/p10.Fn36842
+func Fn36842(m *base.Module, l0 int32) int32
+
+//go:linkname Fn36844 github.com/doitintl/googlesqlwasm2go/p10.Fn36844
+func Fn36844(m *base.Module, l0 int32) int32
+
+//go:linkname Fn36890 github.com/doitintl/googlesqlwasm2go/p10.Fn36890
+func Fn36890(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn36930 github.com/doitintl/googlesqlwasm2go/p10.Fn36930
+func Fn36930(m *base.Module, l0 int32) int32
+
+//go:linkname Fn36933 github.com/doitintl/googlesqlwasm2go/p10.Fn36933
+func Fn36933(m *base.Module, l0 int32)
+
+//go:linkname Fn36968 github.com/doitintl/googlesqlwasm2go/p10.Fn36968
+func Fn36968(m *base.Module, l0 int32)
+
+//go:linkname Fn36969 github.com/doitintl/googlesqlwasm2go/p10.Fn36969
+func Fn36969(m *base.Module, l0 int32) int32
+
+//go:linkname Fn37021 github.com/doitintl/googlesqlwasm2go/p10.Fn37021
+func Fn37021(m *base.Module, l0 int32)
+
+//go:linkname Fn37023 github.com/doitintl/googlesqlwasm2go/p10.Fn37023
+func Fn37023(m *base.Module, l0 int32) int32
+
+//go:linkname Fn37026 github.com/doitintl/googlesqlwasm2go/p10.Fn37026
+func Fn37026(m *base.Module, l0 int32) int32
+
+//go:linkname Fn37032 github.com/doitintl/googlesqlwasm2go/p10.Fn37032
+func Fn37032(m *base.Module, l0 int32) int32
+
+//go:linkname Fn37034 github.com/doitintl/googlesqlwasm2go/p10.Fn37034
+func Fn37034(m *base.Module, l0 int32)
+
+//go:linkname Fn37036 github.com/doitintl/googlesqlwasm2go/p6.Fn37036
+func Fn37036(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+
+//go:linkname Fn37050 github.com/doitintl/googlesqlwasm2go/p10.Fn37050
+func Fn37050(m *base.Module, l0 int32) int32
+
+//go:linkname Fn37054 github.com/doitintl/googlesqlwasm2go/p10.Fn37054
+func Fn37054(m *base.Module, l0 int32) int32
+
+//go:linkname Fn37058 github.com/doitintl/googlesqlwasm2go/p10.Fn37058
+func Fn37058(m *base.Module, l0 int32)
+
+//go:linkname Fn37061 github.com/doitintl/googlesqlwasm2go/p10.Fn37061
+func Fn37061(m *base.Module, l0 int32) int32
+
+//go:linkname Fn37062 github.com/doitintl/googlesqlwasm2go/p10.Fn37062
+func Fn37062(m *base.Module, l0 int32)
+
+//go:linkname Fn37119 github.com/doitintl/googlesqlwasm2go/p10.Fn37119
+func Fn37119(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn37135 github.com/doitintl/googlesqlwasm2go/p10.Fn37135
+func Fn37135(m *base.Module, l0 int32) int32
+
+//go:linkname Fn37137 github.com/doitintl/googlesqlwasm2go/p10.Fn37137
+func Fn37137(m *base.Module, l0 int32)
+
+//go:linkname Fn37245 github.com/doitintl/googlesqlwasm2go/p10.Fn37245
+func Fn37245(m *base.Module, l0 int32)
+
+//go:linkname Fn37246 github.com/doitintl/googlesqlwasm2go/p9.Fn37246
+func Fn37246(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+
+//go:linkname Fn37248 github.com/doitintl/googlesqlwasm2go/p8.Fn37248
+func Fn37248(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+
+//go:linkname Fn37249 github.com/doitintl/googlesqlwasm2go/p10.Fn37249
+func Fn37249(m *base.Module, l0 int32) int32
+
+//go:linkname Fn37303 github.com/doitintl/googlesqlwasm2go/p10.Fn37303
+func Fn37303(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn37358 github.com/doitintl/googlesqlwasm2go/p8.Fn37358
 func Fn37358(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37364 github.com/goccy/googlesqlwasm2go/p10.Fn37364
-func Fn37364(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37367 github.com/doitintl/googlesqlwasm2go/p10.Fn37367
+func Fn37367(m *base.Module, l0 int32)
 
-//go:linkname Fn37365 github.com/goccy/googlesqlwasm2go/p10.Fn37365
-func Fn37365(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37475 github.com/doitintl/googlesqlwasm2go/p10.Fn37475
+func Fn37475(m *base.Module, l0 int32)
 
-//go:linkname Fn37366 github.com/goccy/googlesqlwasm2go/p10.Fn37366
-func Fn37366(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37478 github.com/doitintl/googlesqlwasm2go/p10.Fn37478
+func Fn37478(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn37367 github.com/goccy/googlesqlwasm2go/p9.Fn37367
-func Fn37367(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn37480 github.com/doitintl/googlesqlwasm2go/p9.Fn37480
+func Fn37480(m *base.Module, l0 int32)
 
-//go:linkname Fn37368 github.com/goccy/googlesqlwasm2go/p10.Fn37368
-func Fn37368(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37481 github.com/doitintl/googlesqlwasm2go/p10.Fn37481
+func Fn37481(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37370 github.com/goccy/googlesqlwasm2go/p10.Fn37370
-func Fn37370(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37484 github.com/doitintl/googlesqlwasm2go/p10.Fn37484
+func Fn37484(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn37371 github.com/goccy/googlesqlwasm2go/p10.Fn37371
-func Fn37371(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn37486 github.com/doitintl/googlesqlwasm2go/p10.Fn37486
+func Fn37486(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37373 github.com/goccy/googlesqlwasm2go/p10.Fn37373
-func Fn37373(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn37616 github.com/doitintl/googlesqlwasm2go/p9.Fn37616
+func Fn37616(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37374 github.com/goccy/googlesqlwasm2go/p10.Fn37374
-func Fn37374(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37621 github.com/doitintl/googlesqlwasm2go/p10.Fn37621
+func Fn37621(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37375 github.com/goccy/googlesqlwasm2go/p10.Fn37375
-func Fn37375(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37627 github.com/doitintl/googlesqlwasm2go/p10.Fn37627
+func Fn37627(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37376 github.com/goccy/googlesqlwasm2go/p10.Fn37376
-func Fn37376(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37628 github.com/doitintl/googlesqlwasm2go/p10.Fn37628
+func Fn37628(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37379 github.com/goccy/googlesqlwasm2go/p10.Fn37379
-func Fn37379(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37629 github.com/doitintl/googlesqlwasm2go/p10.Fn37629
+func Fn37629(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37380 github.com/goccy/googlesqlwasm2go/p10.Fn37380
-func Fn37380(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37630 github.com/doitintl/googlesqlwasm2go/p10.Fn37630
+func Fn37630(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn37383 github.com/goccy/googlesqlwasm2go/p9.Fn37383
-func Fn37383(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37631 github.com/doitintl/googlesqlwasm2go/p10.Fn37631
+func Fn37631(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37384 github.com/goccy/googlesqlwasm2go/p10.Fn37384
-func Fn37384(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37633 github.com/doitintl/googlesqlwasm2go/p10.Fn37633
+func Fn37633(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37387 github.com/goccy/googlesqlwasm2go/p10.Fn37387
-func Fn37387(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37634 github.com/doitintl/googlesqlwasm2go/p10.Fn37634
+func Fn37634(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn37388 github.com/goccy/googlesqlwasm2go/p9.Fn37388
-func Fn37388(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn37636 github.com/doitintl/googlesqlwasm2go/p10.Fn37636
+func Fn37636(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn37390 github.com/goccy/googlesqlwasm2go/p10.Fn37390
-func Fn37390(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37637 github.com/doitintl/googlesqlwasm2go/p10.Fn37637
+func Fn37637(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37391 github.com/goccy/googlesqlwasm2go/p10.Fn37391
-func Fn37391(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn37638 github.com/doitintl/googlesqlwasm2go/p10.Fn37638
+func Fn37638(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37392 github.com/goccy/googlesqlwasm2go/p10.Fn37392
-func Fn37392(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37639 github.com/doitintl/googlesqlwasm2go/p10.Fn37639
+func Fn37639(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37394 github.com/goccy/googlesqlwasm2go/p10.Fn37394
-func Fn37394(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37642 github.com/doitintl/googlesqlwasm2go/p10.Fn37642
+func Fn37642(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37399 github.com/goccy/googlesqlwasm2go/p10.Fn37399
-func Fn37399(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37643 github.com/doitintl/googlesqlwasm2go/p10.Fn37643
+func Fn37643(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37407 github.com/goccy/googlesqlwasm2go/p4.Fn37407
-func Fn37407(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn37646 github.com/doitintl/googlesqlwasm2go/p10.Fn37646
+func Fn37646(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37420 github.com/goccy/googlesqlwasm2go/p9.Fn37420
-func Fn37420(m *base.Module, l0 int32, l1 int32) float64
+//go:linkname Fn37647 github.com/doitintl/googlesqlwasm2go/p10.Fn37647
+func Fn37647(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37422 github.com/goccy/googlesqlwasm2go/p9.Fn37422
-func Fn37422(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn37650 github.com/doitintl/googlesqlwasm2go/p10.Fn37650
+func Fn37650(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37423 github.com/goccy/googlesqlwasm2go/p9.Fn37423
-func Fn37423(m *base.Module, l0 int32)
+//go:linkname Fn37651 github.com/doitintl/googlesqlwasm2go/p9.Fn37651
+func Fn37651(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn37438 github.com/goccy/googlesqlwasm2go/p4.Fn37438
-func Fn37438(m *base.Module, l0 int32)
+//go:linkname Fn37653 github.com/doitintl/googlesqlwasm2go/p10.Fn37653
+func Fn37653(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37449 github.com/goccy/googlesqlwasm2go/p8.Fn37449
-func Fn37449(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37654 github.com/doitintl/googlesqlwasm2go/p10.Fn37654
+func Fn37654(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn37450 github.com/goccy/googlesqlwasm2go/p5.Fn37450
-func Fn37450(m *base.Module, l0 int32) int32
+//go:linkname Fn37655 github.com/doitintl/googlesqlwasm2go/p10.Fn37655
+func Fn37655(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37478 github.com/goccy/googlesqlwasm2go/p5.Fn37478
-func Fn37478(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn37657 github.com/doitintl/googlesqlwasm2go/p10.Fn37657
+func Fn37657(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37485 github.com/goccy/googlesqlwasm2go/p10.Fn37485
-func Fn37485(m *base.Module, l0 int32) int32
+//go:linkname Fn37662 github.com/doitintl/googlesqlwasm2go/p10.Fn37662
+func Fn37662(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37486 github.com/goccy/googlesqlwasm2go/p10.Fn37486
-func Fn37486(m *base.Module, l0 int32) int32
+//go:linkname Fn37689 github.com/doitintl/googlesqlwasm2go/p9.Fn37689
+func Fn37689(m *base.Module, l0 int32)
 
-//go:linkname Fn37491 github.com/goccy/googlesqlwasm2go/p10.Fn37491
-func Fn37491(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn37714 github.com/doitintl/googlesqlwasm2go/p9.Fn37714
+func Fn37714(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37536 github.com/goccy/googlesqlwasm2go/p9.Fn37536
-func Fn37536(m *base.Module, l0 int32) int32
+//go:linkname Fn37742 github.com/doitintl/googlesqlwasm2go/p10.Fn37742
+func Fn37742(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37545 github.com/goccy/googlesqlwasm2go/p9.Fn37545
-func Fn37545(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37743 github.com/doitintl/googlesqlwasm2go/p9.Fn37743
+func Fn37743(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn37564 github.com/goccy/googlesqlwasm2go/p9.Fn37564
-func Fn37564(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn37744 github.com/doitintl/googlesqlwasm2go/p10.Fn37744
+func Fn37744(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn37591 github.com/goccy/googlesqlwasm2go/p9.Fn37591
-func Fn37591(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37763 github.com/doitintl/googlesqlwasm2go/p9.Fn37763
+func Fn37763(m *base.Module, l0 int32, l1 int32) float64
 
-//go:linkname Fn37593 github.com/goccy/googlesqlwasm2go/p8.Fn37593
-func Fn37593(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn37765 github.com/doitintl/googlesqlwasm2go/p9.Fn37765
+func Fn37765(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn37612 github.com/goccy/googlesqlwasm2go/p9.Fn37612
-func Fn37612(m *base.Module, l0 int32)
+//go:linkname Fn37766 github.com/doitintl/googlesqlwasm2go/p9.Fn37766
+func Fn37766(m *base.Module, l0 int32)
 
-//go:linkname Fn37613 github.com/goccy/googlesqlwasm2go/p10.Fn37613
-func Fn37613(m *base.Module, l0 int32)
+//go:linkname Fn37781 github.com/doitintl/googlesqlwasm2go/p4.Fn37781
+func Fn37781(m *base.Module, l0 int32)
 
-//go:linkname Fn37630 github.com/goccy/googlesqlwasm2go/p10.Fn37630
-func Fn37630(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn37792 github.com/doitintl/googlesqlwasm2go/p8.Fn37792
+func Fn37792(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37655 github.com/goccy/googlesqlwasm2go/p10.Fn37655
-func Fn37655(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn37793 github.com/doitintl/googlesqlwasm2go/p5.Fn37793
+func Fn37793(m *base.Module, l0 int32) int32
 
-//go:linkname Fn37656 github.com/goccy/googlesqlwasm2go/p9.Fn37656
-func Fn37656(m *base.Module, l0 int32)
+//go:linkname Fn37821 github.com/doitintl/googlesqlwasm2go/p5.Fn37821
+func Fn37821(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn37664 github.com/goccy/googlesqlwasm2go/p6.Fn37664
-func Fn37664(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn37822 github.com/doitintl/googlesqlwasm2go/p9.Fn37822
+func Fn37822(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn37665 github.com/goccy/googlesqlwasm2go/p9.Fn37665
-func Fn37665(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn37828 github.com/doitintl/googlesqlwasm2go/p10.Fn37828
+func Fn37828(m *base.Module, l0 int32) int32
 
-//go:linkname Fn37666 github.com/goccy/googlesqlwasm2go/p5.Fn37666
-func Fn37666(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn37829 github.com/doitintl/googlesqlwasm2go/p10.Fn37829
+func Fn37829(m *base.Module, l0 int32) int32
 
-//go:linkname Fn37699 github.com/goccy/googlesqlwasm2go/p6.Fn37699
-func Fn37699(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn37834 github.com/doitintl/googlesqlwasm2go/p10.Fn37834
+func Fn37834(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn37709 github.com/goccy/googlesqlwasm2go/p10.Fn37709
-func Fn37709(m *base.Module, l0 int32)
+//go:linkname Fn37879 github.com/doitintl/googlesqlwasm2go/p10.Fn37879
+func Fn37879(m *base.Module, l0 int32) int32
 
-//go:linkname Fn37714 github.com/goccy/googlesqlwasm2go/p9.Fn37714
-func Fn37714(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn37888 github.com/doitintl/googlesqlwasm2go/p9.Fn37888
+func Fn37888(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37722 github.com/goccy/googlesqlwasm2go/p9.Fn37722
-func Fn37722(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn37907 github.com/doitintl/googlesqlwasm2go/p9.Fn37907
+func Fn37907(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn37725 github.com/goccy/googlesqlwasm2go/p6.Fn37725
-func Fn37725(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn37934 github.com/doitintl/googlesqlwasm2go/p10.Fn37934
+func Fn37934(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37738 github.com/goccy/googlesqlwasm2go/p8.Fn37738
-func Fn37738(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn37936 github.com/doitintl/googlesqlwasm2go/p8.Fn37936
+func Fn37936(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn37745 github.com/goccy/googlesqlwasm2go/p9.Fn37745
-func Fn37745(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn37955 github.com/doitintl/googlesqlwasm2go/p10.Fn37955
+func Fn37955(m *base.Module, l0 int32)
 
-//go:linkname Fn37747 github.com/goccy/googlesqlwasm2go/p8.Fn37747
-func Fn37747(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn37956 github.com/doitintl/googlesqlwasm2go/p10.Fn37956
+func Fn37956(m *base.Module, l0 int32)
 
-//go:linkname Fn37749 github.com/goccy/googlesqlwasm2go/p5.Fn37749
-func Fn37749(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn37973 github.com/doitintl/googlesqlwasm2go/p10.Fn37973
+func Fn37973(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn37758 github.com/goccy/googlesqlwasm2go/p10.Fn37758
-func Fn37758(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn37992 github.com/doitintl/googlesqlwasm2go/p10.Fn37992
+func Fn37992(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn37759 github.com/goccy/googlesqlwasm2go/p6.Fn37759
-func Fn37759(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn37998 github.com/doitintl/googlesqlwasm2go/p10.Fn37998
+func Fn37998(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn37760 github.com/goccy/googlesqlwasm2go/p9.Fn37760
-func Fn37760(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn37999 github.com/doitintl/googlesqlwasm2go/p9.Fn37999
+func Fn37999(m *base.Module, l0 int32)
 
-//go:linkname Fn37778 github.com/goccy/googlesqlwasm2go/p9.Fn37778
-func Fn37778(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38001 github.com/doitintl/googlesqlwasm2go/p10.Fn38001
+func Fn38001(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn37785 github.com/goccy/googlesqlwasm2go/p9.Fn37785
-func Fn37785(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn38007 github.com/doitintl/googlesqlwasm2go/p6.Fn38007
+func Fn38007(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn37786 github.com/goccy/googlesqlwasm2go/p9.Fn37786
-func Fn37786(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38008 github.com/doitintl/googlesqlwasm2go/p9.Fn38008
+func Fn38008(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn37804 github.com/goccy/googlesqlwasm2go/p9.Fn37804
-func Fn37804(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38009 github.com/doitintl/googlesqlwasm2go/p5.Fn38009
+func Fn38009(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn37808 github.com/goccy/googlesqlwasm2go/p6.Fn37808
-func Fn37808(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn38042 github.com/doitintl/googlesqlwasm2go/p6.Fn38042
+func Fn38042(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn37875 github.com/goccy/googlesqlwasm2go/p4.Fn37875
-func Fn37875(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn38057 github.com/doitintl/googlesqlwasm2go/p9.Fn38057
+func Fn38057(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn37876 github.com/goccy/googlesqlwasm2go/p10.Fn37876
-func Fn37876(m *base.Module, l0 int32) int32
+//go:linkname Fn38065 github.com/doitintl/googlesqlwasm2go/p9.Fn38065
+func Fn38065(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn37946 github.com/goccy/googlesqlwasm2go/p6.Fn37946
-func Fn37946(m *base.Module, l0 int32) int32
+//go:linkname Fn38068 github.com/doitintl/googlesqlwasm2go/p6.Fn38068
+func Fn38068(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn37949 github.com/goccy/googlesqlwasm2go/p10.Fn37949
-func Fn37949(m *base.Module) int32
+//go:linkname Fn38081 github.com/doitintl/googlesqlwasm2go/p8.Fn38081
+func Fn38081(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn37950 github.com/goccy/googlesqlwasm2go/p9.Fn37950
-func Fn37950(m *base.Module) int32
+//go:linkname Fn38088 github.com/doitintl/googlesqlwasm2go/p9.Fn38088
+func Fn38088(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn37952 github.com/goccy/googlesqlwasm2go/p10.Fn37952
-func Fn37952(m *base.Module) int32
+//go:linkname Fn38090 github.com/doitintl/googlesqlwasm2go/p8.Fn38090
+func Fn38090(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn37953 github.com/goccy/googlesqlwasm2go/p10.Fn37953
-func Fn37953(m *base.Module) int32
+//go:linkname Fn38101 github.com/doitintl/googlesqlwasm2go/p10.Fn38101
+func Fn38101(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn37955 github.com/goccy/googlesqlwasm2go/p10.Fn37955
-func Fn37955(m *base.Module) int32
+//go:linkname Fn38102 github.com/doitintl/googlesqlwasm2go/p6.Fn38102
+func Fn38102(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn37956 github.com/goccy/googlesqlwasm2go/p10.Fn37956
-func Fn37956(m *base.Module) int32
+//go:linkname Fn38103 github.com/doitintl/googlesqlwasm2go/p9.Fn38103
+func Fn38103(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn37957 github.com/goccy/googlesqlwasm2go/p10.Fn37957
-func Fn37957(m *base.Module) int32
+//go:linkname Fn38116 github.com/doitintl/googlesqlwasm2go/p9.Fn38116
+func Fn38116(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn37958 github.com/goccy/googlesqlwasm2go/p10.Fn37958
-func Fn37958(m *base.Module) int32
+//go:linkname Fn38123 github.com/doitintl/googlesqlwasm2go/p9.Fn38123
+func Fn38123(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn37960 github.com/goccy/googlesqlwasm2go/p10.Fn37960
-func Fn37960(m *base.Module) int32
+//go:linkname Fn38124 github.com/doitintl/googlesqlwasm2go/p9.Fn38124
+func Fn38124(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn37962 github.com/goccy/googlesqlwasm2go/p10.Fn37962
-func Fn37962(m *base.Module) int32
+//go:linkname Fn38142 github.com/doitintl/googlesqlwasm2go/p10.Fn38142
+func Fn38142(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn37963 github.com/goccy/googlesqlwasm2go/p10.Fn37963
-func Fn37963(m *base.Module) int32
+//go:linkname Fn38144 github.com/doitintl/googlesqlwasm2go/p5.Fn38144
+func Fn38144(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn37964 github.com/goccy/googlesqlwasm2go/p10.Fn37964
-func Fn37964(m *base.Module) int32
+//go:linkname Fn38213 github.com/doitintl/googlesqlwasm2go/p4.Fn38213
+func Fn38213(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn37965 github.com/goccy/googlesqlwasm2go/p10.Fn37965
-func Fn37965(m *base.Module) int32
+//go:linkname Fn38214 github.com/doitintl/googlesqlwasm2go/p10.Fn38214
+func Fn38214(m *base.Module, l0 int32) int32
 
-//go:linkname Fn37966 github.com/goccy/googlesqlwasm2go/p10.Fn37966
-func Fn37966(m *base.Module) int32
+//go:linkname Fn38284 github.com/doitintl/googlesqlwasm2go/p6.Fn38284
+func Fn38284(m *base.Module, l0 int32) int32
 
-//go:linkname Fn37967 github.com/goccy/googlesqlwasm2go/p10.Fn37967
-func Fn37967(m *base.Module) int32
+//go:linkname Fn38287 github.com/doitintl/googlesqlwasm2go/p10.Fn38287
+func Fn38287(m *base.Module) int32
 
-//go:linkname Fn37968 github.com/goccy/googlesqlwasm2go/p10.Fn37968
-func Fn37968(m *base.Module) int32
+//go:linkname Fn38288 github.com/doitintl/googlesqlwasm2go/p10.Fn38288
+func Fn38288(m *base.Module) int32
 
-//go:linkname Fn37970 github.com/goccy/googlesqlwasm2go/p10.Fn37970
-func Fn37970(m *base.Module) int32
+//go:linkname Fn38290 github.com/doitintl/googlesqlwasm2go/p10.Fn38290
+func Fn38290(m *base.Module) int32
 
-//go:linkname Fn37972 github.com/goccy/googlesqlwasm2go/p10.Fn37972
-func Fn37972(m *base.Module) int32
+//go:linkname Fn38291 github.com/doitintl/googlesqlwasm2go/p10.Fn38291
+func Fn38291(m *base.Module) int32
 
-//go:linkname Fn37973 github.com/goccy/googlesqlwasm2go/p10.Fn37973
-func Fn37973(m *base.Module) int32
+//go:linkname Fn38293 github.com/doitintl/googlesqlwasm2go/p10.Fn38293
+func Fn38293(m *base.Module) int32
 
-//go:linkname Fn37974 github.com/goccy/googlesqlwasm2go/p10.Fn37974
-func Fn37974(m *base.Module) int32
+//go:linkname Fn38294 github.com/doitintl/googlesqlwasm2go/p10.Fn38294
+func Fn38294(m *base.Module) int32
 
-//go:linkname Fn37975 github.com/goccy/googlesqlwasm2go/p10.Fn37975
-func Fn37975(m *base.Module) int32
+//go:linkname Fn38295 github.com/doitintl/googlesqlwasm2go/p10.Fn38295
+func Fn38295(m *base.Module) int32
 
-//go:linkname Fn37980 github.com/goccy/googlesqlwasm2go/p6.Fn37980
-func Fn37980(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38296 github.com/doitintl/googlesqlwasm2go/p10.Fn38296
+func Fn38296(m *base.Module) int32
 
-//go:linkname Fn37981 github.com/goccy/googlesqlwasm2go/p9.Fn37981
-func Fn37981(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn38298 github.com/doitintl/googlesqlwasm2go/p10.Fn38298
+func Fn38298(m *base.Module) int32
 
-//go:linkname Fn37983 github.com/goccy/googlesqlwasm2go/p10.Fn37983
-func Fn37983(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn38300 github.com/doitintl/googlesqlwasm2go/p10.Fn38300
+func Fn38300(m *base.Module) int32
 
-//go:linkname Fn37998 github.com/goccy/googlesqlwasm2go/p5.Fn37998
-func Fn37998(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn38301 github.com/doitintl/googlesqlwasm2go/p10.Fn38301
+func Fn38301(m *base.Module) int32
 
-//go:linkname Fn38016 github.com/goccy/googlesqlwasm2go/p5.Fn38016
-func Fn38016(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
+//go:linkname Fn38302 github.com/doitintl/googlesqlwasm2go/p10.Fn38302
+func Fn38302(m *base.Module) int32
 
-//go:linkname Fn38078 github.com/goccy/googlesqlwasm2go/p10.Fn38078
-func Fn38078(m *base.Module, l0 int32) int32
+//go:linkname Fn38303 github.com/doitintl/googlesqlwasm2go/p10.Fn38303
+func Fn38303(m *base.Module) int32
 
-//go:linkname Fn38079 github.com/goccy/googlesqlwasm2go/p10.Fn38079
-func Fn38079(m *base.Module, l0 int32) int32
+//go:linkname Fn38304 github.com/doitintl/googlesqlwasm2go/p10.Fn38304
+func Fn38304(m *base.Module) int32
 
-//go:linkname Fn38099 github.com/goccy/googlesqlwasm2go/p9.Fn38099
-func Fn38099(m *base.Module, l0 int32) int32
+//go:linkname Fn38305 github.com/doitintl/googlesqlwasm2go/p10.Fn38305
+func Fn38305(m *base.Module) int32
 
-//go:linkname Fn38100 github.com/goccy/googlesqlwasm2go/p9.Fn38100
-func Fn38100(m *base.Module, l0 int32) int32
+//go:linkname Fn38306 github.com/doitintl/googlesqlwasm2go/p10.Fn38306
+func Fn38306(m *base.Module) int32
 
-//go:linkname Fn38101 github.com/goccy/googlesqlwasm2go/p9.Fn38101
-func Fn38101(m *base.Module, l0 int32) int32
+//go:linkname Fn38308 github.com/doitintl/googlesqlwasm2go/p10.Fn38308
+func Fn38308(m *base.Module) int32
 
-//go:linkname Fn38102 github.com/goccy/googlesqlwasm2go/p9.Fn38102
-func Fn38102(m *base.Module, l0 int32) int32
+//go:linkname Fn38310 github.com/doitintl/googlesqlwasm2go/p10.Fn38310
+func Fn38310(m *base.Module) int32
 
-//go:linkname Fn38103 github.com/goccy/googlesqlwasm2go/p9.Fn38103
-func Fn38103(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38311 github.com/doitintl/googlesqlwasm2go/p10.Fn38311
+func Fn38311(m *base.Module) int32
 
-//go:linkname Fn38117 github.com/goccy/googlesqlwasm2go/p9.Fn38117
-func Fn38117(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38312 github.com/doitintl/googlesqlwasm2go/p10.Fn38312
+func Fn38312(m *base.Module) int32
 
-//go:linkname Fn38126 github.com/goccy/googlesqlwasm2go/p9.Fn38126
-func Fn38126(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38313 github.com/doitintl/googlesqlwasm2go/p10.Fn38313
+func Fn38313(m *base.Module) int32
 
-//go:linkname Fn38152 github.com/goccy/googlesqlwasm2go/p5.Fn38152
-func Fn38152(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38316 github.com/doitintl/googlesqlwasm2go/p5.Fn38316
+func Fn38316(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn38162 github.com/goccy/googlesqlwasm2go/p6.Fn38162
-func Fn38162(m *base.Module, l0 int32)
+//go:linkname Fn38318 github.com/doitintl/googlesqlwasm2go/p6.Fn38318
+func Fn38318(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn38180 github.com/goccy/googlesqlwasm2go/p9.Fn38180
-func Fn38180(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38319 github.com/doitintl/googlesqlwasm2go/p9.Fn38319
+func Fn38319(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn38199 github.com/goccy/googlesqlwasm2go/p9.Fn38199
-func Fn38199(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38321 github.com/doitintl/googlesqlwasm2go/p10.Fn38321
+func Fn38321(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn38203 github.com/goccy/googlesqlwasm2go/p9.Fn38203
-func Fn38203(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38336 github.com/doitintl/googlesqlwasm2go/p5.Fn38336
+func Fn38336(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn38254 github.com/goccy/googlesqlwasm2go/p9.Fn38254
-func Fn38254(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn38354 github.com/doitintl/googlesqlwasm2go/p5.Fn38354
+func Fn38354(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32)
 
-//go:linkname Fn38268 github.com/goccy/googlesqlwasm2go/p9.Fn38268
-func Fn38268(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn38415 github.com/doitintl/googlesqlwasm2go/p8.Fn38415
+func Fn38415(m *base.Module, l0 int32)
 
-//go:linkname Fn38269 github.com/goccy/googlesqlwasm2go/p9.Fn38269
-func Fn38269(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38437 github.com/doitintl/googlesqlwasm2go/p10.Fn38437
+func Fn38437(m *base.Module, l0 int32) int32
 
-//go:linkname Fn38270 github.com/goccy/googlesqlwasm2go/p9.Fn38270
-func Fn38270(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38438 github.com/doitintl/googlesqlwasm2go/p9.Fn38438
+func Fn38438(m *base.Module, l0 int32) int32
 
-//go:linkname Fn38271 github.com/goccy/googlesqlwasm2go/p9.Fn38271
-func Fn38271(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn38439 github.com/doitintl/googlesqlwasm2go/p9.Fn38439
+func Fn38439(m *base.Module, l0 int32) int32
 
-//go:linkname Fn38285 github.com/goccy/googlesqlwasm2go/p5.Fn38285
-func Fn38285(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn38440 github.com/doitintl/googlesqlwasm2go/p10.Fn38440
+func Fn38440(m *base.Module, l0 int32) int32
 
-//go:linkname Fn38320 github.com/goccy/googlesqlwasm2go/p9.Fn38320
-func Fn38320(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn38441 github.com/doitintl/googlesqlwasm2go/p9.Fn38441
+func Fn38441(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn38391 github.com/goccy/googlesqlwasm2go/p4.Fn38391
-func Fn38391(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn38455 github.com/doitintl/googlesqlwasm2go/p10.Fn38455
+func Fn38455(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn38399 github.com/goccy/googlesqlwasm2go/p5.Fn38399
-func Fn38399(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn38464 github.com/doitintl/googlesqlwasm2go/p9.Fn38464
+func Fn38464(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn38400 github.com/goccy/googlesqlwasm2go/p10.Fn38400
-func Fn38400(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn38490 github.com/doitintl/googlesqlwasm2go/p5.Fn38490
+func Fn38490(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn38403 github.com/goccy/googlesqlwasm2go/p10.Fn38403
-func Fn38403(m *base.Module, l0 int32) int32
+//go:linkname Fn38500 github.com/doitintl/googlesqlwasm2go/p6.Fn38500
+func Fn38500(m *base.Module, l0 int32)
 
-//go:linkname Fn38404 github.com/goccy/googlesqlwasm2go/p5.Fn38404
-func Fn38404(m *base.Module, l0 int32) int32
+//go:linkname Fn38518 github.com/doitintl/googlesqlwasm2go/p9.Fn38518
+func Fn38518(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn38405 github.com/goccy/googlesqlwasm2go/p9.Fn38405
-func Fn38405(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38537 github.com/doitintl/googlesqlwasm2go/p9.Fn38537
+func Fn38537(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn38406 github.com/goccy/googlesqlwasm2go/p9.Fn38406
-func Fn38406(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38541 github.com/doitintl/googlesqlwasm2go/p9.Fn38541
+func Fn38541(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn38407 github.com/goccy/googlesqlwasm2go/p10.Fn38407
-func Fn38407(m *base.Module, l0 int32) int32
+//go:linkname Fn38568 github.com/doitintl/googlesqlwasm2go/p10.Fn38568
+func Fn38568(m *base.Module, l0 int32) int32
 
-//go:linkname Fn38415 github.com/goccy/googlesqlwasm2go/p9.Fn38415
-func Fn38415(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn38586 github.com/doitintl/googlesqlwasm2go/p10.Fn38586
+func Fn38586(m *base.Module, l0 int32) int32
 
-//go:linkname Fn38417 github.com/goccy/googlesqlwasm2go/p10.Fn38417
-func Fn38417(m *base.Module, l0 int32) int32
+//go:linkname Fn38593 github.com/doitintl/googlesqlwasm2go/p9.Fn38593
+func Fn38593(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn38418 github.com/goccy/googlesqlwasm2go/p6.Fn38418
-func Fn38418(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
+//go:linkname Fn38607 github.com/doitintl/googlesqlwasm2go/p10.Fn38607
+func Fn38607(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn38421 github.com/goccy/googlesqlwasm2go/p6.Fn38421
-func Fn38421(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn38608 github.com/doitintl/googlesqlwasm2go/p10.Fn38608
+func Fn38608(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn38429 github.com/goccy/googlesqlwasm2go/p9.Fn38429
-func Fn38429(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn38609 github.com/doitintl/googlesqlwasm2go/p9.Fn38609
+func Fn38609(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn38434 github.com/goccy/googlesqlwasm2go/p10.Fn38434
-func Fn38434(m *base.Module, l0 int32) int32
+//go:linkname Fn38610 github.com/doitintl/googlesqlwasm2go/p9.Fn38610
+func Fn38610(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn38435 github.com/goccy/googlesqlwasm2go/p10.Fn38435
-func Fn38435(m *base.Module, l0 int32) int32
+//go:linkname Fn38624 github.com/doitintl/googlesqlwasm2go/p5.Fn38624
+func Fn38624(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn38441 github.com/goccy/googlesqlwasm2go/p9.Fn38441
-func Fn38441(m *base.Module, l0 int32) int64
+//go:linkname Fn38659 github.com/doitintl/googlesqlwasm2go/p9.Fn38659
+func Fn38659(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn38462 github.com/goccy/googlesqlwasm2go/p9.Fn38462
-func Fn38462(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn38730 github.com/doitintl/googlesqlwasm2go/p4.Fn38730
+func Fn38730(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn38464 github.com/goccy/googlesqlwasm2go/p9.Fn38464
-func Fn38464(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn38738 github.com/doitintl/googlesqlwasm2go/p5.Fn38738
+func Fn38738(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn38498 github.com/goccy/googlesqlwasm2go/p9.Fn38498
-func Fn38498(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38739 github.com/doitintl/googlesqlwasm2go/p10.Fn38739
+func Fn38739(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn38527 github.com/goccy/googlesqlwasm2go/p9.Fn38527
-func Fn38527(m *base.Module, l0 int32) int32
+//go:linkname Fn38743 github.com/doitintl/googlesqlwasm2go/p5.Fn38743
+func Fn38743(m *base.Module, l0 int32) int32
 
-//go:linkname Fn38543 github.com/goccy/googlesqlwasm2go/p9.Fn38543
-func Fn38543(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38744 github.com/doitintl/googlesqlwasm2go/p10.Fn38744
+func Fn38744(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn38545 github.com/goccy/googlesqlwasm2go/p5.Fn38545
-func Fn38545(m *base.Module, l0 int32) int32
+//go:linkname Fn38746 github.com/doitintl/googlesqlwasm2go/p10.Fn38746
+func Fn38746(m *base.Module, l0 int32) int32
 
-//go:linkname Fn38552 github.com/goccy/googlesqlwasm2go/p10.Fn38552
-func Fn38552(m *base.Module, l0 int32)
+//go:linkname Fn38754 github.com/doitintl/googlesqlwasm2go/p9.Fn38754
+func Fn38754(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn38553 github.com/goccy/googlesqlwasm2go/p5.Fn38553
-func Fn38553(m *base.Module, l0 int32)
+//go:linkname Fn38756 github.com/doitintl/googlesqlwasm2go/p10.Fn38756
+func Fn38756(m *base.Module, l0 int32) int32
 
-//go:linkname Fn38644 github.com/goccy/googlesqlwasm2go/p9.Fn38644
-func Fn38644(m *base.Module) int64
+//go:linkname Fn38757 github.com/doitintl/googlesqlwasm2go/p6.Fn38757
+func Fn38757(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32)
 
-//go:linkname Fn38651 github.com/goccy/googlesqlwasm2go/p10.Fn38651
-func Fn38651(m *base.Module)
+//go:linkname Fn38768 github.com/doitintl/googlesqlwasm2go/p9.Fn38768
+func Fn38768(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn38654 github.com/goccy/googlesqlwasm2go/p10.Fn38654
-func Fn38654(m *base.Module)
+//go:linkname Fn38773 github.com/doitintl/googlesqlwasm2go/p10.Fn38773
+func Fn38773(m *base.Module, l0 int32) int32
 
-//go:linkname Fn38655 github.com/goccy/googlesqlwasm2go/p10.Fn38655
-func Fn38655(m *base.Module, l0 int32) int32
+//go:linkname Fn38774 github.com/doitintl/googlesqlwasm2go/p10.Fn38774
+func Fn38774(m *base.Module, l0 int32) int32
 
-//go:linkname Fn38659 github.com/goccy/googlesqlwasm2go/p9.Fn38659
-func Fn38659(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn38777 github.com/doitintl/googlesqlwasm2go/p6.Fn38777
+func Fn38777(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn38661 github.com/goccy/googlesqlwasm2go/p9.Fn38661
-func Fn38661(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn38801 github.com/doitintl/googlesqlwasm2go/p9.Fn38801
+func Fn38801(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
 
-//go:linkname Fn38668 github.com/goccy/googlesqlwasm2go/p9.Fn38668
-func Fn38668(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38803 github.com/doitintl/googlesqlwasm2go/p9.Fn38803
+func Fn38803(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn38671 github.com/goccy/googlesqlwasm2go/p9.Fn38671
-func Fn38671(m *base.Module, l0 int32) int32
+//go:linkname Fn38816 github.com/doitintl/googlesqlwasm2go/p10.Fn38816
+func Fn38816(m *base.Module, l0 int32) int64
 
-//go:linkname Fn38677 github.com/goccy/googlesqlwasm2go/p10.Fn38677
-func Fn38677(m *base.Module)
+//go:linkname Fn38837 github.com/doitintl/googlesqlwasm2go/p10.Fn38837
+func Fn38837(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn38678 github.com/goccy/googlesqlwasm2go/p9.Fn38678
-func Fn38678(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38856 github.com/doitintl/googlesqlwasm2go/p10.Fn38856
+func Fn38856(m *base.Module, l0 int32) int64
 
-//go:linkname Fn38681 github.com/goccy/googlesqlwasm2go/p5.Fn38681
-func Fn38681(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn38866 github.com/doitintl/googlesqlwasm2go/p9.Fn38866
+func Fn38866(m *base.Module, l0 int32) int32
 
-//go:linkname Fn38683 github.com/goccy/googlesqlwasm2go/p9.Fn38683
-func Fn38683(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38882 github.com/doitintl/googlesqlwasm2go/p10.Fn38882
+func Fn38882(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn38689 github.com/goccy/googlesqlwasm2go/p10.Fn38689
-func Fn38689(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38891 github.com/doitintl/googlesqlwasm2go/p10.Fn38891
+func Fn38891(m *base.Module, l0 int32)
 
-//go:linkname Fn38692 github.com/goccy/googlesqlwasm2go/p9.Fn38692
-func Fn38692(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn38892 github.com/doitintl/googlesqlwasm2go/p5.Fn38892
+func Fn38892(m *base.Module, l0 int32)
 
-//go:linkname Fn38697 github.com/goccy/googlesqlwasm2go/p9.Fn38697
-func Fn38697(m *base.Module, l0 int32) int32
+//go:linkname Fn38983 github.com/doitintl/googlesqlwasm2go/p9.Fn38983
+func Fn38983(m *base.Module) int64
 
-//go:linkname Fn38716 github.com/goccy/googlesqlwasm2go/p9.Fn38716
-func Fn38716(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn38990 github.com/doitintl/googlesqlwasm2go/p10.Fn38990
+func Fn38990(m *base.Module)
 
-//go:linkname Fn38717 github.com/goccy/googlesqlwasm2go/p9.Fn38717
-func Fn38717(m *base.Module, l0 int32)
+//go:linkname Fn38993 github.com/doitintl/googlesqlwasm2go/p10.Fn38993
+func Fn38993(m *base.Module)
 
-//go:linkname Fn38902 github.com/goccy/googlesqlwasm2go/p9.Fn38902
-func Fn38902(m *base.Module, l0 int32)
+//go:linkname Fn38994 github.com/doitintl/googlesqlwasm2go/p10.Fn38994
+func Fn38994(m *base.Module, l0 int32) int32
 
-//go:linkname Fn38904 github.com/goccy/googlesqlwasm2go/p9.Fn38904
-func Fn38904(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn38998 github.com/doitintl/googlesqlwasm2go/p9.Fn38998
+func Fn38998(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn39046 github.com/goccy/googlesqlwasm2go/p6.Fn39046
-func Fn39046(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32)
+//go:linkname Fn38999 github.com/doitintl/googlesqlwasm2go/p8.Fn38999
+func Fn38999(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32)
 
-//go:linkname Fn39079 github.com/goccy/googlesqlwasm2go/p5.Fn39079
-func Fn39079(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn39000 github.com/doitintl/googlesqlwasm2go/p9.Fn39000
+func Fn39000(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn39155 github.com/goccy/googlesqlwasm2go/p6.Fn39155
-func Fn39155(m *base.Module, l0 int32, l1 int32, l2 int32)
+//go:linkname Fn39008 github.com/doitintl/googlesqlwasm2go/p9.Fn39008
+func Fn39008(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn39164 github.com/goccy/googlesqlwasm2go/p9.Fn39164
-func Fn39164(m *base.Module, l0 int32, l1 int32)
+//go:linkname Fn39011 github.com/doitintl/googlesqlwasm2go/p9.Fn39011
+func Fn39011(m *base.Module, l0 int32) int32
 
-//go:linkname Fn39167 github.com/goccy/googlesqlwasm2go/p6.Fn39167
-func Fn39167(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn39018 github.com/doitintl/googlesqlwasm2go/p9.Fn39018
+func Fn39018(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn39180 github.com/goccy/googlesqlwasm2go/p8.Fn39180
-func Fn39180(m *base.Module, l0 int32) int32
+//go:linkname Fn39037 github.com/doitintl/googlesqlwasm2go/p10.Fn39037
+func Fn39037(m *base.Module, l0 int32) int32
 
-//go:linkname Fn39189 github.com/goccy/googlesqlwasm2go/p9.Fn39189
-func Fn39189(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn39244 github.com/doitintl/googlesqlwasm2go/p9.Fn39244
+func Fn39244(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn39192 github.com/goccy/googlesqlwasm2go/p10.Fn39192
-func Fn39192(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn39392 github.com/doitintl/googlesqlwasm2go/p8.Fn39392
+func Fn39392(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn39193 github.com/goccy/googlesqlwasm2go/p10.Fn39193
-func Fn39193(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn39419 github.com/doitintl/googlesqlwasm2go/p5.Fn39419
+func Fn39419(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn39198 github.com/goccy/googlesqlwasm2go/p9.Fn39198
-func Fn39198(m *base.Module, l0 int32)
+//go:linkname Fn39495 github.com/doitintl/googlesqlwasm2go/p6.Fn39495
+func Fn39495(m *base.Module, l0 int32, l1 int32, l2 int32)
 
-//go:linkname Fn39231 github.com/goccy/googlesqlwasm2go/p9.Fn39231
-func Fn39231(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn39504 github.com/doitintl/googlesqlwasm2go/p9.Fn39504
+func Fn39504(m *base.Module, l0 int32, l1 int32)
 
-//go:linkname Fn39239 github.com/goccy/googlesqlwasm2go/p9.Fn39239
-func Fn39239(m *base.Module, l0 int32) int32
+//go:linkname Fn39507 github.com/doitintl/googlesqlwasm2go/p6.Fn39507
+func Fn39507(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn39243 github.com/goccy/googlesqlwasm2go/p9.Fn39243
-func Fn39243(m *base.Module, l0 int32)
+//go:linkname Fn39520 github.com/doitintl/googlesqlwasm2go/p9.Fn39520
+func Fn39520(m *base.Module, l0 int32) int32
 
-//go:linkname Fn39245 github.com/goccy/googlesqlwasm2go/p8.Fn39245
-func Fn39245(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn39529 github.com/doitintl/googlesqlwasm2go/p9.Fn39529
+func Fn39529(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn39249 github.com/goccy/googlesqlwasm2go/p10.Fn39249
-func Fn39249(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+//go:linkname Fn39532 github.com/doitintl/googlesqlwasm2go/p10.Fn39532
+func Fn39532(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn39252 github.com/goccy/googlesqlwasm2go/p9.Fn39252
-func Fn39252(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn39533 github.com/doitintl/googlesqlwasm2go/p10.Fn39533
+func Fn39533(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn39263 github.com/goccy/googlesqlwasm2go/p6.Fn39263
-func Fn39263(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn39538 github.com/doitintl/googlesqlwasm2go/p9.Fn39538
+func Fn39538(m *base.Module, l0 int32)
 
-//go:linkname Fn39267 github.com/goccy/googlesqlwasm2go/p9.Fn39267
-func Fn39267(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn39571 github.com/doitintl/googlesqlwasm2go/p9.Fn39571
+func Fn39571(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn39268 github.com/goccy/googlesqlwasm2go/p9.Fn39268
-func Fn39268(m *base.Module, l0 int32) int32
+//go:linkname Fn39585 github.com/doitintl/googlesqlwasm2go/p8.Fn39585
+func Fn39585(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn39274 github.com/goccy/googlesqlwasm2go/p6.Fn39274
-func Fn39274(m *base.Module, l0 int32, l1 int32, l2 int32) int32
+//go:linkname Fn39589 github.com/doitintl/googlesqlwasm2go/p10.Fn39589
+func Fn39589(m *base.Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
 
-//go:linkname Fn39282 github.com/goccy/googlesqlwasm2go/p9.Fn39282
-func Fn39282(m *base.Module, l0 int32, l1 int32) float64
+//go:linkname Fn39592 github.com/doitintl/googlesqlwasm2go/p9.Fn39592
+func Fn39592(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn39285 github.com/goccy/googlesqlwasm2go/p4.Fn39285
-func Fn39285(m *base.Module, l0 int32)
+//go:linkname Fn39593 github.com/doitintl/googlesqlwasm2go/p8.Fn39593
+func Fn39593(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn39287 github.com/goccy/googlesqlwasm2go/p5.Fn39287
-func Fn39287(m *base.Module, l0 int32, l1 int32) int32
+//go:linkname Fn39603 github.com/doitintl/googlesqlwasm2go/p6.Fn39603
+func Fn39603(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn39289 github.com/goccy/googlesqlwasm2go/p9.Fn39289
-func Fn39289(m *base.Module, l0 int32, l1 int64, l2 int64, l3 int32)
+//go:linkname Fn39607 github.com/doitintl/googlesqlwasm2go/p9.Fn39607
+func Fn39607(m *base.Module, l0 int32, l1 int32) int32
 
-//go:linkname Fn39291 github.com/goccy/googlesqlwasm2go/p9.Fn39291
-func Fn39291(m *base.Module, l0 int32, l1 int64, l2 int64, l3 int32)
+//go:linkname Fn39608 github.com/doitintl/googlesqlwasm2go/p9.Fn39608
+func Fn39608(m *base.Module, l0 int32) int32
 
-//go:linkname Fn39293 github.com/goccy/googlesqlwasm2go/p9.Fn39293
-func Fn39293(m *base.Module, l0 int32, l1 int64, l2 int64, l3 int64, l4 int64)
+//go:linkname Fn39614 github.com/doitintl/googlesqlwasm2go/p6.Fn39614
+func Fn39614(m *base.Module, l0 int32, l1 int32, l2 int32) int32
 
-//go:linkname Fn39295 github.com/goccy/googlesqlwasm2go/p9.Fn39295
-func Fn39295(m *base.Module, l0 int32, l1 int64, l2 int64, l3 int64, l4 int64)
+//go:linkname Fn39618 github.com/doitintl/googlesqlwasm2go/p10.Fn39618
+func Fn39618(m *base.Module)
+
+//go:linkname Fn39622 github.com/doitintl/googlesqlwasm2go/p9.Fn39622
+func Fn39622(m *base.Module, l0 int32, l1 int32) float64
+
+//go:linkname Fn39625 github.com/doitintl/googlesqlwasm2go/p4.Fn39625
+func Fn39625(m *base.Module, l0 int32)
+
+//go:linkname Fn39627 github.com/doitintl/googlesqlwasm2go/p5.Fn39627
+func Fn39627(m *base.Module, l0 int32, l1 int32) int32
+
+//go:linkname Fn39629 github.com/doitintl/googlesqlwasm2go/p9.Fn39629
+func Fn39629(m *base.Module, l0 int32, l1 int64, l2 int64, l3 int32)
+
+//go:linkname Fn39631 github.com/doitintl/googlesqlwasm2go/p9.Fn39631
+func Fn39631(m *base.Module, l0 int32, l1 int64, l2 int64, l3 int32)
+
+//go:linkname Fn39633 github.com/doitintl/googlesqlwasm2go/p9.Fn39633
+func Fn39633(m *base.Module, l0 int32, l1 int64, l2 int64, l3 int64, l4 int64)
+
+//go:linkname Fn39635 github.com/doitintl/googlesqlwasm2go/p10.Fn39635
+func Fn39635(m *base.Module, l0 int32, l1 int64, l2 int64, l3 int64, l4 int64)
