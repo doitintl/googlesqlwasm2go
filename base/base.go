@@ -57,14 +57,34 @@ type EnvImports interface {
 	X_ZN4absl12lts_2024072212log_internal12ExitOnDFatalEv(m *Module) int32
 	X_ZN4absl12lts_2024072212log_internal24SetSuppressSigabortTraceEb(m *Module, l0 int32) int32
 	X_ZN4absl12lts_2024072212log_internal13WriteToStderrENSt3__217basic_string_viewIcNS2_11char_traitsIcEEEENS0_11LogSeverityE(m *Module, l0 int32, l1 int32)
-	X_ZN6icu_769ErrorCodeD1Ev(m *Module, l0 int32) int32
-	X_ZNK6icu_769ErrorCode9errorNameEv(m *Module, l0 int32) int32
+	X_ZN6icu_7613UnicodeStringC1EPKci(m *Module, l0 int32, l1 int32, l2 int32) int32
+	X_ZN6icu_7613UnicodeString9fromUTF32EPKii(m *Module, l0 int32, l1 int32, l2 int32)
+	X_ZN6icu_7613UnicodeStringD1Ev(m *Module, l0 int32) int32
+	X_ZN6icu_7613UnicodeString14findAndReplaceEiiRKS0_iiS2_ii(m *Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32, l6 int32, l7 int32, l8 int32) int32
+	X_ZNK6icu_7613UnicodeString6toUTF8ERNS_8ByteSinkE(m *Module, l0 int32, l1 int32)
 	X_ZN6icu_768ByteSinkD2Ev(m *Module, l0 int32) int32
-	Utf8_prevCharSafeBody_76(m *Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
 	X_ZN6icu_767UMemorydlEPv(m *Module, l0 int32)
 	X_ZN6icu_768ByteSink15GetAppendBufferEiiPciPi(m *Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32, l5 int32) int32
 	X_ZN6icu_768ByteSink5FlushEv(m *Module, l0 int32)
+	X_ZN9googlesql29FieldFormat_Format_descriptorEv(m *Module) int32
+	X_ZN6icu_769ErrorCodeD1Ev(m *Module, l0 int32) int32
+	X_ZNK6icu_769ErrorCode9errorNameEv(m *Module, l0 int32) int32
+	X_ZN6icu_7613UnicodeString8fromUTF8ENS_11StringPieceE(m *Module, l0 int32, l1 int32)
+	Utf8_prevCharSafeBody_76(m *Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
 	X_ZN4absl12lts_2024072213time_internal4cctz12TimeZoneLibC4MakeERKNSt3__212basic_stringIcNS4_11char_traitsIcEENS4_9allocatorIcEEEE(m *Module, l0 int32) int32
+	X_ZN6icu_7623StringCharacterIteratorC1ERKNS_13UnicodeStringE(m *Module, l0 int32, l1 int32) int32
+	X_ZN6icu_7623StringCharacterIteratorC1ERKS0_(m *Module, l0 int32, l1 int32) int32
+	X_ZN6icu_7623StringCharacterIteratorD1Ev(m *Module, l0 int32) int32
+	X_ZN6icu_7622UCharCharacterIterator7hasNextEv(m *Module, l0 int32) int32
+	X_ZN6icu_7623StringCharacterIteratoraSERKS0_(m *Module, l0 int32, l1 int32) int32
+	X_ZN6icu_7622UCharCharacterIterator10previous32Ev(m *Module, l0 int32) int32
+	X_ZN6icu_7622UCharCharacterIterator6next32Ev(m *Module, l0 int32) int32
+	X_ZNK6icu_7622UCharCharacterIterator9current32Ev(m *Module, l0 int32) int32
+	X_ZNK6icu_7613UnicodeString13tempSubStringEii(m *Module, l0 int32, l1 int32, l2 int32, l3 int32)
+	X_ZN6icu_7613UnicodeStringC1ERKS0_ii(m *Module, l0 int32, l1 int32, l2 int32, l3 int32) int32
+	X_ZNK6icu_7613UnicodeString7extractEiiPcj(m *Module, l0 int32, l1 int32, l2 int32, l3 int32, l4 int32) int32
+	X_ZN6icu_7622UCharCharacterIterator6move32EiNS_17CharacterIterator7EOriginE(m *Module, l0 int32, l1 int32, l2 int32) int32
+	X_ZN6icu_7622UCharCharacterIterator11hasPreviousEv(m *Module, l0 int32) int32
 	X_ZN6icu_7611Normalizer223getNFKCCasefoldInstanceER10UErrorCode(m *Module, l0 int32) int32
 	Utf8_back1SafeBody_76(m *Module, l0 int32, l1 int32, l2 int32) int32
 }

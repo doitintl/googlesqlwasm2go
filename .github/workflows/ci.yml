@@ -10,11 +10,11 @@ permissions:
 
 jobs:
   verify:
-    name: Verify googlesql-wasm attestations
+    name: Verify bundle checksums
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Verify wasm2go bundle (release diff + attestation)
+      - name: Verify wasm2go bundle against googlesql_wasm2go.sha256
         run: make verify
 
   build:

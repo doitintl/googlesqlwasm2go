@@ -9,10 +9,12 @@ ATTESTATION_API   = https://api.github.com/repos/$(GOOGLESQL_WASM_REPO)/attestat
 
 .PHONY: bundle download verify verify-release verify-attestation build
 
-## bundle: download release artifacts, verify their attestations, and
-## leave the extracted module tree in place. Default to running this
-## whenever GOOGLESQL_WASM_VERSION bumps.
-bundle: download verify
+## bundle: in the DoiT fork the tree is not downloaded from a goccy
+## release; it is regenerated with the pipeline in
+## github.com/doitintl/go-googlesql/REGENERATION.md, which also rewrites
+## $(SHA256SUMS). The upstream download target is kept for reference.
+bundle:
+	@echo "doitintl/googlesqlwasm2go: regenerate the bundle with the pipeline in doitintl/go-googlesql REGENERATION.md" >&2; exit 2
 
 ## download: fetch the wasm2go tarball + sha256 manifest and extract
 ## them into the repo root. The tarball is discarded once unpacked.
@@ -22,10 +24,10 @@ download:
 	tar xzf $(TARBALL)
 	rm -f $(TARBALL)
 
-## verify: byte-check each in-tree file against the sha256 manifest AND
-## confirm each carries a valid GitHub artifact attestation signed by
-## the upstream build.yml workflow. Either check failing aborts.
-verify: verify-release verify-attestation
+## verify: byte-check each in-tree file against the sha256 manifest the
+## regeneration recorded. There is no GitHub attestation for a locally
+## regenerated bundle; verify-attestation is kept for the upstream flow.
+verify: verify-release
 
 ## verify-release: confirm every in-tree file matches the entries in
 ## $(SHA256SUMS). Fast sanity check; not a trust anchor on its own.
